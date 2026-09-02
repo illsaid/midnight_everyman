@@ -2,12 +2,16 @@
 
 ## Gate 1 - Topic
 
-- The promise is understandable without specialist knowledge.
-- A general viewer can identify a human stake in under two seconds.
-- The topic supports a satisfying compressed structure rather than a list of trivia.
+- The subject passes touched and opaque.
+- A selected rung-three title, thumbnail moment and opening visual are recorded.
+- The title, thumbnail and first eight seconds make the same honest promise.
+- A general viewer can identify the mechanism and stake without specialist context.
+- The topic supports a causal explanation rather than a list of trivia.
 
 ## Gate 2 - Script
 
+- Every mechanism, consequence and safety claim has literal provenance.
+- Incident existence and mechanism relevance have been reviewed separately.
 - The first meaningful surprise or tension appears early.
 - Each section creates a reason to continue.
 - Visual opportunities are present throughout.
@@ -39,7 +43,8 @@
 - Representative start, transition and end stills have been inspected.
 - The full composition renders successfully.
 - No missing assets, clipping, unsafe framing or transparency artifacts appear.
-- The render plays correctly at 1920 x 1080 and 24 fps unless another delivery format is explicitly chosen.
+- The render plays correctly at 1920 x 1080 and 24 fps unless a recorded
+  decision explicitly supersedes the format.
 
 ## Gate 6 - Efficiency
 
@@ -62,3 +67,5 @@ AI self-scoring is advisory only. A numerical score such as 9/10 or 9.9/10 is no
 - A, B and C variants differ in concept, not merely color or typography.
 - The title and all thumbnail variants make the same honest promise.
 - vidIQ scoring is advisory; native YouTube watch-time-share testing is the acceptance evidence.
+- `title_selected_rung3`, `thumbnail_moment` and `opening_visual` match the
+  production artifact rather than merely being marked complete.

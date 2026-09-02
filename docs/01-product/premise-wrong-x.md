@@ -1,6 +1,10 @@
-# Working premise - "what happens if you use the wrong X"
+# Superseded premise - "what happens if you use the wrong X"
 
-> **Status: directional and subject to adjustment.**
+> **Status:** Superseded on 2 Sep 2026 by the Hidden Systems launch territory.
+> Preserve this document as R&D history and as a possible future swing format.
+> It is not the launch premise and does not control subject selection.
+
+> **Historical status: directional and subject to adjustment.**
 >
 > This is a working premise adopted to give topic selection, script structure and
 > cel-library construction a shared target. It is not a locked niche. Nothing has

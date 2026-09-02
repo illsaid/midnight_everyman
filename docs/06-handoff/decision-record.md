@@ -209,3 +209,67 @@
 **Production consequence:** Thumbnail creation occurs inside the one-day episode workflow. Red arrows, circles, shocked-face cutouts and shouty `FAIL`/`DANGER` copy are non-default legacy devices. Hold the title constant during initial thumbnail tests, record YouTube watch-time-share results and review the six-episode pattern before fixing a single permanent layout. List or categorical episodes may substitute a clean graphic-inventory concept.
 
 **Status:** Canonical launch-testing system. Specification: `docs/02-creative/thumbnail-system-v1.md`.
+
+## D-025 - Hidden Systems is the launch territory
+
+**Decision:** Launch development will focus on familiar engineered mechanisms
+that protect ordinary people when something fails. The constant is the kind of
+curiosity — a touched but opaque mechanism — rather than one industry.
+
+**Status:** Canonical product direction, unvalidated by publication.
+
+**Supersedes:** D-015 as the launch premise. “Wrong X” remains useful R&D and a
+possible future swing format.
+
+## D-026 - Launch product is horizontal long-form
+
+**Decision:** Build the initial publishable product at 1920 × 1080 for a 5–8
+minute runtime. Shorts may be derived from completed long-form assets but are
+not the primary product.
+
+**Reason:** Two verified channels demonstrate that purpose-built horizontal
+systems explanation can sustain an audience. The evidence does not establish
+that long-form beats Shorts; this is a reasoned production-model choice.
+
+**Status:** Canonical format decision.
+
+**Supersedes:** D-016.
+
+## D-027 - Retain 24 fps
+
+**Decision:** Keep 24 fps as the canonical project frame rate.
+
+**Reason:** The existing components and verified proof use 24 fps. The later
+30 fps specification was conventional rather than evidence-based and would add
+retiming risk without improving the editorial proposition.
+
+**Status:** Canonical until a concrete motion or delivery requirement warrants
+a recorded change.
+
+## D-028 - Three production-readiness gates
+
+**Decision:** Touched, opaque and packageable are the three hard gates. A
+selected rung-three title, thumbnail moment and opening visual are required for
+packageability.
+
+**Decision:** Documented incidents are not gates. Record case strength, evidence
+state, literal source, mechanism relevance and verification date separately.
+
+**Status:** Canonical editorial workflow.
+
+## D-029 - Cadence remains undecided
+
+**Decision:** Do not set publication cadence from competitor observation. Time
+the complete pilot and use owner hours, reuse fraction and correction burden to
+set a provisional cadence.
+
+**Status:** Open measurement.
+
+## D-030 - One canonical repository
+
+**Decision:** The Midnight Everyman repository is the canonical project. It
+contains both the Hidden Systems editorial system and the existing production
+architecture. The separate Hidden Systems research folder becomes a migrated
+source snapshot and must not evolve independently.
+
+**Status:** Canonical organization decision.

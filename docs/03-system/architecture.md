@@ -110,4 +110,9 @@ Any exceptional performance plate additionally requires semantic action, usable 
 
 ## Current implementation
 
-`src/ReplacementCelTest.tsx` proves two-cel swapping. `src/micro-scene-01/` proves a complete multi-cel scene. `src/library/observer/` registers 24 semantic pose capabilities, six approved and eighteen awaiting human approval. The next experiment is held-pose approval followed by two small reusable action packs. The performance-plate scaffold is retained only as an optional experimental branch.
+`src/ReplacementCelTest.tsx` proves two-cel swapping. `src/micro-scene-01/`
+proves a complete multi-cel scene. `src/library/observer/` registers 24 approved
+semantic poses and two rendered action packs. `src/systems-pilot-01/` proves a
+63-second narrator-led systems explanation with bounded effects. The next
+experiment is the complete 5–8 minute Hidden Systems pilot. The performance-
+plate scaffold remains only as an optional experimental branch.

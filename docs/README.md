@@ -1,36 +1,50 @@
 # Documentation index
 
-The documentation is ordered from strategy to implementation to handoff.
+The documentation runs from product strategy to creative system, implementation,
+production, experiments and handoff.
 
-## 01 - Product
+## 01 — Product
 
-- `01-product/channel-thesis.md` - business and format constraints
-- `01-product/youtube-subject-research.md` - outlier observations and the conclusion reached
-- `01-product/topic-selection-framework.md` - hard gates, scoring and future research protocol
-- `01-product/premise-wrong-x.md` - current working premise and scored pilot slate (directional)
+- `01-product/channel-thesis.md` — Hidden Systems launch thesis
+- `01-product/format.md` — horizontal format and frame-rate decision
+- `01-product/subject-selection.md` — three hard gates and candidate buffer
+- `01-product/packaging.md` — title, thumbnail and opening-promise rules
+- `01-product/topic-selection-framework.md` — candidate and production-ready states
+- `01-product/youtube-subject-research.md` — earlier exploratory research
+- `01-product/premise-wrong-x.md` — superseded premise retained as R&D history
 
-## 02 - Creative
+## 02 — Creative
 
-- `02-creative/visual-language.md` - house style and motion grammar
-- `02-creative/character-bible.md` - canonical Observer design
+- `02-creative/visual-language.md` — house style, motion and dry voice
+- `02-creative/thumbnail-system-v1.md` — A/B/C packaging system
+- `02-creative/character-bible.md` — canonical Observer design
 
-## 03 - System
+## 03 — System
 
-- `03-system/architecture.md` - asset and rendering architecture
-- `03-system/scene-specification.md` - proposed scene-description contract
+- `03-system/architecture.md` — asset and rendering architecture
+- `03-system/scene-specification.md` — scene-description contract
+- `03-system/graphics-asset-library.md` — canonical asset rules
+- `03-system/observer-pose-library-v1.md` — approved pose system
 
-## 04 - Production
+## 04 — Production
 
-- `04-production/production-workflow.md` - repeatable episode workflow
-- `04-production/quality-gates.md` - acceptance criteria
+- `04-production/production-workflow.md` — repeatable episode workflow
+- `04-production/quality-gates.md` — acceptance criteria
 
-## 05 - Experiments
+## 05 — Experiments
 
-- `05-experiments/experiment-log.md` - results and evidence
-- `05-experiments/next-experiment.md` - currently authorized test
-- `05-experiments/micro-scene-01-alarm-script.md` - verified narration and beat sheet
+- `05-experiments/experiment-log.md` — results and evidence
+- `05-experiments/next-experiment.md` — full Hidden Systems pilot
 
-## 06 - Handoff
+## 06 — Handoff
 
-- `06-handoff/current-state.md` - exact project state and restart instructions
-- `06-handoff/decision-record.md` - durable decisions and rejected approaches
+- `06-handoff/current-state.md` — exact current state and restart procedure
+- `06-handoff/decision-record.md` — durable and superseded decisions
+- `06-handoff/hidden-systems-review-response.md` — research correction history
+
+## Research and content
+
+- `../research/sources.md` — method and evidence status
+- `../research/competitor-data.md` — verified and unverified channel findings
+- `../research/raw/` — video-level snapshots
+- `../content/candidates.csv` — subject candidate pool

@@ -1,71 +1,112 @@
-# Midnight Everyman
+# Midnight Everyman / Hidden Systems
 
-**Internal project codename:** Midnight Everyman  
-**Working description:** A faceless information-compression channel and reusable limited-animation production system.
+**Internal project codename:** Midnight Everyman
 
-This is the canonical entry point for the channel-design and animation-system project. The codename identifies the project; it does not commit the eventual public YouTube channel to the same name.
+**Launch content territory:** Hidden Systems
+
+**Public channel name:** undecided
+
+This is the canonical entry point for the channel strategy and the production
+system. Midnight Everyman names the internal project and its editorial
+personality; it does not require the public YouTube channel to use that name.
 
 ## Objective
 
-Build a faceless YouTube channel with strong revenue potential that can reach one polished video per week in approximately eight hours of production time. The creative format is information compression with human-interest subject selection, presented through a reusable midcentury-commercial animation language.
+Build a faceless, revenue-oriented YouTube channel that can eventually publish
+one polished video in approximately eight owner-hours. The launch product is a
+5–8 minute horizontal explainer about a familiar engineered mechanism that
+protects people when something fails.
 
-The project is not yet a channel launch. It is currently validating whether a distinctive animated format can be produced efficiently enough to support the business model.
+The project is still a production and market test. Nothing has been published.
 
-## Current conclusion
+## Working thesis
 
-Use Remotion as a native systems-explainer engine: diagrams, comparisons, state changes, decision trees, typography, timing, bounded effects, texture and rendering. The screen should explain the mechanism rather than simulate a cartoon set. Continuous surfaces stay native; shader effects are reserved for short transitions and impacts.
+> Purpose-built visuals, disciplined subject selection and a sustainable cadence
+> may produce a stronger floor than daily explainers assembled from stock
+> material. Those factors co-vary in every measured channel, so competitor
+> research cannot isolate them. A timed pilot is the appropriate next test.
 
-Everyman remains a reusable replacement-cel library, but his primary role is reaction, emphasis and human scale. Do not make routine shots depend on exact hand/object contact or scenic character animation. Generated character video remains an occasional exception, not a dependency.
+This is a reasoned bet, not a forecast. We hold four reproducible long-form
+channel samples and no verified Shorts comparison. Cadence, voice choice,
+failure framing and steady-state production time remain unmeasured.
 
-The canonical voice is accurate and concise with dry, understated humor. Packaging uses a feed-first thumbnail system built around visual paradox, controlled comparison and editorial illustration, not default red-arrow/alarm-word clickbait. Three materially different concepts are tested through YouTube's native watch-time-share experiment.
+## Product definition
+
+| | Decision |
+|---|---|
+| Format | 16:9, 1920 × 1080, 24 fps |
+| Runtime | 5–8 minutes |
+| Structure | One familiar object, one opaque mechanism, six narrative beats |
+| Presentation | Narrator-led diagrams, state changes, comparisons and decision trees |
+| Character | Everyman appears for reaction, emphasis, scale and editorial personality |
+| Voice | Accurate and concise with dry, restrained humor |
+| Cadence | Undecided until the pilot is timed |
+
+## Three hard gates
+
+A subject becomes production-ready only when it is:
+
+1. **Touched** — the viewer has personally used, stood in or depended on it.
+2. **Opaque** — a reasonable viewer cannot sketch the mechanism roughly.
+3. **Packageable** — a selected rung-three title, thumbnail moment and opening
+   visual exist.
+
+A documented incident is not a gate. Case strength, evidence state and
+mechanism relevance determine priority and narrative treatment. Literal source
+provenance is required before a case is described as verified.
+
+## Production architecture
+
+Use Remotion as a systems-explainer engine. Diagrams and information motion are
+the primary screen language. The Observer replacement-cel library remains
+canonical, but character performance cannot become the production critical path.
+
+- Static cels by default
+- Two-to-four-pose sequences for limited actions
+- Generated performance only as an exceptional, non-blocking treatment
+- Native HTML/SVG/CSS for continuous graphics
+- Bounded effects only when they mark information or state change
+- Final voice-over is the timing authority
+- Production imports only from paired assets in `assets-canon/`
 
 ## Start here
 
-1. Read [Current state](docs/06-handoff/current-state.md).
-2. Read [Decision record](docs/06-handoff/decision-record.md).
-3. Read [Next experiment](docs/05-experiments/next-experiment.md).
-4. Read [House Style Bible v2.2 Amendment](everyman_bible_v2/AMENDMENT-v2.2.md).
-5. Inspect `src/library/observer/` and `public/characters/observer/library/`.
-6. View the four catalog pages in `reference/pose-library-v1/`.
-
-Before proposing a niche or pilot topic, read the subject-matter research and topic-selection framework.
-
-## Project map
-
-- [Channel thesis](docs/01-product/channel-thesis.md)
-- [YouTube subject-matter research](docs/01-product/youtube-subject-research.md)
-- [Topic selection framework](docs/01-product/topic-selection-framework.md)
-- [Visual language](docs/02-creative/visual-language.md)
-- [Thumbnail system v1](docs/02-creative/thumbnail-system-v1.md)
-- [Character bible](docs/02-creative/character-bible.md)
-- [System architecture](docs/03-system/architecture.md)
-- [Graphics asset library](docs/03-system/graphics-asset-library.md)
-- [House Style Bible v2.2 Amendment](everyman_bible_v2/AMENDMENT-v2.2.md)
-- [Scene specification](docs/03-system/scene-specification.md)
-- [Production workflow](docs/04-production/production-workflow.md)
-- [Quality gates](docs/04-production/quality-gates.md)
-- [Experiment log](docs/05-experiments/experiment-log.md)
-- [Next experiment](docs/05-experiments/next-experiment.md)
-- [Current handoff](docs/06-handoff/current-state.md)
-- [Decision record](docs/06-handoff/decision-record.md)
+1. Read [`docs/06-handoff/current-state.md`](docs/06-handoff/current-state.md).
+2. Read [`docs/06-handoff/decision-record.md`](docs/06-handoff/decision-record.md).
+3. Read [`docs/01-product/channel-thesis.md`](docs/01-product/channel-thesis.md).
+4. Read [`docs/01-product/format.md`](docs/01-product/format.md).
+5. Read [`docs/01-product/subject-selection.md`](docs/01-product/subject-selection.md).
+6. Read [`docs/01-product/packaging.md`](docs/01-product/packaging.md).
+7. Read [`research/sources.md`](research/sources.md) before using competitor data.
+8. Read [`docs/05-experiments/next-experiment.md`](docs/05-experiments/next-experiment.md).
 
 ## Canonical implementation
 
 - Preferred proof composition: `WrongFuelSystemsPilotFx`
-- Clean A/B baseline: `WrongFuelSystemsPilot`
 - Active proof source: `src/systems-pilot-01/`
-- Audio-aligned timing manifest: `work/systems-pilot-01/timing-manifest.json`
-- Preferred verified pilot render: `reference/systems-pilot-01/wrong-fuel-systems-pilot-fx-v2.mp4`
-- Clean baseline render: `reference/systems-pilot-01/wrong-fuel-systems-pilot-v1.mp4`
-- Pose-review composition: `PoseLibraryCatalog`
+- Verified proof render: `reference/systems-pilot-01/wrong-fuel-systems-pilot-fx-v2.mp4`
 - Character registry: `src/library/observer/cels.ts`
-- Approved character assets: `public/characters/observer/alarm/`
-- Candidate character assets: `public/characters/observer/library/`
-- Raw object intake: `assets-source/`
+- Approved character assets: `public/characters/observer/`
 - Canonical object library: `assets-canon/`
-- Archived failed composition: `ArchivedSkeletalCharacterLab`
-- Earlier cel-animation proof: `reference/micro-scene-01/midnight-micro-scene-01-silent.mp4`
+- Raw object intake: `assets-source/`
+- Candidate pool: `content/candidates.csv`
+- Competitor evidence: `research/`
+
+## Superseded directions
+
+- “What happens if you use the wrong X” is retained as R&D history and a
+  possible future swing format; it is not the launch premise.
+- Vertical Shorts-first is superseded. Shorts may be cut from completed
+  long-form assets but are not the primary product.
+- The 200-subject pre-launch requirement is withdrawn.
+- Documented incidents are a prioritization field, not an eligibility gate.
+- The 75,000-view Deconstructed result is a reference benchmark, not a target.
 
 ## Immediate milestone
 
-Build a second 45-75 second topic with the same systems-explainer primitives and no new character art. Record marginal research, design, assembly and render time to test whether this architecture can approach the eight-hour weekly ceiling.
+1. Source-check the lift-governor case and mechanism claims.
+2. Produce complete packages for the lift governor, aircraft oxygen-mask
+   generator and airbag sensor.
+3. Select the strongest package.
+4. Build one complete 5–8 minute episode and record owner time by phase.
+5. Use the result to decide cadence and identify the reusable component delta.

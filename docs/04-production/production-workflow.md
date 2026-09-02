@@ -2,25 +2,35 @@
 
 ## Phase 1 - Topic and promise
 
-1. Select a subject with broad human-interest tension.
-2. Define the title/thumbnail promise before research expands.
-3. Reject subjects that are merely complete, technical or enthusiast-friendly without a general-audience stake.
+1. Select a candidate that passes touched and opaque.
+2. Develop twenty title candidates and select a rung-three promise.
+3. Define one thumbnail moment and the opening visual.
+4. Promote the subject to production-ready only when those literal fields are
+   recorded in `content/candidates.csv`.
+5. Record case evidence and mechanism relevance separately from production
+   readiness.
 
 ## Phase 2 - Script
 
-1. Write for spoken clarity and visual opportunities.
-2. Record or generate the final voice-over early.
-3. Mark semantic beats and emphasis points.
-4. Divide the narration into visual beats, normally three to five seconds each.
+1. Write six narrative beats across approximately 300–480 seconds.
+2. Target roughly 145 spoken words per minute; treat 865 words as a six-minute
+   planning reference, not a quota.
+3. Make each section change the viewer's understanding.
+4. Source-check mechanism, consequence and safety claims before script approval.
+5. Record or generate the final voice-over before detailed animation timing.
+6. Divide narration into roughly thirteen movements of 20–45 seconds, then into
+   shorter visual actions where needed.
 
 ## Phase 3 - Visual planning
 
-1. Assign one dominant visual action to each beat.
+1. Assign one dominant informational action to each short visual beat.
 2. Reuse existing characters, poses, props, backgrounds and action patterns first.
 3. Assign each Observer beat to a held cel or short cel sequence.
 4. Create scene cards.
 5. Create contact sheets for novel or complex motion.
-6. List only the missing assets.
+6. Confirm that the thumbnail moment and first eight seconds resolve the same
+   promise.
+7. List only the missing assets.
 
 ## Phase 4 - Asset creation
 
@@ -78,3 +88,8 @@ This is a target to test, not a proven estimate:
 | Total | 8.0 h |
 
 The system fails commercially if routine episodes require extensive bespoke character drawing or shot-by-shot code repair.
+
+For the first full pilot, record actual owner time without forcing the work into
+this budget. Separate research, packaging, script, voice, scene planning, asset
+creation, assembly, correction and machine render time. The mature target is a
+decision criterion, not permission to under-build the pilot.

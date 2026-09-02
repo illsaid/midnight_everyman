@@ -4,7 +4,10 @@
 
 The scene specification should let a future episode be assembled from narration, named assets and reusable motion patterns without writing custom React for every shot.
 
-This is a proposed contract. Do not build a generalized parser until the 15-second experiment shows which fields are actually necessary.
+This remains a proposed contract. The 15-second and 63-second proofs established
+the useful fields, but a generalized parser remains deferred until the full
+Hidden Systems pilot exposes whether another abstraction would reduce owner
+time rather than add maintenance.
 
 ## Human-readable scene card
 

@@ -94,4 +94,7 @@ observer-wrong-nozzle-recoil-v1.webm
 
 ## Current status
 
-Generating related poses on master sheets materially improved identity consistency and is now the default acquisition method for cel families. Version 1 registers 24 semantic poses: six approved and eighteen candidates awaiting human approval. Continuous generated motion is not an unresolved dependency; it is an optional exception lane.
+Generating related poses on master sheets materially improved identity
+consistency and is now the default acquisition method for cel families. Version
+1 registers 24 semantic poses, all approved on 14 Aug 2026. Continuous generated
+motion is not an unresolved dependency; it is an optional exception lane.

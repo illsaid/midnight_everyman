@@ -1,125 +1,82 @@
 # Topic selection framework
 
-## Principle
+## Purpose
 
-Select the subject-package pair before committing research and production time. A strong format cannot rescue a subject with no stop-scroll tension.
+Manage two distinct states:
+
+- **Candidate pool:** subjects passing touched and opaque
+- **Production-ready queue:** candidates with a selected rung-three title,
+  thumbnail moment and opening visual
+
+The canonical ledger is `../../content/candidates.csv`.
 
 ## Hard gates
 
-Reject a candidate before scoring if:
+1. **Touched:** the viewer has used, stood in or depended on it.
+2. **Opaque:** a reasonable viewer cannot sketch the mechanism roughly.
+3. **Packageable:** the subject has a selected rung-three title, thumbnail
+   moment and opening visual that make the same honest promise.
 
-- The title requires specialist context.
-- The human consequence cannot be stated plainly.
-- The promise is misleading or unsupported.
-- Credible source material is unavailable.
-- The structure is merely facts with no escalation.
-- The necessary visuals would routinely exceed the production ceiling.
-- It produces only one viable video and has no strategic learning value.
+Reject misleading promises, unavailable source material and mechanisms whose
+visual burden clearly breaks the production ceiling.
 
-## Scoring model
+## Priority fields
 
-Score surviving candidates from 0 to 5.
+Hard gates determine eligibility. These fields rank eligible work:
 
-| Dimension | Question |
-|---|---|
-| Stop-scroll clarity | Can a random viewer understand the premise immediately? |
-| Human stake | Does it imply danger, money, status, power, survival, loss or meaningful consequence? |
-| Curiosity gap | Does the title create a specific unanswered question? |
-| Compression satisfaction | Will a confusing world become legible? |
-| Escalation | Do examples become stranger, larger, riskier or more consequential? |
-| Visual inventory | Are there clear objects, diagrams, characters or transformations to show? |
-| Source quality | Can claims be researched from credible accessible sources? |
-| Series depth | Can the territory support follow-ups without repetition? |
-| Revenue compatibility | Is the audience commercially useful without obvious advertiser conflict? |
-| Production fit | Can the episode reuse the Midnight Everyman library? |
-| Competitive opening | Is the angle not already exhausted by dominant channels? |
+- Case strength and evidence state
+- Mechanism relevance
+- Human stakes
+- Visual inventory and expected reuse
+- Cluster value
+- Competitive opening
+- Source burden
+- Revenue compatibility
 
-Maximum score: 55. This ranks tests; it does not forecast views.
+A documented incident is not a hard gate.
 
-For initial pilots, weight these most heavily:
+## Packaging record
 
-- Stop-scroll clarity: 2x
-- Human stake: 2x
-- Curiosity gap: 2x
-- Production fit: 1.5x
-- Source quality: 1.5x
+For each production-ready subject, record:
 
-## Promise stress test
+- Twenty working title candidates outside the ledger
+- `title_selected_rung3`
+- `thumbnail_moment`
+- `opening_visual`
+- Three materially different thumbnail concepts in the episode brief
 
-Draft three versions for each candidate:
+Do not set `gate3_packaged=yes` unless the literal fields are populated.
 
-### Compression
+## Case record
 
-> Every Type of X, Explained Through What It Can Do to You
+Keep evidence state separate from narrative usefulness:
 
-### Consequence
+- `case_strength`
+- `case_evidence_state`
+- `case_detail`
+- `case_source`
+- `mechanism_relevance`
+- `case_verified_date`
 
-> What Actually Happens When X Fails
+An incident can be real while its link to the episode mechanism is weak. Both
+claims require review.
 
-### Hidden system
+## Pilot rule
 
-> The X Rule Almost Nobody Knows Exists
+Before the first build:
 
-This reveals which psychological promise is strongest. The final channel may combine archetypes while information compression remains the structure.
+- Maintain at least 12 touched-and-opaque candidates.
+- Fully package three.
+- Select one for the full timed pilot.
 
-## Thumbnail test
+After publishing begins, maintain at least 12 candidates and three
+production-ready subjects. If the candidate pool drops below 12, pause and
+rebuild it. If the ready queue drops below three, package candidates before
+starting another build.
 
-Describe the thumbnail in one sentence using no more than three visual elements:
+## What the framework cannot do
 
-```text
-Familiar object + extreme or hidden variant + visible consequence
-```
-
-Reject concepts requiring many tiny examples to communicate the premise. The video may contain a taxonomy; the thumbnail should usually sell one charged contrast.
-
-## Visual-escalation test
-
-List the first, middle and final examples:
-
-```text
-Recognizable baseline -> surprising exception -> consequential extreme
-```
-
-If the final example feels interchangeable with the first, the subject is probably too flat.
-
-## Outlier-research protocol
-
-When using public channel or vidIQ data:
-
-1. Record the observation date.
-2. Compare a video with the channel's typical performance, not only raw views.
-3. Note channel age, upload age and subscriber context where available.
-4. Separate a video-level outlier from a repeatable channel pattern.
-5. Examine at least five neighboring uploads using similar packaging.
-6. Look for sister channels, creator networks or prior operator experience.
-7. Record title, thumbnail, subject stake and video structure separately.
-8. Search for independent examples of the same psychological promise in unrelated subjects.
-9. Do not infer causality from one upload.
-10. Treat performance as a changing snapshot.
-
-## Candidate ledger
-
-Future research should record:
-
-| Field | Purpose |
-|---|---|
-| Observation date | Makes data time-specific |
-| Video/channel | Identifies the example |
-| Upload age | Separates velocity from accumulated views |
-| Channel baseline | Establishes whether it is an outlier |
-| Outlier ratio | Views relative to a defined baseline |
-| Subject | Separates topic from format |
-| Psychological promise | Compression, consequence, hidden knowledge or hybrid |
-| Human stake | Explains broad-audience charge |
-| Packaging notes | Title and thumbnail mechanism |
-| Repeat evidence | Similar successes or surrounding failures |
-| Network context | Sister channels or experienced-operator signals |
-| Production estimate | Expected research and visual burden |
-| Confidence | Observation, hypothesis or validated pattern |
-
-## Pilot-selection rule
-
-Do not launch from one apparent outlier. Select three pilot subjects that share a psychological promise but differ in surface territory. This tests whether the proposition travels beyond one topic.
-
-The production experiment remains first because topic economics cannot be evaluated honestly until cost per finished minute is known.
-
+It ranks tests; it does not forecast views. The gates are necessary, not
+sufficient. The measured 865-median comparison channel contains many subjects
+that pass touched and opaque. Packaging, execution, cadence, distribution and
+variance remain material.

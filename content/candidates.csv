@@ -1,0 +1,21 @@
+subject,gate1_touched,gate2_opaque,gate3_packaged,title_draft_rung1,title_selected_rung3,thumbnail_moment,opening_visual,case_strength,case_evidence_state,case_detail,case_source,mechanism_relevance,case_verified_date,cluster,status
+Lift governor and safety gear,yes,yes,no,How a lift actually stops when the cable snaps,,,,direct_case,unverified,"Betty Lou Oliver, Empire State Building B-25 crash, 1945 - 75-floor fall, survived",,direct,,vertical transport,needs_packaging
+Aircraft oxygen mask chemical generator,yes,yes,no,How the oxygen mask actually works,,,,direct_case,unverified,"ValuJet 592, 1996 - oxygen generators caused the fire",,direct,,aviation,needs_packaging
+Car airbag sensor timing,yes,yes,no,How an airbag knows when to fire,,,,direct_case,unverified,"NHTSA first-generation airbag fatalities, 1990s",,direct,,vehicle,needs_packaging
+Fire door closer and hold-open,yes,yes,no,The door that is supposed to hold back a fire,,,,direct_case,unverified,"Grenfell Tower, 2017 - failed self-closers",,direct,,fire systems,needs_packaging
+Fire alarm pull station to panel,yes,yes,no,How a fire alarm actually works,,,,direct_case,unverified,"Station nightclub fire, 2003",,direct,,fire systems,needs_packaging
+Hotel keycard and door lock,yes,yes,no,How a hotel keycard actually works,,,,direct_case,unverified,"Onity lock vulnerability, 2012",,direct,,access,needs_packaging
+Escalator comb plate and emergency stop,yes,yes,no,How an escalator knows to stop,,,,direct_case,unverified,"Kings Cross fire, 1987",,direct,,vertical transport,needs_packaging
+Emergency exit push bar,yes,yes,no,How a panic bar actually works,,,,origin_story,unverified,"Iroquois Theatre fire, 1903 - origin of the crash bar",,origin,,fire systems,needs_packaging
+Seatbelt pretensioner and load limiter,yes,yes,no,How a seatbelt actually works,,,,origin_story,unverified,"Volvo three-point belt, 1959 - patent opened to all makers",,origin,,vehicle,needs_packaging
+Sprinkler head fusible link,yes,yes,no,How a fire sprinkler actually works,,,,possible_case,unverified,"Grenfell Tower, 2017 - absence of sprinklers; indirect",,indirect,,fire systems,needs_packaging
+Water heater pressure relief valve,yes,yes,no,The valve that stops your water heater exploding,,,,possible_case,unverified,documented BLEVE incidents - source not yet verified,,indirect,,plumbing,needs_packaging
+Gas meter and excess flow valve,yes,yes,no,How a gas meter stops an explosion,,,,possible_case,unverified,"San Bruno pipeline explosion, 2010 - transmission line, not the meter; weak link",,indirect,,utilities,needs_packaging
+Toilet siphon and fill valve,yes,yes,no,How a toilet actually works,,,,not_needed,not_applicable,mechanism is self-explanatory without an incident,,not_applicable,,plumbing,needs_packaging
+Building drain stack and vent,yes,yes,no,What happens if everyone flushes at once,,,,not_needed,not_applicable,original concept seed; thought-experiment framing,,not_applicable,,plumbing,needs_packaging
+Circuit breaker trip mechanism,yes,yes,no,How a circuit breaker actually works,,,,no_case_found,not_applicable,,,none,,electrical,needs_packaging
+RCD earth leakage detection,yes,yes,no,The device that stops you being electrocuted,,,,no_case_found,not_applicable,,,none,,electrical,needs_packaging
+Smoke detector ionisation chamber,yes,yes,no,How a smoke detector actually works,,,,no_case_found,not_applicable,,,none,,fire systems,needs_packaging
+Lift door reopening sensor,yes,yes,no,How a lift door knows you are there,,,,no_case_found,not_applicable,,,none,,vertical transport,needs_packaging
+Revolving door collapse mechanism,yes,yes,no,Why a revolving door folds flat,,,,no_case_found,not_applicable,,,none,,access,needs_packaging
+Thermostat differential and short cycling,yes,yes,no,How a thermostat actually works,,,,no_case_found,not_applicable,,,none,,hvac,needs_packaging
