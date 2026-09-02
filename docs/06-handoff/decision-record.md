@@ -272,4 +272,6 @@ contains both the Hidden Systems editorial system and the existing production
 architecture. The separate Hidden Systems research folder becomes a migrated
 source snapshot and must not evolve independently.
 
+**Canonical path:** `C:\Users\dicku\Videos\midnight-everyman`
+
 **Status:** Canonical organization decision.

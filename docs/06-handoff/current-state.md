@@ -4,6 +4,8 @@
 
 **Date:** 2 Sep 2026
 
+**Canonical repository:** `C:\Users\dicku\Videos\midnight-everyman`
+
 ## Status
 
 The Hidden Systems editorial strategy and the Midnight Everyman production

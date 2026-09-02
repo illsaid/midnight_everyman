@@ -10,6 +10,8 @@ This is the canonical entry point for the channel strategy and the production
 system. Midnight Everyman names the internal project and its editorial
 personality; it does not require the public YouTube channel to use that name.
 
+**Canonical repository path:** `C:\Users\dicku\Videos\midnight-everyman`
+
 ## Objective
 
 Build a faceless, revenue-oriented YouTube channel that can eventually publish
