@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "gas-station-background",
+  "displayName": "Midcentury gas station background",
+  "category": "architecture",
+  "asset": {"file": "gas-station-background-v1.jpg", "format": "jpg"},
+  "tags": ["gas-station", "exterior", "automotive", "midcentury"],
+  "source": {
+    "packageId": "user-generated-pilot-01",
+    "sourceFile": "b01b3505-b423-4df3-877c-229965cbaba6.jpg",
+    "licenseStatus": "verified",
+    "licenseEvidence": "User-generated and supplied for the project, 2026-08-14",
+    "adaptationNotes": "Renamed only; no composited characters, vehicles, pumps or text."
+  },
+  "geometry": {
+    "viewBox": [0, 0, 1792, 1008],
+    "anchor": {"x": 0.5, "y": 1},
+    "baselineY": 1,
+    "facing": "neutral"
+  },
+  "houseStyle": {
+    "paletteRoles": ["cream", "coral", "teal", "mustard"],
+    "strokeMode": "mixed",
+    "detailLevel": "standard",
+    "notes": "Approved calm staging plate with open forecourt beneath the canopy."
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-08-14",
+    "by": "user",
+    "notes": "Selected from two generated gas-station backgrounds for Pilot 01."
+  }
+}

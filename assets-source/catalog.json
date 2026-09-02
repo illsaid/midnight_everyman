@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    "appliances",
+    "automotive",
+    "architecture",
+    "furniture",
+    "office",
+    "industrial",
+    "electrical",
+    "plumbing",
+    "medical",
+    "transportation",
+    "tools",
+    "food",
+    "signage"
+  ],
+  "packages": [
+    {
+      "id": "mcm-furniture-ccgraphics",
+      "path": "_packages/mcm_furniture_ccgraphics",
+      "contents": {"svg": 22, "png": 21, "eps": 2},
+      "status": "approved-source",
+      "licenseStatus": "verified",
+      "licenseEvidence": "User attestation and creative approval, 2026-08-14"
+    },
+    {
+      "id": "retro-kitchen-ccgraphics",
+      "path": "_packages/Retro_Kitchen_CCGraphics",
+      "contents": {"svg": 48, "png": 44, "eps": 2},
+      "status": "approved-source",
+      "licenseStatus": "verified",
+      "licenseEvidence": "User attestation and creative approval, 2026-08-14"
+    },
+    {
+      "id": "svg-midcentury-birdieworksstudio",
+      "path": "_packages/SVG.MidCentury",
+      "contents": {"svg": 100, "png": 1},
+      "status": "approved-source",
+      "licenseStatus": "verified",
+      "licenseEvidence": "User attestation and creative approval, 2026-08-14"
+    }
+  ]
+}

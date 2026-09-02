@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://midnight-everyman.local/schemas/object.meta.schema.json",
+  "title": "Midnight Everyman canonical object metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "displayName", "category", "asset", "tags", "source", "geometry", "houseStyle", "approval"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "displayName": {"type": "string", "minLength": 1},
+    "category": {
+      "enum": ["appliances", "automotive", "architecture", "furniture", "office", "industrial", "electrical", "plumbing", "medical", "transportation", "tools", "food", "signage"]
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["file", "format"],
+      "properties": {
+        "file": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*\\.(?:svg|png|jpg)$"},
+        "format": {"enum": ["svg", "png", "jpg"]}
+      }
+    },
+    "tags": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["packageId", "sourceFile", "licenseStatus", "licenseEvidence"],
+      "properties": {
+        "packageId": {"type": "string", "minLength": 1},
+        "sourceFile": {"type": "string", "minLength": 1},
+        "licenseStatus": {"const": "verified"},
+        "licenseEvidence": {"type": "string", "minLength": 1},
+        "adaptationNotes": {"type": "string"}
+      }
+    },
+    "geometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["viewBox", "anchor", "baselineY", "facing"],
+      "properties": {
+        "viewBox": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number", "exclusiveMinimum": 0}, {"type": "number", "exclusiveMinimum": 0}], "minItems": 4, "maxItems": 4},
+        "anchor": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y"],
+          "properties": {"x": {"type": "number", "minimum": 0, "maximum": 1}, "y": {"type": "number", "minimum": 0, "maximum": 1}}
+        },
+        "baselineY": {"type": "number", "minimum": 0, "maximum": 1},
+        "facing": {"enum": ["left", "right", "front", "neutral"]}
+      }
+    },
+    "houseStyle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["paletteRoles", "strokeMode", "detailLevel"],
+      "properties": {
+        "paletteRoles": {"type": "array", "items": {"type": "string", "minLength": 1}, "minItems": 1, "uniqueItems": true},
+        "strokeMode": {"enum": ["none", "ink", "mixed"]},
+        "detailLevel": {"enum": ["silhouette", "standard", "technical"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "date", "by"],
+      "properties": {
+        "status": {"const": "approved"},
+        "date": {"type": "string", "format": "date"},
+        "by": {"type": "string", "minLength": 1},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}

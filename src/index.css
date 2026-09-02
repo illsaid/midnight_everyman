@@ -1,1 +1,17 @@
-@import "tailwindcss";
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  /*
+   * Deliberately no background colour.
+   *
+   * A painted body background is opaque and silently destroys the alpha
+   * channel of every render, including the character plates that are meant to
+   * be composited in an external editor. Compositions that want a background
+   * paint their own on the root AbsoluteFill. The Studio shows a checkerboard
+   * where a composition is transparent - that is correct, not a bug.
+   */
+}

@@ -1,0 +1,455 @@
+{
+  "schemaVersion": 1,
+  "poses": [
+    {
+      "id": "think-chin",
+      "file": "characters/observer/library/think-chin-v1.png",
+      "sourceSheet": "sheet-a-information",
+      "panel": 1,
+      "canvas": [
+        165,
+        447
+      ],
+      "anchor": [
+        0.4414,
+        0.962
+      ],
+      "nativeScale": 1.7032,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1520,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "inspect-forward",
+      "file": "characters/observer/library/inspect-forward-v1.png",
+      "sourceSheet": "sheet-a-information",
+      "panel": 2,
+      "canvas": [
+        212,
+        433
+      ],
+      "anchor": [
+        0.3128,
+        0.9607
+      ],
+      "nativeScale": 1.7032,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1449,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "point-right",
+      "file": "characters/observer/library/point-right-v1.png",
+      "sourceSheet": "sheet-a-information",
+      "panel": 3,
+      "canvas": [
+        308,
+        442
+      ],
+      "anchor": [
+        0.2729,
+        0.9593
+      ],
+      "nativeScale": 1.7032,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1816,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "present-open",
+      "file": "characters/observer/library/present-open-v1.png",
+      "sourceSheet": "sheet-a-information",
+      "panel": 4,
+      "canvas": [
+        282,
+        436
+      ],
+      "anchor": [
+        0.324,
+        0.961
+      ],
+      "nativeScale": 1.7032,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1823,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "compare-hands",
+      "file": "characters/observer/library/compare-hands-v1.png",
+      "sourceSheet": "sheet-a-information",
+      "panel": 5,
+      "canvas": [
+        298,
+        438
+      ],
+      "anchor": [
+        0.4756,
+        0.9612
+      ],
+      "nativeScale": 1.7032,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 2003,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "shrug-confused",
+      "file": "characters/observer/library/shrug-confused-v1.png",
+      "sourceSheet": "sheet-a-information",
+      "panel": 6,
+      "canvas": [
+        270,
+        435
+      ],
+      "anchor": [
+        0.4571,
+        0.9609
+      ],
+      "nativeScale": 1.7032,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1830,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "suspicious-squint",
+      "file": "characters/observer/library/suspicious-squint-v1.png",
+      "sourceSheet": "sheet-b-emotion",
+      "panel": 1,
+      "canvas": [
+        165,
+        448
+      ],
+      "anchor": [
+        0.412,
+        0.9621
+      ],
+      "nativeScale": 1.6588,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1422,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "shock-large",
+      "file": "characters/observer/library/shock-large-v1.png",
+      "sourceSheet": "sheet-b-emotion",
+      "panel": 2,
+      "canvas": [
+        316,
+        441
+      ],
+      "anchor": [
+        0.6248,
+        0.9615
+      ],
+      "nativeScale": 1.6588,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 2331,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "fear-brace",
+      "file": "characters/observer/library/fear-brace-v1.png",
+      "sourceSheet": "sheet-b-emotion",
+      "panel": 3,
+      "canvas": [
+        167,
+        434
+      ],
+      "anchor": [
+        0.431,
+        0.9608
+      ],
+      "nativeScale": 1.6588,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1364,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "panic-hands",
+      "file": "characters/observer/library/panic-hands-v1.png",
+      "sourceSheet": "sheet-b-emotion",
+      "panel": 4,
+      "canvas": [
+        227,
+        447
+      ],
+      "anchor": [
+        0.4793,
+        0.9597
+      ],
+      "nativeScale": 1.6588,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1771,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "joy-open",
+      "file": "characters/observer/library/joy-open-v1.png",
+      "sourceSheet": "sheet-b-emotion",
+      "panel": 5,
+      "canvas": [
+        385,
+        448
+      ],
+      "anchor": [
+        0.4721,
+        0.9621
+      ],
+      "nativeScale": 1.6588,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 2352,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "relief-sigh",
+      "file": "characters/observer/library/relief-sigh-v1.png",
+      "sourceSheet": "sheet-b-emotion",
+      "panel": 6,
+      "canvas": [
+        180,
+        447
+      ],
+      "anchor": [
+        0.4892,
+        0.9597
+      ],
+      "nativeScale": 1.6588,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1621,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "sad-slump",
+      "file": "characters/observer/library/sad-slump-v1.png",
+      "sourceSheet": "sheet-c-physical",
+      "panel": 1,
+      "canvas": [
+        180,
+        424
+      ],
+      "anchor": [
+        0.4323,
+        0.9575
+      ],
+      "nativeScale": 1.7157,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1335,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "anger-protest",
+      "file": "characters/observer/library/anger-protest-v1.png",
+      "sourceSheet": "sheet-c-physical",
+      "panel": 2,
+      "canvas": [
+        301,
+        447
+      ],
+      "anchor": [
+        0.3021,
+        0.962
+      ],
+      "nativeScale": 1.7157,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1957,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "sleepy-standing",
+      "file": "characters/observer/library/sleepy-standing-v1.png",
+      "sourceSheet": "sheet-c-physical",
+      "panel": 3,
+      "canvas": [
+        179,
+        440
+      ],
+      "anchor": [
+        0.4127,
+        0.9591
+      ],
+      "nativeScale": 1.7157,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1538,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "crouch-cover",
+      "file": "characters/observer/library/crouch-cover-v1.png",
+      "sourceSheet": "sheet-c-physical",
+      "panel": 4,
+      "canvas": [
+        238,
+        266
+      ],
+      "anchor": [
+        0.4326,
+        0.9361
+      ],
+      "nativeScale": 1.7157,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1086,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "run-away-key",
+      "file": "characters/observer/library/run-away-key-v1.png",
+      "sourceSheet": "sheet-c-physical",
+      "panel": 5,
+      "canvas": [
+        365,
+        405
+      ],
+      "anchor": [
+        0.8372,
+        0.958
+      ],
+      "nativeScale": 1.7157,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 2327,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "jump-joy-key",
+      "file": "characters/observer/library/jump-joy-key-v1.png",
+      "sourceSheet": "sheet-c-physical",
+      "panel": 6,
+      "canvas": [
+        293,
+        380
+      ],
+      "anchor": [
+        0.5,
+        1.2126
+      ],
+      "nativeScale": 1.7157,
+      "facing": "right",
+      "alpha": {
+        "partiallyTransparentPixels": 1896,
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

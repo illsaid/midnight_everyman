@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "compositionId": "WrongFuelSystemsPilot",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 1518,
+  "durationInSeconds": 63.25,
+  "voiceover": {
+    "file": "public/voiceover/pilot-01/wrong-fuel-systems-v1.mp3",
+    "measuredDurationInSeconds": 63.242438,
+    "source": "ElevenLabs_2026-08-16T20_17_02_DG new_ivc_sp110_s35_sb70_v3.mp3"
+  },
+  "scenes": [
+    {"id": "mismatch", "startFrame": 0, "endFrame": 189, "durationInFrames": 190, "component": "SceneMismatch"},
+    {"id": "stop", "startFrame": 190, "endFrame": 340, "durationInFrames": 151, "component": "SceneStop"},
+    {"id": "circulation", "startFrame": 341, "endFrame": 535, "durationInFrames": 195, "component": "SceneCirculation"},
+    {"id": "comparison", "startFrame": 536, "endFrame": 864, "durationInFrames": 329, "component": "SceneComparison"},
+    {"id": "rule", "startFrame": 865, "endFrame": 1086, "durationInFrames": 222, "component": "SceneRule"},
+    {"id": "decision", "startFrame": 1087, "endFrame": 1336, "durationInFrames": 250, "component": "SceneDecision"},
+    {"id": "conclusion", "startFrame": 1337, "endFrame": 1517, "durationInFrames": 181, "component": "SceneConclusion"}
+  ]
+}

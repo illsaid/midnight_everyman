@@ -1,54 +1,43 @@
-# Remotion video
+# Midnight Everyman
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+A faceless information-compression channel project built around a reusable 1950s-commercial-inspired replacement-cel animation system.
 
-Welcome to your Remotion project!
+For the complete channel strategy, system architecture, decisions and restart handoff, begin with [`PROJECT.md`](PROJECT.md).
+
+## Active composition
+
+`MidnightMicroScene01` is a 15-second, three-beat alarm-safety scene using six complete replacement drawings:
+
+- Alarm reaction
+- Exact three-versus-four signal comparison
+- Extinguisher delay, self-correction, exit and 911 call
+
+Remotion swaps whole drawings and controls registration, translation, scale, backgrounds, props, typography, texture and timing. Character anatomy is never interpolated.
+
+## Composition
+
+`MidnightMicroScene01` is 360 frames at 24 fps, 1920 x 1080.
+
+## Structure
+
+- `src/micro-scene-01/` - active scene components
+- `public/characters/observer/alarm/` - six transparent replacement-pose assets
+- `work/micro-scene-01/extract_alarm_cels.py` - reproducible pose extraction
+- `src/ReplacementCelTest.tsx` - prior two-cel proof
+- `src/CharacterLab.tsx` - archived failed skeletal-rig experiment
 
 ## Commands
 
-**Install Dependencies**
-
 ```console
-npm i
+npm install
+npm run dev -- --no-open
+npm run lint
 ```
 
-**Start Preview**
+Render a diagnostic still:
 
 ```console
-npm run dev
+npx remotion still MidnightMicroScene01 output.png --frame=135
 ```
 
-**Render video**
-
-```console
-npx remotion render
-```
-
-**Upgrade Remotion**
-
-```console
-npx remotion upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+The visual proof is complete at `reference/micro-scene-01/midnight-micro-scene-01-silent.mp4`. Voice-over and sound design are intentionally deferred to the next pass documented in `docs/05-experiments/next-experiment.md`.

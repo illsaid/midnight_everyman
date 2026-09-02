@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "lounge-chair",
+  "displayName": "Midcentury lounge chair",
+  "category": "furniture",
+  "asset": {"file": "lounge-chair.svg", "format": "svg"},
+  "tags": ["chair", "living-room", "midcentury", "seating"],
+  "source": {
+    "packageId": "mcm-furniture-ccgraphics",
+    "sourceFile": "SVGs/chair1_mcm_ccgraphics.svg",
+    "licenseStatus": "verified",
+    "licenseEvidence": "User attestation and creative approval, 2026-08-14",
+    "adaptationNotes": "Removed editor metadata and mapped the single fill to house teal."
+  },
+  "geometry": {
+    "viewBox": [0, 0, 576, 576],
+    "anchor": {"x": 0.5, "y": 0.94},
+    "baselineY": 0.94,
+    "facing": "right"
+  },
+  "houseStyle": {
+    "paletteRoles": ["teal"],
+    "strokeMode": "none",
+    "detailLevel": "standard",
+    "notes": "Open negative-space silhouette retained from approved source canon."
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-08-14",
+    "by": "user",
+    "notes": "Approved for Sprint 1 static-room test."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tulip-side-table",
+  "displayName": "Tulip side table",
+  "category": "furniture",
+  "asset": {"file": "tulip-side-table.svg", "format": "svg"},
+  "tags": ["table", "living-room", "midcentury", "pedestal"],
+  "source": {
+    "packageId": "mcm-furniture-ccgraphics",
+    "sourceFile": "SVGs/st2_mcm_ccgraphics.svg",
+    "licenseStatus": "verified",
+    "licenseEvidence": "User attestation and creative approval, 2026-08-14",
+    "adaptationNotes": "Removed editor metadata and mapped the fill to house brown."
+  },
+  "geometry": {
+    "viewBox": [0, 0, 576, 576],
+    "anchor": {"x": 0.5, "y": 0.87},
+    "baselineY": 0.87,
+    "facing": "neutral"
+  },
+  "houseStyle": {
+    "paletteRoles": ["brown"],
+    "strokeMode": "none",
+    "detailLevel": "silhouette",
+    "notes": "Compact side table for prop staging and object support."
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-08-14",
+    "by": "user",
+    "notes": "Approved for Sprint 1 static-room test."
+  }
+}

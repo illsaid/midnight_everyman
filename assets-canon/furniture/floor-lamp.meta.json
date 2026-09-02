@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "floor-lamp",
+  "displayName": "Midcentury floor lamp",
+  "category": "furniture",
+  "asset": {"file": "floor-lamp.svg", "format": "svg"},
+  "tags": ["lamp", "lighting", "living-room", "midcentury"],
+  "source": {
+    "packageId": "mcm-furniture-ccgraphics",
+    "sourceFile": "SVGs/lamp2_mcm_ccgraphics.svg",
+    "licenseStatus": "verified",
+    "licenseEvidence": "User attestation and creative approval, 2026-08-14",
+    "adaptationNotes": "Removed editor metadata and mapped the fill to house mustard."
+  },
+  "geometry": {
+    "viewBox": [0, 0, 576, 576],
+    "anchor": {"x": 0.5, "y": 0.96},
+    "baselineY": 0.96,
+    "facing": "neutral"
+  },
+  "houseStyle": {
+    "paletteRoles": ["mustard"],
+    "strokeMode": "none",
+    "detailLevel": "silhouette",
+    "notes": "Single-color silhouette suitable for deep-background staging."
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-08-14",
+    "by": "user",
+    "notes": "Approved for Sprint 1 static-room test."
+  }
+}

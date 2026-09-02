@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fuel-nozzle",
+  "displayName": "Generic fuel nozzle",
+  "category": "automotive",
+  "asset": {"file": "fuel-nozzle-v2.png", "format": "png"},
+  "tags": ["fuel", "nozzle", "gas-station", "tool"],
+  "source": {
+    "packageId": "user-generated-pilot-01",
+    "sourceFile": "5c568e0c-d0b9-4f7a-b535-f7cd488da4eb.jpg",
+    "licenseStatus": "verified",
+    "licenseEvidence": "User-generated and supplied for the project, 2026-08-14",
+    "adaptationNotes": "Removed chroma to alpha with a tighter 12-80 soft matte, despill and one-pixel edge contraction. Hose is a separate Remotion path."
+  },
+  "geometry": {
+    "viewBox": [0, 0, 1792, 1008],
+    "anchor": {"x": 0.31, "y": 0.51},
+    "baselineY": 0.78,
+    "facing": "right"
+  },
+  "houseStyle": {
+    "paletteRoles": ["teal", "cream", "ink"],
+    "strokeMode": "ink",
+    "detailLevel": "standard",
+    "notes": "Selected for compatibility with the car linework and palette."
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-08-14",
+    "by": "user",
+    "notes": "Canonical Pilot 01 fuel nozzle."
+  }
+}

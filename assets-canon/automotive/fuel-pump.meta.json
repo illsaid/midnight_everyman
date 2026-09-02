@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fuel-pump",
+  "displayName": "Generic midcentury fuel pump",
+  "category": "automotive",
+  "asset": {"file": "fuel-pump-v2.png", "format": "png"},
+  "tags": ["fuel", "pump", "gas-station", "equipment"],
+  "source": {
+    "packageId": "user-generated-pilot-01",
+    "sourceFile": "3f4356c2-7191-4899-a74a-3aed8264bf69.jpg",
+    "licenseStatus": "verified",
+    "licenseEvidence": "User-generated and supplied for the project, 2026-08-14",
+    "adaptationNotes": "Removed chroma to alpha with a tighter 12-80 soft matte, despill and one-pixel edge contraction. Labels remain native Remotion layers."
+  },
+  "geometry": {
+    "viewBox": [0, 0, 1792, 1008],
+    "anchor": {"x": 0.499, "y": 0.88},
+    "baselineY": 0.88,
+    "facing": "front"
+  },
+  "houseStyle": {
+    "paletteRoles": ["cream", "coral", "ink"],
+    "strokeMode": "ink",
+    "detailLevel": "standard",
+    "notes": "Blank face supports exact editable fuel labels and counters."
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-08-14",
+    "by": "user",
+    "notes": "Canonical Pilot 01 fuel pump."
+  }
+}

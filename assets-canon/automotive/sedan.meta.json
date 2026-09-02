@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sedan",
+  "displayName": "Generic midcentury sedan",
+  "category": "automotive",
+  "asset": {"file": "sedan-v2.png", "format": "png"},
+  "tags": ["car", "sedan", "vehicle", "midcentury"],
+  "source": {
+    "packageId": "user-generated-pilot-01",
+    "sourceFile": "Gemini_Generated_Image_i2fkpki2fkpki2fk.jfif",
+    "licenseStatus": "verified",
+    "licenseEvidence": "User-generated and supplied for the project, 2026-08-14",
+    "adaptationNotes": "Removed chroma to alpha with a tighter 12-80 soft matte, despill and one-pixel edge contraction so the green and teal illustration details remain opaque. Source facing is left; Remotion may mirror the complete asset."
+  },
+  "geometry": {
+    "viewBox": [0, 0, 2816, 1536],
+    "anchor": {"x": 0.5, "y": 0.758},
+    "baselineY": 0.758,
+    "facing": "left"
+  },
+  "houseStyle": {
+    "paletteRoles": ["teal", "cream", "ink"],
+    "strokeMode": "ink",
+    "detailLevel": "standard",
+    "notes": "Simplified graphic vehicle selected for closer compatibility with the Observer."
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-08-14",
+    "by": "user",
+    "notes": "Canonical Pilot 01 car."
+  }
+}

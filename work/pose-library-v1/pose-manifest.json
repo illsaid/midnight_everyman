@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "character": "observer",
+  "version": "v1",
+  "targetPoseCount": 24,
+  "sheetLayout": {
+    "columns": 3,
+    "rows": 2,
+    "panelOrder": "left-to-right, top-to-bottom",
+    "background": "#00ff00"
+  },
+  "poses": [
+    {"id": "stand-neutral", "source": "alarm-v2", "panel": 1, "status": "approved", "existingCel": "neutralAlert", "tags": ["neutral", "establish", "hold"]},
+    {"id": "surprise-small", "source": "alarm-v2", "panel": 2, "status": "approved", "existingCel": "startledAlarm", "tags": ["surprise", "register", "reaction"]},
+    {"id": "listen-count", "source": "alarm-v2", "panel": 3, "status": "approved", "existingCel": "listenCount", "tags": ["listen", "count", "compare"]},
+    {"id": "reach-forward", "source": "alarm-v2", "panel": 4, "status": "approved", "existingCel": "reachExtinguisher", "tags": ["reach", "wrong-move", "action-key"]},
+    {"id": "recoil-large", "source": "alarm-v2", "panel": 5, "status": "approved", "existingCel": "selfCorrectRecoil", "tags": ["recoil", "fear", "self-correct"]},
+    {"id": "call-phone", "source": "alarm-v2", "panel": 6, "status": "approved", "existingCel": "outsidePhone", "tags": ["phone", "resolve", "communication"]},
+
+    {"id": "think-chin", "source": "sheet-a-information", "panel": 1, "status": "approved", "tags": ["think", "consider", "hold"]},
+    {"id": "inspect-forward", "source": "sheet-a-information", "panel": 2, "status": "approved", "tags": ["inspect", "curious", "look"]},
+    {"id": "point-right", "source": "sheet-a-information", "panel": 3, "status": "approved", "tags": ["point", "indicate", "explain"]},
+    {"id": "present-open", "source": "sheet-a-information", "panel": 4, "status": "approved", "tags": ["present", "explain", "welcome"]},
+    {"id": "compare-hands", "source": "sheet-a-information", "panel": 5, "status": "approved", "tags": ["compare", "weigh", "choice"]},
+    {"id": "shrug-confused", "source": "sheet-a-information", "panel": 6, "status": "approved", "tags": ["shrug", "confused", "uncertain"]},
+
+    {"id": "suspicious-squint", "source": "sheet-b-emotion", "panel": 1, "status": "approved", "tags": ["suspicious", "skeptical", "doubt"]},
+    {"id": "shock-large", "source": "sheet-b-emotion", "panel": 2, "status": "approved", "tags": ["shock", "surprise", "extreme"]},
+    {"id": "fear-brace", "source": "sheet-b-emotion", "panel": 3, "status": "approved", "tags": ["fear", "brace", "danger"]},
+    {"id": "panic-hands", "source": "sheet-b-emotion", "panel": 4, "status": "approved", "tags": ["panic", "alarm", "escalate"]},
+    {"id": "joy-open", "source": "sheet-b-emotion", "panel": 5, "status": "approved", "tags": ["joy", "delight", "celebrate"]},
+    {"id": "relief-sigh", "source": "sheet-b-emotion", "panel": 6, "status": "approved", "tags": ["relief", "calm", "resolve"]},
+
+    {"id": "sad-slump", "source": "sheet-c-physical", "panel": 1, "status": "approved", "tags": ["sad", "defeat", "slump"]},
+    {"id": "anger-protest", "source": "sheet-c-physical", "panel": 2, "status": "approved", "tags": ["anger", "protest", "confront"]},
+    {"id": "sleepy-standing", "source": "sheet-c-physical", "panel": 3, "status": "approved", "tags": ["sleepy", "tired", "droop"]},
+    {"id": "crouch-cover", "source": "sheet-c-physical", "panel": 4, "status": "approved", "tags": ["crouch", "cover", "danger"]},
+    {"id": "run-away-key", "source": "sheet-c-physical", "panel": 5, "status": "approved", "tags": ["run", "escape", "action-key"]},
+    {"id": "jump-joy-key", "source": "sheet-c-physical", "panel": 6, "status": "approved", "tags": ["jump", "joy", "action-key"]}
+  ]
+}
