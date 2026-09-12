@@ -23,6 +23,10 @@ The ignored local media paths are declared in `.gitignore`. Do not use
 `git add -f` to bypass them. `production-manifest.json` and the pilot production
 index remain the record of what belongs at each local path.
 
+Older R&D reference videos were tracked before this policy existed. They are
+removed from the current Git tree but remain in the pre-policy commit history;
+that history has not been rewritten. Their working files remain on the local PC.
+
 For the sprinkler pilot, the final review master lives locally at:
 
 `work/hidden-systems-pilot-01/assembly-review/sprinkler-assembly-v7-structural.mp4`

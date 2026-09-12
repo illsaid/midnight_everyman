@@ -17,6 +17,11 @@ public/sprinkler-assembly/**/*.mp3
 public/sprinkler-assembly/**/*.wav
 public/sprinkler-assembly/**/*.mov
 public/sprinkler-assembly/**/*.webm
+reference/**/*.mp4
+reference/**/*.mov
+reference/**/*.webm
+public/voiceover/**/*.mp3
+public/voiceover/**/*.wav
 
 # Ignore the output video from Git but not videos you import into src/.
 out

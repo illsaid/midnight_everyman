@@ -21,3 +21,12 @@ movement ownership lives in `claims.json`, not here.
 - **Did not do:** Upload local narration, source videos, scene-review renders, rollback renders or the 119 MiB master
 - **Next:** Every agent reads `claims.json` and this log, claims its scope, works in a separate worktree when writing concurrently, then appends a bounded handoff
 - **Blocked:** Nothing
+
+## 2026-09-12 — Codex — legacy media boundary
+
+- **Status:** Current Git tree is source/data only; local media is preserved
+- **Changed:** Untracked nine previously committed R&D MP4/MP3 files and expanded the media ignore policy
+- **Verified:** Files remain present on the local PC; sprinkler renders, narration and generated source videos remain ignored
+- **Did not do:** Rewrite or purge pre-policy Git history
+- **Next:** Use manifests and local paths for media; do not force-add binaries
+- **Blocked:** Nothing
