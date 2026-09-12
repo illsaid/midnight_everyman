@@ -1,0 +1,94 @@
+cue,movement,t_in,t_out,dur,f_in,f_out,frames,v1_tool,tool,source_id,treatment,observer,onscreen,description,vo,status
+01,M01,0.000,2.083,2.083,0,50,50,H,H,HG-01,Full-frame generated performance,cinema,,"Cinema interior, UPA flat. Observer in a seat, up-lit by screen glow, delighted",You've seen it in movies a hundred times.,approved
+02,M01,2.083,4.500,2.417,50,108,58,H,H,HG-02,Full-frame generated insert,,,"Hand raises a lighter beneath a sprinkler head, flame flickers, ominous",Someone holds a lighter up to a sprinkler head.,slug
+03,M01,4.500,10.792,6.292,108,259,151,H,H,HG-03,Source opening span,,,"Wide: every head on the ceiling bursts at once, full deluge, movie logic","The entire building erupts in a wild torrent of water — every sprinkler head, all at once.",slug
+04,M01,10.792,15.542,4.750,259,373,114,H,H,HG-03,Continue source / alternate crop,soaked,,"Observer soaked, papers flying past him, hero silhouette runs through spray","Everyone is soaked, papers fly, and the hero escapes in the confusion.",slug
+05,M01,15.542,17.542,2.000,373,421,48,R,R,,Native movement keyframe,,MOVIE MAGIC,Freeze frame; stamp lands over the still,It's a wonderful scene.,slug
+06,M01,17.542,20.417,2.875,421,490,69,R,R,,Native movement keyframe,,COMPLETE NONSENSE,Hard cut. Coral stamp. Colour drains out of the scene to paper,It is also complete nonsense.,slug
+07,M02,20.417,22.708,2.292,490,545,55,R,R,,Native movement keyframe,,,Wipe from paper to a real ceiling; camera settles,Here is what actually happens.,slug
+08,M02,22.708,24.542,1.833,545,589,44,H,H+R,HG-04,Generated plate + Remotion mechanism,,,HG-04 ceiling plate. Remotion adds one accurate active head and the localized water cone.,One sprinkler head opens.,slug
+09,M02,24.542,27.583,3.042,589,662,73,H,H+R,HG-04,Same plate + Remotion push,,,Continue HG-04. Remotion camera push isolates the active head directly above the fire.,That one. The one directly above the fire.,slug
+10,M02,27.583,32.708,5.125,662,785,123,H,H+R,HG-04,Same plate + Remotion reframe,,,Continue HG-04. Remotion reframes across the dry heads; no new generated shot.,"Every other head on that ceiling stays sealed, dry, and entirely uninterested.",slug
+11,M03,32.708,37.000,4.292,785,888,103,R,R,,Native movement keyframe,,NO CONTROL PANEL,"Control-panel icon assembles, then is struck through",Because there is no system. No panel deciding which heads to open.,slug
+12,M03,37.000,40.375,3.375,888,969,81,R,R,,Native movement keyframe,,,Ceiling grid: each head resolves into an isolated node. No connecting lines are ever drawn,"Every head on that ceiling is its own separate machine, and",slug
+13,M03,40.375,43.083,2.708,969,1034,65,R,R,,Native movement keyframe,,ONE THING,"One node scales up, alone in frame",each one knows precisely one thing:,slug
+14,M03,43.083,46.208,3.125,1034,1109,75,R,R,,Native movement keyframe,,local air temperature,Thermometer ring closes around the single node,the temperature of the air immediately around it.,slug
+15,M03,46.208,50.208,4.000,1109,1205,96,R,R,,Native movement keyframe,,,Top-down floorplan. Fire icon in one corner; heat gradient stays local,"A fire in the corner of an office is a local event, not a building-wide one.",slug
+16,M03,50.208,54.625,4.417,1205,1311,106,R,R,,Native movement keyframe,,1,Counter appears beside the active head,"And in a real fire, the usual number of heads that open is one.",slug
+17,M03,54.625,56.292,1.667,1311,1351,40,R,R,,Native movement keyframe,,2 -> 1,"Counter flickers to 2, settles back to 1",Occasionally two.,slug
+18,M03,56.292,58.583,2.292,1351,1406,55,R,R,,Native movement keyframe,,,Grid recedes; the question opens up,So the question isn't how they all know.,slug
+19,M03,58.583,63.042,4.458,1406,1513,107,R,R,,Native movement keyframe,,THAT ONE  /  THE OTHER 300,Split comparison locks in,"It's what is inside that one, that isn't inside the other three hundred.",slug
+20,M04,63.042,63.958,0.917,1513,1535,22,H,H+R,HG-05,Source opening span,walks-under,,Begin HG-05: locked corridor. Observer walks beneath the head without looking up.,Look up.,slug
+21,M04,63.958,66.250,2.292,1535,1590,55,H,H+R,HG-05,Same source + crop + accurate overlay,,,Crop into HG-05 plate. Remotion supplies the accurate brass-head macro.,There it is: a small brass fitting,slug
+22,M04,66.250,71.000,4.750,1590,1704,114,H,H+R,HG-05,Continue source wide,walks-under,,Return to the HG-05 wide and continue the same walk-under performance.,you have walked underneath ten thousand times without once considering it.,slug
+23,M04,71.000,72.875,1.875,1704,1749,45,R,R,,Native movement keyframe,,,"Cutaway: ceiling tile peels back, pipe revealed above","Above it, a pipe.",slug
+24,M04,72.875,77.125,4.250,1749,1851,102,R,R,,Native movement keyframe,,HIGH PRESSURE,Water fills the pipe; pressure gauge swings,"Inside the pipe, water — at high pressure, directly over your head,",slug
+25,M04,77.125,79.500,2.375,1851,1908,57,R,R,,Native movement keyframe,,SINCE 1994,Date tick backwards to construction,since the day the building went up.,slug
+26,M05,79.500,80.625,1.125,1908,1935,27,R,R,,Native movement keyframe,,FOUR PARTS,Exploded view assembles,Four parts.,slug
+27,M05,80.625,82.750,2.125,1935,1986,51,R,R,,Native movement keyframe,,1 · FRAME,"Frame highlighted, screwed into the pipe","A frame, screwed into the pipe.",slug
+28,M05,82.750,84.667,1.917,1986,2032,46,R,R,,Native movement keyframe,,2 · CAP,"Cap highlighted, sealing the opening","A cap, sealing the opening.",slug
+29,M05,84.667,88.500,3.833,2032,2124,92,R,R,,Native movement keyframe,,3 · DEFLECTOR,Deflector disc highlighted; notches visible,"A deflector — that flat, notched disc on the bottom.",slug
+30,M05,88.500,91.917,3.417,2124,2206,82,R,R,,Native movement keyframe,,4 · BULB — under permanent compression,Compression arrows animate between cap and frame,"And wedged between the cap and the frame, under permanent compression,",slug
+31,M05,91.917,95.250,3.333,2206,2286,80,R,R,,Native movement keyframe,,~ grain of rice,Scale comparison beside the bulb,a glass bulb about the size of a grain of rice.,slug
+32,M05,95.250,98.125,2.875,2286,2355,69,R,R,,Native movement keyframe,,glycerine-based liquid,Macro cutaway; liquid fills the bulb,"Inside the bulb: a glycerine-based liquid,",slug
+33,M05,98.125,100.542,2.417,2355,2413,58,R,R,,Native movement keyframe,,,"One air bubble appears inside the liquid, labelled",and one small bubble of air.,slug
+34,M06,100.542,103.292,2.750,2413,2479,66,R,R,,Native movement keyframe,,,Mechanism clock starts. Beat before the fire,That's the trigger. Now watch it work.,slug
+35,M06,103.292,104.125,0.833,2479,2499,20,H,H+R,HG-06,Generated plate + controlled flame,oblivious,,Begin HG-06 office tableau. Remotion reinforces the small bin flame.,A bin ignites.,slug
+36,M06,104.125,107.542,3.417,2499,2581,82,H,H+R,HG-06,Continue source + smoke overlay,oblivious,,Continue HG-06. Smoke overlay curls upward while Observer remains oblivious.,Smoke rises — and does nothing at all.,slug
+37,M06,107.542,109.333,1.792,2581,2624,43,R,R,,Native movement keyframe,,NO SMOKE DETECTION,Nose icon struck through,Sprinklers cannot smell.,slug
+38,M06,109.333,112.000,2.667,2624,2688,64,R,R,,Native movement keyframe,,HEAT ONLY,Thermometer confirms,"They react to heat, and only heat.",slug
+39,M06,112.000,114.417,2.417,2688,2746,58,R,R,,Native movement keyframe,,,Hot gas plume spreads flat across the ceiling plane,The hot gas spreads out across the ceiling and,slug
+40,M06,114.417,116.333,1.917,2746,2792,46,R,R,,Native movement keyframe,,,Plume reaches the nearest head node,reaches the nearest head.,slug
+41,M06,116.333,118.875,2.542,2792,2853,61,R,R,,Native movement keyframe,,,Macro: liquid expands inside the bulb,The liquid in the bulb begins to expand.,slug
+42,M06,118.875,120.375,1.500,2853,2889,36,R,R,,Native movement keyframe,,,The bubble shrinks,The bubble shrinks.,slug
+43,M06,120.375,122.417,2.042,2889,2938,49,R,R,,Native movement keyframe,,0:10   0:20,Countdown ticks,Ten seconds. Twenty.,slug
+44,M06,122.417,126.167,3.750,2938,3028,90,R,R,,Native movement keyframe,,,Bubble gone. Liquid pressed hard against the glass,"The bubble is gone now, the liquid has nowhere left to go, and the",slug
+45,M06,126.167,126.917,0.750,3028,3046,18,H,R,,Native movement keyframe,,,Remotion macro: intact thermal bulb holds under strain; refraction and stress lines intensify.,glass is holding —,slug
+46,M06,126.917,131.125,4.208,3046,3147,101,R,R,,Native movement keyframe,cel:thinkChin,,Observer beat — unimpressed by how stubborn glass is,"because glass, it turns out, is remarkably stubborn.",slug
+47,M06,131.125,132.875,1.750,3147,3189,42,R,R,,Native movement keyframe,,,Hard suspense beat. Everything stops,Until it isn't.,slug
+48,M07,132.875,135.417,2.542,3189,3250,61,H,R,,Native movement keyframe,,,Controlled SVG/vector shatter from the bulb centre; fragments remain on the assembly axis.,The bulb shatters from the inside.,slug
+49,M07,135.417,137.292,1.875,3250,3295,45,H,R,,Native movement keyframe,,,Cap drops cleanly along the assembly axis in the existing sprinkler component.,The cap drops away.,slug
+50,M07,137.292,142.167,4.875,3295,3412,117,R,R,,Native movement keyframe,,WAITING 30 YEARS,Water released; the wait counter zeroes,"The water, which has been waiting patiently for about thirty years, leaves —",slug
+51,M07,142.167,146.000,3.833,3412,3504,92,H,R,,Native movement keyframe,,,Accurate Remotion water path hits the deflector and resolves into a cone of spray.,"strikes the deflector, breaks into a cone of spray,",slug
+52,M07,146.000,150.167,4.167,3504,3604,100,R,R,,Native movement keyframe,,,"Exponential fire curve climbing, doubling every half minute","and the fire, which had been roughly doubling in size every half minute,",slug
+53,M07,150.167,151.458,1.292,3604,3635,31,R,R,,Native movement keyframe,,,Curve snaps flat the instant water lands,stops doubling.,slug
+54,M07,151.458,156.625,5.167,3635,3759,124,H,H+R,HG-07,Source opening span + layout overlay,under-dry,,Begin HG-07 held tableau. Remotion establishes the wet head / dry neighbouring-head relationship.,"Two metres away, the next head sits in the cool air doing absolutely nothing.",slug
+55,M07,156.625,157.958,1.333,3759,3791,32,H,H+R,HG-07,Hold/freeze same source,under-dry,,Hold or freeze HG-07. Nothing changes; the stillness is the joke.,It will still be doing nothing,slug
+56,M07,157.958,160.042,2.083,3791,3841,50,H,R,,Native movement keyframe,,,Remain in the established layout; an emergency-light sweep and brigade icon mark arrival.,when the fire brigade arrives.,slug
+57,M07,160.042,162.542,2.500,3841,3901,60,R,R,,Native movement keyframe,,THE WHOLE MECHANISM,Checklist opens,And that is the whole mechanism.,slug
+58,M07,162.542,165.625,3.083,3901,3975,74,R,R,,Native movement keyframe,,No sensor · No wiring · No computer,Items strike in one at a time,No sensor. No wiring. No computer.,slug
+59,M07,165.625,169.792,4.167,3975,4075,100,R,R,,Native movement keyframe,,No control panel · No decision of any kind,Final items settle,No control panel. No decision of any kind.,slug
+60,M07,169.792,173.792,4.000,4075,4171,96,R,R,,Native movement keyframe,,,Return to the macro bubble; it shrinks to nothing. Pull wide to a calm building,"A bubble got smaller, and a building got saved.",slug
+61,M08,173.792,178.250,4.458,4171,4278,107,R,R,,Native movement keyframe,,,Swatch row assembles across the frame,"Now — those bulbs are colour-coded, because of course they are.",slug
+62,M08,178.250,180.917,2.667,4278,4342,64,R,R,,Native movement keyframe,,ORANGE   57 °C / 135 °F,"Orange swatch expands, chip sets",Orange opens at fifty-seven degrees.,slug
+63,M08,180.917,183.042,2.125,4342,4393,51,R,R,,Native movement keyframe,,RED   68 °C / 155 °F,Red swatch,Red at sixty-eight.,slug
+64,M08,183.042,184.833,1.792,4393,4436,43,R,R,,Native movement keyframe,,YELLOW   79 °C / 175 °F,Yellow swatch,"Yellow, seventy-nine.",slug
+65,M08,184.833,186.792,1.958,4436,4483,47,R,R,,Native movement keyframe,,GREEN   93 °C / 200 °F,Green swatch,"Green, ninety-three.",slug
+66,M08,186.792,189.708,2.917,4483,4553,70,R,R,,Native movement keyframe,,BLUE 141/286 · PURPLE 182/360 · BLACK 227/500,"Three high swatches added, chips smaller","Then blue, purple and black,",slug
+67,M08,189.708,194.292,4.583,4553,4663,110,H,H,HG-08,Full-frame generated atmosphere,,,"Boiler room / commercial kitchen ceiling, heat haze — where 200 °F is an ordinary Tuesday",for rooms where ninety-three degrees is considered a normal Tuesday.,slug
+68,M09,194.292,196.708,2.417,4663,4721,58,R,R,,Native movement keyframe,,"A JUDGEMENT, NOT A SETTING",Type beat over the cooling swatch row,And that colour is not a setting.,slug
+69,M09,196.708,201.208,4.500,4721,4829,108,H,H+R,HG-09,Source first edit span,installer,,"First span of HG-09. Installer studies the room; coloured bulb tray remains foreground context, not a handled prop.",It's a judgement. Somebody had to choose the bulb for the room.,approved
+70,M09,201.208,204.625,3.417,4829,4911,82,H,H+R,HG-10,Generated plate + accurate head overlay,,,Begin HG-10 kitchen plate. Remotion places the accurate office-rated head above the fryer.,Put an office-rated head above a deep fat fryer,slug
+71,M09,204.625,206.708,2.083,4911,4961,50,H,H+R,HG-10,Continue source + activation overlay,,,Continue HG-10. Remotion activates the head; hold on unimpressed staff reaction.,and it opens every lunchtime.,slug
+72,M09,206.708,209.875,3.167,4961,5037,76,H,H+R,HG-11,Generated plate + accurate head overlay,,,Begin HG-11 quiet-office plate. Remotion places the oversized kitchen-rated head.,Put a kitchen-rated head in a quiet office and the room,slug
+73,M09,209.875,213.875,4.000,5037,5133,96,H,H+R,HG-11,Continue source + fire-state overlay,,,Continue HG-11. Remotion grows the fire while the accurate head remains closed.,can be well alight before it notices anything unusual.,slug
+74,M09,213.875,220.083,6.208,5133,5282,149,H,H+R,HG-09,Source second edit span,installer,,Second span of HG-09. Installer surveys the empty room and visibly guesses; no exact prop contact.,"So somewhere, years ago, a person had to guess how hot your ceiling gets on an ordinary day —",approved
+75,M09,220.083,221.958,1.875,5282,5327,45,H,H+R,HG-09,Source tail / hold,installer,,Tail of HG-09. He exits; hold on the empty room and selected head.,and then leave.,approved
+76,M10,221.958,225.917,3.958,5327,5422,95,R,R,,Native movement keyframe,,SINGLE USE,Head greys out and locks,"And when one does finally go, it doesn't reset.",slug
+77,M10,225.917,229.250,3.333,5422,5502,80,R,R,,Native movement keyframe,,NO SWITCH,Toggle icon struck through,There's no switch. That head is finished.,slug
+78,M10,229.250,231.542,2.292,5502,5557,55,H,R,,Native movement keyframe,,,Remotion object insert: spanner and replacement head enter as separate layers; no hands required.,"Somebody arrives with a spanner,",slug
+79,M10,231.542,233.250,1.708,5557,5598,41,H,R,,Native movement keyframe,,,Exploded side view: the replacement head rotates into the threaded pipe.,"screws in a new one,",slug
+80,M10,233.250,235.667,2.417,5598,5656,58,R,R,,Native movement keyframe,,,New head settles. The wait restarts from zero,and the new one starts waiting too.,slug
+81,M10,235.667,239.333,3.667,5656,5744,88,R,R,,Native movement keyframe,,WATER DAMAGE?,Comparison chart opens,As for the water damage everybody worries about — a sprinkler head,slug
+82,M10,239.333,242.958,3.625,5744,5831,87,R,R,,Native movement keyframe,,SPRINKLER   60 L/min,Sprinkler bar grows and settles,puts out somewhere around sixty litres a minute.,slug
+83,M10,242.958,246.958,4.000,5831,5927,96,R,R,,Native movement keyframe,,FIREHOSE   600–1200 L/min,"Firehose bar dwarfs it, runs off frame",A firefighter's hose puts out ten to twenty times that.,slug
+84,M10,246.958,252.500,5.542,5927,6060,133,R,R,,Native movement keyframe,,THE SPRINKLER PREVENTS THE FLOOD,Inversion lands,The sprinkler isn't the flood. The sprinkler is what prevents the flood.,slug
+85,M11,252.500,255.375,2.875,6060,6129,69,R,R,,Native movement keyframe,,,Pull back to the full ceiling grid; every head a separate dot,So the ceiling above you is not one system.,slug
+86,M11,255.375,258.417,3.042,6129,6202,73,R,R,,Native movement keyframe,,,"Dots pulse individually, out of phase. No lines between them","It's several hundred entirely separate ones,",slug
+87,M11,258.417,261.500,3.083,6202,6276,74,R,R,,Native movement keyframe,,its own small glass fuse,One dot glows,"each with its own small glass fuse,",slug
+88,M11,261.500,266.583,5.083,6276,6398,122,R,R,,Native movement keyframe,,,"Camera drifts across inert dots, minding their own business","each minding its own business, none of them talking to each other.",slug
+89,M11,266.583,268.958,2.375,6398,6455,57,R,R,,Native movement keyframe,,NOTHING IS WATCHING,Type over the empty grid,Nothing up there is watching you.,slug
+90,M11,268.958,271.750,2.792,6455,6522,67,R,R,,Native movement keyframe,,NOTHING IS DECIDING,Grid fades toward paper,Nothing is deciding anything.,slug
+91,M12,271.750,273.125,1.375,6522,6555,33,H,H+R,HG-12,Generated macro + controlled overlay,,,Begin HG-12 macro plate. Remotion isolates the bulb and adds controlled pressure cues.,"It is a piece of glass,",approved
+92,M12,273.125,278.333,5.208,6555,6680,125,H,H+R,HG-12,Continue source + Remotion push,,,Continue HG-12 with a slow Remotion push and restrained surface-tension treatment.,"holding back a river, waiting for something to get warm.",approved
+93,M12,278.333,280.750,2.417,6680,6738,58,H,H+R,HG-05,Reuse source frame + approved cel,looks-up,,Reuse the HG-05 corridor plate. Stage approved `inspectForward` cel beneath the head; slow push and fade.,Look up. It's still there.,slug

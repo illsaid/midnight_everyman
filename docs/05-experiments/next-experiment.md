@@ -1,5 +1,19 @@
 # Next experiment — full Hidden Systems pilot
 
+**12 Sep 2026 update:** The structural M10, M05 and M11 revisions are now owner
+approved. The active test is a bounded M05 texture prototype, documented in
+`work/hidden-systems-pilot-01/texture-prototype-2026-09-12.md`. It compares a stable
+type layer with an action-panel line boil held on twos plus low-opacity paper grain.
+The approved structural revisions are integrated in
+`assembly-review/sprinkler-assembly-v7-structural.mp4`; the texture treatment remains
+excluded from that master pending owner review of the test.
+
+**5 Sep 2026 update:** The user selected the sprinkler pilot and approved its
+locked 280.764-second narration and three FLUX3 reference clips. The immediate
+experiment is now the timed `SprinklerPilotAssembly` review render. Follow
+`work/hidden-systems-pilot-01/README.md`; the lift-governor selection and runtime
+targets below remain historical planning, superseded for this pilot.
+
 ## Objective
 
 Build one complete 5–8 minute Hidden Systems episode using the existing
@@ -15,6 +29,8 @@ whether the architecture survives a complete publishable episode.
 - At least 12 candidates pass touched and opaque.
 - Three candidates have a selected rung-three title, thumbnail moment and
   opening visual.
+- Each package makes the human vulnerability or violated assumption legible and
+  can stand alone without channel history.
 - The selected episode's technical and incident claims have literal sources.
 - The user approves the final package and script before full animation.
 

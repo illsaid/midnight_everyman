@@ -3,6 +3,20 @@ dist
 build
 .DS_Store
 .env
+work/hidden-systems-pilot-01/tools/.venv-align/
+work/hidden-systems-pilot-01/tools/.models/
+
+# Local-only pilot media and generated review artifacts. Git tracks the manifests,
+# cue data, decisions and source code that describe these files, not the binaries.
+work/**/assembly-review/
+work/**/rollback/
+work/**/source-media/
+work/**/audio/
+public/sprinkler-assembly/**/*.mp4
+public/sprinkler-assembly/**/*.mp3
+public/sprinkler-assembly/**/*.wav
+public/sprinkler-assembly/**/*.mov
+public/sprinkler-assembly/**/*.webm
 
 # Ignore the output video from Git but not videos you import into src/.
 out

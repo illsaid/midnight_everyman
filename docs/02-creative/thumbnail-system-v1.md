@@ -33,6 +33,40 @@ Reference performance does not prove that a layout caused the views; channel siz
 - If Everyman appears, integrate him into the event. Do not paste a reaction face beside an unrelated object.
 - The image must remain intelligible in grayscale and at approximately 160 pixels wide.
 
+## Attention hierarchy
+
+*Restored 2 Sep 2026. This was documented on a retired design sheet and did not
+survive the move into this file.*
+
+A thumbnail has a **main character** — the one thing the eye must land on first —
+and **supporting characters** that make the curiosity gap legible a beat later.
+Diagnose any composition by asking where the eye goes first, second and third,
+and whether that order is the one you intended.
+
+Attention is directed by four things, in roughly this order of force:
+
+1. **Brightness** — the brightest element wins, whatever it is.
+2. **Position** — upper-left is read first, because that is how the eye scans.
+3. **Size**.
+4. **Proximity** — whatever appears closest to the camera reads as nearest.
+
+**The standard failure:** large, high-contrast type placed top-left becomes the
+main character by default, and the object becomes supporting. If the object is
+meant to lead, the text goes lower, quieter, and third in the order — or the
+object goes brighter and larger. This is not a stylistic preference; it is the
+mechanism by which the frame is read.
+
+## The three-element ceiling
+
+*Also restored 2 Sep 2026.*
+
+Three main things on the canvas, maximum. Count them honestly: an object, a
+figure, a label and two text blocks is five, not three, and five is more than a
+feed viewer will parse.
+
+For this channel the usual three are **object, intruding element, text** — and
+text counts. Dropping to two is often stronger.
+
 ## Non-default legacy devices
 
 Do not use these as routine house-style elements:

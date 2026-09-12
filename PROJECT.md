@@ -12,6 +12,12 @@ personality; it does not require the public YouTube channel to use that name.
 
 **Canonical repository path:** `C:\Users\dicku\Videos\midnight-everyman`
 
+**Shared GitHub repository:** `https://github.com/illsaid/midnight_everyman`
+
+GitHub is authoritative for code, decisions, manifests and research data. Large
+renders and working media remain local under the canonical repository path; see
+`docs/04-production/repository-and-media-policy.md`.
+
 ## Objective
 
 Build a faceless, revenue-oriented YouTube channel that can eventually publish
@@ -32,6 +38,16 @@ This is a reasoned bet, not a forecast. We hold four reproducible long-form
 channel samples and no verified Shorts comparison. Cadence, voice choice,
 failure framing and steady-state production time remain unmeasured.
 
+## Viewer contract
+
+> **The hidden device that breaks, burns, bends or bites before you do.**
+
+This is an internal creative compass, not required public copy. Topics may vary
+only while the emotional-curiosity contract remains stable: an ordinary person
+is vulnerable, an unseen mechanism intervenes, and the episode makes that
+protection visible. Every upload is a self-contained front door and requires no
+knowledge of another episode.
+
 ## Product definition
 
 | | Decision |
@@ -43,6 +59,7 @@ failure framing and steady-state production time remain unmeasured.
 | Character | Everyman appears for reaction, emphasis, scale and editorial personality |
 | Voice | Accurate and concise with dry, restrained humor |
 | Cadence | Undecided until the pilot is timed |
+| Validation | Organic during launch; no paid traffic in the audience test |
 
 ## Three hard gates
 
@@ -79,8 +96,9 @@ canonical, but character performance cannot become the production critical path.
 4. Read [`docs/01-product/format.md`](docs/01-product/format.md).
 5. Read [`docs/01-product/subject-selection.md`](docs/01-product/subject-selection.md).
 6. Read [`docs/01-product/packaging.md`](docs/01-product/packaging.md).
-7. Read [`research/sources.md`](research/sources.md) before using competitor data.
-8. Read [`docs/05-experiments/next-experiment.md`](docs/05-experiments/next-experiment.md).
+7. Read [`docs/01-product/launch-validation.md`](docs/01-product/launch-validation.md).
+8. Read [`research/sources.md`](research/sources.md) before using competitor data.
+9. Read [`docs/05-experiments/next-experiment.md`](docs/05-experiments/next-experiment.md).
 
 ## Canonical implementation
 
@@ -89,6 +107,8 @@ canonical, but character performance cannot become the production critical path.
 - Verified proof render: `reference/systems-pilot-01/wrong-fuel-systems-pilot-fx-v2.mp4`
 - Character registry: `src/library/observer/cels.ts`
 - Approved character assets: `public/characters/observer/`
+- Diagram layer: `docs/02-creative/diagram-layer.md`
+- Character and palette authority: `everyman_bible_v2/`
 - Canonical object library: `assets-canon/`
 - Raw object intake: `assets-source/`
 - Candidate pool: `content/candidates.csv`
@@ -106,9 +126,11 @@ canonical, but character performance cannot become the production critical path.
 
 ## Immediate milestone
 
-1. Source-check the lift-governor case and mechanism claims.
-2. Produce complete packages for the lift governor, aircraft oxygen-mask
-   generator and airbag sensor.
-3. Select the strongest package.
-4. Build one complete 5–8 minute episode and record owner time by phase.
-5. Use the result to decide cadence and identify the reusable component delta.
+1. Add restrained sound effects to the local sprinkler v7 master.
+2. Resolve or retain the visible Pipe-scene year marker and approve the closing.
+3. Publish the pilot at owner discretion and record the packaging used.
+4. Capture native YouTube response without paid promotional traffic.
+5. Build Episode 02 from the established vocabulary and record owner time by phase.
+
+Current production authority: `work/hidden-systems-pilot-01/README.md`.
+The user-approved sprinkler VO supersedes the general 5–8 minute target for Pilot 01.

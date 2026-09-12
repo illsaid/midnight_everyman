@@ -1,5 +1,437 @@
 # Experiment log
 
+## Full sprinkler pilot integration — 11 Sep 2026
+
+The production manifest was reconciled from the earlier 67.8%-covered rough
+assembly to 21 contiguous placements covering all 6,738 frames. Ten standalone
+scene treatments were inserted as native Remotion components rather than
+recompressed review MP4s. HG-07 is owner-approved. The closing treatment is
+included at review status; it has not been silently promoted to approved.
+
+`SprinklerPilotMaster` provides a clean full composition without the diagnostic
+rough-assembly banner, while `SprinklerPilotAssembly` retains the review overlay.
+Manifest compilation reports 21 scenes / 21 placements. All 12 manifest tests,
+project lint and the Remotion bundle pass. The clean artifact
+`assembly-review/sprinkler-assembly-v6.mp4` verifies as 6,738 H.264 frames,
+1920x1080 at 24 fps, with AAC narration and a 280.810667-second container duration.
+Post-render QA sampled 101 chronological frames into nine contact sheets and
+found no placeholders, blank timeline gaps or obvious text/action collisions.
+The approved Pipe scene still contains the visible `1994 / PLACEHOLDER YEAR —
+VERIFY OR CUT` marker, which blocks treating v6 as a publish master. Zero workers
+and no external generation were used. Actual model/effort, total token usage,
+render elapsed time and owner hands-on time were unavailable.
+
+## HG-06 bin ignition and smoke clip — 11 Sep 2026
+
+Cues 35–36 are staged as one 102-frame / 4.25-second hybrid sequence using
+source frames 0–101 from the owner-approved `bin-fire-grok-v1.mp4`. The generated
+performance already contains a controlled flame, a smoke column reaching the
+ceiling and an oblivious Observer, so no synthetic flame or smoke was added.
+Remotion supplies only a restrained 1.01–1.06 bin-centered push, a brief ignition
+locator and a compact `SMOKE / RESPONSE · NONE` card in the upper-left safe area.
+
+V1 checkpoint QA found the response card covering the door and its leader
+crossing the smoke. V2 removes the leader and reuses the vacant ignition-title
+region, leaving the character, fire and smoke unobstructed. Source ESLint,
+targeted TypeScript, bundle and all 11 manifest tests pass. The final render
+verifies as 102 H.264 frames at 1920x1080/24 fps with AAC audio. Artifact:
+`assembly-review/hg06-v2.mp4`. Standalone only; main placements and full assembly
+unchanged. Zero workers and no new external generation. Model/effort, token usage
+and owner hands-on time unavailable. Owner approved v2 on 11 Sep 2026;
+integration is complete in `assembly-review/sprinkler-assembly-v6.mp4`.
+
+## HG-05 corridor and brass-fitting clip — 10 Sep 2026
+
+Cues 20–22 are staged as one 191-frame / 7.96-second hybrid sequence using the
+first 191 frames of the approved corridor source. The source video runs
+continuously under the overlays so the Observer's walk does not jump. `LOOK UP.`
+briefly isolates the small source head; a circular reveal expands into an intact
+native brass-head diagram for cue 21, then closes back onto the same ceiling
+position before cue 22. The returning wide uses the clear left wall for a rising
+`10,000×` counter and `WITHOUT A THOUGHT.` payoff while the Observer continues
+through the right side of frame. No activation or water was added.
+
+Checkpoint QA found clipped SVG labels in v1 and a brass-frame label crossing the
+hardware in v2. V3 corrected both. Owner timing review then found that the macro
+was already dissolving during “a small brass fitting,” while the gold `10,000×`
+competed with the door windows. V8 holds the complete diagram through local frame
+76 / the final frame of cue 21, cuts directly to the unobstructed corridor on
+frame 77 / the first frame of cue 22, and renders the counter in coral with an
+ink offset shadow. V4–v7 were internal transition QA; dissolves, wipes and a
+flash were rejected because they made the edit feel late or visibly mechanical.
+Source ESLint and targeted TypeScript pass; the final render
+verifies as 191 H.264 frames at 1920x1080/24 fps with AAC audio. Artifact:
+`assembly-review/hg05-v8.mp4`. Standalone only; main placements and full assembly
+unchanged. Zero workers and no new external generation. Model/effort, token usage
+and owner hands-on time unavailable. Owner approved v8 on 10 Sep 2026;
+integration remains pending.
+
+## HG-04 single-head ceiling clip — 10 Sep 2026
+
+Cues 08–10 are staged as one 240-frame / 10-second review sequence. The approved
+ceiling still is retained instead of spending generation credits on ambient
+motion. A native mechanism lens opens the central head in readable close-up,
+while the wide stage shows a localized water cone. The next beat adds a restrained
+vertical locator and floor fire marker for “directly above the fire.” The final
+reframe removes the lens, labels both other visible heads `SEALED · DRY`, and
+keeps only the central head active. Native copy occupies the wall or a dedicated
+paper band so it does not intersect the action.
+
+The v1 checkpoint pass found overlapping cue titles at frames 40–48 and copy
+crowding the plant. V2 separates the fades, clears the lens before cue 10, and
+moves the first two titles upward. Source ESLint, targeted TypeScript and bundle
+pass; all 11 manifest tests pass. The final MP4 verifies as 240 H.264 frames at
+1920x1080/24 fps with AAC audio. Project-wide `npm run lint` is blocked only by
+pre-existing rollback `.tsx` copies under `work/` that cannot resolve their old
+relative imports. Artifact: `assembly-review/hg04-v2.mp4`. Standalone only;
+main placements and full assembly unchanged. Zero workers and no new external
+generation. Model/effort, token usage and owner hands-on time unavailable. Owner
+approved the treatment and timing on 10 Sep 2026; integration remains pending.
+
+## Closing standalone clip — 10 Sep 2026
+
+Cues 91–93 are staged as one 216-frame / 9-second review sequence. The approved
+macro plate carries the first two cues, with native glass tracing, bubble focus,
+pressure rings and liquid motion supporting “a piece of glass holding back a
+river” without restaging the mechanism. A 20-frame light leak bridges to a clean
+corridor frame extracted unmodified from approved footage at source frame 228.
+The approved Observer cel enters beneath a highlighted sprinkler, and the final
+`STILL THERE.` stamp lands only after the corridor composition is established.
+
+Lint/TypeScript and bundle pass. The production manifest compiles to 19 scenes,
+15 placements and 16 assets; all 11 manifest tests pass. Seven narrative
+checkpoints were inspected. The final MP4 verifies as 216 frames, H.264
+1920x1080/24 fps with AAC audio. Artifact: `assembly-review/closing-v1.mp4`.
+Standalone only; main placements and full assembly unchanged. Zero workers and
+no new external generation. Model/effort, token usage and owner hands-on time
+unavailable. Owner review is pending; the scene is included at review status in
+`assembly-review/sprinkler-assembly-v6.mp4`.
+
+## Judgement standalone clip — 10 Sep 2026
+
+Cues 69–75 are staged as one 606-frame / 25.25-second review sequence using the
+approved installer, kitchen and office-fire plates. Native overlays trace the
+installer's room-to-bulb decision, identify the 57°C office bulb in the hot
+kitchen, trigger an early discharge, identify the 93°C kitchen bulb in the
+burning office, and show the growing fire while the head remains closed. The
+return to the installer ends with a panel that masks the source clip's incomplete
+empty-room tail and leaves the chosen head behind. Three bounded light leaks and
+one bounded activation starburst bridge the generated plates.
+
+Lint/TypeScript and bundle pass. Seven narrative checkpoints were inspected.
+The first render's five straight discharge paths read as beams, so the activation
+was rebuilt as a translucent cone with curved spray trajectories and staggered
+droplets, then rerendered. Final MP4 verifies as 606 frames, H.264
+1920x1080/24 fps with AAC audio. Artifact: `assembly-review/judgement-v1.mp4`.
+Standalone only; main placements and full assembly unchanged. Zero workers or
+new external generation. Model/effort, token usage and owner hands-on time
+unavailable. Owner approved the treatment and timing on 10 Sep 2026;
+integration remains pending.
+
+## Colour-code standalone clip — 10 Sep 2026
+
+Cues 61–68 are staged as one 550-frame / 22.92-second review sequence so the
+approved 110-frame HG-08 boiler-room interruption can be judged in context.
+Native bulb geometry covers seven colours and their Celsius/Fahrenheit ratings;
+bounded starbursts mark selection, and light leaks bridge into and out of the
+generated plate. The final return lands “a judgement — not a setting.” Main
+placements and full assembly remain unchanged.
+
+Lint/TypeScript and bundle pass. The first check caught an invalid Video style
+property; `objectFit` was moved to the component prop before the review render.
+Eight narrative checkpoints were inspected. Final-frame QA then found the
+subhead touching the judgement-card border, so it was moved into the clear gap
+above the bulb row and the clip was rerendered. Final MP4 verifies as 550 frames,
+H.264 1920x1080/24 fps with AAC audio. Artifact:
+`assembly-review/colour-code-v1.mp4`. Zero workers or new external generation;
+the existing approved boiler plate is the only generated footage. Model/effort,
+token usage and owner hands-on time unavailable.
+Owner approved the treatment and timing on 10 Sep 2026; integration remains
+pending.
+
+## Mechanism recap standalone clip — 10 Sep 2026
+
+Cues 57–60: 330 frames / 13.75 seconds with the locked VO excerpt. False
+complexity assembles around the intact sprinkler as five labelled cards, each
+connection draws in and retracts as the item is rejected. Bounded Remotion
+starbursts mark the five rejection impacts and a short light leak marks the
+semantic transition to the actual mechanism. The final macro shrinks the bubble
+and pulls back into a lit, protected building.
+
+Lint/TypeScript and bundle pass. The first check caught an effect-origin tuple
+typing error before render; it was corrected. Seven rendered checkpoints then
+found premature dashed connections, which were replaced by hidden-until-drawn
+solid paths and rerendered. Final MP4 verifies as 330 frames, H.264
+1920x1080/24 fps with AAC audio. Artifact:
+assembly-review/mechanism-recap-v1.mp4. Standalone only; main placements and full
+assembly unchanged. Zero workers or external generation.
+Model/effort, token usage and owner hands-on time unavailable. Owner approved
+the treatment and timing on 10 Sep 2026; integration remains pending.
+
+## Heat-not-smoke standalone clip — 9 Sep 2026
+
+Cues and duration remain unchanged in v2. Owner rejected v1 as visually
+primitive; its abstract nose was not recognizable. V2 uses a clearly staged and
+labelled human profile with smoke reaching the nostril, a two-lane input test
+that rejects smoke and admits local heat to the intact head, and a layered hot
+gas path that reaches the nearest of three ceiling heads. Background depth,
+secondary motion, hierarchy and transitions were increased without triggering
+the bulb early. Review artifact: assembly-review/heat-not-smoke-v2.mp4. V1 is
+superseded but retained as iteration history.
+
+Cues 37–40: 211 frames / 8.79 seconds, locked VO excerpt. One continuous visual
+argument rejects smell/smoke, confirms heat with a rising thermometer, then
+traces hot gas upward and across the ceiling to the nearest intact head. The
+later bulb activation is deliberately withheld. Frame-driven motion and named
+editable text layers follow the Remotion production guidance. Standalone review
+only; main placements unchanged and no full render. Opening QA found the smoke
+label beneath the third headline line; it was moved into clear space and the
+excerpt rerendered. Lint/TypeScript and bundle pass. The MP4 verifies as 211
+frames, H.264 1920x1080/24 fps with AAC audio; four narrative checkpoints were
+visually inspected. Artifact: assembly-review/heat-not-smoke-v1.mp4. V1 was
+superseded. Zero workers or external generation. Model/effort, token usage
+and owner hands-on time unavailable.
+
+V2 lint/TypeScript and bundle pass. The replacement MP4 verifies as 211 frames,
+H.264 1920x1080/24 fps with AAC audio. Five checkpoints were inspected. QA
+corrections widened the local-response badge and prevented the ceiling title
+from wrapping into its subhead.
+
+Owner then flagged the solid trapezoidal fire container as unlike the approved
+generated office reference. The v2 source and review artifact were updated with
+a flared wire-mesh wastebasket, visible rim, crossed lattice, loose paper and a
+contained flame. Narration, scene timing and all other treatments are unchanged.
+Lint/TypeScript and bundle pass; the revised MP4 verifies as 211 frames and the
+bin silhouette was inspected at plume entrance and final hold. Owner approved
+the revised treatment and timing on 9 Sep 2026; integration remains pending.
+
+## Trigger bridge standalone clip — 9 Sep 2026
+
+Cue 34: 66 frames / 2.75 seconds, 1920x1080 at 24 fps, locked VO excerpt.
+Reused intact Four Parts geometry with dimmed hardware, coral bulb and visible
+bubble, teal trace, and a 1.35–1.55 push settling into a hold. Remotion guidance
+informed frame-driven animation and named editable text layers. Text occupies
+its own left-hand area; no early activation or countdown.
+Lint/TypeScript and bundle pass. MP4 verified as 66 frames with AAC audio;
+beginning, middle and ending frames visually checked. Artifact:
+assembly-review/trigger-bridge-v1.mp4. Owner approved 9 Sep 2026. Main placements
+unchanged; no full render. Zero workers or external generation. Model/effort,
+token usage and owner hands-on time unavailable.
+
+## Movie myth standalone clip — 9 Sep 2026
+
+Built MovieMythScene and standalone MovieMythReview for cues 05–06: 117 frames,
+4.875 seconds, 1920x1080/24 fps with locked narration. Extracted unchanged final
+frame 240 from the approved deluge source. MOVIE MAGIC stamps in; coral COMPLETE
+NONSENSE replaces it at cue 06 as saturation/image opacity drain toward paper.
+Remotion skill informed named editable stamp layers and bounded frame-driven
+scale/rotation. No full render and no main-assembly placement changes, per user.
+
+Lint/TypeScript, build and 11 manifest tests pass. Review MP4 probes as 117 frames
+with AAC audio. Beginning, first stamp, correction and ending frames inspected.
+Artifact: assembly-review/movie-myth-v1.mp4. Owner approved 9 Sep 2026;
+integration remains pending until the remaining standalone clips are finished.
+Zero workers; no external generation or sound-effect purchase. Owner hands-on
+time, actual runtime model/effort and total token count unavailable.
+
+## Claude-scene text-layout pass — 8 Sep 2026
+
+Scope: Independence, Pipe and Ceiling Reveal; no full-pilot render per explicit
+user instruction. Kept narration, cue boundaries, font sizes and palette.
+Independence separates header/strap from a clipped action viewport; compact row
+spacing retains useful grid size. The ending numeric callout and selection ring
+now follow their head. Pipe's subtitle moves below its wrapped headline and its
+gauge shifts left for label clearance. Ceiling Reveal is unchanged after review.
+The first Independence viewport shrank the action too much; a compact-grid pass
+corrected that, followed by a callout-registration pass. Other deferred issues
+(pipe year/tile, ceiling wipe, editorial wording) remain outside this text pass.
+
+Lint/TypeScript, bundle and 11 manifest tests passed. Scene-only exports:
+`independence-text-v4-1.mp4`, `pipe-text-v2-1.mp4`; unchanged audit excerpt:
+`ceiling-reveal-text-v2-1.mp4`. Prior approvals are retained; layout revisions
+are separately marked for review. Representative text/action states inspected.
+One contact-sheet extraction failed due to the bundled FFmpeg filter support;
+individual-frame extraction succeeded. Zero workers or external generation.
+Owner time, total tokens and actual runtime model/effort unavailable.
+
+## M10/M11 and provisional scene approvals — 8 Sep 2026
+
+Owner approved Ceiling Reveal, Independence and Pipe as-is for now, explicitly
+choosing forward progress over the recorded tweaks. Scene and component statuses
+are approved; code and review notes retained. This does not approve Two Heads,
+the full pilot. M10/M11 received a separate subsequent approval below.
+
+Built `ReplacementScene.tsx` across cues 76–84 (733 frames) and
+`WaitingHeadsScene.tsx` across cues 85–90 (462 frames). Native head replacement,
+bounded spanner movement, proportionate flow bars, clipped 300-head field and
+single-bulb emphasis follow locked cues. Remotion guidance informed frame-driven
+motion and named editable headings. No generated footage or external spend.
+
+Validation: baseline and post-change lint/TypeScript pass; bundle pass;
+11/11 manifest tests pass. Both full scene excerpts rendered with narration.
+Selected beginning, transition and ending frames visually inspected for safe
+framing, marker registration and labels. Review artifacts:
+`assembly-review/replacement-v1-1.mp4` and `assembly-review/waiting-heads-v1-1.mp4`.
+Owner approved both M10/M11 visual treatments and timing on 8 Sep. Manifest
+scene/layer approvals recorded. Full v5 integration render completed in 577.74
+seconds; its draft banners predate approval. Whole-pilot approval remains pending.
+
+Coverage: 4,569/6,738 frames (67.8%) have base placements, not final approval.
+Measurement: zero workers; actual runtime model/effort, total tokens and owner
+hands-on time unavailable. No failed checks or corrective rerenders in this batch.
+Earlier v4 full render completed in 511.23 seconds, before the three newly approved
+scenes and this batch; it is retained as an older snapshot.
+
+## Two-head payoff and integration — 8 Sep 2026
+
+User authorized native two-head comparison and updated full assembly. Replaced
+the pending HG-07 plate/overlay pair with one component across cues 52–56,
+3504–3840 (337 frames). Active head continues spraying, heat/fire diminish,
+neighboring head remains sealed; a restrained arrival caption marks cue 56.
+No generated footage or external spend. Locked VO and all cue timings preserved.
+Nine manifest tests pass. Source: `src/sprinkler-pilot/TwoHeadsScene.tsx`.
+Scene review: `assembly-review/HG-07-v1-1.mp4`. Owner approval pending.
+
+Measurement: zero workers, no model override; actual model/effort and total
+token usage unavailable through task tools. Owner hands-on time unmeasured.
+Full-render elapsed time to be captured separately from implementation time.
+
+## Activation FX revision — v2 (6 Sep 2026)
+
+**Owner approval:** `activation-fx-v2-1.mp4` approved on 6 Sep 2026.
+Activation scene and mechanism layer marked approved. Full integration render
+remains pending; this approval does not cover unfinished pilot scenes.
+
+Owner accepted v1 timing and requested stronger visual effects. Added a
+nine-frame localized Remotion starburst at rupture, decaying camera kick,
+faster fragment launch, localized heat glow, edge highlights, pressure
+vibration and a tighter camera push. Vibration stops at cue 47; all cue
+boundaries remain unchanged. Jet arrival is sharper, with splash ring and
+48 deterministic varied droplets at spray onset. The approved Four Parts and
+opening edits are untouched. Review: `assembly-review/activation-fx-v2-1.mp4`.
+Owner time unmeasured. No external generation. Full integration and owner
+visual approval remain pending; this is a draft revision, not a completed pilot.
+
+## Activation sequence — draft v1 (6 Sep 2026)
+
+Implemented one persistent component for cues 41–51 (712 frames, 29.67 seconds).
+Reuses the approved Four Parts visual language without changing that approved
+scene. Macro bubble contraction leads to a static pressure hold, bounded glass
+fragments, cap displacement, jet and spray. Cue 46 remains on the mechanism
+instead of the scripted Observer cutaway, explicitly pending editorial review.
+Source: `src/sprinkler-pilot/ActivationScene.tsx`; review:
+`work/hidden-systems-pilot-01/assembly-review/activation-v1-1.mp4`.
+Owner time unmeasured; no external generation costs. This is an incomplete
+experiment pending visual approval and a full integration render.
+
+## Opening delivery insertion — Grok (6 Sep 2026)
+
+**Editorial approval:** Owner approved `opening-grok-v1.mp4`, including lighter
+trim and deluge retiming. HG-02/HG-03 editorial status is now approved.
+
+Owner-approved HG-02 and HG-03 replaced still fallbacks through manifest data,
+without composition changes. HG-02 uses source frames 0–57 at 1x. HG-03 uses
+241 frames across cues 03–04 (265 frames) at 0.909434x, continuously across
+the cue boundary. Sources muted; locked VO and all cue boundaries unchanged.
+Seven manifest tests pass, including opening duration and legacy placement
+preservation. Review excerpt: `assembly-review/opening-grok-v1.mp4` (frames
+0–420, including surrounding context). Original files preserved unchanged.
+
+## Experiment 10 visual revision — Four Parts v2 (6 Sep 2026)
+
+**Owner approval:** Four Parts v2 (`assembly-review/four-parts-v2-1.mp4`)
+approved on 6 Sep 2026. Scene, mechanism and callouts marked approved in the
+production manifest. This does not approve other unfinished pilot scenes.
+
+Owner feedback: gold-to-brighter-gold highlighting was insufficient, and motion
+was too restrained. Revised to saturated teal with inactive parts dimmed, a
+brief exploded-to-assembled introduction, drawn leader lines, eased titles and
+camera push, inward compression arrows and a bubble emphasis ring. Motion is
+frame-driven following Remotion markup guidance; cue boundaries and VO remain
+unchanged. Render only this scene for owner review before another full export.
+The completed full v3 export contains the earlier v1 visual treatment.
+
+## Experiment 10 — Manifest-driven pilot and persistent mechanism (6 Sep 2026)
+
+**Implemented:** Registered six assets and thirteen production scenes. The
+composition consumes generated placements rather than a hard-coded delivery
+map. Source approval, scene review and pending overlays remain separate.
+Approved HG-02/HG-03 anchors are labeled still fallbacks, not motion deliveries.
+One Four Parts component persists across cues 26–33 (505 frames).
+
+**Checks:** Lint, TypeScript and bundle passed. Manifest tests cover timing,
+data-only source replacement, unapproved sources, invalid source ranges and
+duplicate cue ownership. Three representative mechanism frames were visually
+inspected. The scene excerpt probes as 1920×1080, 24 fps, 505 frames with audio.
+The data-only replacement test uses a cloned manifest and existing footage;
+it did not generate or approve a new external delivery.
+
+**Review:** Mechanism drawing and motion remain draft pending owner review.
+V2 word-aligned timing is preserved. No paid generation performed.
+
+**Time:** Owner hands-on time not measured. Scene and full-render wall times
+were not separately instrumented; do not count tool wait time as owner labor
+or claim a measured production-speed improvement from this one prototype.
+
+**Artifacts:** `work/hidden-systems-pilot-01/production-manifest.json`,
+`PRODUCTION-WORKFLOW.md`, and `assembly-review/four-parts-v1.mp4`.
+
+## Experiment 09 revision - Word-aligned assembly v2 (5 Sep 2026)
+
+**Finding:** User review identified narration/card drift in v1. The old timing
+algorithm distributed word-length weights across speech intervals; it did not
+measure individual word onsets. Visual frame checks alone had not validated sync.
+
+**Correction:** Local faster-whisper base.en generated word timestamps; all 93
+cue-start words matched the unchanged script. A three-frame visual lead was
+applied. `cue-timing-aligned.json` now overrides historical timing in the builder.
+Variable corrections range from approximately -3.58 to +2.38 seconds including
+the visual lead. Approved footage spans now adapt to their corrected cue lengths.
+
+**Verification:** Lint and build passed. Full v2 render completed at 1920x1080,
+24 fps, 6738 video frames, 280.75 seconds video plus AAC padding (280.811 seconds
+container), 21,631,749 bytes. Inspected 51 extracted frames across five contact
+sheets, including all delivered clip starts and ends. V1 remains available.
+Final subjective synchronization review is still open; ASR is not sample-exact.
+
+**Evidence:** `work/hidden-systems-pilot-01/assembly-review/sprinkler-assembly-v2.mp4`,
+`assembly-review/v2/` review excerpts and QA sheets, `tools/words-asr.json`,
+and `assembly-review/timing-correction-v2.md`.
+
+**Time:** Local transcription including model loading/download took 54.74 seconds.
+Full render took several minutes and finished at 07:57:08 local; an exact separate
+render-start time was not logged. Owner review time remains unmeasured.
+
+## Experiment 09 - Sprinkler timed assembly (5 Sep 2026)
+
+**Result:** Complete review assembly, not finished animation. Registered
+`SprinklerPilotAssembly`, with 93 contiguous editorial regions covering 6738
+frames. The locked VO plays throughout; six regions use the three approved
+FLUX3 sources and other regions use explicit production placeholders.
+
+**Evidence:** `work/hidden-systems-pilot-01/assembly-review/sprinkler-assembly-v1.mp4`
+and the adjacent review excerpts and five QA contact sheets.
+
+**Verification:** Lint and build passed. Export metadata verifies H.264,
+1920x1080, 24 fps, 6738 video frames, 280.75 seconds of video and AAC audio.
+Container duration is 280.811 seconds including audio encoding padding; file
+size is 21,626,641 bytes. Inspected 51 extracted frames across movement starts,
+middles and ends plus all six approved-footage regions. Framing and review
+labels are legible at those checkpoints; no source restart at the macro split.
+
+**Editorial limits:** Cue boundaries remain estimates pending review by ear.
+Cue 74 slows five seconds of installer footage to 6.375 seconds. Cue 75 still
+lacks the planned empty-room hold. Mechanism graphics and hybrid overlays are
+not implemented. Approval of source footage is not approval of the assembled edit.
+
+**Time:** Full render approximately 7 minutes 14 seconds (07:27:34–07:34:48
+local), excluding build and QA. Owner review time was not measured and remains
+to be logged; agent implementation time is not owner time. No new generation
+credits were spent.
+
+**Next:** Review the short source excerpts and full timeline, correct semantic
+cue boundaries where necessary, then produce remaining sources in batches.
+
 ## Experiment 00 - Jointed SVG character
 
 **Question:** Can a parameterized SVG character provide inexpensive expressive animation?

@@ -3,23 +3,42 @@
 ## Phase 1 - Topic and promise
 
 1. Select a candidate that passes touched and opaque.
-2. Develop twenty title candidates and select a rung-three promise.
-3. Define one thumbnail moment and the opening visual.
-4. Promote the subject to production-ready only when those literal fields are
+2. Confirm that the same broad viewer would want adjacent subjects and that the
+   episode can stand alone without channel history.
+3. Run the bounded current-market audit in `../01-product/packaging.md`.
+4. Develop twenty title candidates and select a rung-three promise.
+5. Define three materially different thumbnail concepts, select the strongest
+   emotional moment and define the opening visual proof.
+6. Promote the subject to production-ready only when those literal fields are
    recorded in `content/candidates.csv`.
-5. Record case evidence and mechanism relevance separately from production
+7. Record case evidence and mechanism relevance separately from production
    readiness.
 
 ## Phase 2 - Script
 
+0. **Write backwards from the thumbnail moment.** It is fixed at gate 3 before
+   the script exists, so it is the given. Work back from it to the last thing
+   the viewer already knows; that is movement 1. Cut anything the chain does not
+   require. Then build the retention skeleton before writing prose. One page: movement
+   number, what the viewer learns, and the device carrying them into the next
+   movement. Run the invisible focus-group test on it at the 1, 2 and 4 minute
+   marks. See `retention-structure.md`. Retention discovered during drafting is
+   retention you got lucky on.
 1. Write six narrative beats across approximately 300–480 seconds.
 2. Target roughly 145 spoken words per minute; treat 865 words as a six-minute
    planning reference, not a quota.
 3. Make each section change the viewer's understanding.
-4. Source-check mechanism, consequence and safety claims before script approval.
-5. Record or generate the final voice-over before detailed animation timing.
-6. Divide narration into roughly thirteen movements of 20–45 seconds, then into
+4. Make the ordinary person's vulnerability legible without inventing a victim
+   or requiring a previous episode.
+5. Source-check mechanism, consequence and safety claims before script approval.
+6. Record or generate the final voice-over before detailed animation timing.
+7. Divide narration into roughly thirteen movements of 20–45 seconds, then into
    shorter visual actions where needed.
+8. Confirm every movement boundary carries a forward-facing re-hook and every
+   movement pays out at least one complete morsel. Delay without morsels is the
+   dissatisfaction failure, not a retention technique.
+9. Do not add chapters. This format is narrative-shaped and chapters invite a
+   skip straight to the beat-4 payoff.
 
 ## Phase 3 - Visual planning
 
@@ -28,8 +47,8 @@
 3. Assign each Observer beat to a held cel or short cel sequence.
 4. Create scene cards.
 5. Create contact sheets for novel or complex motion.
-6. Confirm that the thumbnail moment and first eight seconds resolve the same
-   promise.
+6. Confirm the first eight seconds *are* the thumbnail moment animated — the
+   cold open, shown not said — and that beat 1 rewinds from it.
 7. List only the missing assets.
 
 ## Phase 4 - Asset creation
@@ -79,12 +98,13 @@ This is a target to test, not a proven estimate:
 
 | Work | Target |
 |---|---:|
-| Topic, research and outline | 2.0 h |
-| Script and voice-over | 1.5 h |
-| Visual planning | 1.0 h |
-| Missing asset generation | 1.0 h |
+| Subject and source research | 1.5 h |
+| Packaging | 1.0 h |
+| Script and voice-over | 1.25 h |
+| Visual planning | 0.75 h |
+| Missing asset generation | 0.75 h |
 | Remotion assembly | 1.5 h |
-| QA, render and upload package | 1.0 h |
+| QA, render and upload package | 1.25 h |
 | Total | 8.0 h |
 
 The system fails commercially if routine episodes require extensive bespoke character drawing or shot-by-shot code repair.

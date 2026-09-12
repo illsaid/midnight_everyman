@@ -10,14 +10,28 @@ also read `docs/01-product/subject-selection.md`,
 
 - Treat Hidden Systems as the launch territory and Midnight Everyman as the
   internal production identity and editorial personality.
+- Use the internal viewer promise as the editorial through-line: **the hidden
+  device that breaks, burns, bends or bites before you do.** The exact verb may
+  change; ordinary human vulnerability and an unseen protective mechanism may
+  not.
 - Require touched, opaque and packageable before a subject becomes
   production-ready.
+- Make every episode a self-contained front door. No episode may require a
+  previous upload, although playlists and end screens may connect the library.
 - Keep the candidate pool separate from the production-ready queue.
 - Treat documented cases as prioritization, not eligibility.
 - Do not mark a case verified without a literal source, verification date and
   explicit mechanism-relevance judgment.
 - Separate verified observations from hypotheses and timestamp changing data.
 - Keep cadence undecided until the complete pilot is timed.
+- Treat low-sample analytics as directional rather than meaningless. Evaluate
+  impressions, traffic source and uncertainty; never use a fixed views-per-day
+  threshold as proof.
+- Use comments for audience language, emotional resonance and unanswered
+  questions, not as proof of recommendation-system behavior.
+- Keep launch validation organic. Withhold paid promotion because it answers a
+  different acquisition question, not because promotion is assumed to damage
+  organic recommendations.
 - Preserve the 5–8 minute, 1920 × 1080, 24 fps launch format unless a recorded
   decision explicitly supersedes it.
 

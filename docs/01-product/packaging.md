@@ -47,8 +47,23 @@ Galloway answered flatly: *"Visually."* Our Remotion pipeline makes this free â€
 the thumbnail is built from the episode's component library, so opening on it
 animated costs nothing.
 
-Note this supersedes the old "never words from the title" rule. Never *duplicate*
-a word; always resolve to the same promise.
+The roles are distinct but inseparable:
+
+- **Title:** the logical promise or unresolved human question.
+- **Thumbnail:** the emotional moment, contradiction or imminent consequence.
+- **First eight seconds:** visual proof that the click will be honored.
+
+Do not paste the full title into the thumbnail. Repeating an essential object
+noun is acceptable when comprehension requires it; forcing zero shared words is
+not an objective.
+
+## Time allocation
+
+Packaging is a gate, not a fixed percentage of production time. Do not adopt a
+51% rule or any other unsupported allocation. Complete the twenty-title pass,
+three thumbnail concepts and opening visual before detailed production begins,
+then record packaging time separately. If the promise is weak, additional
+animation hours cannot repair it.
 
 ## Volume and iteration
 
@@ -78,6 +93,23 @@ is repackageable, not dead. (Unlike short form, where a bad hook is terminal.)
   before making it. This is gate 1 restated as an economic argument.
 - **Package broader than the content.** The episode can be as specific as it
   likes; the title should not be.
+
+## Current-market audit
+
+Run a bounded audit before the pilot and after each six-episode test block:
+
+- Prefer recent long-form examples and compare each result with its own
+  channel baseline; retain older examples only as evergreen evidence.
+- Search the exact viewer promise as well as the mechanism name. Exclude repair,
+  trade-training, news and unrelated semantic matches from consumer-demand
+  conclusions.
+- Record whether success repeats across unrelated channels. One large video is
+  a clue, not a standard.
+- Audit pacing, audio, visual confirmation and emotional framing without copying
+  another channel's surface vocabulary.
+
+Do not continuously chase the market between episodes. The audit sets the
+minimum current standard; the channel contract determines what we make.
 
 ## The 80% rule â€” and its second half
 

@@ -24,6 +24,24 @@ different thing. See `packaging.md`.
 
 One or two gates is not a subject. It is a topic.
 
+## Audience continuity and durability
+
+The channel is held together by one emotional-curiosity contract, not one
+industry: **the hidden device that breaks, burns, bends or bites before you do.**
+Before adding a new subject family, ask:
+
+1. Would the same stranger who clicked the last strong package plausibly click
+   this one?
+2. Can this episode stand alone without a callback, prerequisite or channel
+   history?
+3. Can the promise support at least twelve adjacent candidates we would
+   willingly make, even though they need not repeat the same object or title
+   structure?
+
+This is the useful form of the “success jail” test. Do not commit to one hundred
+clones of a hit. Do reject a hit that attracts the wrong audience or has no
+durable neighborhood.
+
 ### Passes
 Lift · fire alarm · toilet · sprinkler head · escalator comb plate · fire door ·
 seatbelt pretensioner · aircraft oxygen mask · circuit breaker · smoke detector ·

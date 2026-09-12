@@ -1,5 +1,23 @@
 # Decision record
 
+## D-033 - Sprinkler pilot timing and assembly review
+
+**Decision (5 Sep 2026):** Implement the user-approved sprinkler shooting plan
+with its locked `sprinkvo2.mp3` narration, 6738 frames at 24 fps (4:40.75).
+This pilot-specific duration supersedes the general 5–8 minute target.
+
+**Decision:** Use the three user-approved FLUX3 clips (HG-01, HG-09, HG-12 v2)
+in a complete timed assembly. Label the nine missing source units and unbuilt
+Remotion graphics as placeholders. Review the footage against the VO before
+commissioning more generated sources. The user approved this assembly plan.
+
+**Scope:** Review footage is staged under `public/sprinkler-assembly/` with source
+provenance retained in the pilot folder. It is not promoted into the reusable
+approved-object or Observer libraries. Hybrid overlays remain unfinished even
+when their underlying source clip is approved.
+
+**Authority:** `work/hidden-systems-pilot-01/README.md` and `cues-v2.csv`.
+
 ## D-001 - Faceless production
 
 **Decision:** The channel will not use the creator's likeness.
@@ -275,3 +293,38 @@ source snapshot and must not evolve independently.
 **Canonical path:** `C:\Users\dicku\Videos\midnight-everyman`
 
 **Status:** Canonical organization decision.
+
+## D-031 - One emotional-curiosity contract
+
+**Decision:** Hold every launch episode to the internal viewer promise: **the
+hidden device that breaks, burns, bends or bites before you do.** The exact
+mechanism and industry may vary; ordinary human vulnerability, an unseen
+protective intervention and visual causal explanation may not.
+
+**Decision:** Every upload must be self-contained. It may connect to playlists,
+end screens and adjacent episodes after delivering its own complete promise,
+but it cannot require channel history for comprehension.
+
+**Reason:** Mechanism taxonomy alone produces information without pathos. The
+stable audience proposition is the experience of discovering what silently
+protects ordinary life.
+
+**Status:** Canonical editorial contract.
+
+## D-032 - Organic and scale-aware launch validation
+
+**Decision:** Keep the pilot and initial audience-learning block organic. Do not
+use paid promotion to validate organic packaging or recommendation fit. This is
+an experimental boundary, not a claim that paid promotion damages organic
+recommendations.
+
+**Decision:** Use no fixed views-per-day threshold for analytics. Interpret
+click-through rate by impressions and traffic source, treat small samples as
+directional, use native concurrent thumbnail tests, and mine comments for
+language and questions rather than recommendation-system causality.
+
+**Decision:** Defer an owned-audience product until repeated audience behavior
+reveals a specific recurring value worth subscribing to.
+
+**Status:** Canonical launch-learning policy. Revisit after the six-episode
+review.

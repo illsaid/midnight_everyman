@@ -1,0 +1,114 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 900,
+      "h": 1120
+    },
+    {
+      "file": "Palette.dc.html",
+      "x": 980,
+      "y": 0,
+      "w": 900,
+      "h": 1120
+    },
+    {
+      "file": "LineGrammar.dc.html",
+      "x": 1960,
+      "y": 0,
+      "w": 900,
+      "h": 1120
+    },
+    {
+      "file": "Type.dc.html",
+      "x": 2940,
+      "y": 0,
+      "w": 900,
+      "h": 1120
+    },
+    {
+      "file": "Frame.dc.html",
+      "x": 0,
+      "y": 1240,
+      "w": 980,
+      "h": 1180
+    },
+    {
+      "file": "Motion.dc.html",
+      "x": 1060,
+      "y": 1240,
+      "w": 980,
+      "h": 1180
+    },
+    {
+      "file": "FrameDevice.dc.html",
+      "x": 2120,
+      "y": 1240,
+      "w": 980,
+      "h": 1180
+    },
+    {
+      "file": "Ideation.dc.html",
+      "x": 3180,
+      "y": 1240,
+      "w": 980,
+      "h": 1180
+    },
+    {
+      "file": "Beats.dc.html",
+      "x": 0,
+      "y": 2540,
+      "w": 1500,
+      "h": 1000
+    },
+    {
+      "file": "Episode.dc.html",
+      "x": 1580,
+      "y": 2540,
+      "w": 1500,
+      "h": 900
+    },
+    {
+      "file": "Script.dc.html",
+      "x": 3180,
+      "y": 2540,
+      "w": 980,
+      "h": 1180
+    }
+  ],
+  "annotations": [
+    {
+      "id": "scope",
+      "x": 0,
+      "y": -300,
+      "w": 540,
+      "text": "SCOPE, 2 Sep 2026. This canvas is the DIAGRAM layer of Midnight Everyman / Hidden Systems, repo C:\\\\Users\\\\dicku\\\\Videos\\\\midnight-everyman. House Style Bible v2 (everyman_bible_v2/) is authoritative for the Observer, palette and texture - this canvas now uses its hexes and Courier Prime. Subject selection, thumbnail and packaging sheets were retired here; they live in docs/01-product/ and docs/02-creative/."
+    },
+    {
+      "id": "format",
+      "x": 1060,
+      "y": -300,
+      "w": 520,
+      "text": "1920x1080 at 24 fps, 5-8 minutes, 300-480 s (7200-11520 frames). Frame rate is 24, not 30: see docs/01-product/format.md. Every motion value on sheet 06 is a whole frame count because Remotion is frame-based - the old millisecond figures landed on fractional frames and would silently round. Cadence is UNDECIDED until the pilot is timed."
+    },
+    {
+      "id": "references",
+      "x": 2120,
+      "y": -300,
+      "w": 480,
+      "text": "Reference lineage: Eames, A Communications Primer (1953) - Herbert Bayer, World Geo-Graphic Atlas (1953) - Ladislav Sutnar, Catalog Design Progress - Erik Nitsche's General Dynamics series (1955). All explanatory diagramming. The character layer draws on UPA-era limited animation instead; the two meet at the palette."
+    },
+    {
+      "id": "read-order",
+      "x": 3180,
+      "y": -300,
+      "w": 480,
+      "text": "Read order: rules (01) -> palette, line grammar, type -> frame + motion + frame device -> beats -> worked episode -> ideation (10) -> script (11). Three hard gates admit a subject - touched, opaque, packageable - and they live in docs/01-product/subject-selection.md, not here. Everyman is not in the frame layout: he replaces the whole composition at the open and close."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

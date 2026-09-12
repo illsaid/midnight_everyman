@@ -6,6 +6,10 @@
 - A selected rung-three title, thumbnail moment and opening visual are recorded.
 - The title, thumbnail and first eight seconds make the same honest promise.
 - A general viewer can identify the mechanism and stake without specialist context.
+- The human vulnerability or violated assumption is legible before specialist
+  mechanism language appears.
+- The episode requires no previous upload, while still serving the same viewer
+  contract as the production-ready queue.
 - The topic supports a causal explanation rather than a list of trivia.
 
 ## Gate 2 - Script
@@ -61,7 +65,11 @@ AI self-scoring is advisory only. A numerical score such as 9/10 or 9.9/10 is no
 
 - The thumbnail depicts one mistake, contradiction or consequence rather than summarizing the episode.
 - Its dominant action remains readable at phone-feed size.
-- Text is omitted unless it provides necessary information; any text is brief, neutral and does not repeat the title.
+- Text is omitted unless it provides necessary information; any text is brief,
+  neutral and does not restate the full title.
+- The title carries the logical promise, the thumbnail carries the emotional
+  moment and the opening supplies visual proof; they do not compete with one
+  another.
 - Red arrows, circles, shocked-face cutouts and alarm words are absent unless a specific informational need justifies them.
 - If Everyman appears, he belongs to the scene rather than functioning as a pasted-on reaction badge.
 - A, B and C variants differ in concept, not merely color or typography.

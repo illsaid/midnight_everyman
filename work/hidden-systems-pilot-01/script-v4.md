@@ -1,0 +1,48 @@
+# Sprinkler pilot — script v4 (polished)
+
+Mechanism explained once, not twice. The dramatised activation keeps the full
+sequence; the anatomy pass is now bare naming.
+
+---
+
+You've seen it in movies a hundred times. Someone holds a lighter up to a sprinkler head. The entire building erupts in a wild torrent of water — every sprinkler head, all at once. Everyone is soaked, papers fly, and the hero escapes in the confusion. It's a wonderful scene. It is also complete nonsense.
+
+Here is what actually happens. One sprinkler head opens. That one. The one directly above the fire. Every other head on that ceiling stays sealed, dry, and entirely uninterested.
+
+Because there is no system. No panel deciding which heads to open. Every head on that ceiling is its own separate machine, and each one knows precisely one thing: the temperature of the air immediately around it. A fire in the corner of an office is a local event, not a building-wide one. And in a real fire, the usual number of heads that open is one. Occasionally two.
+
+So the question isn't how they all know. It's what is inside that one, that isn't inside the other three hundred.
+
+Look up. There it is: a small brass fitting you have walked underneath ten thousand times without once considering it. Above it, a pipe. Inside the pipe, water — at high pressure, directly over your head, since the day the building went up.
+
+Four parts. A frame, screwed into the pipe. A cap, sealing the opening. A deflector — that flat, notched disc on the bottom. And wedged between the cap and the frame, under permanent compression, a glass bulb about the size of a grain of rice.
+
+Inside the bulb: a glycerine-based liquid, and one small bubble of air.
+
+That's the trigger. Now watch it work.
+
+A bin ignites. Smoke rises — and does nothing at all. Sprinklers cannot smell. They react to heat, and only heat.
+
+The hot gas spreads out across the ceiling and reaches the nearest head. The liquid in the bulb begins to expand. The bubble shrinks. Ten seconds. Twenty. The bubble is gone now, the liquid has nowhere left to go, and the glass is holding — because glass, it turns out, is remarkably stubborn.
+
+Until it isn't.
+
+The bulb shatters from the inside. The cap drops away. The water, which has been waiting patiently for about thirty years, leaves — strikes the deflector, breaks into a cone of spray, and the fire, which had been roughly doubling in size every half minute, stops doubling.
+
+Two metres away, the next head sits in the cool air doing absolutely nothing. It will still be doing nothing when the fire brigade arrives.
+
+And that is the whole mechanism. No sensor. No wiring. No computer. No control panel. No decision of any kind. A bubble got smaller, and a building got saved.
+
+Now — those bulbs are colour-coded, because of course they are. Orange opens at fifty-seven degrees. Red at sixty-eight. Yellow, seventy-nine. Green, ninety-three. Then blue, purple and black, for rooms where ninety-three degrees is considered a normal Tuesday.
+
+And that colour is not a setting. It's a judgement. Somebody had to choose the bulb for the room. Put an office-rated head above a deep fat fryer and it opens every lunchtime. Put a kitchen-rated head in a quiet office and the room can be well alight before it notices anything unusual. So somewhere, years ago, a person had to guess how hot your ceiling gets on an ordinary day — and then leave.
+
+And when one does finally go, it doesn't reset. There's no switch. That head is finished. Somebody arrives with a spanner, screws in a new one, and the new one starts waiting too.
+
+As for the water damage everybody worries about — a sprinkler head puts out somewhere around sixty litres a minute. A firefighter's hose puts out ten to twenty times that. The sprinkler isn't the flood. The sprinkler is what prevents the flood.
+
+So the ceiling above you is not one system. It's several hundred entirely separate ones, each with its own small glass fuse, each minding its own business, none of them talking to each other. Nothing up there is watching you. Nothing is deciding anything.
+
+It is a piece of glass, holding back a river, waiting for something to get warm.
+
+Look up. It's still there.

@@ -1,0 +1,736 @@
+{
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 6738,
+  "voiceover": "sprinkler-assembly/registry/vo-locked.mp3",
+  "scenes": [
+    {
+      "id": "HG-01",
+      "cues": [
+        "01"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "plate",
+          "kind": "media",
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "id": "HG-02",
+      "cues": [
+        "02"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "plate",
+          "kind": "media",
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "id": "HG-03",
+      "cues": [
+        "03",
+        "04"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "plate",
+          "kind": "media",
+          "status": "approved"
+        }
+      ]
+    },
+    {
+      "id": "movie-myth",
+      "cues": [
+        "05",
+        "06"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "movie-myth"
+        }
+      ]
+    },
+    {
+      "id": "ceiling-reveal",
+      "cues": [
+        "07"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "mechanism",
+          "kind": "component",
+          "status": "approved",
+          "component": "ceiling-reveal"
+        }
+      ]
+    },
+    {
+      "id": "HG-04",
+      "cues": [
+        "08",
+        "09",
+        "10"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "hg04"
+        }
+      ]
+    },
+    {
+      "id": "independence",
+      "cues": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "mechanism",
+          "kind": "component",
+          "status": "approved",
+          "component": "independence"
+        }
+      ]
+    },
+    {
+      "id": "HG-05",
+      "cues": [
+        "20",
+        "21",
+        "22"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "hg05"
+        }
+      ]
+    },
+    {
+      "id": "pipe",
+      "cues": [
+        "23",
+        "24",
+        "25"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "mechanism",
+          "kind": "component",
+          "status": "approved",
+          "component": "pipe"
+        }
+      ]
+    },
+    {
+      "id": "four-parts",
+      "cues": [
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "mechanism",
+          "kind": "component",
+          "status": "approved",
+          "component": "four-parts"
+        },
+        {
+          "id": "callouts",
+          "kind": "overlay",
+          "status": "approved",
+          "implementedBy": "mechanism"
+        }
+      ]
+    },
+    {
+      "id": "trigger-bridge",
+      "cues": [
+        "34"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "trigger-bridge"
+        }
+      ]
+    },
+    {
+      "id": "HG-06",
+      "cues": [
+        "35",
+        "36"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "hg06"
+        }
+      ]
+    },
+    {
+      "id": "heat-not-smoke",
+      "cues": [
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "heat-not-smoke"
+        }
+      ]
+    },
+    {
+      "id": "activation",
+      "cues": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "mechanism",
+          "kind": "component",
+          "status": "approved",
+          "component": "activation"
+        }
+      ]
+    },
+    {
+      "id": "HG-07",
+      "cues": [
+        "52",
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "wet-dry",
+          "kind": "component",
+          "status": "approved",
+          "component": "two-heads"
+        }
+      ]
+    },
+    {
+      "id": "mechanism-recap",
+      "cues": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "mechanism-recap"
+        }
+      ]
+    },
+    {
+      "id": "colour-code",
+      "cues": [
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "colour-code"
+        }
+      ]
+    },
+    {
+      "id": "judgement",
+      "cues": [
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74",
+        "75"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "approved",
+          "component": "judgement"
+        }
+      ]
+    },
+    {
+      "id": "replacement",
+      "cues": [
+        "76",
+        "77",
+        "78",
+        "79",
+        "80",
+        "81",
+        "82",
+        "83",
+        "84"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "mechanism",
+          "kind": "component",
+          "status": "approved",
+          "component": "replacement"
+        }
+      ]
+    },
+    {
+      "id": "waiting-heads",
+      "cues": [
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90"
+      ],
+      "editorialStatus": "approved",
+      "layers": [
+        {
+          "id": "mechanism",
+          "kind": "component",
+          "status": "approved",
+          "component": "waiting-heads"
+        }
+      ]
+    },
+    {
+      "id": "HG-12",
+      "cues": [
+        "91",
+        "92",
+        "93"
+      ],
+      "editorialStatus": "review",
+      "layers": [
+        {
+          "id": "scene",
+          "kind": "component",
+          "status": "review",
+          "component": "closing"
+        }
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "id": "HG-01-plate-0",
+      "scene": "HG-01",
+      "kind": "video",
+      "from": 0,
+      "duration": 50,
+      "src": "sprinkler-assembly/registry/cinema-v1.mp4",
+      "sourceStart": 0,
+      "playbackRate": 1,
+      "crop": "cover",
+      "focalPoint": [
+        50,
+        50
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "HG-02-plate-0",
+      "scene": "HG-02",
+      "kind": "video",
+      "from": 50,
+      "duration": 58,
+      "src": "sprinkler-assembly/registry/lighter-grok-v1.mp4",
+      "sourceStart": 0,
+      "playbackRate": 1,
+      "crop": "cover",
+      "focalPoint": [
+        50,
+        50
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "HG-03-plate-0",
+      "scene": "HG-03",
+      "kind": "video",
+      "from": 108,
+      "duration": 265,
+      "src": "sprinkler-assembly/registry/deluge-grok-v1.mp4",
+      "sourceStart": 0,
+      "playbackRate": 0.909433962264151,
+      "crop": "cover",
+      "focalPoint": [
+        50,
+        50
+      ],
+      "status": "approved"
+    },
+    {
+      "id": "movie-myth-scene",
+      "scene": "movie-myth",
+      "kind": "component",
+      "from": 373,
+      "duration": 117,
+      "component": "movie-myth",
+      "status": "approved"
+    },
+    {
+      "id": "ceiling-reveal-mechanism",
+      "scene": "ceiling-reveal",
+      "kind": "component",
+      "from": 490,
+      "duration": 55,
+      "component": "ceiling-reveal",
+      "status": "approved"
+    },
+    {
+      "id": "HG-04-scene",
+      "scene": "HG-04",
+      "kind": "component",
+      "from": 545,
+      "duration": 240,
+      "component": "hg04",
+      "status": "approved"
+    },
+    {
+      "id": "independence-mechanism",
+      "scene": "independence",
+      "kind": "component",
+      "from": 785,
+      "duration": 728,
+      "component": "independence",
+      "status": "approved"
+    },
+    {
+      "id": "HG-05-scene",
+      "scene": "HG-05",
+      "kind": "component",
+      "from": 1513,
+      "duration": 191,
+      "component": "hg05",
+      "status": "approved"
+    },
+    {
+      "id": "pipe-mechanism",
+      "scene": "pipe",
+      "kind": "component",
+      "from": 1704,
+      "duration": 204,
+      "component": "pipe",
+      "status": "approved"
+    },
+    {
+      "id": "four-parts-mechanism",
+      "scene": "four-parts",
+      "kind": "component",
+      "from": 1908,
+      "duration": 505,
+      "component": "four-parts",
+      "status": "approved"
+    },
+    {
+      "id": "trigger-bridge-scene",
+      "scene": "trigger-bridge",
+      "kind": "component",
+      "from": 2413,
+      "duration": 66,
+      "component": "trigger-bridge",
+      "status": "approved"
+    },
+    {
+      "id": "HG-06-scene",
+      "scene": "HG-06",
+      "kind": "component",
+      "from": 2479,
+      "duration": 102,
+      "component": "hg06",
+      "status": "approved"
+    },
+    {
+      "id": "heat-not-smoke-scene",
+      "scene": "heat-not-smoke",
+      "kind": "component",
+      "from": 2581,
+      "duration": 211,
+      "component": "heat-not-smoke",
+      "status": "approved"
+    },
+    {
+      "id": "activation-mechanism",
+      "scene": "activation",
+      "kind": "component",
+      "from": 2792,
+      "duration": 712,
+      "component": "activation",
+      "status": "approved"
+    },
+    {
+      "id": "HG-07-wet-dry",
+      "scene": "HG-07",
+      "kind": "component",
+      "from": 3504,
+      "duration": 337,
+      "component": "two-heads",
+      "status": "approved"
+    },
+    {
+      "id": "mechanism-recap-scene",
+      "scene": "mechanism-recap",
+      "kind": "component",
+      "from": 3841,
+      "duration": 330,
+      "component": "mechanism-recap",
+      "status": "approved"
+    },
+    {
+      "id": "colour-code-scene",
+      "scene": "colour-code",
+      "kind": "component",
+      "from": 4171,
+      "duration": 550,
+      "component": "colour-code",
+      "status": "approved"
+    },
+    {
+      "id": "judgement-scene",
+      "scene": "judgement",
+      "kind": "component",
+      "from": 4721,
+      "duration": 606,
+      "component": "judgement",
+      "status": "approved"
+    },
+    {
+      "id": "replacement-mechanism",
+      "scene": "replacement",
+      "kind": "component",
+      "from": 5327,
+      "duration": 733,
+      "component": "replacement",
+      "status": "approved"
+    },
+    {
+      "id": "waiting-heads-mechanism",
+      "scene": "waiting-heads",
+      "kind": "component",
+      "from": 6060,
+      "duration": 462,
+      "component": "waiting-heads",
+      "status": "approved"
+    },
+    {
+      "id": "HG-12-scene",
+      "scene": "HG-12",
+      "kind": "component",
+      "from": 6522,
+      "duration": 216,
+      "component": "closing",
+      "status": "review"
+    }
+  ],
+  "reviewRanges": [
+    {
+      "scene": "HG-01",
+      "from": 0,
+      "to": 50
+    },
+    {
+      "scene": "HG-02",
+      "from": 50,
+      "to": 108
+    },
+    {
+      "scene": "HG-03",
+      "from": 108,
+      "to": 373
+    },
+    {
+      "scene": "movie-myth",
+      "from": 373,
+      "to": 490
+    },
+    {
+      "scene": "ceiling-reveal",
+      "from": 490,
+      "to": 545
+    },
+    {
+      "scene": "HG-04",
+      "from": 545,
+      "to": 785
+    },
+    {
+      "scene": "independence",
+      "from": 785,
+      "to": 1513
+    },
+    {
+      "scene": "HG-05",
+      "from": 1513,
+      "to": 1704
+    },
+    {
+      "scene": "pipe",
+      "from": 1704,
+      "to": 1908
+    },
+    {
+      "scene": "four-parts",
+      "from": 1908,
+      "to": 2413
+    },
+    {
+      "scene": "trigger-bridge",
+      "from": 2413,
+      "to": 2479
+    },
+    {
+      "scene": "HG-06",
+      "from": 2479,
+      "to": 2581
+    },
+    {
+      "scene": "heat-not-smoke",
+      "from": 2581,
+      "to": 2792
+    },
+    {
+      "scene": "activation",
+      "from": 2792,
+      "to": 3504
+    },
+    {
+      "scene": "HG-07",
+      "from": 3504,
+      "to": 3841
+    },
+    {
+      "scene": "mechanism-recap",
+      "from": 3841,
+      "to": 4171
+    },
+    {
+      "scene": "colour-code",
+      "from": 4171,
+      "to": 4721
+    },
+    {
+      "scene": "judgement",
+      "from": 4721,
+      "to": 5327
+    },
+    {
+      "scene": "replacement",
+      "from": 5327,
+      "to": 6060
+    },
+    {
+      "scene": "waiting-heads",
+      "from": 6060,
+      "to": 6522
+    },
+    {
+      "scene": "HG-12",
+      "from": 6522,
+      "to": 6738
+    }
+  ],
+  "assetHashes": {
+    "deluge-freeze-v1": "144b906a6e83671b45b35330a744d1b07ecd4d186f0571d6135e93b1c1b557f6",
+    "ceiling-still-v1": "df86912aee844d50723ac8a5be51718b244b7aa7642c13ab0b193556a949faa1",
+    "corridor-grok-v1": "1befcd538c7b1a60c20e4a918f214dad321a1198efb1116f10065b28b07c3b9a",
+    "corridor-empty-v1": "a820dcb063b39095adb9e009bdca4635dcb3409eda9c81694d7641ea6a9a66bc",
+    "bin-fire-grok-v1": "d3dfe3274cde4cc9ec3e83ef5dd6ea8eebe927d5ba81b03939c05cf1074c2a67",
+    "boiler-grok-v1": "144777acf574d3e314dd22cc9e789e43e1f3564ecbe51a446018b2e5cbe0f95a",
+    "kitchen-grok-v1": "37ede587ea01c7b57c7f62e04b8aaecd3cddaaa844e5988b6009a55af80e01a0",
+    "office-fire-grok-v1": "d75587d8f7e5167abf63bc690c619445a1d76abc4b979ddf86b96b558f11ffa3",
+    "lighter-grok-v1": "f192a1146cf874f8d9e2612a366635af9b208167823bacdfc85fb712c679ecd2",
+    "deluge-grok-v1": "f9d6dc1f1964397c83c0fdf689853a1e79e3ff227f4963d8dc2f1fa17d881e89",
+    "vo-locked": "7854bba098b2f2921b43b21e48efbefcf06c378fdba0bb1723df71f2588c7f6e",
+    "cinema-v1": "655e87483300202a5f7479dc6ab052f023673a3168e674d04cd9b12a56f0129c",
+    "installer-v1": "7442a7e8022e4ad0dd487f6536e300a7cad7a8b4f06a57dfbc688b845975466c",
+    "macro-v2": "54b0e0c1dae0013ab0de4606faaa5c9e192fbf579909a6aad6df5880e0db9694",
+    "lighter-anchor-v1": "d5de1d7003238f023355332c2adae78d293d8151560222e609c82249d0317dac",
+    "deluge-anchor-v1": "776b04128934d2c0985a2b047ed10127cfbcbf339ffb0422965fa74306253fc0"
+  }
+}

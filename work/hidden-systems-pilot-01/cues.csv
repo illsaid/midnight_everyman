@@ -1,0 +1,94 @@
+cue,movement,t_in,t_out,dur,f_in,f_out,frames,tool,observer,onscreen,description,vo,status
+01,M01,0.0,2.27,2.27,0,55,55,H,cinema,,"Cinema interior, UPA flat. Observer in a seat, up-lit by screen glow, delighted",You've seen it in movies a hundred times.,approved
+02,M01,2.27,5.32,3.04,55,128,73,H,,,"Hand raises a lighter beneath a sprinkler head, flame flickers, ominous",Someone holds a lighter up to a sprinkler head.,slug
+03,M01,5.32,11.18,5.86,128,268,140,H,,,"Wide: every head on the ceiling bursts at once, full deluge, movie logic","The entire building erupts in a wild torrent of water — every sprinkler head, all at once.",slug
+04,M01,11.18,15.84,4.66,268,380,112,H,soaked,,"Observer soaked, papers flying past him, hero silhouette runs through spray","Everyone is soaked, papers fly, and the hero escapes in the confusion.",slug
+05,M01,15.84,17.81,1.97,380,427,47,R,,MOVIE MAGIC,Freeze frame; stamp lands over the still,It's a wonderful scene.,slug
+06,M01,17.81,19.43,1.62,427,466,39,R,,COMPLETE NONSENSE,Hard cut. Coral stamp. Colour drains out of the scene to paper,It is also complete nonsense.,slug
+07,M02,19.43,21.87,2.44,466,525,59,R,,,Wipe from paper to a real ceiling; camera settles,Here is what actually happens.,slug
+08,M02,21.87,23.81,1.95,525,572,47,H,,,Real ceiling: ONE head firing. Everything else dry and still,One sprinkler head opens.,slug
+09,M02,23.81,27.05,3.23,572,649,77,H,,,"Push in on the single active head, directly above the fire",That one. The one directly above the fire.,slug
+10,M02,27.05,31.71,4.67,649,761,112,H,,,"Slow pan across rows of sealed, dry heads. Nothing happening","Every other head on that ceiling stays sealed, dry, and entirely uninterested.",slug
+11,M03,31.71,36.31,4.6,761,871,110,R,,NO CONTROL PANEL,"Control-panel icon assembles, then is struck through",Because there is no system. No panel deciding which heads to open.,slug
+12,M03,36.31,40.47,4.16,871,971,100,R,,,Ceiling grid: each head resolves into an isolated node. No connecting lines are ever drawn,"Every head on that ceiling is its own separate machine, and",slug
+13,M03,40.47,42.42,1.95,971,1018,47,R,,ONE THING,"One node scales up, alone in frame",each one knows precisely one thing:,slug
+14,M03,42.42,45.64,3.21,1018,1095,77,R,,local air temperature,Thermometer ring closes around the single node,the temperature of the air immediately around it.,slug
+15,M03,45.64,50.97,5.33,1095,1223,128,R,,,Top-down floorplan. Fire icon in one corner; heat gradient stays local,"A fire in the corner of an office is a local event, not a building-wide one.",slug
+16,M03,50.97,55.31,4.34,1223,1327,104,R,,1,Counter appears beside the active head,"And in a real fire, the usual number of heads that open is one.",slug
+17,M03,55.31,56.76,1.45,1327,1362,35,R,,2 -> 1,"Counter flickers to 2, settles back to 1",Occasionally two.,slug
+18,M03,56.76,59.35,2.59,1362,1425,63,R,,,Grid recedes; the question opens up,So the question isn't how they all know.,slug
+19,M03,59.35,64.73,5.38,1425,1554,129,R,,THAT ONE  /  THE OTHER 300,Split comparison locks in,"It's what is inside that one, that isn't inside the other three hundred.",slug
+20,M04,64.73,65.67,0.94,1554,1576,22,H,walks-under,,Corridor. Observer walks beneath the head and does not look up. Camera holds on the head after he exits,Look up.,slug
+21,M04,65.67,67.61,1.94,1576,1623,47,H,,,"Macro: brass fitting, shallow focus, ordinary ceiling behind",There it is: a small brass fitting,slug
+22,M04,67.61,73.22,5.61,1623,1757,134,H,walks-under,,"Same corridor, second pass. He walks under again. Still doesn't look",you have walked underneath ten thousand times without once considering it.,slug
+23,M04,73.22,74.16,0.94,1757,1780,23,R,,,"Cutaway: ceiling tile peels back, pipe revealed above","Above it, a pipe.",slug
+24,M04,74.16,78.52,4.36,1780,1884,104,R,,HIGH PRESSURE,Water fills the pipe; pressure gauge swings,"Inside the pipe, water — at high pressure, directly over your head,",slug
+25,M04,78.52,81.41,2.89,1884,1954,70,R,,SINCE 1994,Date tick backwards to construction,since the day the building went up.,slug
+26,M05,81.41,82.03,0.62,1954,1969,15,R,,FOUR PARTS,Exploded view assembles,Four parts.,slug
+27,M05,82.03,84.11,2.08,1969,2019,50,R,,1 · FRAME,"Frame highlighted, screwed into the pipe","A frame, screwed into the pipe.",slug
+28,M05,84.11,86.36,2.25,2019,2073,54,R,,2 · CAP,"Cap highlighted, sealing the opening","A cap, sealing the opening.",slug
+29,M05,86.36,89.69,3.33,2073,2152,79,R,,3 · DEFLECTOR,Deflector disc highlighted; notches visible,"A deflector — that flat, notched disc on the bottom.",slug
+30,M05,89.69,93.88,4.2,2152,2253,101,R,,4 · BULB — under permanent compression,Compression arrows animate between cap and frame,"And wedged between the cap and the frame, under permanent compression,",slug
+31,M05,93.88,97.18,3.3,2253,2332,79,R,,~ grain of rice,Scale comparison beside the bulb,a glass bulb about the size of a grain of rice.,slug
+32,M05,97.18,99.77,2.59,2332,2395,63,R,,glycerine-based liquid,Macro cutaway; liquid fills the bulb,"Inside the bulb: a glycerine-based liquid,",slug
+33,M05,99.77,102.61,2.83,2395,2463,68,R,,,"One air bubble appears inside the liquid, labelled",and one small bubble of air.,slug
+34,M06,102.61,105.12,2.51,2463,2523,60,R,,,Mechanism clock starts. Beat before the fire,That's the trigger. Now watch it work.,slug
+35,M06,105.12,106.29,1.17,2523,2551,28,H,oblivious,,"Office. Observer at a desk, back turned. Waste bin catches fire behind him",A bin ignites.,slug
+36,M06,106.29,108.95,2.66,2551,2615,64,H,oblivious,,Smoke curls up past his shoulder. He does not notice,Smoke rises — and does nothing at all.,slug
+37,M06,108.95,110.66,1.71,2615,2656,41,R,,NO SMOKE DETECTION,Nose icon struck through,Sprinklers cannot smell.,slug
+38,M06,110.66,113.06,2.4,2656,2713,57,R,,HEAT ONLY,Thermometer confirms,"They react to heat, and only heat.",slug
+39,M06,113.06,115.72,2.66,2713,2777,64,R,,,Hot gas plume spreads flat across the ceiling plane,The hot gas spreads out across the ceiling and,slug
+40,M06,115.72,117.77,2.06,2777,2827,50,R,,,Plume reaches the nearest head node,reaches the nearest head.,slug
+41,M06,117.77,121.05,3.27,2827,2905,78,R,,,Macro: liquid expands inside the bulb,The liquid in the bulb begins to expand.,slug
+42,M06,121.05,123.11,2.06,2905,2955,50,R,,,The bubble shrinks,The bubble shrinks.,slug
+43,M06,123.11,124.53,1.42,2955,2989,34,R,,0:10   0:20,Countdown ticks,Ten seconds. Twenty.,slug
+44,M06,124.53,129.22,4.69,2989,3101,112,R,,,Bubble gone. Liquid pressed hard against the glass,"The bubble is gone now, the liquid has nowhere left to go, and the",slug
+45,M06,129.22,130.26,1.04,3101,3126,25,H,,,"Macro hero: intact bulb under visible strain, light stressing through it",glass is holding —,slug
+46,M06,130.26,134.73,4.47,3126,3233,107,R,cel:thinkChin,,Observer beat — unimpressed by how stubborn glass is,"because glass, it turns out, is remarkably stubborn.",slug
+47,M06,134.73,136.06,1.33,3233,3265,32,R,,,Hard suspense beat. Everything stops,Until it isn't.,slug
+48,M07,136.06,138.66,2.6,3265,3328,63,H,,,"Slow-mo: the bulb shatters from the inside, shards outward",The bulb shatters from the inside.,slug
+49,M07,138.66,139.75,1.09,3328,3354,26,H,,,The cap drops away,The cap drops away.,slug
+50,M07,139.75,145.14,5.39,3354,3483,129,R,,WAITING 30 YEARS,Water released; the wait counter zeroes,"The water, which has been waiting patiently for about thirty years, leaves —",slug
+51,M07,145.14,148.32,3.18,3483,3560,77,H,,,Water strikes the deflector and breaks into a full cone of spray,"strikes the deflector, breaks into a cone of spray,",slug
+52,M07,148.32,152.72,4.4,3560,3665,105,R,,,"Exponential fire curve climbing, doubling every half minute","and the fire, which had been roughly doubling in size every half minute,",slug
+53,M07,152.72,153.54,0.82,3665,3685,20,R,,,Curve snaps flat the instant water lands,stops doubling.,slug
+54,M07,153.54,158.28,4.74,3685,3799,114,H,under-dry,,"Observer stands under the DRY neighbouring head, looking across at the wet one","Two metres away, the next head sits in the cool air doing absolutely nothing.",slug
+55,M07,158.28,160.53,2.25,3799,3853,54,H,under-dry,,Held. Nothing happens. He waits,It will still be doing nothing,slug
+56,M07,160.53,162.2,1.67,3853,3893,40,H,,,"Fire brigade arrive. Exterior, UPA flat",when the fire brigade arrives.,slug
+57,M07,162.2,164.45,2.24,3893,3947,54,R,,THE WHOLE MECHANISM,Checklist opens,And that is the whole mechanism.,slug
+58,M07,164.45,166.25,1.81,3947,3990,43,R,,No sensor · No wiring · No computer,Items strike in one at a time,No sensor. No wiring. No computer.,slug
+59,M07,166.25,169.07,2.82,3990,4058,68,R,,No control panel · No decision of any kind,Final items settle,No control panel. No decision of any kind.,slug
+60,M07,169.07,172.76,3.69,4058,4146,88,R,,,Return to the macro bubble; it shrinks to nothing. Pull wide to a calm building,"A bubble got smaller, and a building got saved.",slug
+61,M08,172.76,178.82,6.06,4146,4292,146,R,,,Swatch row assembles across the frame,"Now — those bulbs are colour-coded, because of course they are.",slug
+62,M08,178.82,180.74,1.92,4292,4338,46,R,,ORANGE   57 °C / 135 °F,"Orange swatch expands, chip sets",Orange opens at fifty-seven degrees.,slug
+63,M08,180.74,182.36,1.62,4338,4377,39,R,,RED   68 °C / 155 °F,Red swatch,Red at sixty-eight.,slug
+64,M08,182.36,183.86,1.5,4377,4413,36,R,,YELLOW   79 °C / 175 °F,Yellow swatch,"Yellow, seventy-nine.",slug
+65,M08,183.86,185.31,1.45,4413,4447,34,R,,GREEN   93 °C / 200 °F,Green swatch,"Green, ninety-three.",slug
+66,M08,185.31,187.49,2.18,4447,4500,53,R,,BLUE 141/286 · PURPLE 182/360 · BLACK 227/500,"Three high swatches added, chips smaller","Then blue, purple and black,",slug
+67,M08,187.49,191.94,4.45,4500,4607,107,H,,,"Boiler room / commercial kitchen ceiling, heat haze — where 200 °F is an ordinary Tuesday",for rooms where ninety-three degrees is considered a normal Tuesday.,slug
+68,M09,191.94,194.63,2.69,4607,4671,64,R,,"A JUDGEMENT, NOT A SETTING",Type beat over the cooling swatch row,And that colour is not a setting.,slug
+69,M09,194.63,199.68,5.05,4671,4792,121,H,installer,,"Observer AS INSTALLER. Tray of coloured bulbs. He picks one up, weighs it",It's a judgement. Somebody had to choose the bulb for the room.,approved
+70,M09,199.68,203.01,3.32,4792,4872,80,H,,,"Commercial kitchen: an office-rated head directly above a deep fryer, steam rising",Put an office-rated head above a deep fat fryer,slug
+71,M09,203.01,205.03,2.03,4872,4921,49,H,,,"It trips at lunchtime. Staff unimpressed, water over the pass",and it opens every lunchtime.,slug
+72,M09,205.03,208.93,3.9,4921,5014,93,H,,,Quiet office. Oversized industrial-rated head on the ceiling,Put a kitchen-rated head in a quiet office and the room,slug
+73,M09,208.93,212.35,3.42,5014,5096,82,H,,,A small fire smoulders below it. The head stays shut,can be well alight before it notices anything unusual.,slug
+74,M09,212.35,218.72,6.37,5096,5249,153,H,installer,,"Installer on a stepladder, looking around the empty room, guessing","So somewhere, years ago, a person had to guess how hot your ceiling gets on an ordinary day —",approved
+75,M09,218.72,219.57,0.85,5249,5270,21,H,installer,,"He packs up, walks out, the door closes. Empty room. The head above",and then leave.,approved
+76,M10,219.57,223.75,4.17,5270,5370,100,R,,SINGLE USE,Head greys out and locks,"And when one does finally go, it doesn't reset.",slug
+77,M10,223.75,228.07,4.32,5370,5474,104,R,,NO SWITCH,Toggle icon struck through,There's no switch. That head is finished.,slug
+78,M10,228.07,230.7,2.63,5474,5537,63,H,,,Technician arrives with a spanner,"Somebody arrives with a spanner,",slug
+79,M10,230.7,232.25,1.55,5537,5574,37,H,,,"Hands screw in the replacement head, close on the thread","screws in a new one,",slug
+80,M10,232.25,234.84,2.59,5574,5636,62,R,,,New head settles. The wait restarts from zero,and the new one starts waiting too.,slug
+81,M10,234.84,239.59,4.75,5636,5750,114,R,,WATER DAMAGE?,Comparison chart opens,As for the water damage everybody worries about — a sprinkler head,slug
+82,M10,239.59,242.26,2.67,5750,5814,64,R,,SPRINKLER   60 L/min,Sprinkler bar grows and settles,puts out somewhere around sixty litres a minute.,slug
+83,M10,242.26,246.06,3.8,5814,5906,92,R,,FIREHOSE   600–1200 L/min,"Firehose bar dwarfs it, runs off frame",A firefighter's hose puts out ten to twenty times that.,slug
+84,M10,246.06,251.53,5.47,5906,6037,131,R,,THE SPRINKLER PREVENTS THE FLOOD,Inversion lands,The sprinkler isn't the flood. The sprinkler is what prevents the flood.,slug
+85,M11,251.53,254.76,3.23,6037,6114,77,R,,,Pull back to the full ceiling grid; every head a separate dot,So the ceiling above you is not one system.,slug
+86,M11,254.76,257.75,2.99,6114,6186,72,R,,,"Dots pulse individually, out of phase. No lines between them","It's several hundred entirely separate ones,",slug
+87,M11,257.75,260.41,2.65,6186,6250,64,R,,its own small glass fuse,One dot glows,"each with its own small glass fuse,",slug
+88,M11,260.41,265.53,5.12,6250,6373,123,R,,,"Camera drifts across inert dots, minding their own business","each minding its own business, none of them talking to each other.",slug
+89,M11,265.53,268.22,2.7,6373,6437,64,R,,NOTHING IS WATCHING,Type over the empty grid,Nothing up there is watching you.,slug
+90,M11,268.22,270.59,2.37,6437,6494,57,R,,NOTHING IS DECIDING,Grid fades toward paper,Nothing is deciding anything.,slug
+91,M12,270.59,272.66,2.07,6494,6544,50,H,,,"Macro: the glass bulb, rim light, pressure implied behind it","It is a piece of glass,",approved
+92,M12,272.66,277.29,4.62,6544,6655,111,H,,,Slow push-in. Droplet tension on the surface,"holding back a river, waiting for something to get warm.",approved
+93,M12,277.29,280.76,3.48,6655,6738,83,H,looks-up,,"Observer looks up. Hold on him, not the ceiling. Fade",Look up. It's still there.,slug

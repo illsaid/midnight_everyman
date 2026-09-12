@@ -17,18 +17,22 @@ competitor evidence.
 
 Start with [`PROJECT.md`](PROJECT.md), then
 [`docs/06-handoff/current-state.md`](docs/06-handoff/current-state.md).
+Agents also read [`coordination/claims.json`](coordination/claims.json) and the
+latest entry in [`coordination/HANDOFF.md`](coordination/HANDOFF.md) before editing.
 
 ## Current state
 
-- Existing 63-second wrong-fuel systems proof: verified R&D evidence
+- Sprinkler pilot: complete clean v7 review master, pending sound design and owner publication
+- Existing 63-second wrong-fuel systems proof: retained R&D evidence
 - Existing 24-pose Observer library and Remotion primitives: retained
 - Hidden Systems research: integrated under `research/`
 - Candidate pool: `content/candidates.csv`
-- Fully packaged pilot candidates: 0 of 3 required
-- Full 5–8 minute timed pilot: not built
+- Pilot 01 retrospective: `docs/06-handoff/pilot-01-retrospective.md`
+- Large renders and working media: local-only by policy
 
-The next deliverable is the lift-governor pilot, but production does not begin
-until its case claims are source-checked and three candidate packages exist.
+The next production test is Episode 02 using the established scene vocabulary
+and a phase-by-phase owner-time log. The eight-hour goal remains unproven until
+that marginal build is measured.
 
 ## Commands
 
@@ -36,5 +40,8 @@ until its case claims are source-checked and three candidate packages exist.
 npm install
 npm run lint
 npm run build
-npx remotion render WrongFuelSystemsPilotFx out/wrong-fuel-validation.mp4
+npx remotion render src/index.ts SprinklerPilotMaster out/sprinkler-review.mp4
 ```
+
+Full sprinkler rendering also requires the local media described in
+[`docs/04-production/repository-and-media-policy.md`](docs/04-production/repository-and-media-policy.md).

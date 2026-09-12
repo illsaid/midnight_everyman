@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Courier+Prime:wght@400;700&display=swap">
+  <style>
+    body { margin: 0; background: #EEE5CF; color: #242622; font-family: "Jost", "Futura", "Century Gothic", sans-serif; }
+    a { color: #BD4E3D; } a:hover { color: #8E3A2D; }
+    @keyframes dcflow { to { stroke-dashoffset: -44; } }
+    .flowline { animation: dcflow 1.2s linear infinite; }
+    @media (prefers-reduced-motion: reduce) { .flowline { animation: none; } }
+  </style>
+</helmet>
+
+<div style="width: 900px; height: 1120px; background: #EEE5CF; box-sizing: border-box; padding: 62px 62px 52px; display: flex; flex-direction: column;">
+
+  <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 24px;">
+    <h2 style="font-family: 'Jost', sans-serif; font-weight: 700; font-size: 52px; letter-spacing: -0.03em; color: #242622; margin: 0; line-height: 1;">Line grammar</h2>
+    <span style="font-family: 'Courier Prime', monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: #7C7566;">Sheet 03 / 11</span>
+  </div>
+  <div style="height: 3px; background: #242622; margin-top: 16px;"></div>
+
+  <p style="font-size: 18px; line-height: 1.5; color: #4A4A42; margin: 22px 0 0; max-width: 48ch;">Six weights, six fixed meanings. This is the part that compounds: after three episodes a dashed line has always meant the same thing, so the fourth needs no narration to be read.</p>
+
+  <div style="display: flex; flex-direction: column; margin-top: 26px;">
+
+    <div style="display: grid; grid-template-columns: 176px 1fr; gap: 26px; align-items: center; padding: 15px 0; border-bottom: 1px solid #C9C1AC;">
+      <svg width="176" height="26" viewBox="0 0 176 26" aria-hidden="true"><line x1="2" y1="13" x2="174" y2="13" stroke="#242622" stroke-width="6" stroke-linecap="square" fill="none"></line></svg>
+      <div style="display: flex; flex-direction: column; gap: 1px;">
+        <span style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 23px; letter-spacing: -0.015em; color: #242622; line-height: 1.15;">Enclosure <span style="font-family: 'Courier Prime', monospace; font-size: 12px; font-weight: 400; color: #7C7566; letter-spacing: 0;">6 px · ink</span></span>
+        <span style="font-size: 15.5px; line-height: 1.4; color: #7C7566;">The outer boundary of the physical thing. One per diagram, and the only line that may carry a flat cutaway fill.</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 176px 1fr; gap: 26px; align-items: center; padding: 15px 0; border-bottom: 1px solid #C9C1AC;">
+      <svg width="176" height="26" viewBox="0 0 176 26" aria-hidden="true"><line x1="2" y1="13" x2="174" y2="13" stroke="#7C7566" stroke-width="3" stroke-linecap="square" fill="none"></line></svg>
+      <div style="display: flex; flex-direction: column; gap: 1px;">
+        <span style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 23px; letter-spacing: -0.015em; color: #242622; line-height: 1.15;">Component <span style="font-family: 'Courier Prime', monospace; font-size: 12px; font-weight: 400; color: #7C7566; letter-spacing: 0;">3 px · structural</span></span>
+        <span style="font-size: 15.5px; line-height: 1.4; color: #7C7566;">Internal parts a person could point at if the housing were open.</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 176px 1fr; gap: 26px; align-items: center; padding: 15px 0; border-bottom: 1px solid #C9C1AC;">
+      <svg width="176" height="26" viewBox="0 0 176 26" aria-hidden="true"><line x1="2" y1="13" x2="174" y2="13" stroke="#7C7566" stroke-width="3" stroke-dasharray="14 9" stroke-linecap="butt" fill="none"></line></svg>
+      <div style="display: flex; flex-direction: column; gap: 1px;">
+        <span style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 23px; letter-spacing: -0.015em; color: #242622; line-height: 1.15;">Hidden <span style="font-family: 'Courier Prime', monospace; font-size: 12px; font-weight: 400; color: #7C7566; letter-spacing: 0;">3 px dash 14/9</span></span>
+        <span style="font-size: 15.5px; line-height: 1.4; color: #7C7566;">Behind a wall, underground, inside a sealed housing. The channel's whole subject, so it earns its own weight.</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 176px 1fr; gap: 26px; align-items: center; padding: 15px 0; border-bottom: 1px solid #C9C1AC;">
+      <svg width="176" height="26" viewBox="0 0 176 26" aria-hidden="true"><line x1="2" y1="13" x2="174" y2="13" stroke="#C9C1AC" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round" fill="none"></line></svg>
+      <div style="display: flex; flex-direction: column; gap: 1px;">
+        <span style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 23px; letter-spacing: -0.015em; color: #242622; line-height: 1.15;">Reference <span style="font-family: 'Courier Prime', monospace; font-size: 12px; font-weight: 400; color: #7C7566; letter-spacing: 0;">2 px dot 2/7</span></span>
+        <span style="font-size: 15.5px; line-height: 1.4; color: #7C7566;">Dimensions, centrelines, timelines. Never the subject — only the measuring of it.</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 176px 1fr; gap: 26px; align-items: center; padding: 15px 0; border-bottom: 1px solid #C9C1AC;">
+      <svg width="176" height="26" viewBox="0 0 176 26" aria-hidden="true"><line x1="2" y1="13" x2="174" y2="13" stroke="#D5A84C" stroke-width="5" stroke-linecap="round" fill="none"></line></svg>
+      <div style="display: flex; flex-direction: column; gap: 1px;">
+        <span style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 23px; letter-spacing: -0.015em; color: #242622; line-height: 1.15;">Active path <span style="font-family: 'Courier Prime', monospace; font-size: 12px; font-weight: 400; color: #7C7566; letter-spacing: 0;">5 px · semantic</span></span>
+        <span style="font-size: 15.5px; line-height: 1.4; color: #7C7566;">The only weight permitted to take a colour. Whatever is happening right now.</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 176px 1fr; gap: 26px; align-items: center; padding: 15px 0; border-bottom: 1px solid #C9C1AC;">
+      <svg width="176" height="26" viewBox="0 0 176 26" aria-hidden="true"><line class="flowline" x1="2" y1="13" x2="174" y2="13" stroke="#356F70" stroke-width="5" stroke-dasharray="22 22" stroke-linecap="butt" fill="none"></line></svg>
+      <div style="display: flex; flex-direction: column; gap: 1px;">
+        <span style="font-family: 'Jost', sans-serif; font-weight: 600; font-size: 23px; letter-spacing: -0.015em; color: #242622; line-height: 1.15;">Flow <span style="font-family: 'Courier Prime', monospace; font-size: 12px; font-weight: 400; color: #7C7566; letter-spacing: 0;">5 px dash 22/22, marching</span></span>
+        <span style="font-size: 15.5px; line-height: 1.4; color: #7C7566;">Active path in motion. Dash offset runs at 1.2 s linear, always with the direction of travel.</span>
+      </div>
+    </div>
+
+  </div>
+
+  <span style="font-family: 'Courier Prime', monospace; font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #7C7566; margin-top: 30px;">Reading together — a valve in a wall</span>
+
+  <div style="margin-top: 14px; background: #E4DCC4; padding: 26px; display: flex; justify-content: center;">
+    <svg width="500" height="146" viewBox="0 0 500 146" aria-hidden="true">
+      <line x1="0" y1="24" x2="500" y2="24" stroke="#C9C1AC" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"></line>
+      <text x="0" y="16" fill="#7C7566" font-family="Courier Prime, monospace" font-size="10" letter-spacing="1.2">DATUM</text>
+      <rect x="170" y="44" width="164" height="86" fill="#EEE5CF" stroke="#242622" stroke-width="6"></rect>
+      <line x1="12" y1="87" x2="170" y2="87" stroke="#7C7566" stroke-width="3" stroke-dasharray="14 9"></line>
+      <line x1="334" y1="87" x2="488" y2="87" stroke="#356F70" stroke-width="5" stroke-dasharray="22 22" class="flowline"></line>
+      <circle cx="252" cy="87" r="24" fill="none" stroke="#7C7566" stroke-width="3"></circle>
+      <line x1="252" y1="63" x2="252" y2="111" stroke="#7C7566" stroke-width="3"></line>
+      <text x="12" y="126" fill="#7C7566" font-family="Courier Prime, monospace" font-size="10" letter-spacing="1.2">SUPPLY (HIDDEN)</text>
+      <text x="352" y="126" fill="#356F70" font-family="Courier Prime, monospace" font-size="10" letter-spacing="1.2">FLOW</text>
+    </svg>
+  </div>
+
+  <div style="margin-top: auto; display: grid; grid-template-columns: 10px 1fr; gap: 20px; align-items: stretch;">
+    <div style="background: #BD4E3D;"></div>
+    <div style="padding: 4px 0;">
+      <span style="font-size: 16px; line-height: 1.5; color: #7C7566;"><strong style="color: #242622; font-weight: 600;">Never introduce a seventh.</strong> If a diagram needs a distinction these six cannot carry, the diagram is doing too much — split the beat rather than extend the vocabulary.</span>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>

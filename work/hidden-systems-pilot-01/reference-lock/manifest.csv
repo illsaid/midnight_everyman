@@ -1,0 +1,11 @@
+asset_id,type,file,status,authority,source_cues,notes
+ANCHOR-HG-02,candidate-anchor,anchors/hg-02-lighter-anchor-v1.png,approved,HG-02 image-to-video start reference,02,Approved by user 2026-09-06; animation pending
+ANCHOR-HG-03,candidate-anchor,anchors/hg-03-deluge-anchor-v1.png,approved,HG-03 image-to-video start reference,"03,04",Approved by user 2026-09-06; animation pending
+REF-OBSERVER,canonical-reference,canonical/observer-pose-sheet-v2.png,approved,Observer identity,,Copied from everyman_bible_v2/source/pose-sheet-v2.png
+REF-SET,canonical-reference,canonical/house-style-set-staging-v4.png,approved,Scenic style and set rendering,,Copied from reference/pilot-01/gas-station-staging-v4.png
+REF-SYSTEM-01,canonical-reference,canonical/systems-style-frame-160.png,approved,Palette paper texture and graphic language,,Copied from reference/systems-pilot-01/diagnostics/frame-160-final.png
+REF-SYSTEM-05,canonical-reference,canonical/systems-style-frame-1060.png,approved,Mechanism graphics and palette,,Copied from reference/systems-pilot-01/diagnostics/frame-1060-final.png
+ANCHOR-HG-01,candidate-anchor,anchors/hg-01-cinema-anchor-v1.png,approved,HG-01 image-to-video start reference,01,Approved by user 2026-09-04; generated with built-in ImageGen from REF-OBSERVER REF-SET and REF-SYSTEM-01
+ANCHOR-HG-09,candidate-anchor,anchors/hg-09-installer-anchor-v1.png,approved,HG-09 image-to-video start reference,"69,74,75",Approved by user 2026-09-04; generated with built-in ImageGen from REF-OBSERVER REF-SET and REF-SYSTEM-01
+ANCHOR-HG-12-V1,candidate-anchor,anchors/hg-12-macro-anchor-v1.png,superseded,Earlier HG-12 candidate,"91,92",One visible bubble but insufficiently legible at normal video size
+ANCHOR-HG-12-V2,candidate-anchor,anchors/hg-12-macro-anchor-v2.png,approved,Current HG-12 image-to-video start reference,"91,92",Approved by user 2026-09-04; one larger high-contrast bubble
