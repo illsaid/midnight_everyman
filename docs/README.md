@@ -47,6 +47,7 @@ production, experiments and handoff.
 - `06-handoff/decision-record.md` — durable and superseded decisions
 - `06-handoff/hidden-systems-review-response.md` — research correction history
 - `06-handoff/pilot-01-retrospective.md` — sprinkler-pilot lessons and Episode 02 fast path
+- `06-handoff/codex-pilot-01-process-postmortem.md` — Codex assessment of the process and efficiency failures
 - `../coordination/HANDOFF.md` — append-only cross-agent work log
 
 ## Research and content
