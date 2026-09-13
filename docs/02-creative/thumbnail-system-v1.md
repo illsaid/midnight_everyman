@@ -127,9 +127,9 @@ Each episode's packaging brief must contain:
 
 - Scenario in seven words or fewer
 - Single surprising relationship
-- A-layout visual paradox
-- B-layout comparison and any neutral labels
-- C-layout editorial tableau and dry visual joke
+- The strongest candidate frames rendered from the episode
+- Materially different A/B/C concepts when native testing is available
+- At most one bespoke generated or illustrated variant when rendered frames are weak
 - Mobile-size legibility check
 - Final title paired with all variants
 

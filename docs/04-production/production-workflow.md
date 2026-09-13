@@ -6,9 +6,11 @@
 2. Confirm that the same broad viewer would want adjacent subjects and that the
    episode can stand alone without channel history.
 3. Run the bounded current-market audit in `../01-product/packaging.md`.
-4. Develop twenty title candidates and select a rung-three promise.
-5. Define three materially different thumbnail concepts, select the strongest
-   emotional moment and define the opening visual proof.
+4. Develop five materially different rung-three title candidates and select the
+   strongest promise.
+5. Select the strongest emotional thumbnail moment and define the opening visual
+   proof. Begin variants with rendered episode frames; allow one bespoke image
+   when the available frames are weak.
 6. Promote the subject to production-ready only when those literal fields are
    recorded in `content/candidates.csv`.
 7. Record case evidence and mechanism relevance separately from production
@@ -45,11 +47,13 @@
 1. Assign one dominant informational action to each short visual beat.
 2. Reuse existing characters, poses, props, backgrounds and action patterns first.
 3. Assign each Observer beat to a held cel or short cel sequence.
-4. Create scene cards.
-5. Create contact sheets for novel or complex motion.
-6. Confirm the first eight seconds *are* the thumbnail moment animated — the
+4. Declare text, action or intentional full-frame regions before placing type.
+5. Create scene cards from the marked, aligned cue authority.
+6. Create cue-entry, text-maximum and cue-exit contact frames for each scene,
+   with safe regions visible.
+7. Confirm the first eight seconds *are* the thumbnail moment animated — the
    cold open, shown not said — and that beat 1 rewinds from it.
-7. List only the missing assets.
+8. List only the missing assets.
 
 ## Phase 4 - Asset creation
 
@@ -75,19 +79,22 @@ Stock candidates enter through `assets-source/`. Only approved SVG/metadata pair
 
 ## Phase 6 - Review
 
-1. Render contact frames from each beat.
-2. Fix identity, silhouette, registration and framing problems.
-3. Render the full sequence.
-4. Review once without sound for visual clarity.
-5. Review once audio-first for pacing and comprehension.
-6. Record new reusable patterns and lessons.
+1. Review the scene contact sheet before watching its bounded clip.
+2. Describe defects as `late`, `early`, `collides`, `clips`, `unreadable`,
+   `static` or `wrong` when one of those labels applies.
+3. After two revisions of the same defect class, repair the shared primitive or
+   layout rule rather than continuing local nudges.
+4. Approve bounded scenes before rendering a new master.
+5. Review the master once without sound for visual clarity.
+6. Review once audio-first for pacing and comprehension.
+7. Record new reusable patterns and lessons.
 
 ## Phase 7 - Library update
 
 After approval:
 
 - Promote successful assets into the canonical library.
-- Promote repeated timing into a named action pattern.
+- Promote a scene treatment into a named primitive on its second real use.
 - Promote an exceptional performance plate only after cross-scene reuse is demonstrated.
 - Update the character bible only when the change is intentional.
 - Record experiment results and actual production time.
@@ -109,7 +116,7 @@ This is a target to test, not a proven estimate:
 
 The system fails commercially if routine episodes require extensive bespoke character drawing or shot-by-shot code repair.
 
-For the first full pilot, record actual owner time without forcing the work into
-this budget. Separate research, packaging, script, voice, scene planning, asset
-creation, assembly, correction and machine render time. The mature target is a
-decision criterion, not permission to under-build the pilot.
+For Episode 02, use approximately 12 owner-hours as an interim ceiling and
+record actual owner, agent and machine time separately. The mature eight-hour
+target remains a decision criterion, not permission to under-build an episode.
+The detailed operating contract lives in `episode-playbook.md`.

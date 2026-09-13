@@ -35,11 +35,14 @@
 ## Gate 4 - Scene assembly
 
 - Each beat has one dominant action.
+- Named text and action regions are visible in scene-review contact frames.
 - Pose changes coincide with narrative meaning.
 - Registration changes appear intentional.
 - The background supports rather than competes with the subject.
 - Text is readable and does not duplicate the narration unnecessarily.
 - Movement is held when holding is stronger.
+- A repeated defect is escalated to the shared primitive or rule after two
+  scene-local revisions.
 
 ## Gate 5 - Technical
 
@@ -72,8 +75,11 @@ AI self-scoring is advisory only. A numerical score such as 9/10 or 9.9/10 is no
   another.
 - Red arrows, circles, shocked-face cutouts and alarm words are absent unless a specific informational need justifies them.
 - If Everyman appears, he belongs to the scene rather than functioning as a pasted-on reaction badge.
-- A, B and C variants differ in concept, not merely color or typography.
+- Tested variants differ in concept, not merely color or typography.
+- Strong rendered episode frames are evaluated before commissioning bespoke
+  thumbnail art; one bespoke exception is allowed when those frames are weak.
 - The title and all thumbnail variants make the same honest promise.
-- vidIQ scoring is advisory; native YouTube watch-time-share testing is the acceptance evidence.
+- vidIQ scoring is diagnostic only; native YouTube watch-time-share testing is
+  the acceptance evidence.
 - `title_selected_rung3`, `thumbnail_moment` and `opening_visual` match the
   production artifact rather than merely being marked complete.

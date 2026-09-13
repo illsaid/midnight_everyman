@@ -1,6 +1,6 @@
 # Hidden Systems Pilot 01 — Production Index
 
-## Current authority
+## Completed pilot reproduction index
 
 - Voice-over: `audio/sprinkvo2.mp3`
 - Spoken script: `script-v4-vo-v3.txt`
@@ -9,22 +9,26 @@
 - Deterministic builder: `tools/build_v2.py`
 - Candidate style-lock package: `reference-lock/README.md`
 
-The v2 plan keeps 93 editorial cue changes but consolidates generated footage
-into 12 reusable Higgsfield source units. Higgsfield supplies atmosphere,
-pathos and human behavior; Remotion supplies exact mechanisms, causal state,
-labels and comparisons.
+This directory preserves the planning, timing, provenance and build inputs for
+the completed sprinkler pilot. Its early v2 plan kept 93 editorial cue changes
+and proposed 12 generated units. Production ultimately used 11 generated source
+units plus deterministic Remotion scenes and produced a complete 6,738-frame
+`SprinklerPilotMaster` review master. The former placeholder and acquisition
+instructions below are historical, not current work.
 
-HG-01, HG-09 and HG-12 v2 were approved and downloaded on 4 Sep 2026.
-The next gate is reviewing them against the locked VO in `SprinklerPilotAssembly`.
-The other nine generated sources and unbuilt mechanism graphics use labeled
-placeholders. Review this assembly before commissioning the remaining sources.
+Latest verified local review master:
+`assembly-review/sprinkler-assembly-v7-structural.mp4` — 6,738 frames,
+1920×1080 at 24 fps with AAC narration. Remaining owner decisions are restrained
+sound effects, the visible Pipe-scene year marker, the publication package and
+publication itself.
 
 Assembly source: `src/sprinkler-pilot/` from the repository root.
-After editing `cues-v2.csv`, run `scripts/sync-sprinkler-assembly.ps1` to refresh
-the generated cue module and stage approved source media in `public/`.
-Run `npx remotion render SprinklerPilotAssembly` to export the review composition.
-This review uses source footage directly and does not promote it into the
-canonical reusable object library.
+For reproduction, after editing `cues-v2.csv`, run
+`scripts/sync-sprinkler-assembly.ps1` to refresh the generated cue module and
+stage approved source media in `public/`. Run
+`npx remotion render SprinklerPilotMaster` for the clean master. Source footage
+is referenced directly and is not automatically promoted into the canonical
+reusable object library.
 
 ## Superseded planning artifacts
 
@@ -46,5 +50,5 @@ corresponding word by three frames (125 ms), rounded to the 24 fps grid.
 
 `cue-timing-aligned.json` overrides the historical word-length estimates during
 `tools/build_v2.py`. Raw recognition evidence is `tools/words-asr.json`.
-The narration and cue text are unchanged. ASR timing is not sample-exact;
-review the corrected `sprinkler-assembly-v2.mp4` for final editorial nudges.
+The narration and cue text are unchanged. The aligned timing was subsequently
+reviewed and carried through the complete v7 structural master.

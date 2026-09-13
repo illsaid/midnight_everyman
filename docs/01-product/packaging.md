@@ -35,7 +35,9 @@ I still haven't figured out how to package and I just haven't made them."*
 a category with no angle and nothing at risk. Both sources independently name
 that shape as the dead zone.
 
-**Twenty title candidates per video.** Never instantiate the template.
+**Five escalated title candidates per video.** Each candidate must reach rung
+three and represent a materially different promise or contradiction. Do not
+spend the package budget generating minor variations of the same template.
 
 ## One promise, three times
 
@@ -60,22 +62,23 @@ not an objective.
 ## Time allocation
 
 Packaging is a gate, not a fixed percentage of production time. Do not adopt a
-51% rule or any other unsupported allocation. Complete the twenty-title pass,
-three thumbnail concepts and opening visual before detailed production begins,
-then record packaging time separately. If the promise is weak, additional
-animation hours cannot repair it.
+51% rule or any other unsupported allocation. Complete the five-title pass,
+thumbnail moment and opening visual before detailed production begins, then
+record packaging time separately. If the promise is weak, additional animation
+hours cannot repair it.
 
 ## Volume and iteration
 
 | | |
 |---|---|
-| Titles per video | 20 |
-| Thumbnails per video | **3 minimum**, genuinely different concepts, A/B tested |
+| Titles per video | 5 materially different rung-three candidates |
+| Thumbnails per video | Up to 3 genuinely different concepts for native testing |
 | Repackage a flop at | 2 weeks |
 
-Galloway calls three thumbnails a contract term: *"if we can't do this for every
-video, we're not signing the deal."* The variants must be different *moments and
-framings*, not one image with three captions.
+When three thumbnails are tested, the variants must be different *moments and
+framings*, not one image with three captions. Start with strong frames rendered
+from the episode. One bespoke variant is allowed when the available frames do
+not produce competitive packaging.
 
 "No man left behind" — YouTube keeps serving impressions to old videos. A flop
 is repackageable, not dead. (Unlike short form, where a bad hook is terminal.)

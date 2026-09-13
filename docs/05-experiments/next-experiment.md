@@ -1,5 +1,15 @@
 # Next experiment — full Hidden Systems pilot
 
+**13 Sep 2026 update:** The full sprinkler pilot has reached a complete v7
+structural review master. The next production experiment is Episode 02 under the
+lean throughput policy in `../04-production/episode-playbook.md`: initialize a
+phase time log, apply the four-generated-unit/two-bespoke-system planning gate,
+use contact-sheet-first bounded scene review and promote a treatment only on its
+second real use. Approximately 12 owner-hours is the interim ceiling; eight
+owner-hours remains the mature target. Build only the minimum scaffold, review,
+safe-region and cue-authority tooling before starting. The Pilot 01 experiment
+description below is retained as historical test design.
+
 **12 Sep 2026 update:** The structural M10, M05 and M11 revisions are now owner
 approved. The active test is a bounded M05 texture prototype, documented in
 `work/hidden-systems-pilot-01/texture-prototype-2026-09-12.md`. It compares a stable

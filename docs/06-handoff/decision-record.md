@@ -1,5 +1,49 @@
 # Decision record
 
+## D-034 - Episode 02 lean throughput policy
+
+**Decision (13 Sep 2026):** Use approximately 12 owner-hours as the Episode 02
+interim ceiling while retaining eight owner-hours as the mature target. Record
+owner attention, agent work, machine waiting, retries and material corrections
+separately; Pilot 01's reconstructed 25–37 hours remains ranking evidence rather
+than measured cost.
+
+**Scope discipline:** Plan for no more than four novel generated-media units and
+two genuinely bespoke scene systems. These are rescope gates, not automatic
+quality failures. Generate motion only when an indispensable organic action is
+named.
+
+**Packaging:** Develop five materially different rung-three title candidates.
+Begin thumbnail development with strong rendered episode frames and allow one
+bespoke variant when those frames are weak. This changes the production ritual,
+not the requirement that any tested variants differ conceptually.
+
+**Review contract:** Review cue-entry, text-maximum and cue-exit contact frames
+with named text/action regions before watching the bounded scene clip. Use the
+defect labels `late`, `early`, `collides`, `clips`, `unreadable`, `static` and
+`wrong`. After two revisions of the same defect class, repair the shared rule or
+primitive rather than continuing local nudges. Approve bounded scenes before a
+new master render.
+
+**Reuse rule:** Promote a treatment into a reusable primitive on its second real
+use. Do not build the proposed primitive catalog before Episode 02 demonstrates
+which patterns recur.
+
+**Coordination:** Keep one integration owner. The handoff remains mandatory;
+claims and separate worktrees are required only during concurrent writing. A
+second model normally performs adversarial artifact review rather than an
+independent rewrite.
+
+**Tooling boundary:** Before Episode 02, build only the minimum that directly
+reduces review and restart friction: an episode scaffold and time log, a generic
+scene review, a visible safe-region overlay, one cue authority and the concise
+episode playbook. Defer the full primitive framework, automated bounds assertion,
+asset-intake tooling and sound-kit automation until measured reuse justifies them.
+
+**Authority:** `docs/04-production/episode-playbook.md`.
+
+**Status:** Adopted for Episode 02; validate against its measured phase log.
+
 ## D-033 - Sprinkler pilot timing and assembly review
 
 **Decision (5 Sep 2026):** Implement the user-approved sprinkler shooting plan

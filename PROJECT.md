@@ -77,8 +77,9 @@ provenance is required before a case is described as verified.
 ## Production architecture
 
 Use Remotion as a systems-explainer engine. Diagrams and information motion are
-the primary screen language. The Observer replacement-cel library remains
-canonical, but character performance cannot become the production critical path.
+the primary screen language. The Observer replacement-cel library is an
+available asset, not a mandatory production spine, and character performance
+cannot become the production critical path.
 
 - Static cels by default
 - Two-to-four-pose sequences for limited actions
@@ -90,21 +91,27 @@ canonical, but character performance cannot become the production critical path.
 
 ## Start here
 
-1. Read [`docs/06-handoff/current-state.md`](docs/06-handoff/current-state.md).
-2. Read [`docs/06-handoff/decision-record.md`](docs/06-handoff/decision-record.md).
-3. Read [`docs/01-product/channel-thesis.md`](docs/01-product/channel-thesis.md).
-4. Read [`docs/01-product/format.md`](docs/01-product/format.md).
-5. Read [`docs/01-product/subject-selection.md`](docs/01-product/subject-selection.md).
-6. Read [`docs/01-product/packaging.md`](docs/01-product/packaging.md).
-7. Read [`docs/01-product/launch-validation.md`](docs/01-product/launch-validation.md).
-8. Read [`research/sources.md`](research/sources.md) before using competitor data.
-9. Read [`docs/05-experiments/next-experiment.md`](docs/05-experiments/next-experiment.md).
+For a production session, read only:
+
+1. [`docs/04-production/episode-playbook.md`](docs/04-production/episode-playbook.md).
+2. The latest entry in [`coordination/HANDOFF.md`](coordination/HANDOFF.md).
+3. Relevant entries in
+   [`docs/06-handoff/decision-record.md`](docs/06-handoff/decision-record.md).
+4. [`coordination/claims.json`](coordination/claims.json) when concurrent writing
+   is active.
+
+Read the product, research and historical experiment documents only when the
+current task depends on them. Read [`research/sources.md`](research/sources.md)
+before using competitor data.
 
 ## Canonical implementation
 
-- Preferred proof composition: `WrongFuelSystemsPilotFx`
-- Active proof source: `src/systems-pilot-01/`
-- Verified proof render: `reference/systems-pilot-01/wrong-fuel-systems-pilot-fx-v2.mp4`
+- Completed Pilot 01 composition: `SprinklerPilotMaster`
+- Pilot 01 source: `src/sprinkler-pilot/`
+- Latest verified local review master:
+  `work/hidden-systems-pilot-01/assembly-review/sprinkler-assembly-v7-structural.mp4`
+- Historical 63-second proof: `WrongFuelSystemsPilotFx` in
+  `src/systems-pilot-01/`
 - Character registry: `src/library/observer/cels.ts`
 - Approved character assets: `public/characters/observer/`
 - Diagram layer: `docs/02-creative/diagram-layer.md`
@@ -130,7 +137,9 @@ canonical, but character performance cannot become the production critical path.
 2. Resolve or retain the visible Pipe-scene year marker and approve the closing.
 3. Publish the pilot at owner discretion and record the packaging used.
 4. Capture native YouTube response without paid promotional traffic.
-5. Build Episode 02 from the established vocabulary and record owner time by phase.
+5. Scaffold Episode 02 using the episode playbook and record owner, agent and
+   machine time separately from the first production decision.
 
-Current production authority: `work/hidden-systems-pilot-01/README.md`.
+Current production authority for new work: `docs/04-production/episode-playbook.md`.
+Pilot 01's reproduction index remains `work/hidden-systems-pilot-01/README.md`.
 The user-approved sprinkler VO supersedes the general 5–8 minute target for Pilot 01.

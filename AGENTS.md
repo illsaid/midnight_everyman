@@ -1,10 +1,13 @@
 # Project operating instructions
 
 Before changing this project, read `PROJECT.md`,
-`docs/06-handoff/current-state.md`, `docs/06-handoff/decision-record.md` and the
-relevant experiment document. Before proposing a subject slate or launch,
-also read `docs/01-product/subject-selection.md`,
-`docs/01-product/packaging.md` and `research/sources.md`.
+`docs/04-production/episode-playbook.md`, the latest entry in
+`coordination/HANDOFF.md` and relevant decisions in
+`docs/06-handoff/decision-record.md`. Read `coordination/claims.json` before
+writing when another agent may be active. Use `docs/06-handoff/current-state.md`
+only for Pilot 01 history. Before proposing a subject slate or launch, also read
+`docs/01-product/subject-selection.md`, `docs/01-product/packaging.md` and
+`research/sources.md`.
 
 ## Editorial rules
 
@@ -37,9 +40,9 @@ also read `docs/01-product/subject-selection.md`,
 
 ## Production rules
 
-- Treat the v2.1 hybrid character system as canonical: static cels by default,
-  two-to-four-pose sequences for limited actions, and performance plates only
-  when motion carries meaning.
+- Treat the Observer cel system as an available production asset rather than the
+  mandatory spine. Use static cels or short pose sequences when they solve the
+  beat cheaply; use performance plates only when motion carries meaning.
 - Do not revive the skeletal SVG rig unless the user explicitly requests a test.
 - Preserve approved character identity and never overwrite an approved cel.
 - Use Everyman for reaction, emphasis, human scale and occasional editorial
@@ -50,6 +53,10 @@ also read `docs/01-product/subject-selection.md`,
 - Production code may import only paired, approved objects from `assets-canon/`.
 - Preserve raw licensed packages unchanged under `assets-source/_packages/`.
 - Choose the cheapest treatment that communicates the beat convincingly.
+- Follow the episode budget, review contract, reuse rule and stop conditions in
+  `docs/04-production/episode-playbook.md`.
+- Keep one integration owner per episode. Use a second model primarily for
+  artifact review unless work has been explicitly partitioned.
 
 ## Required verification
 
@@ -59,7 +66,8 @@ also read `docs/01-product/subject-selection.md`,
   new sequence.
 - Render the full composition before declaring an experiment complete.
 - Visually inspect silhouette, registration, evidence labels and safe framing.
-- Record the result and owner time in `docs/05-experiments/experiment-log.md`.
+- Record the result and owner, agent and machine time in the episode time log;
+  summarize durable findings in `docs/05-experiments/experiment-log.md`.
 
 ## Production constraint
 

@@ -2,6 +2,12 @@
 
 **Project:** Midnight Everyman / Hidden Systems
 
+> **Historical build log.** This file preserves Pilot 01 chronology and is not
+> the restart authority for new production. Start with
+> `docs/04-production/episode-playbook.md` and the latest entry in
+> `coordination/HANDOFF.md`. The summary immediately below is the most recent
+> Pilot 01 state; later dated entries are retained as history.
+
 **Current full assembly review — 12 Sep:** The clean `SprinklerPilotMaster`
 composition has been re-rendered with the owner-approved M10 structural v5, M05
 structural v3 and M11 structural v2 revisions integrated. Artifact:
@@ -273,12 +279,12 @@ revision uses teal isolation, dimmed context, animated callouts, an exploded
 intro and eased macro framing. Owner approved the scene-only `four-parts-v2-1.mp4` on 6 Sep;
 the full `sprinkler-assembly-v3.mp4` contains the earlier v1 mechanism treatment.
 
-**Current pilot:** Sprinkler. The locked VO is 280.764 seconds. The approved
-shooting plan is `work/hidden-systems-pilot-01/shooting-script-v2.md`.
-HG-01, HG-09 and HG-12 v2 are approved and downloaded. The current task is
-`SprinklerPilotAssembly`, a timed review composition with remaining footage and
-mechanism graphics mostly represented by placeholders. Earlier lift-governor planning
-below is historical and no longer the next production action.
+**Historical Pilot 01 baseline:** The locked sprinkler VO is 280.764 seconds
+and the approved shooting plan is
+`work/hidden-systems-pilot-01/shooting-script-v2.md`. The early placeholder
+assembly described below was superseded by the complete
+`SprinklerPilotMaster` v7 structural review summarized at the top of this file.
+Earlier lift-governor planning is also historical.
 
 **Canonical repository:** `C:\Users\dicku\Videos\midnight-everyman`
 
@@ -330,25 +336,15 @@ publication asset.
 - The existing wrong-fuel proof passed production QA but was not a publication
   fact check.
 
-## Production state
+## Current production pointer
 
-- Remotion 4.0.509
-- React 19.2.3
-- TypeScript 5.9.3
-- Canonical frame rate: 24 fps
-- Preferred proof: `WrongFuelSystemsPilotFx`
-- Production source: `src/systems-pilot-01/`
-- Observer registry: `src/library/observer/cels.ts`
-- Candidate pool: `content/candidates.csv`
-- 20 candidates pass touched and opaque
-- 0 candidates are fully packaged; 3 are required before the pilot
-
-## Next action
-
-Review `SprinklerPilotAssembly` against the locked narration, then replace its
-placeholders in small batches. Use `work/hidden-systems-pilot-01/README.md` as
-the production index. Assembly v2 uses ASR word timestamps with a three-frame
-visual lead to correct the variable drift in v1. Final timing review remains open.
+- Completed Pilot 01 composition: `SprinklerPilotMaster`
+- Pilot 01 source: `src/sprinkler-pilot/`
+- Pilot 01 reproduction index: `work/hidden-systems-pilot-01/README.md`
+- New-episode workflow: `docs/04-production/episode-playbook.md`
+- Immediate operational state: latest entry in `coordination/HANDOFF.md`
+- Remaining Pilot 01 owner decisions: restrained SFX, the visible Pipe-scene
+  year marker, publication package and publication itself
 
 ## Required verification
 
@@ -359,8 +355,7 @@ composition. Record owner and machine time separately.
 ## Restart procedure
 
 1. Read `PROJECT.md` and `AGENTS.md`.
-2. Read this file and `decision-record.md`.
-3. Read the three product rules under `docs/01-product/`.
-4. Read `research/sources.md` before using competitor figures.
-5. Inspect the existing wrong-fuel proof and `src/systems-pilot-01/`.
-6. Continue from the next experiment without reopening settled format choices.
+2. Read `docs/04-production/episode-playbook.md` and the latest handoff.
+3. Read relevant decisions in `decision-record.md`.
+4. Read `coordination/claims.json` when concurrent writing is active.
+5. Consult this historical log only when a Pilot 01 detail is needed.

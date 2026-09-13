@@ -4,6 +4,15 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-13 — Codex — Episode 02 efficiency policy
+
+- **Status:** Documentation authority updated; no production tooling or media changed
+- **Changed:** Added the concise episode playbook; corrected stale project, Pilot 01 and restart pointers; made claims conditional on concurrent writing; recorded D-034
+- **Verified:** Cross-checked the new policy against the Fable throughput audit, both Pilot 01 postmortems and the current v7 master state
+- **Did not do:** Build the scaffold, review command, cue derivation, safe-region tooling, primitive framework, sound kit or Episode 02 itself
+- **Next:** Implement the minimum throughput tranche before Episode 02, then measure the episode by phase
+- **Blocked:** Nothing
+
 ## 2026-09-12 — Codex — sprinkler pilot closeout
 
 - **Status:** Complete through clean v7 review master

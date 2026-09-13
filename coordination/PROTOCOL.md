@@ -3,6 +3,10 @@
 Operating rules for more than one AI agent working on this repository.
 Written to be handed to **either** agent verbatim as its instructions.
 
+**Normal mode:** one integration owner writes; another model may review artifacts.
+The handoff log remains mandatory. Claims and worktree partitioning activate only
+when more than one writer is working concurrently.
+
 ---
 
 ## The actual problem
@@ -49,7 +53,7 @@ how a crew actually divides, and movements map one-to-one onto components.
 
 Follow the pattern already proven twice in this repo: a data file plus a generated view.
 
-### 1. `coordination/claims.json` — before you touch anything
+### 1. `coordination/claims.json` — when concurrent writing is active
 
 ```json
 {"claims":[
@@ -57,9 +61,11 @@ Follow the pattern already proven twice in this repo: a data file plus a generat
 ]}
 ```
 
-**Rules.** Read it first, every session. Do not write to a path another agent holds —
-ask instead. Release your claim in the same turn you finish. A claim older than 24 hours
-is stale and may be taken after saying so in the handoff.
+**Rules.** Inspect it before writing whenever another agent may be active. Add a
+claim when concurrent writing begins; a sole integration owner does not need to
+claim every routine edit. Do not write to a path another agent holds — ask
+instead. Release your claim in the same turn you finish. A claim older than 24
+hours is stale and may be taken after saying so in the handoff.
 
 ### 2. `docs/06-handoff/decision-record.md` — append-only
 
@@ -101,7 +107,8 @@ This one change would have prevented the 65%-vs-32% error outright.
 
 ## Rules that apply to both agents
 
-1. **Read `claims.json` and the latest `HANDOFF.md` entry before doing anything else.**
+1. **Read the latest `HANDOFF.md` entry before doing anything else. Inspect
+   `claims.json` before writing when another agent may be active.**
 2. **Never edit outside your domain.** Write the request into `HANDOFF.md` instead.
 3. **Never edit a generated file.** Edit its source and re-run the generator. The
    generated files here are `production-resolved.json`, `production.ts`,
@@ -115,6 +122,8 @@ This one change would have prevented the 65%-vs-32% error outright.
    hoped" are different claims and must read differently.
 7. **Do not re-litigate a recorded decision** without adding a superseding row explaining
    what changed.
+8. **Keep one integration owner per episode.** A second model normally reviews
+   artifacts; it writes only after explicit path or movement partitioning.
 
 ---
 
