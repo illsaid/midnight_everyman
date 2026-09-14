@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "episode": "hidden-systems-ep-02",
+  "status": "approved",
+  "approvedBy": "owner",
+  "approvedDate": "2026-09-14",
+  "sourceName": "escalatorVO.mp3",
+  "canonicalLocalFile": "audio/escalator-vo-v1.mp3",
+  "runtimeStagingFile": "public/voiceover/episode-02/escalator-vo-v1.mp3",
+  "scriptFile": "script-v3-vo-v3.txt",
+  "scriptMatch": "verified against script-v3-vo-v3.txt; 775 of 790 normalized tokens matched directly and remaining differences were classified as ASR errors",
+  "sha256": "581488692d22de2694d1fb81580fa9ed842c82510fdf7e5506cf076d0fa2aadc",
+  "bytes": 5346930,
+  "durationSeconds": 305.057959,
+  "fps": 24,
+  "durationInFrames": 7322,
+  "audio": {
+    "codec": "mp3",
+    "sampleRateHz": 44100,
+    "channels": 1,
+    "bitRate": 140220,
+    "integratedLoudnessLufs": -16.55,
+    "truePeakDbtp": -0.44,
+    "loudnessRangeLu": 4.6
+  },
+  "alignment": {
+    "editableCueAuthority": "cues.csv",
+    "timingEvidence": "words-asr.json",
+    "captionsEvidence": "captions-asr.json",
+    "report": "cue-alignment-report.json",
+    "visualLeadFramesDefault": 3,
+    "cueCount": 74,
+    "movementCount": 12
+  },
+  "notes": [
+    "The MP3 is local-only and ignored by Git.",
+    "Do not replace either local copy in place; create a new version and obtain owner approval.",
+    "Final mix headroom is handled after picture lock when music and effects are present."
+  ]
+}

@@ -1,0 +1,125 @@
+[flatly] The one thing a staircase is guaranteed to do is stay where it is.
+
+[short pause] An escalator is not a staircase.
+
+Watch this one in Hong Kong. About a hundred and twenty people are going up. Then the steps stop.
+
+[short pause] Then they come back down.
+
+Faster.
+
+Eighteen people are injured before the machine finally stops.
+
+The investigation found two failures. First, a drive chain snapped. Then the device built to detect exactly that... failed as well. Buried inside the second failure was one ordinary nut.
+
+[dryly] We will get to the nut in a bit.
+
+First: four ways an escalator can go horribly wrong — and the small army of machines that's supposed to stop them.
+
+Starting with what you are actually standing on.
+
+[long pause] Strip away the construction and look.
+
+Not stairs.
+
+More like a continuous chain carrying metal steps around sprockets at either end. Each step rides on wheels following two tracks. As those tracks change position, the tread stays level, rises into a staircase, then flattens at the landing.
+
+After that, the step carries on beneath the floor.
+
+[short pause] Upside down.
+
+A conveyor belt powerful enough to carry a crowd of people uphill. It simply happens to be shaped like stairs.
+
+[short pause] Failure one is where the moving step meets the stationary floor.
+
+Those ridges beneath your shoes have an important job at the landing. Their grooves mesh with the teeth of the yellow comb plate, leaving very little open space for a lace, coin or piece of clothing to follow the step underneath.
+
+Small objects are meant to be lifted clear instead.
+
+But if something jams, the comb plate can move.
+
+[short pause] Barely.
+
+A few millimetres of movement operates a safety switch and stops the drive.
+
+[dryly] The floor is the switch.
+
+Failure two lives along the sides.
+
+Between each moving step and the fixed skirt panel is a narrow clearance. Only millimetres — but rubber, loose fabric and small fingers do not remain conveniently rigid.
+
+So there are brushes. That stiff strip at ankle height.
+
+[flatly] It is not cleaning your shoes.
+
+It is touching them BEFORE the machinery does.
+
+The brush warns you and nudges your foot toward the centre. On machines fitted with skirt-obstruction devices, something entering the gap can interrupt the safety circuit too.
+
+[dryly] The brush is the warning.
+
+The switch is the apology.
+
+[short pause] Failure three is the floor itself.
+
+A damaged wheel or axle can let a step ride too low. The dangerous part is not merely the sag beneath your feet.
+
+It is that the damaged step is still travelling toward the comb, where it can strike the landing — or leave an opening where the floor should be.
+
+Step-sag devices are positioned to detect that drop and stop the machine. Other systems can detect a missing step before the empty space returns to the passenger side.
+
+[thoughtful] Those first three failures begin at one pair of shoes.
+
+[short pause] Failure four involves everybody on the same moving staircase.
+
+A loaded descending escalator is not simply being carried by its motor. Gravity is helping too, and the drive is controlling the descent. The normal brake holds the machine when it stops.
+
+But break the connection between the drive and the steps... and that brake may be holding the motor while the passengers are standing on something no longer attached to it.
+
+That is why long or heavily loaded machines can carry a second brake farther down the drive system — plus a device specifically watching the main drive chain.
+
+Different triggers.
+
+Different mechanisms.
+
+Overlapping protection.
+
+[flatly] That is not belt and braces.
+
+That is the design.
+
+[long pause] So. Hong Kong.
+
+The escalator was carrying about a hundred and twenty people upwards. It was not overloaded.
+
+Its main drive chain broke from metal fatigue, disconnecting the steps from their upward drive. The passengers' weight pulled the step band backwards.
+
+The broken-chain device should have detected the failure and activated the back-up brake.
+
+[short pause] It did not.
+
+Investigators found sticky grease — formed from lubricant and dust — obstructing its moving parts.
+
+One of its two compression springs had also been locked by a nut, cutting the force available to move the detector by roughly half.
+
+[dryly] There is the nut.
+
+The chain broke.
+
+But the accident happened because the machine assigned to notice the break... could not move.
+
+[long pause] Tomorrow, you will step onto an escalator without looking down.
+
+Past comb teeth meant to lift loose objects clear.
+
+Past brushes telling your feet to move.
+
+Over detectors waiting for a step to sag.
+
+Above a chain device and an auxiliary brake waiting for the drive to let go.
+
+It feels like a staircase because all of them are working to keep it feeling like one.
+
+[softly] You will not notice any of them.
+
+[dryly] and that is them working as designed.

@@ -1,0 +1,9 @@
+date,phase,actor,category,minutes,measurement_status,retries,material_corrections,notes
+2026-09-14,topic-and-package,owner,attention,,unavailable,,,"Completed before measured Episode 02 production logging began"
+2026-09-14,script-and-voice-over,owner,attention,,unavailable,,,"Owner supplied and authorized progression with the locked narration; prior drafting and generation time unavailable"
+2026-09-14,script-and-voice-over,Codex,agent,,unavailable,0,0,"Initialized the Episode 02 VO lock and production index; per-task token and elapsed-time telemetry unavailable"
+2026-09-14,script-and-voice-over,local-media-tools,machine,,unavailable,0,0,"Measured duration, stream properties, loudness and SHA-256; tool runtime was not retained as a complete phase measure"
+2026-09-14,timing-and-breakdown,Codex,agent,,unavailable,0,0,"Verified transcript and created 74-cue editable authority across 12 movements; model and per-task token/elapsed telemetry unavailable"
+2026-09-14,timing-and-breakdown,faster-whisper-base-en-int8,machine,1.035,measured,0,0,"Local CPU transcription; 790 word timestamps; no API credits used"
+2026-09-14,visual-planning,Codex,agent,,unavailable,0,0,"Consolidated 74 cues into 8 scene systems; planned 2 bespoke systems and 1 generated-media unit; per-task token/elapsed telemetry unavailable"
+2026-09-14,visual-planning,Codex,agent,,unavailable,0,1,"Revised the rhythm from 1 to 4 generated-media units at owner direction; added bounded briefs and deterministic fallbacks"

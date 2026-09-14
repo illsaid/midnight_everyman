@@ -1,5 +1,57 @@
 # Decision record
 
+## D-036 - Package Episode 02 on the escalator comb plate
+
+**Decision (14 Sep 2026):** Episode 02 is the escalator comb plate, side brushes
+and step chain. Packaging in `work/hidden-systems-ep-02/packaging.md`.
+
+**Reason:** Chosen on proven demand. Jared Owen's "How does an Escalator work?"
+(4:59, 2019) holds 19,691,150 views; Zack D. Films' "Why Escalator Steps Have
+Grooves" holds 49,274,248 and "Why Escalators Have Brushes On The Side" holds
+25,920,694, both under 31 seconds. No long-form treatment of the comb plate or
+the brushes was found. Proven subject, unserved depth. Danger is native to this
+mechanism rather than bolted on.
+
+**Supersedes:** the working assumption on 14 Sep that Episode 02 should follow
+Pilot 01's fire-systems cluster. Cluster continuity lost to demand evidence.
+
+**Status:** Adopted. The Langham Place case was subsequently verified against
+the EMSD technical investigation; the Hong Kong government incident summary
+also records 18 injuries. See `work/hidden-systems-ep-02/structure-notes.md` and
+`elevenlabs-tag-notes.md` for the production-use record.
+
+## D-035 - Select subjects by proven demand, not by absence of coverage
+
+**Decision (14 Sep 2026):** When ranking candidates, ask what has already worked
+on the subject and what inside it is unanswered. Do not rank a subject up for
+being uncovered. Absence of coverage is weak evidence — a subject may be
+uncovered because there is no demand for it.
+
+**Constraint retained:** a channel of this size cannot take a head term from a
+multi-million-subscriber incumbent, because the recommendation system will not
+serve it there. The target is a proven subject with an unclaimed angle, not a
+proven subject copied straight.
+
+**Two open contradictions this raises, recorded so they are not lost:**
+
+1. `subject-selection.md` and `packaging.md` require escalating every rung-one
+   title shape. Jared Owen's ordinary-object catalogue never escalates and runs
+   2.5M–25M views on literal "How does a [OBJECT] work?" titles. Escalation may
+   still be correct for a small channel that cannot win a plain head term, but
+   the stated justification is not supported by measurement.
+2. D-031 makes the emotional-curiosity contract a danger frame — "breaks, burns,
+   bends or bites before you do". On one directly comparable pair, the
+   non-danger framing did 10× the danger framing for the same object (Jared Owen
+   elevator 7,560,314 vs Cheddar elevator free-falls 722,116), and no video in
+   the measured ordinary-object top ten uses a danger frame. Confounded by
+   channel size and age; **not** a reversal of D-031. Episode 02's title A/B
+   (mechanism vs danger) is the first cheap test of it.
+
+**Evidence:** `research/competitive-landscape-2026-09.md`, measured 14 Sep 2026.
+
+**Status:** Adopted for candidate ranking. Items 1 and 2 are open questions, not
+decisions.
+
 ## D-034 - Episode 02 lean throughput policy
 
 **Decision (13 Sep 2026):** Use approximately 12 owner-hours as the Episode 02

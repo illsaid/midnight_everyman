@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "method": "Locked script tokens mapped to faster-whisper word timestamps",
+  "textAuthority": "script-v3-vo-v3.txt",
+  "timingEvidence": "words-asr.json",
+  "editableCueAuthority": "cues.csv",
+  "fps": 24,
+  "durationInFrames": 7322,
+  "visualLeadFramesDefault": 3,
+  "normalizedScriptTokens": 790,
+  "normalizedExactMatches": 775,
+  "differences": [
+    {
+      "operation": "replace",
+      "script": [
+        "about",
+        "a"
+      ],
+      "asr": [
+        "but",
+        "one"
+      ]
+    },
+    {
+      "operation": "delete",
+      "script": [
+        "and"
+      ],
+      "asr": []
+    },
+    {
+      "operation": "insert",
+      "script": [],
+      "asr": [
+        "one"
+      ]
+    },
+    {
+      "operation": "replace",
+      "script": [
+        "tread"
+      ],
+      "asr": [
+        "treads",
+        "stop",
+        "the",
+        "stair"
+      ]
+    },
+    {
+      "operation": "insert",
+      "script": [],
+      "asr": [
+        "loom",
+        "and",
+        "so",
+        "on"
+      ]
+    },
+    {
+      "operation": "replace",
+      "script": [
+        "damaged"
+      ],
+      "asr": [
+        "damage"
+      ]
+    },
+    {
+      "operation": "replace",
+      "script": [
+        "belt",
+        "and",
+        "braces"
+      ],
+      "asr": [
+        "felt",
+        "embraces"
+      ]
+    },
+    {
+      "operation": "replace",
+      "script": [
+        "a"
+      ],
+      "asr": [
+        "one"
+      ]
+    },
+    {
+      "operation": "delete",
+      "script": [
+        "and"
+      ],
+      "asr": []
+    },
+    {
+      "operation": "replace",
+      "script": [
+        "passengers"
+      ],
+      "asr": [
+        "passenger's"
+      ]
+    },
+    {
+      "operation": "replace",
+      "script": [
+        "back",
+        "up"
+      ],
+      "asr": [
+        "backup"
+      ]
+    },
+    {
+      "operation": "replace",
+      "script": [
+        "break"
+      ],
+      "asr": [
+        "brake"
+      ]
+    },
+    {
+      "operation": "replace",
+      "script": [
+        "designed"
+      ],
+      "asr": [
+        "design"
+      ]
+    }
+  ],
+  "movements": [
+    {
+      "movement": "M01",
+      "firstCue": "01",
+      "lastCue": "06",
+      "fIn": 0,
+      "fOut": 459,
+      "durationSeconds": 19.125
+    },
+    {
+      "movement": "M02",
+      "firstCue": "07",
+      "lastCue": "13",
+      "fIn": 459,
+      "fOut": 1095,
+      "durationSeconds": 26.5
+    },
+    {
+      "movement": "M03",
+      "firstCue": "14",
+      "lastCue": "20",
+      "fIn": 1095,
+      "fOut": 1845,
+      "durationSeconds": 31.25
+    },
+    {
+      "movement": "M04",
+      "firstCue": "21",
+      "lastCue": "27",
+      "fIn": 1845,
+      "fOut": 2635,
+      "durationSeconds": 32.917
+    },
+    {
+      "movement": "M05",
+      "firstCue": "28",
+      "lastCue": "35",
+      "fIn": 2635,
+      "fOut": 3582,
+      "durationSeconds": 39.458
+    },
+    {
+      "movement": "M06",
+      "firstCue": "36",
+      "lastCue": "42",
+      "fIn": 3582,
+      "fOut": 4387,
+      "durationSeconds": 33.542
+    },
+    {
+      "movement": "M07",
+      "firstCue": "43",
+      "lastCue": "47",
+      "fIn": 4387,
+      "fOut": 4989,
+      "durationSeconds": 25.083
+    },
+    {
+      "movement": "M08",
+      "firstCue": "48",
+      "lastCue": "53",
+      "fIn": 4989,
+      "fOut": 5484,
+      "durationSeconds": 20.625
+    },
+    {
+      "movement": "M09",
+      "firstCue": "54",
+      "lastCue": "60",
+      "fIn": 5484,
+      "fOut": 6042,
+      "durationSeconds": 23.25
+    },
+    {
+      "movement": "M10",
+      "firstCue": "61",
+      "lastCue": "66",
+      "fIn": 6042,
+      "fOut": 6615,
+      "durationSeconds": 23.875
+    },
+    {
+      "movement": "M11",
+      "firstCue": "67",
+      "lastCue": "72",
+      "fIn": 6615,
+      "fOut": 7181,
+      "durationSeconds": 23.583
+    },
+    {
+      "movement": "M12",
+      "firstCue": "73",
+      "lastCue": "74",
+      "fIn": 7181,
+      "fOut": 7322,
+      "durationSeconds": 5.875
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "project": "hidden-systems-ep-02",
+  "status": "planned",
+  "fps": 24,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 7322,
+  "voiceover": "vo-locked",
+  "authorities": {
+    "voiceover": "vo-lock.json",
+    "cues": "cues.csv",
+    "script": "script-v3-vo-v3.txt"
+  },
+  "layoutContract": {
+    "safeMargins": {"left": 80, "right": 80, "top": 100, "bottom": 100},
+    "minimumHeadlinePx": 84,
+    "minimumSupportingTextPx": 44,
+    "captionPolicy": "Cue-authored Remotion text; captions-asr.json is evidence only and is not displayed by default",
+    "transitionPolicy": "In-scene overlays and wipes only; no transition may shorten or shift the locked narration timeline"
+  },
+  "budget": {
+    "sceneSystemsPlanned": 8,
+    "sceneSystemLimit": 12,
+    "bespokeSceneSystemsPlanned": 2,
+    "bespokeSceneSystemLimit": 2,
+    "generatedMediaUnitsPlanned": 4,
+    "generatedMediaUnitLimit": 4
+  },
+  "assets": {
+    "vo-locked": {
+      "file": "audio/escalator-vo-v1.mp3",
+      "runtimeFile": "public/voiceover/episode-02/escalator-vo-v1.mp3",
+      "kind": "audio",
+      "status": "approved",
+      "sha256": "581488692d22de2694d1fb81580fa9ed842c82510fdf7e5506cf076d0fa2aadc"
+    },
+    "incident-anchor-v1": {
+      "file": "reference-lock/anchors/incident-reversal-anchor-v1.png",
+      "kind": "image",
+      "status": "missing",
+      "generatedMediaUnit": "G-01",
+      "purpose": "Approved first frame and visual identity for the Hong Kong reversal reconstruction"
+    },
+    "incident-reversal-v1": {
+      "file": "source-media/generated/incident-reversal-v1.mp4",
+      "kind": "video",
+      "status": "missing",
+      "generatedMediaUnit": "G-01",
+      "requiredMotion": "A crowded upward-moving escalator stops, then reverses and visibly accelerates downhill",
+      "targetSeconds": 8,
+      "requiredFps": 24,
+      "requiredDimensions": [1920, 1080],
+      "fallback": "Use the approved anchor as a held editorial plate and perform the stop/reversal as a deterministic schematic overlay"
+    },
+    "lace-approach-anchor-v1": {
+      "file": "reference-lock/anchors/lace-approach-anchor-v1.png",
+      "kind": "image",
+      "status": "missing",
+      "generatedMediaUnit": "G-02",
+      "purpose": "Human-scale setup for the landing hazard before the comb-plate diagram"
+    },
+    "lace-approach-v1": {
+      "file": "source-media/generated/lace-approach-v1.mp4",
+      "kind": "video",
+      "status": "missing",
+      "generatedMediaUnit": "G-02",
+      "requiredMotion": "A loose shoelace rides toward the landing while the commuter remains unaware; cut before contact with the comb",
+      "targetSeconds": 8,
+      "requiredFps": 24,
+      "requiredDimensions": [1920, 1080],
+      "fallback": "Use the approved anchor with a slow camera move, then cut early to the deterministic comb diagram"
+    },
+    "step-sag-anchor-v1": {
+      "file": "reference-lock/anchors/step-sag-anchor-v1.png",
+      "kind": "image",
+      "status": "missing",
+      "generatedMediaUnit": "G-03",
+      "purpose": "Human reaction setup for the damaged-step sequence"
+    },
+    "step-sag-v1": {
+      "file": "source-media/generated/step-sag-v1.mp4",
+      "kind": "video",
+      "status": "missing",
+      "generatedMediaUnit": "G-03",
+      "requiredMotion": "A step ahead drops slightly out of alignment and the rider recoils; no internal mechanism is shown",
+      "targetSeconds": 10,
+      "requiredFps": 24,
+      "requiredDimensions": [1920, 1080],
+      "fallback": "Stage observerCels.fearBrace over the deterministic step-sag diagram"
+    },
+    "ordinary-ride-anchor-v1": {
+      "file": "reference-lock/anchors/ordinary-ride-anchor-v1.png",
+      "kind": "image",
+      "status": "missing",
+      "generatedMediaUnit": "G-04",
+      "purpose": "Calm human-scale bookend for the final ordinary ride"
+    },
+    "ordinary-ride-v1": {
+      "file": "source-media/generated/ordinary-ride-v1.mp4",
+      "kind": "video",
+      "status": "missing",
+      "generatedMediaUnit": "G-04",
+      "requiredMotion": "An ordinary commuter steps onto and rides a calm escalator without looking down",
+      "targetSeconds": 10,
+      "requiredFps": 24,
+      "requiredDimensions": [1920, 1080],
+      "fallback": "Use observerCels.inspectForward and observerCels.reliefSigh over the deterministic escalator loop"
+    },
+    "escalator-mechanism-v1": {
+      "file": "assets-canon/vertical-transport/escalator-mechanism-v1.svg",
+      "metadataFile": "assets-canon/vertical-transport/escalator-mechanism-v1.meta.json",
+      "kind": "svg",
+      "status": "planned",
+      "requiredGroups": [
+        "step-loop", "steps", "drive-sprocket", "return-sprocket", "front-track",
+        "rear-track", "motor", "main-drive-chain", "normal-brake", "auxiliary-brake",
+        "broken-chain-device", "comb-plate", "skirt-panel", "brush", "step-sag-device",
+        "missing-step-device"
+      ],
+      "approvalGate": "Do not import into production until the SVG and metadata are paired and approved"
+    },
+    "observer-shock-large": {
+      "file": "public/characters/observer/library/shock-large-v1.png",
+      "kind": "image",
+      "status": "approved",
+      "registry": "observerCels.shockLarge"
+    },
+    "observer-fear-brace": {
+      "file": "public/characters/observer/library/fear-brace-v1.png",
+      "kind": "image",
+      "status": "approved",
+      "registry": "observerCels.fearBrace"
+    },
+    "observer-inspect-forward": {
+      "file": "public/characters/observer/library/inspect-forward-v1.png",
+      "kind": "image",
+      "status": "approved",
+      "registry": "observerCels.inspectForward"
+    },
+    "observer-relief-sigh": {
+      "file": "public/characters/observer/library/relief-sigh-v1.png",
+      "kind": "image",
+      "status": "approved",
+      "registry": "observerCels.reliefSigh"
+    }
+  },
+  "scenes": [
+    {
+      "id": "incident-reversal",
+      "movements": ["M01"],
+      "cues": ["01", "02", "03", "04", "05", "06"],
+      "from": 0,
+      "duration": 459,
+      "component": "IncidentReversalScene",
+      "status": "planned",
+      "bespokeSystem": true,
+      "reuse": ["Pilot 01 freeze-and-interrupt typography", "approved Observer escalation cels"],
+      "layers": [
+        {"id": "plate", "kind": "media", "asset": "incident-reversal-v1", "cues": ["03", "04", "05"], "status": "missing"},
+        {"id": "case-overlay", "kind": "component", "status": "planned"}
+      ]
+    },
+    {
+      "id": "failure-map",
+      "movements": ["M02"],
+      "cues": ["07", "08", "09", "10", "11", "12", "13"],
+      "from": 459,
+      "duration": 636,
+      "component": "FailureMapScene",
+      "status": "planned",
+      "bespokeSystem": false,
+      "reuse": ["MechanismRecapScene card grammar", "IndependenceScene strike-and-retract pattern"],
+      "layers": [{"id": "diagram", "kind": "component", "status": "planned"}]
+    },
+    {
+      "id": "mechanism-reveal",
+      "movements": ["M03"],
+      "cues": ["14", "15", "16", "17", "18", "19", "20"],
+      "from": 1095,
+      "duration": 750,
+      "component": "MechanismRevealScene",
+      "status": "planned",
+      "bespokeSystem": true,
+      "sharedPrimitive": "EscalatorMechanism",
+      "reuse": ["FourPartsScene persistent-cutaway staging", "PipeScene reveal grammar"],
+      "layers": [{"id": "mechanism", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}]
+    },
+    {
+      "id": "local-entrapment",
+      "movements": ["M04", "M05"],
+      "cues": ["21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35"],
+      "from": 1845,
+      "duration": 1737,
+      "component": "LocalEntrapmentScene",
+      "status": "planned",
+      "bespokeSystem": false,
+      "sharedPrimitive": "EscalatorMechanism",
+      "reuse": ["ActivationScene travelling-camera states", "MechanismRecapScene strikeouts"],
+      "reviewSubranges": [
+        {"movement": "M04", "from": 1845, "to": 2635},
+        {"movement": "M05", "from": 2635, "to": 3582}
+      ],
+      "layers": [
+        {"id": "lace-approach-plate", "kind": "media", "asset": "lace-approach-v1", "cues": ["21", "22"], "status": "missing"},
+        {"id": "landing-and-skirt", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
+      ]
+    },
+    {
+      "id": "step-integrity",
+      "movements": ["M06"],
+      "cues": ["36", "37", "38", "39", "40", "41", "42"],
+      "from": 3582,
+      "duration": 805,
+      "component": "StepIntegrityScene",
+      "status": "planned",
+      "bespokeSystem": false,
+      "sharedPrimitive": "EscalatorMechanism",
+      "reuse": ["TwoHeadsScene local-versus-system comparison"],
+      "layers": [
+        {"id": "reaction-plate", "kind": "media", "asset": "step-sag-v1", "cues": ["36", "37", "38"], "status": "missing"},
+        {"id": "step-path", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
+      ]
+    },
+    {
+      "id": "runaway-protection",
+      "movements": ["M07", "M08"],
+      "cues": ["43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53"],
+      "from": 4387,
+      "duration": 1097,
+      "component": "RunawayProtectionScene",
+      "status": "planned",
+      "bespokeSystem": false,
+      "sharedPrimitive": "EscalatorMechanism",
+      "reuse": ["ReplacementScene comparative scale", "IndependenceScene disconnected-path grammar"],
+      "reviewSubranges": [
+        {"movement": "M07", "from": 4387, "to": 4989},
+        {"movement": "M08", "from": 4989, "to": 5484}
+      ],
+      "layers": [{"id": "drive-and-brakes", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}]
+    },
+    {
+      "id": "case-reconstruction",
+      "movements": ["M09", "M10"],
+      "cues": ["54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66"],
+      "from": 5484,
+      "duration": 1131,
+      "component": "CaseReconstructionScene",
+      "status": "planned",
+      "bespokeSystem": false,
+      "sharedPrimitive": "EscalatorMechanism",
+      "reuse": ["ActivationScene stress build", "MechanismRecapScene causal checklist"],
+      "reviewSubranges": [
+        {"movement": "M09", "from": 5484, "to": 6042},
+        {"movement": "M10", "from": 6042, "to": 6615}
+      ],
+      "layers": [
+        {"id": "incident-reprise", "kind": "media", "asset": "incident-reversal-v1", "cues": ["54", "55", "56"], "status": "missing", "reuseOnly": true},
+        {"id": "chain-and-detector", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
+      ]
+    },
+    {
+      "id": "ordinary-close",
+      "movements": ["M11", "M12"],
+      "cues": ["67", "68", "69", "70", "71", "72", "73", "74"],
+      "from": 6615,
+      "duration": 707,
+      "component": "OrdinaryCloseScene",
+      "status": "planned",
+      "bespokeSystem": false,
+      "sharedPrimitive": "EscalatorMechanism",
+      "reuse": ["ClosingScene quiet hold", "approved Observer inspect and relief cels", "incident anchor as calm bookend"],
+      "reviewSubranges": [
+        {"movement": "M11", "from": 6615, "to": 7181},
+        {"movement": "M12", "from": 7181, "to": 7322}
+      ],
+      "layers": [
+        {"id": "ordinary-ride-plate", "kind": "media", "asset": "ordinary-ride-v1", "cues": ["67", "68", "69"], "status": "missing"},
+        {"id": "ordinary-escalator", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"},
+        {"id": "observer", "kind": "image", "assets": ["observer-inspect-forward", "observer-relief-sigh"], "status": "approved"}
+      ]
+    }
+  ],
+  "reviewRanges": [
+    {"movement": "M01", "from": 0, "to": 459},
+    {"movement": "M02", "from": 459, "to": 1095},
+    {"movement": "M03", "from": 1095, "to": 1845},
+    {"movement": "M04", "from": 1845, "to": 2635},
+    {"movement": "M05", "from": 2635, "to": 3582},
+    {"movement": "M06", "from": 3582, "to": 4387},
+    {"movement": "M07", "from": 4387, "to": 4989},
+    {"movement": "M08", "from": 4989, "to": 5484},
+    {"movement": "M09", "from": 5484, "to": 6042},
+    {"movement": "M10", "from": 6042, "to": 6615},
+    {"movement": "M11", "from": 6615, "to": 7181},
+    {"movement": "M12", "from": 7181, "to": 7322}
+  ]
+}
