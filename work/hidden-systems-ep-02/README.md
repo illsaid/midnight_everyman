@@ -16,6 +16,7 @@
 - Production manifest: `production-manifest.json`
 - Scene and asset plan: `visual-plan.md`
 - Generated-media rhythm and briefs: `generated-media-plan.md`
+- Grouped escalator mechanism review: `mechanism-asset-review/`
 
 The owner supplied and authorized progression with the final narration on
 2026-09-14. Its measured duration is 305.057959 seconds. At 24 fps the episode
@@ -30,11 +31,15 @@ the binary remains on the canonical production PC.
 ## Current status
 
 Topic, package, script, narration, cue alignment, bounded timing QA and visual
-planning are complete. The editable cue authority contains 74 visual actions across 12
+planning are complete. A grouped escalator mechanism V1 has been rendered and
+validated in `mechanism-asset-review/`, but remains pending owner approval and
+must not be imported by production code. The editable cue authority contains 74 visual actions across 12
 narrative movements, with continuous coverage of the 7,322-frame timeline. The
 production plan consolidates them into eight reviewable scenes, two bespoke
-systems and four generated-media units. No composition or production asset has
-been built yet. The next step is the shared grouped escalator SVG.
+systems and four generated-media units. No composition or approved production
+asset has been built yet. After approval, promote the grouped SVG into
+`assets-canon/vertical-transport/`, then create the four generated first-frame
+anchors as one contact sheet.
 
 `cues.csv` is the sole editable timing and visual-intent authority. `f_in` and
 `f_out` define cue ownership; `primary_action_frame` is the reviewed dominant

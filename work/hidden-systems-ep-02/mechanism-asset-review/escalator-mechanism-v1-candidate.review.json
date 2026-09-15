@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "escalator-mechanism-v1-candidate",
+  "status": "review",
+  "approval": {
+    "status": "pending",
+    "requiredBy": "owner"
+  },
+  "intendedCanonicalAsset": "assets-canon/vertical-transport/escalator-mechanism-v1.svg",
+  "viewBox": [0, 0, 1920, 1080],
+  "requiredGroups": [
+    "step-loop",
+    "steps",
+    "drive-sprocket",
+    "return-sprocket",
+    "front-track",
+    "rear-track",
+    "motor",
+    "main-drive-chain",
+    "normal-brake",
+    "auxiliary-brake",
+    "broken-chain-device",
+    "comb-plate",
+    "skirt-panel",
+    "brush",
+    "step-sag-device",
+    "missing-step-device"
+  ],
+  "optionalReviewGroups": ["review-background", "labels"],
+  "sourceBasis": [
+    {
+      "title": "EMSD Technical Investigation Report on the Escalator Incident at Langham Place",
+      "url": "https://www.emsd.gov.hk/filemanager/en/content_794/Langham_Technical_Investigation_Report%28Eng%29.pdf",
+      "scope": "main drive chain, broken-chain device, auxiliary brake relationship"
+    },
+    {
+      "title": "KONE EcoMod Escalator Planning Guide",
+      "url": "https://distributors.kone.com/en/Images/brochure-kone-ecomod_tcm90-18457.pdf",
+      "scope": "missing-step and step-sag devices, skirt brushes, comb plate and brakes"
+    },
+    {
+      "title": "Otis Escalators and Moving Walks",
+      "url": "https://www.otis.com/en/eg/products-services/products/escalators-and-moving-walks",
+      "scope": "step chain assembly, brushes and comb plate"
+    }
+  ],
+  "style": {
+    "paper": "#EEE5CF",
+    "ink": "#242622",
+    "motion": "#D5A84C",
+    "safety": "#78975D",
+    "hazard": "#BD4E3D",
+    "fixedStructure": "#356F70",
+    "gradients": false,
+    "dropShadows": false
+  },
+  "validation": {
+    "xmlWellFormed": true,
+    "requiredGroupsPresentExactlyOnce": true,
+    "renderInspected": true,
+    "renderDimensions": [1920, 1080],
+    "svgSha256": "e105c9137681bf37711664f2ee20cf89b07961c5d94d7798aa949d98145acd60",
+    "pngSha256": "85da362e9235aa1ed4ded1a5e212c0c277847f48d353a5889866603f00f556ff"
+  },
+  "notes": [
+    "Generalized explainer geometry, not a manufacturer-specific engineering drawing.",
+    "Production scenes may hide labels and the review background while targeting named groups directly.",
+    "Do not move into assets-canon or mark approved until owner visual approval."
+  ]
+}

@@ -4,6 +4,23 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-15 — Codex — Episode 02 grouped mechanism review candidate
+
+- **Status:** The shared escalator mechanism has a visually inspected V1 review
+  candidate. It remains pending owner approval and is not in `assets-canon`.
+- **Changed:** Added `mechanism-asset-review/` with the 1920 x 1080 grouped SVG,
+  a rendered PNG, review metadata and promotion notes; updated the Episode 02
+  index and time log.
+- **Verified:** The SVG is well-formed; all 16 manifest-required group IDs occur
+  exactly once; the PNG was rendered at 1920 x 1080 and visually checked after
+  correcting one legend collision. Source scope is recorded in the review JSON.
+- **Did not do:** No owner approval is inferred. No canonical asset metadata,
+  production component, cue, manifest, narration or generated anchor changed.
+- **Next:** Owner reviews the candidate. On approval, promote a production copy
+  and metadata to `assets-canon/vertical-transport/`; then build the four
+  first-frame anchors as one contact sheet.
+- **Blocked:** Canonical promotion is intentionally blocked on owner approval.
+
 ## 2026-09-15 — Codex — Episode 02 bounded timing audit
 
 - **Status:** Pre-build timing QA is complete; the shared grouped escalator SVG

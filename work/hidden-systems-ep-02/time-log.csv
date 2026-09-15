@@ -9,3 +9,5 @@ date,phase,actor,category,minutes,measurement_status,retries,material_correction
 2026-09-14,visual-planning,Codex,agent,,unavailable,0,1,"Revised the rhythm from 1 to 4 generated-media units at owner direction; added bounded briefs and deterministic fallbacks"
 2026-09-15,timing-and-breakdown,Codex,agent,,unavailable,0,2,"Reviewed 25 high-risk cue anchors; added dominant-action frames and six compound-cue sub-beats; per-task token and total elapsed telemetry unavailable"
 2026-09-15,timing-and-breakdown,local-waveform-analysis,machine,0.042,measured,1,0,"Decoded the locked VO and estimated speech onsets with 20 ms RMS windows at 5 ms hops; no API credits used"
+2026-09-15,asset-build,Codex,agent,,unavailable,0,1,"Built and source-documented the grouped escalator mechanism review candidate; corrected one legend collision after visual QA; per-task token and elapsed telemetry unavailable"
+2026-09-15,asset-build,local-headless-chrome,machine,,unavailable,1,0,"Rendered two 1920 x 1080 review stills; first exposed the legend collision and second passed visual inspection; complete machine time unavailable"

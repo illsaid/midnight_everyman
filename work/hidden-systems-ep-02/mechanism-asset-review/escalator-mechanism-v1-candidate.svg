@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Midnight Everyman escalator mechanism review candidate</title>
+  <desc id="description">A stylized cutaway escalator with sixteen separately addressable mechanism groups for Remotion animation.</desc>
+
+  <g id="review-background">
+    <rect width="1920" height="1080" fill="#EEE5CF"/>
+    <path d="M0 94H1920M0 986H1920" stroke="#C9C1AC" stroke-width="2" stroke-dasharray="5 11" opacity=".7"/>
+    <path d="M0 0L1920 1080M1920 0L0 1080" stroke="#C9C1AC" stroke-width="1" opacity=".12"/>
+  </g>
+
+  <!-- Fixed enclosure sits behind all moving equipment. -->
+  <g id="skirt-panel">
+    <path d="M205 874L253 928L1576 394L1518 270L1398 301L321 755Z" fill="#356F70" opacity=".13"/>
+    <path d="M245 865L322 783L1406 326L1513 330" fill="none" stroke="#242622" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M267 880L338 806L1420 350L1506 354" fill="none" stroke="#7C7566" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- The full continuous circulation route. -->
+  <g id="step-loop">
+    <path d="M316 779L1388 326C1451 299 1514 336 1534 395C1556 462 1525 519 1465 544L401 969C335 996 266 964 244 901C223 842 256 805 316 779Z" fill="none" stroke="#242622" stroke-width="12"/>
+    <path d="M331 802L1401 351C1435 337 1469 353 1480 383C1491 416 1476 447 1444 461L379 886C346 899 312 883 301 852C292 828 306 812 331 802Z" fill="none" stroke="#D5A84C" stroke-width="7" stroke-dasharray="20 16"/>
+    <path d="M1444 461L379 886" fill="none" stroke="#BD4E3D" stroke-width="5" stroke-dasharray="2 18" stroke-linecap="round"/>
+  </g>
+
+  <g id="front-track">
+    <path d="M302 746L1384 290" fill="none" stroke="#D5A84C" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="488" cy="668" r="9" fill="#D5A84C"/>
+    <circle cx="862" cy="510" r="9" fill="#D5A84C"/>
+    <circle cx="1237" cy="352" r="9" fill="#D5A84C"/>
+  </g>
+
+  <g id="rear-track">
+    <path d="M322 794L1403 338" fill="none" stroke="#78975D" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="507" cy="716" r="8" fill="#78975D"/>
+    <circle cx="881" cy="558" r="8" fill="#78975D"/>
+    <circle cx="1256" cy="400" r="8" fill="#78975D"/>
+  </g>
+
+  <!-- Individual step modules: large enough to remain legible on screen. -->
+  <g id="steps" fill="#E4DCC4" stroke="#242622" stroke-width="7" stroke-linejoin="round">
+    <g id="step-01" transform="translate(315 704)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-02" transform="translate(419 660)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-03" transform="translate(523 616)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-04" transform="translate(627 572)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-05" transform="translate(731 528)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-06" transform="translate(835 484)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-07" transform="translate(939 440)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-08" transform="translate(1043 396)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-09" transform="translate(1147 352)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-10" transform="translate(1251 308)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="step-11" transform="translate(1355 264)"><path d="M0 0H126V45H28L0 22Z"/><path d="M28 45V92H126V45" fill="#C9C1AC"/><path d="M16 13H111" stroke="#7C7566" stroke-width="4" stroke-dasharray="7 7"/><circle cx="29" cy="84" r="10" fill="#D5A84C"/><circle cx="108" cy="84" r="10" fill="#78975D"/></g>
+    <g id="return-steps" opacity=".67">
+      <path d="M431 869L520 832L548 866L455 904Z"/>
+      <path d="M586 807L675 770L703 804L610 842Z"/>
+      <path d="M741 745L830 708L858 742L765 780Z"/>
+      <path d="M896 683L985 646L1013 680L920 718Z"/>
+      <path d="M1051 621L1140 584L1168 618L1075 656Z"/>
+      <path d="M1206 559L1295 522L1323 556L1230 594Z"/>
+    </g>
+  </g>
+
+  <g id="return-sprocket">
+    <circle cx="306" cy="860" r="88" fill="#EEE5CF" stroke="#242622" stroke-width="12"/>
+    <path d="M306 752V785M306 935V968M198 860H231M381 860H414M230 784L254 808M358 912L382 936M230 936L254 912M358 808L382 784" stroke="#D5A84C" stroke-width="18" stroke-linecap="square"/>
+    <circle cx="306" cy="860" r="48" fill="#D5A84C" stroke="#242622" stroke-width="9"/>
+    <circle cx="306" cy="860" r="13" fill="#242622"/>
+  </g>
+
+  <g id="drive-sprocket">
+    <circle cx="1440" cy="386" r="104" fill="#EEE5CF" stroke="#242622" stroke-width="13"/>
+    <path d="M1440 258V294M1440 478V514M1312 386H1348M1532 386H1568M1349 295L1375 321M1505 451L1531 477M1349 477L1375 451M1505 321L1531 295" stroke="#BD4E3D" stroke-width="20"/>
+    <circle cx="1440" cy="386" r="58" fill="#BD4E3D" stroke="#242622" stroke-width="10"/>
+    <circle cx="1440" cy="386" r="16" fill="#242622"/>
+  </g>
+
+  <g id="motor">
+    <rect x="1590" y="570" width="205" height="132" rx="22" fill="#356F70" stroke="#242622" stroke-width="11"/>
+    <path d="M1631 570V531H1753V570M1618 701V732M1767 701V732" fill="none" stroke="#242622" stroke-width="11"/>
+    <circle cx="1625" cy="636" r="23" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+    <path d="M1680 603V669M1715 603V669M1750 603V669" stroke="#D5A84C" stroke-width="8"/>
+  </g>
+
+  <g id="main-drive-chain">
+    <path d="M1468 432C1518 485 1556 542 1619 617" fill="none" stroke="#242622" stroke-width="22" stroke-linecap="round"/>
+    <path d="M1468 432C1518 485 1556 542 1619 617" fill="none" stroke="#D5A84C" stroke-width="8" stroke-dasharray="9 12" stroke-linecap="round"/>
+    <circle cx="1468" cy="432" r="20" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+    <circle cx="1619" cy="617" r="20" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+  </g>
+
+  <g id="normal-brake">
+    <path d="M1575 540L1537 501L1504 522L1547 569Z" fill="#78975D" stroke="#242622" stroke-width="9"/>
+    <path d="M1524 518L1491 474" stroke="#242622" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="1485" cy="466" r="15" fill="#78975D" stroke="#242622" stroke-width="7"/>
+  </g>
+
+  <g id="auxiliary-brake">
+    <path d="M1365 250C1312 282 1281 334 1276 390" fill="none" stroke="#78975D" stroke-width="26" stroke-linecap="round"/>
+    <path d="M1367 249L1402 292M1277 389L1331 393" stroke="#242622" stroke-width="9"/>
+    <rect x="1230" y="237" width="126" height="63" rx="12" fill="#78975D" stroke="#242622" stroke-width="9"/>
+    <path d="M1257 268H1331" stroke="#EEE5CF" stroke-width="8" stroke-dasharray="10 8"/>
+  </g>
+
+  <g id="broken-chain-device">
+    <path d="M1512 504L1555 462L1596 504L1555 546Z" fill="#BD4E3D" stroke="#242622" stroke-width="9"/>
+    <path d="M1555 462V422" stroke="#242622" stroke-width="10"/>
+    <path d="M1533 421H1577L1567 397H1543Z" fill="#D5A84C" stroke="#242622" stroke-width="8"/>
+    <path d="M1577 514C1614 521 1636 502 1642 475" fill="none" stroke="#BD4E3D" stroke-width="9" stroke-dasharray="7 8"/>
+  </g>
+
+  <g id="comb-plate">
+    <path d="M1361 239H1610V310H1361Z" fill="#D5A84C" stroke="#242622" stroke-width="10"/>
+    <path d="M1366 310L1380 337L1394 310L1408 337L1422 310L1436 337L1450 310L1464 337L1478 310L1492 337L1506 310L1520 337L1534 310L1548 337L1562 310L1576 337L1590 310L1604 337" fill="#D5A84C" stroke="#242622" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M1386 262H1584" stroke="#EEE5CF" stroke-width="8" stroke-dasharray="12 10"/>
+  </g>
+
+  <g id="brush">
+    <path d="M404 760L1321 373" fill="none" stroke="#242622" stroke-width="16"/>
+    <path d="M412 777L1329 390" fill="none" stroke="#BD4E3D" stroke-width="4" stroke-dasharray="3 13" stroke-linecap="round"/>
+    <path d="M412 769L400 789M442 756L430 776M472 743L460 763M502 730L490 750M532 717L520 737M562 704L550 724M592 691L580 711M622 678L610 698M652 665L640 685M682 652L670 672M712 639L700 659M742 626L730 646M772 613L760 633M802 600L790 620M832 587L820 607M862 574L850 594M892 561L880 581M922 548L910 568M952 535L940 555M982 522L970 542M1012 509L1000 529M1042 496L1030 516M1072 483L1060 503M1102 470L1090 490M1132 457L1120 477M1162 444L1150 464M1192 431L1180 451M1222 418L1210 438M1252 405L1240 425M1282 392L1270 412M1312 379L1300 399" stroke="#242622" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g id="step-sag-device">
+    <path d="M849 710V646L893 628" fill="none" stroke="#242622" stroke-width="10"/>
+    <rect x="802" y="699" width="95" height="67" rx="13" fill="#78975D" stroke="#242622" stroke-width="9"/>
+    <circle cx="895" cy="626" r="17" fill="#D5A84C" stroke="#242622" stroke-width="8"/>
+    <path d="M823 732H876" stroke="#EEE5CF" stroke-width="8"/>
+  </g>
+
+  <g id="missing-step-device">
+    <rect x="1046" y="613" width="111" height="72" rx="14" fill="#78975D" stroke="#242622" stroke-width="9"/>
+    <path d="M1099 613V571L1149 550" fill="none" stroke="#242622" stroke-width="10"/>
+    <path d="M1071 649H1091M1102 649H1122M1133 649H1143" stroke="#EEE5CF" stroke-width="8"/>
+    <circle cx="1151" cy="548" r="17" fill="#D5A84C" stroke="#242622" stroke-width="8"/>
+  </g>
+
+  <g id="labels" font-family="Arial, Helvetica, sans-serif" fill="#242622">
+    <text x="72" y="67" font-size="34" font-weight="800" letter-spacing="6">THE MACHINE UNDER THE STAIRS</text>
+    <text x="1848" y="67" text-anchor="end" font-size="18" font-weight="700" letter-spacing="3">EPISODE 02 · REVIEW V1</text>
+
+    <g font-size="19" font-weight="800" letter-spacing="2">
+      <path d="M1480 193L1452 287" stroke="#242622" stroke-width="3"/>
+      <rect x="1370" y="124" width="303" height="66" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
+      <text x="1391" y="165">COMB PLATE + TEETH</text>
+
+      <path d="M1707 802L1693 697" stroke="#242622" stroke-width="3"/>
+      <rect x="1530" y="802" width="318" height="66" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
+      <text x="1552" y="843">MOTOR + DRIVE CHAIN</text>
+
+      <path d="M1199 802L1110 681" stroke="#242622" stroke-width="3"/>
+      <rect x="1031" y="802" width="394" height="66" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
+      <text x="1053" y="843">STEP MONITORING DEVICES</text>
+
+      <path d="M276 642L324 754" stroke="#242622" stroke-width="3"/>
+      <rect x="62" y="571" width="352" height="66" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
+      <text x="85" y="612">TWO TRACKS · TWO WHEELS</text>
+    </g>
+
+    <g transform="translate(72 111)" font-size="17" font-weight="700" letter-spacing="1.8">
+      <circle cx="12" cy="10" r="10" fill="#D5A84C"/><text x="34" y="17">MOTION / DRIVE</text>
+      <circle cx="255" cy="10" r="10" fill="#78975D"/><text x="277" y="17">SAFETY DEVICE</text>
+      <circle cx="500" cy="10" r="10" fill="#BD4E3D"/><text x="522" y="17">HAZARD / TRIP</text>
+      <path d="M730 10H790" stroke="#C9C1AC" stroke-width="5" stroke-dasharray="8 8"/><text x="810" y="17">REFERENCE</text>
+    </g>
+    <text x="1848" y="956" text-anchor="end" font-size="16" font-weight="700" letter-spacing="2.3">GENERALIZED EXPLAINER ASSET · NOT A MANUFACTURER DRAWING</text>
+  </g>
+</svg>
