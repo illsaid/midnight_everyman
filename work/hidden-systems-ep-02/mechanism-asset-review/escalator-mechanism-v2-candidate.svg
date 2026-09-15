@@ -217,19 +217,19 @@
   <g id="labels-components" font-family="Arial, Helvetica, sans-serif" fill="#242622" font-size="18" font-weight="800" letter-spacing="2">
     <path d="M270 618L344 777" fill="none" stroke="#242622" stroke-width="3"/>
     <rect x="58" y="552" width="354" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
-    <text x="82" y="592">TRACKS SEPARATE ON RISE</text>
+    <text x="235" y="592" text-anchor="middle">TRACKS SEPARATE</text>
 
     <path d="M1454 171L1437 286" fill="none" stroke="#242622" stroke-width="3"/>
     <rect x="1320" y="106" width="334" height="64" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
-    <text x="1343" y="146">TRACKS CONVERGE AT COMB</text>
+    <text x="1487" y="146" text-anchor="middle">TRACKS CONVERGE</text>
 
     <path d="M1220 792L1100 647" fill="none" stroke="#242622" stroke-width="3"/>
     <rect x="1009" y="792" width="405" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
-    <text x="1032" y="832">SHARED SAFETY-DEVICE FORM</text>
+    <text x="1211" y="832" text-anchor="middle">SHARED SAFETY-DEVICE FORM</text>
 
     <path d="M686 912L746 761" fill="none" stroke="#242622" stroke-width="3"/>
     <rect x="515" y="912" width="359" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
-    <text x="539" y="952">RETURN STEPS · FULL WEIGHT</text>
+    <text x="695" y="952" text-anchor="middle">RETURN STEPS</text>
   </g>
 
   <g id="labels-review" font-family="Arial, Helvetica, sans-serif" fill="#242622">

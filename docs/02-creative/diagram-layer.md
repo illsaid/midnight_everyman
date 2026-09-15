@@ -59,6 +59,14 @@ diagram and character grids agree.
 Beat budget at 8640 frames (360 s): **600 / 1800 / 1440 / 2280 / 1560 / 960**,
 across 13 movements of 480–1080 frames.
 
+## Boxed SVG label fit
+
+Boxed labels use `text-anchor="middle"` at the geometric centre of their
+container. Retain at least 32 px of horizontal clearance on both sides at the
+final font size and letter spacing. Shorten the copy before reducing type size;
+do not rely on a left-hand text origin or on a scaled preview to imply fit.
+Inspect the rasterized output at delivery resolution before approval.
+
 ## Terminology
 
 "Beat" is overloaded. In this project it means three things:

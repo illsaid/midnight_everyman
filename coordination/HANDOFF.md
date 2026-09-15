@@ -4,6 +4,19 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-15 — Codex — Episode 02 boxed-label rule correction
+
+- **Status:** The V2 callouts are geometrically centered and clear. The
+  candidate remains pending owner approval.
+- **Changed:** Centered four boxed callouts, shortened three, regenerated the
+  PNG and hashes, and added the shared boxed-label fit rule to the diagram layer.
+- **Verified:** Every component callout is centered and clear at 1920 x 1080;
+  mechanism geometry, group IDs, wheel anchors and state contract are unchanged.
+- **Did not do:** No canonical promotion, component, cue, manifest, narration or
+  generated-media asset changed.
+- **Next:** Owner reviews V2; approval promotes this exact candidate.
+- **Blocked:** Canonical promotion remains blocked on owner approval.
+
 ## 2026-09-15 — Codex — Episode 02 V2 label-fit correction
 
 - **Status:** The four V2 review labels now retain visible internal padding.
