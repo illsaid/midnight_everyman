@@ -84,13 +84,14 @@
     "trackGeometryNonParallel": true,
     "renderInspected": true,
     "renderDimensions": [1920, 1080],
-    "svgSha256": "0fe13608778d63121a5713931e6081c3f71c765c22f13a8c91e0b1f724552d59",
-    "pngSha256": "863fcca1f54678056c5a0a264042b04bb49ef1b03d1f6f3b9db13adf2cc439bc"
+    "svgSha256": "269c1b3c6d703676b599403ba2f0106d879f0ac24897564984b8b9feb933958d",
+    "pngSha256": "16c49753204decd062a325a19e9bf78e74466fc0962bef8a46ac77c3ea4047eb"
   },
   "notes": [
     "The guide tracks coincide on the landings and separate across the incline.",
     "Each visible step exposes independent front and rear wheel anchors for later Remotion state animation.",
     "Production may retain component labels while removing labels-review and review-background.",
+    "Review-label copy was shortened after visual QA so every text run retains clear container padding.",
     "Do not promote or import into production until owner visual approval."
   ]
 }

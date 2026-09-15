@@ -217,11 +217,11 @@
   <g id="labels-components" font-family="Arial, Helvetica, sans-serif" fill="#242622" font-size="18" font-weight="800" letter-spacing="2">
     <path d="M270 618L344 777" fill="none" stroke="#242622" stroke-width="3"/>
     <rect x="58" y="552" width="354" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
-    <text x="82" y="592">TRACKS SEPARATE ON THE RISE</text>
+    <text x="82" y="592">TRACKS SEPARATE ON RISE</text>
 
     <path d="M1454 171L1437 286" fill="none" stroke="#242622" stroke-width="3"/>
     <rect x="1320" y="106" width="334" height="64" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
-    <text x="1343" y="146">TRACKS CONVERGE · COMB</text>
+    <text x="1343" y="146">TRACKS CONVERGE AT COMB</text>
 
     <path d="M1220 792L1100 647" fill="none" stroke="#242622" stroke-width="3"/>
     <rect x="1009" y="792" width="405" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
@@ -229,14 +229,14 @@
 
     <path d="M686 912L746 761" fill="none" stroke="#242622" stroke-width="3"/>
     <rect x="515" y="912" width="359" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
-    <text x="539" y="952">FULL-STRENGTH RETURN RUN</text>
+    <text x="539" y="952">RETURN STEPS · FULL WEIGHT</text>
   </g>
 
   <g id="labels-review" font-family="Arial, Helvetica, sans-serif" fill="#242622">
     <text x="72" y="67" font-size="34" font-weight="800" letter-spacing="6">THE MACHINE UNDER THE STAIRS</text>
     <text x="1848" y="67" text-anchor="end" font-size="18" font-weight="700" letter-spacing="3">EPISODE 02 · REVIEW V2</text>
     <rect x="72" y="105" width="784" height="43" rx="21" fill="#E4DCC4" stroke="#242622" stroke-width="3"/>
-    <text x="96" y="133" font-size="16" font-weight="800" letter-spacing="2.1">NEUTRAL BASE · CATEGORY BY FORM · COLOUR APPLIED BY SCENE STATE</text>
+    <text x="96" y="133" font-size="16" font-weight="800" letter-spacing="2.1">NEUTRAL BASE · FORM = CATEGORY · COLOUR = STATE</text>
     <text x="1848" y="956" text-anchor="end" font-size="16" font-weight="700" letter-spacing="2.3">GENERALIZED EXPLAINER ASSET · NOT A MANUFACTURER DRAWING</text>
   </g>
 </svg>

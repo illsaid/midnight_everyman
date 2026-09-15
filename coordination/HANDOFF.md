@@ -4,6 +4,19 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-15 — Codex — Episode 02 V2 label-fit correction
+
+- **Status:** The four V2 review labels now retain visible internal padding.
+  The candidate remains pending owner approval.
+- **Changed:** Shortened the state-contract pill and three component callouts;
+  regenerated the 1920 x 1080 PNG and updated both file hashes in the sidecar.
+- **Verified:** All four marked text runs fit their containers in the rerender;
+  mechanism geometry, group IDs, wheel anchors and state contract are unchanged.
+- **Did not do:** No canonical promotion, component, cue, manifest, narration or
+  generated-media asset changed.
+- **Next:** Owner reviews V2; approval promotes this exact candidate.
+- **Blocked:** Canonical promotion remains blocked on owner approval.
+
 ## 2026-09-15 — Codex — Episode 02 grouped mechanism V2 review candidate
 
 - **Status:** V2 is rendered and structurally validated beside V1. It remains a

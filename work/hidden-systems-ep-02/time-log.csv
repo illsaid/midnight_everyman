@@ -13,3 +13,5 @@ date,phase,actor,category,minutes,measurement_status,retries,material_correction
 2026-09-15,asset-build,local-headless-chrome,machine,,unavailable,1,0,"Rendered two 1920 x 1080 review stills; first exposed the legend collision and second passed visual inspection; complete machine time unavailable"
 2026-09-15,asset-revision,Codex,agent,,unavailable,0,5,"Rebuilt the V2 track and wheel relationship, neutral state contract, return run, safety-device form and label architecture; per-task token and elapsed telemetry unavailable"
 2026-09-15,asset-revision,local-headless-chrome,machine,,unavailable,0,0,"Rendered and visually inspected one 1920 x 1080 V2 review still; complete machine time unavailable"
+2026-09-15,asset-revision,Codex,agent,,unavailable,0,1,"Corrected four V2 review-label fit defects without changing mechanism geometry"
+2026-09-15,asset-revision,local-headless-chrome,machine,,unavailable,0,0,"Rerendered and visually inspected the corrected 1920 x 1080 V2 still; complete machine time unavailable"
