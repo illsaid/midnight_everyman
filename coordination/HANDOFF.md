@@ -4,6 +4,23 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-15 — Codex — Episode 02 anchor contact sheet v1
+
+- **Status:** Four first-frame candidates and one contact sheet generated;
+  owner review pending. No motion authorized or generated.
+- **Changed:** Tightened the generated-plate palette contract, clarified the
+  Episode 02 state-colour scope and Observer costume exception, stored the five
+  raster review files locally, and recorded prompts plus SHA-256 hashes in
+  `work/hidden-systems-ep-02/anchor-review-v1.md`.
+- **Verified:** Inspected the 1920×1080 sheet at full resolution and rechecked
+  all five hashes. G-01 and G-02 are strong first passes. G-03 may need stronger
+  target-step isolation; G-04 may need a more visible skirt brush.
+- **Did not do:** Did not promote canonical anchors, buy motion, change cue or
+  narration files, or change generated-media manifest status.
+- **Next:** Owner approves the sheet or requests targeted G-03/G-04 revisions.
+  After sheet approval, promote the approved anchors and animate G-01 first.
+- **Blocked:** Motion generation is waiting on owner approval.
+
 ## 2026-09-15 — Codex — Episode 02 escalator mechanism promoted
 
 - **Status:** Owner and independent review approved V2; the production SVG and

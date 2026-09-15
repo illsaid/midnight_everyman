@@ -19,3 +19,6 @@ date,phase,actor,category,minutes,measurement_status,retries,material_correction
 2026-09-15,asset-revision,local-headless-chrome,machine,,unavailable,0,0,"Rerendered and visually inspected the centered 1920 x 1080 V2 still; complete machine time unavailable"
 2026-09-15,asset-promotion,Codex,agent,,unavailable,0,1,"Replaced four reviewer annotations with production component captions, defined the shared scene-state colour vocabulary, and promoted the approved canonical SVG plus metadata"
 2026-09-15,asset-promotion,local-headless-edge,machine,,unavailable,1,0,"Rendered two 1920 x 1080 caption-review stills; the first exposed insufficient side clearance and the second passed visual inspection"
+2026-09-15,anchor-generation,Codex,agent,,unavailable,0,0,"Defined four full-resolution first-frame prompts, inspected outputs and assembled the approval-gated contact-sheet record"
+2026-09-15,anchor-generation,built-in-imagegen,machine,,unavailable,0,0,"Generated four distinct 16:9 anchor candidates from the approved environment and Observer references; per-image cost telemetry unavailable"
+2026-09-15,anchor-generation,local-headless-edge,machine,,unavailable,0,0,"Composited and rendered one 1920 x 1080 four-panel contact sheet; machine time unavailable"

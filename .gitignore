@@ -12,6 +12,7 @@ work/**/assembly-review/
 work/**/rollback/
 work/**/source-media/
 work/**/audio/
+work/**/anchor-review/
 public/sprinkler-assembly/**/*.mp4
 public/sprinkler-assembly/**/*.mp3
 public/sprinkler-assembly/**/*.wav

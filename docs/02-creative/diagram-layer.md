@@ -74,6 +74,13 @@ current scene state. The neutral asset uses only paper, ink, reference,
 ink-mute and cutaway values. Scene code applies at most one semantic colour at
 a time, except during an explicit six-frame state handoff.
 
+This vocabulary governs mechanism diagrams, labels and explanatory overlays
+from Episode 02 forward; it does not retroactively classify Pilot 01. Established
+character costume is identity, not mechanism state. When the Observer shares a
+frame with a semantic accent, preserve the state cue's dominance through
+locality, motion, annotation or scale rather than creating an episode-specific
+character palette.
+
 | Addressed role | Rest | Selected / operating | Warning / approaching limit | Protective trip | Failed / broken |
 |---|---|---|---|---|---|
 | `safety-device` | Neutral body and ink outline | Neutral unless it is the named subject | Mustard `#D5A84C`, with a pulse or contact marker | Teal `#356F70`, with visible travel or a latched form | Coral `#BD4E3D`; for failure to actuate, retain the rest geometry and add a stall or slash cue |

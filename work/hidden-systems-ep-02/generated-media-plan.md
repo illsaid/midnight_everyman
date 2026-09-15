@@ -26,10 +26,17 @@ under roughly eighty seconds and contains multiple camera/state changes.
 ## Shared visual contract
 
 - Midnight Everyman flat editorial cel style, restrained 1950s/60s print feel.
-- House paper, ink, teal, mustard and coral palette; no photorealism.
+- Neutral-dominant paper, ink, reference, ink-mute and cutaway palette; no
+  photorealism. Avoid large areas of the exact teal, mustard and coral house
+  accents so Remotion can own those colours when they communicate mechanism
+  state. Incidental muted clothing colour is acceptable when it cannot compete
+  with the state overlay.
 - 16:9 composition with no embedded text, logos or signage.
 - Preserve generous negative space for Remotion labels and evidence overlays.
-- Use the approved Observer reference where a principal commuter is visible.
+- Use the approved Observer reference, including his established costume, where
+  a principal commuter is visible. Costume colour is identity rather than
+  mechanism state; do not create an episode-specific Observer palette unless an
+  actual composite demonstrates a readability failure.
 - Camera movement must be restrained and readable; no dramatic lens effects,
   whip pans or modern cinematic grading.
 - Generate no exposed internal machinery. The model supplies people, cloth and
@@ -102,6 +109,8 @@ deterministic step loop.
 ## Approval rule
 
 Approve all four anchors as a single style/framing contact sheet before any
-motion generation. Generate one unit at a time. A motion result is accepted for
-the human action and continuity only; it is never treated as evidence for the
-mechanism.
+motion generation. Review the sheet both for internal consistency and for
+compatibility with the scene-state table: each plate must leave enough neutral
+space and contrast for its anticipated Remotion overlay. Generate one unit at a
+time. A motion result is accepted for the human action and continuity only; it
+is never treated as evidence for the mechanism.
