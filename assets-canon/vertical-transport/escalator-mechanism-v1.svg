@@ -1,12 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
-  <title id="title">Midnight Everyman escalator mechanism V2 review candidate</title>
-  <desc id="description">A neutral cutaway escalator with converging wheel tracks, explicit step wheel anchors, and separately addressable safety systems for Remotion state animation.</desc>
-
-  <g id="review-background">
-    <rect width="1920" height="1080" fill="#EEE5CF"/>
-    <path d="M0 95H1920M0 986H1920" fill="none" stroke="#C9C1AC" stroke-width="2" stroke-dasharray="5 11"/>
-    <path d="M0 0L1920 1080M1920 0L0 1080" fill="none" stroke="#E4DCC4" stroke-width="2"/>
-  </g>
+  <title id="title">Midnight Everyman escalator mechanism</title>
+  <desc id="description">A transparent neutral cutaway escalator with converging wheel tracks, explicit step wheel anchors, production component captions, and separately addressable safety systems for Remotion state animation.</desc>
 
   <g id="floor-datum" data-part-role="fixed-structure">
     <path d="M0 842H286L332 807" fill="none" stroke="#242622" stroke-width="14"/>
@@ -232,11 +226,4 @@
     <text x="1689" y="843" text-anchor="middle">MOTOR + DRIVE CHAIN</text>
   </g>
 
-  <g id="labels-review" font-family="Arial, Helvetica, sans-serif" fill="#242622">
-    <text x="72" y="67" font-size="34" font-weight="800" letter-spacing="6">THE MACHINE UNDER THE STAIRS</text>
-    <text x="1848" y="67" text-anchor="end" font-size="18" font-weight="700" letter-spacing="3">EPISODE 02 · REVIEW V2</text>
-    <rect x="72" y="105" width="784" height="43" rx="21" fill="#E4DCC4" stroke="#242622" stroke-width="3"/>
-    <text x="96" y="133" font-size="16" font-weight="800" letter-spacing="2.1">NEUTRAL BASE · FORM = CATEGORY · COLOUR = STATE</text>
-    <text x="1848" y="956" text-anchor="end" font-size="16" font-weight="700" letter-spacing="2.3">GENERALIZED EXPLAINER ASSET · NOT A MANUFACTURER DRAWING</text>
-  </g>
 </svg>

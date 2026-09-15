@@ -23,5 +23,8 @@ reference/**/*.webm
 public/voiceover/**/*.mp3
 public/voiceover/**/*.wav
 
+# Local-only technical review renders; SVG source and review metadata remain tracked.
+work/hidden-systems-ep-02/mechanism-asset-review/escalator-mechanism-v2-candidate.png
+
 # Ignore the output video from Git but not videos you import into src/.
 out

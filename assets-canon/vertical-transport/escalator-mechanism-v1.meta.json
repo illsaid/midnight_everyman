@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "escalator-mechanism-v1",
+  "displayName": "Generalized escalator mechanism cutaway",
+  "category": "transportation",
+  "asset": {
+    "file": "escalator-mechanism-v1.svg",
+    "format": "svg"
+  },
+  "tags": [
+    "escalator",
+    "vertical-transport",
+    "cutaway",
+    "safety-system",
+    "technical-diagram"
+  ],
+  "source": {
+    "packageId": "hidden-systems-episode-02-custom",
+    "sourceFile": "work/hidden-systems-ep-02/mechanism-asset-review/escalator-mechanism-v2-candidate.svg",
+    "licenseStatus": "verified",
+    "licenseEvidence": "Original project asset approved by the user on 2026-09-15",
+    "adaptationNotes": "Source-informed generalized explainer geometry; review shell removed, production component captions retained, and named groups plus per-step wheel anchors preserved."
+  },
+  "geometry": {
+    "viewBox": [0, 0, 1920, 1080],
+    "anchor": {"x": 0.5, "y": 0.94},
+    "baselineY": 0.94,
+    "facing": "neutral"
+  },
+  "houseStyle": {
+    "paletteRoles": ["paper", "ink", "reference", "ink-mute", "cutaway"],
+    "strokeMode": "ink",
+    "detailLevel": "technical",
+    "notes": "Neutral base. Category is encoded by form and data-part-role. Apply scene colour only through docs/02-creative/diagram-layer.md#scene-state-colour-vocabulary."
+  },
+  "approval": {
+    "status": "approved",
+    "date": "2026-09-15",
+    "by": "user",
+    "notes": "V2 geometry and labels approved by the owner and independently reviewed by Claude before promotion."
+  }
+}

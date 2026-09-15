@@ -7,6 +7,7 @@
     {"id": "gas-station-background", "category": "architecture", "asset": "automotive/gas-station-background-v1.jpg", "metadata": "automotive/gas-station-background.meta.json"},
     {"id": "sedan", "category": "automotive", "asset": "automotive/sedan-v2.png", "metadata": "automotive/sedan.meta.json"},
     {"id": "fuel-pump", "category": "automotive", "asset": "automotive/fuel-pump-v2.png", "metadata": "automotive/fuel-pump.meta.json"},
-    {"id": "fuel-nozzle", "category": "automotive", "asset": "automotive/fuel-nozzle-v2.png", "metadata": "automotive/fuel-nozzle.meta.json"}
+    {"id": "fuel-nozzle", "category": "automotive", "asset": "automotive/fuel-nozzle-v2.png", "metadata": "automotive/fuel-nozzle.meta.json"},
+    {"id": "escalator-mechanism-v1", "category": "transportation", "asset": "vertical-transport/escalator-mechanism-v1.svg", "metadata": "vertical-transport/escalator-mechanism-v1.meta.json"}
   ]
 }

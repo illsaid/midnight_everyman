@@ -111,14 +111,14 @@
       "file": "assets-canon/vertical-transport/escalator-mechanism-v1.svg",
       "metadataFile": "assets-canon/vertical-transport/escalator-mechanism-v1.meta.json",
       "kind": "svg",
-      "status": "planned",
+      "status": "approved",
       "requiredGroups": [
         "step-loop", "steps", "drive-sprocket", "return-sprocket", "front-track",
         "rear-track", "motor", "main-drive-chain", "normal-brake", "auxiliary-brake",
         "broken-chain-device", "comb-plate", "skirt-panel", "brush", "step-sag-device",
         "missing-step-device"
       ],
-      "approvalGate": "Do not import into production until the SVG and metadata are paired and approved"
+      "approvalEvidence": "Owner and independent review approved V2 on 2026-09-15; canonical SVG and metadata are paired"
     },
     "observer-shock-large": {
       "file": "public/characters/observer/library/shock-large-v1.png",

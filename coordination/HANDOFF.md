@@ -4,6 +4,22 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-15 — Codex — Episode 02 escalator mechanism promoted
+
+- **Status:** Owner and independent review approved V2; the production SVG and
+  metadata are canonical and runtime-synced.
+- **Changed:** Replaced four reviewer annotations with production component
+  captions, defined the scene-state colour vocabulary, promoted the transparent
+  SVG/metadata pair, registered it in both catalogs and approved the manifest asset.
+- **Verified:** Two 1920 x 1080 caption renders, XML and JSON parsing, hashes,
+  16 required groups, 22 wheel anchors, neutral base palette, review-shell
+  removal, canonical/runtime parity, metadata contract and manifest tests 12/12.
+- **Did not do:** No scene component, cue, narration or generated-media asset
+  changed. The review PNG remains local and is removed from Git tracking.
+- **Next:** Build the four generated first-frame anchors as one contact sheet,
+  using this canonical mechanism as the reference source where appropriate.
+- **Blocked:** Nothing.
+
 ## 2026-09-15 — Codex — Episode 02 boxed-label rule correction
 
 - **Status:** The V2 callouts are geometrically centered and clear. The

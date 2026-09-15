@@ -67,6 +67,25 @@ final font size and letter spacing. Shorten the copy before reducing type size;
 do not rely on a left-hand text origin or on a scaled preview to imply fit.
 Inspect the rasterized output at delivery resolution before approval.
 
+## Scene-state colour vocabulary
+
+Category is encoded by group form and `data-part-role`; colour describes the
+current scene state. The neutral asset uses only paper, ink, reference,
+ink-mute and cutaway values. Scene code applies at most one semantic colour at
+a time, except during an explicit six-frame state handoff.
+
+| Addressed role | Rest | Selected / operating | Warning / approaching limit | Protective trip | Failed / broken |
+|---|---|---|---|---|---|
+| `safety-device` | Neutral body and ink outline | Neutral unless it is the named subject | Mustard `#D5A84C`, with a pulse or contact marker | Teal `#356F70`, with visible travel or a latched form | Coral `#BD4E3D`; for failure to actuate, retain the rest geometry and add a stall or slash cue |
+| `drive`, `drive-path` | Ink or ink-mute | Mustard `#D5A84C`, with directional motion | Mustard plus speed or strain punctuation | — | Coral at the broken locus; downstream inactive sections fall to ink-mute |
+| `moving-assembly` | Neutral | Mustard on the selected moving part | Mustard plus displacement from its expected path | — | Coral on the missing, sagging or damaged part |
+| `fixed-guide`, `fixed-structure`, `fixed-warning-form` | Reference or ink | Remain neutral | Mustard only at the contact or encroachment point | — | Coral only at a damaged locus |
+
+Mustard is deliberately shared by normal motion and an approaching limit; form,
+motion and the addressed role distinguish them. Teal always means a protection
+worked. Coral always means breakage, failed protection or consequence. A safety
+device that fails to fire must not animate into its tripped pose.
+
 ## Terminology
 
 "Beat" is overloaded. In this project it means three things:

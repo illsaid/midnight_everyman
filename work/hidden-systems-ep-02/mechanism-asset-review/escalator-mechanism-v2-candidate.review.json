@@ -2,10 +2,12 @@
   "schemaVersion": 1,
   "id": "escalator-mechanism-v2-candidate",
   "supersedes": "escalator-mechanism-v1-candidate",
-  "status": "review",
+  "status": "approved",
   "approval": {
-    "status": "pending",
-    "requiredBy": "owner"
+    "status": "approved",
+    "approvedBy": "owner",
+    "approvedAt": "2026-09-15",
+    "independentReview": "Claude review approved the corrected V2 geometry and recommended promotion after the component-label swap"
   },
   "intendedCanonicalAsset": "assets-canon/vertical-transport/escalator-mechanism-v1.svg",
   "viewBox": [0, 0, 1920, 1080],
@@ -42,10 +44,11 @@
   "stateContract": {
     "base": "neutral context and ink only",
     "categoryEncoding": "group form and data-part-role",
-    "teal": "designed or safe behaviour",
-    "ochre": "warning or approaching a limit",
-    "coral": "failure, breakage or consequence",
-    "constraint": "one semantic colour per frame except an explicit state transition"
+    "mustard": "selected motion or warning / approaching a limit; form and motion distinguish the two uses",
+    "teal": "successful protective trip, paired with visible travel or a latched form",
+    "coral": "failure, breakage or consequence; a device that fails to actuate remains in its rest geometry with a stall or slash cue",
+    "constraint": "one semantic colour per frame except an explicit six-frame state handoff",
+    "canonicalVocabulary": "docs/02-creative/diagram-layer.md#scene-state-colour-vocabulary"
   },
   "sourceBasis": [
     {
@@ -84,14 +87,22 @@
     "trackGeometryNonParallel": true,
     "renderInspected": true,
     "renderDimensions": [1920, 1080],
-    "svgSha256": "1efff65e99654558bb8b174e08020e92321eeed39997a4d03593fd6affc064b1",
-    "pngSha256": "e33c48e9c8c31818f6d1795d247a13051f0952a8aa6e27aafc18525a559fbb43"
+    "svgSha256": "1e40bdd3c8efd08300d3195bf5f22333c00c9fb122070152f6cae6a3230a06e7",
+    "localReviewPngSha256": "4232cc8e7b5bed8cb4a4390a0a05281532efe320edff9f3a5d13d1b5f38b38a1",
+    "renderStorage": "local-only; review renders are not part of the Git repository"
+  },
+  "promotion": {
+    "canonicalAsset": "assets-canon/vertical-transport/escalator-mechanism-v1.svg",
+    "canonicalMetadata": "assets-canon/vertical-transport/escalator-mechanism-v1.meta.json",
+    "canonicalSvgSha256": "785645d5e755c3f9f73e2ae6ee005f0641c60a788d872248f77ca5b567d443ac",
+    "reviewShellRemoved": true,
+    "productionComponentLabelsRetained": true
   },
   "notes": [
     "The guide tracks coincide on the landings and separate across the incline.",
     "Each visible step exposes independent front and rear wheel anchors for later Remotion state animation.",
     "Production may retain component labels while removing labels-review and review-background.",
-    "Component callouts use concise copy centered on each box midpoint, with clear render-verified side padding.",
-    "Do not promote or import into production until owner visual approval."
+    "Component callouts contain production captions rather than V2 reviewer annotations and are centered on each box midpoint.",
+    "Owner and independent review approved V2 for canonical promotion on 2026-09-15."
   ]
 }
