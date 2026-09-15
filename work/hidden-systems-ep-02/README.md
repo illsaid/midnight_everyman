@@ -12,6 +12,7 @@
 - Raw timing evidence: `words-asr.json`
 - Remotion-compatible raw ASR captions: `captions-asr.json`
 - Derived alignment report: `cue-alignment-report.json`
+- Bounded cue-timing audit: `cue-timing-audit-2026-09-15.md`
 - Production manifest: `production-manifest.json`
 - Scene and asset plan: `visual-plan.md`
 - Generated-media rhythm and briefs: `generated-media-plan.md`
@@ -28,13 +29,15 @@ the binary remains on the canonical production PC.
 
 ## Current status
 
-Topic, package, script, narration, cue alignment and visual planning are
-complete. The editable cue authority contains 74 visual actions across 12
+Topic, package, script, narration, cue alignment, bounded timing QA and visual
+planning are complete. The editable cue authority contains 74 visual actions across 12
 narrative movements, with continuous coverage of the 7,322-frame timeline. The
 production plan consolidates them into eight reviewable scenes, two bespoke
 systems and four generated-media units. No composition or production asset has
 been built yet. The next step is the shared grouped escalator SVG.
 
-`cues.csv` is the sole editable timing and visual-intent authority. The JSON
-alignment files are evidence or derived views and must not be edited as competing
-timelines.
+`cues.csv` is the sole editable timing and visual-intent authority. `f_in` and
+`f_out` define cue ownership; `primary_action_frame` is the reviewed dominant
+visual hit, and optional `subbeat_frame` values prevent compound cues from
+becoming long holds. The JSON alignment files are evidence or derived views and
+must not be edited as competing timelines.

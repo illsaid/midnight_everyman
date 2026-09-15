@@ -4,6 +4,78 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-15 — Codex — Episode 02 bounded timing audit
+
+- **Status:** Pre-build timing QA is complete; the shared grouped escalator SVG
+  is now the next production task.
+- **Changed:** Added `cue-timing-audit-2026-09-15.md`; extended `cues.csv` with
+  reviewed primary-action frames and six internal sub-beats; updated the Episode
+  02 index, timing verification and time log.
+- **Verified:** Audited the union of all eight short drops, eleven longest cues
+  and seven low-confidence anchors against the locked waveform: 25 cues total.
+  All 74 cue spans remain contiguous from frame 0 through 7,322, and every new
+  primary or sub-beat frame falls inside its cue.
+- **Did not do:** No narration, raw ASR evidence, scene range, manifest duration,
+  SVG, component or render changed. This was waveform analysis, not a claim of
+  human listening; final subjective sync review remains attached to scene review.
+- **Next:** Draw and approve `escalator-mechanism-v1.svg` with its metadata,
+  then create the four generated first-frame anchors as one contact sheet.
+- **Blocked:** None.
+
+## 2026-09-14 — Claude — end-screen decision resolved; one constraint on the closing scene
+
+- **Status:** Owner will add the end-screen tail in post. The block recorded in
+  the entry below is **released**; the timeline stays at 7,322 frames and no
+  `layoutContract` change is required.
+- **Changed:** This entry only. No file edited.
+- **Verified:** Nothing new measured. The end-screen placement window (last
+  5-20 s) was verified earlier against YouTube's documentation.
+- **Did not do:** No build, render or edit.
+- **Next (for Codex), when building `ordinary-close`:** two constraints that are
+  free now and expensive to retrofit, because a tail added in post can only
+  extend the final frame.
+  1. **End on an extendable frame.** Cue 74 holds on a *moving* escalator.
+     Freeze-extending a moving frame stops the motion dead and reads as a
+     glitch. Either settle the step band to a still at the final frame, or make
+     the last shot a seamless loop so it can be loop-extended. State in the
+     component which of the two it is.
+  2. **Keep the end-screen zones clear at frame 7321.** Whatever occupies them
+     on the last frame is what the cards will sit on top of once the tail is
+     frozen or looped from it. No new layout region is needed - simply do not
+     place typography or the Observer where cards will land.
+- **Blocked:** Nothing.
+
+## 2026-09-14 — Claude — review of the locked-VO cue and manifest work
+
+- **Status:** Adversarial review only. **No file was edited** — Codex holds BUILD.
+  Findings in `work/hidden-systems-ep-02/cue-review-claude-2026-09-14.md`.
+- **Changed:** Added the review document. Nothing else.
+- **Verified by re-derivation, not by reading:** 74 cues contiguous across frames
+  0–7322 with no gaps or overlaps; `f_out − f_in == frames` on every row; each
+  cue assigned exactly once across the eight scenes; scene ranges contiguous and
+  each equal to its own cues' range; 305.057959 × 24 → 7322; two bespoke systems
+  flagged against a limit of two; twelve movements. **Every structural claim in
+  the previous entry holds.** Loudness (−16.55 LUFS, −0.44 dBTP) closes a
+  carried-over Pilot 01 defect. **Nothing was built, typechecked or rendered.**
+- **Did not do:** No component, SVG, anchor, contact sheet, build or render. Did
+  not listen to the narration — the confidence finding below is derived from the
+  recorded values in `cues.csv`, not from audio.
+- **Next (for Codex):** (1) Check cues 61, 36, 67, 54, 73, 21 and 28 by ear
+  against the locked MP3 — eleven cues sit under 0.80 recorded confidence and
+  three of them anchor the on-screen FAILURE labels; a `confidence_checked`
+  column would make the pass auditable. (2) Review `lead_frames` on the eight
+  one-word drops and the eleven long cues; 73 of 74 currently carry a uniform 3,
+  which is the assumption D-034 explicitly warns against. (3) Give cues 29, 48,
+  39, 44, 23 and 20 an explicit internal sub-beat frame — each carries two
+  actions in one span, which is how Pilot 01's dead runs formed; this is
+  annotation inside an existing span and does not move the locked timeline.
+- **Blocked:** One owner decision precedes the `ordinary-close` component: the
+  timeline ends at 7,322 with the narration, so there is **zero** end-screen
+  real estate, and YouTube allows cards only in the last 5–20 s (120–480
+  frames). Either add a ~240-frame tail and a fifth `layoutContract` region
+  naming the card zones, or ship without an end screen. Composition depends on
+  which.
+
 ## 2026-09-14 — Codex — Episode 02 shared-repository reconciliation
 
 - **Status:** Episode 02 research, script, locked-VO timing, cue authority and

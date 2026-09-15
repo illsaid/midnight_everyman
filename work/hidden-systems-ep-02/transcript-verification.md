@@ -21,6 +21,9 @@ only and its raw caption text must not be presented as final copy.
 - 12 narrative movements
 - 7,322 frames at 24 fps
 - Default visual lead: 3 frames / 125 ms
+- 25 targeted cue leads reviewed against the locked waveform
+- 7 low-confidence cue anchors assigned reviewed primary-action frames
+- 6 compound cues assigned explicit internal sub-beats
 - No cue shorter than one second
 - Continuous coverage from frame 0 through frame 7,322
 
@@ -42,7 +45,9 @@ only and its raw caption text must not be presented as final copy.
 ## Editing rule
 
 Edit narrative timing and visual intent only in `cues.csv`. The ASR and
-alignment JSON files are evidence and derived views. Cue entry frames use the
-three-frame lead by default, but individual cues may be changed after bounded
-audio-first review; record any exception in the cue row rather than applying a
-second global offset.
+alignment JSON files are evidence and derived views. `f_in` and `f_out` define
+the cue's ownership span; `primary_action_frame` controls the reviewed headline
+or dominant action inside that span. Optional `subbeat_frame` values control a
+second action in compound cues. Use the three-frame lead as the default, but
+record bounded exceptions in the cue row rather than applying a second global
+offset.
