@@ -1,13 +1,16 @@
 # Escalator mechanism asset review
 
-This folder contains the first grouped SVG candidate for Episode 02. It is a review object, not an approved canonical asset.
+This folder contains grouped SVG candidates for Episode 02. They are review objects, not approved canonical assets.
+
+V2 supersedes V1 for review. It replaces parallel decorative tracks with converging guide geometry, adds named front/rear wheel anchors to every visible step, restores the return run to full visual weight, makes the base drawing neutral and splits component labels from review furniture.
 
 ## Acceptance checks
 
 - All 16 manifest-required groups exist exactly once.
 - The complete escalator reads at 1920 x 1080 without tiny, texture-like components.
-- Moving, fixed, hazard, and safety systems remain visually distinct in the house palette.
-- Labels live in their own `labels` group and can be hidden in production.
+- Fixed, moving and safety systems remain distinguishable through geometry and named groups while the base asset stays neutral.
+- V2 component labels and review furniture live in separate groups.
+- V2 category is encoded by form; semantic colour is reserved for animated scene state.
 - The object is generalized and source-informed; it is not presented as a manufacturer drawing.
 
 ## Promotion path

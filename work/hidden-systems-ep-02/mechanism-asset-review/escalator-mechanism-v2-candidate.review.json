@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "escalator-mechanism-v2-candidate",
+  "supersedes": "escalator-mechanism-v1-candidate",
+  "status": "review",
+  "approval": {
+    "status": "pending",
+    "requiredBy": "owner"
+  },
+  "intendedCanonicalAsset": "assets-canon/vertical-transport/escalator-mechanism-v1.svg",
+  "viewBox": [0, 0, 1920, 1080],
+  "requiredGroups": [
+    "step-loop",
+    "steps",
+    "drive-sprocket",
+    "return-sprocket",
+    "front-track",
+    "rear-track",
+    "motor",
+    "main-drive-chain",
+    "normal-brake",
+    "auxiliary-brake",
+    "broken-chain-device",
+    "comb-plate",
+    "skirt-panel",
+    "brush",
+    "step-sag-device",
+    "missing-step-device"
+  ],
+  "requiredSupportGroups": [
+    "floor-datum",
+    "return-steps",
+    "labels-components",
+    "labels-review"
+  ],
+  "wheelAnchorContract": {
+    "visibleSteps": 11,
+    "frontPattern": "step-NN-front-wheel",
+    "rearPattern": "step-NN-rear-wheel",
+    "requiredDataAttribute": "data-anchor"
+  },
+  "stateContract": {
+    "base": "neutral context and ink only",
+    "categoryEncoding": "group form and data-part-role",
+    "teal": "designed or safe behaviour",
+    "ochre": "warning or approaching a limit",
+    "coral": "failure, breakage or consequence",
+    "constraint": "one semantic colour per frame except an explicit state transition"
+  },
+  "sourceBasis": [
+    {
+      "title": "EMSD Technical Investigation Report on the Escalator Incident at Langham Place",
+      "url": "https://www.emsd.gov.hk/filemanager/en/content_794/Langham_Technical_Investigation_Report%28Eng%29.pdf",
+      "scope": "main drive chain, broken-chain device, auxiliary brake relationship"
+    },
+    {
+      "title": "KONE EcoMod Escalator Planning Guide",
+      "url": "https://distributors.kone.com/en/Images/brochure-kone-ecomod_tcm90-18457.pdf",
+      "scope": "missing-step and step-sag devices, skirt brushes, comb plate and brakes"
+    },
+    {
+      "title": "Otis Escalators and Moving Walks",
+      "url": "https://www.otis.com/en/eg/products-services/products/escalators-and-moving-walks",
+      "scope": "step chain assembly, brushes and comb plate"
+    }
+  ],
+  "palette": {
+    "paper": "#EEE5CF",
+    "ink": "#242622",
+    "neutral": "#7C7566",
+    "reference": "#C9C1AC",
+    "cutaway": "#E4DCC4",
+    "semanticColoursVisibleInBase": 0,
+    "gradients": false,
+    "filters": false,
+    "partialOpacity": false,
+    "rasterImages": false
+  },
+  "validation": {
+    "xmlWellFormed": true,
+    "requiredGroupsPresentExactlyOnce": true,
+    "supportGroupsPresentExactlyOnce": true,
+    "wheelAnchorsPresentExactlyOnce": true,
+    "trackGeometryNonParallel": true,
+    "renderInspected": true,
+    "renderDimensions": [1920, 1080],
+    "svgSha256": "0fe13608778d63121a5713931e6081c3f71c765c22f13a8c91e0b1f724552d59",
+    "pngSha256": "863fcca1f54678056c5a0a264042b04bb49ef1b03d1f6f3b9db13adf2cc439bc"
+  },
+  "notes": [
+    "The guide tracks coincide on the landings and separate across the incline.",
+    "Each visible step exposes independent front and rear wheel anchors for later Remotion state animation.",
+    "Production may retain component labels while removing labels-review and review-background.",
+    "Do not promote or import into production until owner visual approval."
+  ]
+}

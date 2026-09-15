@@ -4,6 +4,24 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-15 — Codex — Episode 02 grouped mechanism V2 review candidate
+
+- **Status:** V2 is rendered and structurally validated beside V1. It remains a
+  review candidate pending owner approval and is not in `assets-canon`.
+- **Changed:** Added the V2 SVG, review PNG and sidecar; updated the review
+  README and time log. V1 remains intact for comparison.
+- **Verified:** All 16 required and four support groups occur exactly once; 22
+  wheel anchors exist across 11 visible steps; tracks use distinct transition
+  curves that coincide at the landings and separate on the incline; the base
+  contains no semantic colour, gradient, filter, partial opacity or raster.
+  XML, unique IDs, label containment, hashes and the 1920 x 1080 render pass.
+- **Did not do:** No canonical promotion, production import, scene component,
+  cue, narration, manifest or generated-media anchor changed.
+- **Next:** Owner reviews V2. On approval, promote that exact geometry and its
+  canonical metadata to `assets-canon/vertical-transport/`, then create the
+  four generated first-frame anchors as one contact sheet.
+- **Blocked:** Canonical promotion remains blocked on owner approval.
+
 ## 2026-09-15 — Codex — Episode 02 grouped mechanism review candidate
 
 - **Status:** The shared escalator mechanism has a visually inspected V1 review

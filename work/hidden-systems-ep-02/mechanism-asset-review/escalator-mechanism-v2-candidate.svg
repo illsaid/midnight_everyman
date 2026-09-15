@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">Midnight Everyman escalator mechanism V2 review candidate</title>
+  <desc id="description">A neutral cutaway escalator with converging wheel tracks, explicit step wheel anchors, and separately addressable safety systems for Remotion state animation.</desc>
+
+  <g id="review-background">
+    <rect width="1920" height="1080" fill="#EEE5CF"/>
+    <path d="M0 95H1920M0 986H1920" fill="none" stroke="#C9C1AC" stroke-width="2" stroke-dasharray="5 11"/>
+    <path d="M0 0L1920 1080M1920 0L0 1080" fill="none" stroke="#E4DCC4" stroke-width="2"/>
+  </g>
+
+  <g id="floor-datum" data-part-role="fixed-structure">
+    <path d="M0 842H286L332 807" fill="none" stroke="#242622" stroke-width="14"/>
+    <path d="M0 862H282L340 818" fill="none" stroke="#C9C1AC" stroke-width="8"/>
+    <path d="M1409 298L1470 270H1920" fill="none" stroke="#242622" stroke-width="14"/>
+    <path d="M1421 314L1476 290H1920" fill="none" stroke="#C9C1AC" stroke-width="8"/>
+    <path d="M18 872L58 842M81 872L121 842M144 872L184 842M207 872L247 842M1510 299L1548 270M1582 299L1620 270M1654 299L1692 270M1726 299L1764 270M1798 299L1836 270M1870 299L1908 270" fill="none" stroke="#7C7566" stroke-width="4"/>
+  </g>
+
+  <g id="skirt-panel" data-part-role="fixed-structure">
+    <path d="M261 848L344 778L1372 346L1466 304L1522 366L1454 480L420 923L332 935Z" fill="#E4DCC4" stroke="#242622" stroke-width="10" stroke-linejoin="round"/>
+    <path d="M342 824L1390 382" fill="none" stroke="#C9C1AC" stroke-width="5" stroke-dasharray="10 13"/>
+  </g>
+
+  <g id="step-loop" data-part-role="drive-path">
+    <path d="M278 804C313 783 331 760 357 733L1329 325C1396 297 1460 319 1495 373C1531 430 1508 495 1445 522L415 959C344 989 271 952 252 888C240 848 247 824 278 804Z" fill="none" stroke="#242622" stroke-width="11"/>
+    <path d="M289 821C319 805 344 775 369 752L1338 344C1380 326 1418 340 1440 374C1462 410 1448 451 1407 469L394 898C356 914 316 895 305 861C298 843 298 834 289 821Z" fill="none" stroke="#7C7566" stroke-width="5" stroke-dasharray="16 14"/>
+  </g>
+
+  <!-- The guide tracks coincide on each landing, separate across the incline, then converge again. -->
+  <g id="front-track" data-part-role="fixed-guide">
+    <path id="front-track-path" d="M185 805H270C310 805 329 777 358 737L1319 333C1360 316 1392 294 1460 286H1775" fill="none" stroke="#242622" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M205 788L240 805L205 822M1727 269L1762 286L1727 303" fill="none" stroke="#7C7566" stroke-width="5"/>
+  </g>
+
+  <g id="rear-track" data-part-role="fixed-guide">
+    <path id="rear-track-path" d="M185 805H286C322 805 342 806 382 787L1338 385C1380 367 1409 307 1460 286H1775" fill="none" stroke="#7C7566" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M208 838C270 835 324 829 383 803M1313 408C1383 379 1415 330 1462 303" fill="none" stroke="#C9C1AC" stroke-width="4" stroke-dasharray="8 9"/>
+  </g>
+
+  <!-- Each visible step exposes named front and rear wheel anchors. -->
+  <g id="steps" data-part-role="moving-assembly" fill="#E4DCC4" stroke="#242622" stroke-width="7" stroke-linejoin="round">
+    <g id="step-01" data-step-zone="lower-landing">
+      <path d="M175 713H324V755H175Z"/>
+      <path d="M194 728H306" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M208 755V787M296 755V787" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-01-rear-wheel" data-anchor="rear-wheel" cx="208" cy="805" r="12" fill="#C9C1AC"/>
+      <circle id="step-01-front-wheel" data-anchor="front-wheel" cx="296" cy="805" r="15" fill="#EEE5CF"/>
+    </g>
+    <g id="step-02" data-step-zone="lower-transition">
+      <path d="M277 687H421V729H304L277 710Z"/>
+      <path d="M304 729V776H421V729" fill="#C9C1AC"/>
+      <path d="M297 701H402" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M304 776L313 790M399 729L397 748" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-02-rear-wheel" data-anchor="rear-wheel" cx="317" cy="799" r="11" fill="#C9C1AC"/>
+      <circle id="step-02-front-wheel" data-anchor="front-wheel" cx="397" cy="757" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-03" data-step-zone="incline">
+      <path d="M382 643H526V685H409L382 666Z"/>
+      <path d="M409 685V732H526V685" fill="#C9C1AC"/>
+      <path d="M402 657H507" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M409 732L418 748M504 685V703" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-03-rear-wheel" data-anchor="rear-wheel" cx="422" cy="757" r="11" fill="#C9C1AC"/>
+      <circle id="step-03-front-wheel" data-anchor="front-wheel" cx="504" cy="712" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-04" data-step-zone="incline">
+      <path d="M487 599H631V641H514L487 622Z"/>
+      <path d="M514 641V688H631V641" fill="#C9C1AC"/>
+      <path d="M507 613H612" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M514 688L523 704M609 641V659" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-04-rear-wheel" data-anchor="rear-wheel" cx="527" cy="713" r="11" fill="#C9C1AC"/>
+      <circle id="step-04-front-wheel" data-anchor="front-wheel" cx="609" cy="668" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-05" data-step-zone="incline">
+      <path d="M592 555H736V597H619L592 578Z"/>
+      <path d="M619 597V644H736V597" fill="#C9C1AC"/>
+      <path d="M612 569H717" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M619 644L628 660M714 597V615" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-05-rear-wheel" data-anchor="rear-wheel" cx="632" cy="669" r="11" fill="#C9C1AC"/>
+      <circle id="step-05-front-wheel" data-anchor="front-wheel" cx="714" cy="624" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-06" data-step-zone="incline">
+      <path d="M697 511H841V553H724L697 534Z"/>
+      <path d="M724 553V600H841V553" fill="#C9C1AC"/>
+      <path d="M717 525H822" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M724 600L733 616M819 553V571" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-06-rear-wheel" data-anchor="rear-wheel" cx="737" cy="625" r="11" fill="#C9C1AC"/>
+      <circle id="step-06-front-wheel" data-anchor="front-wheel" cx="819" cy="580" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-07" data-step-zone="incline">
+      <path d="M802 467H946V509H829L802 490Z"/>
+      <path d="M829 509V556H946V509" fill="#C9C1AC"/>
+      <path d="M822 481H927" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M829 556L838 572M924 509V527" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-07-rear-wheel" data-anchor="rear-wheel" cx="842" cy="581" r="11" fill="#C9C1AC"/>
+      <circle id="step-07-front-wheel" data-anchor="front-wheel" cx="924" cy="536" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-08" data-step-zone="incline">
+      <path d="M907 423H1051V465H934L907 446Z"/>
+      <path d="M934 465V512H1051V465" fill="#C9C1AC"/>
+      <path d="M927 437H1032" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M934 512L943 528M1029 465V483" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-08-rear-wheel" data-anchor="rear-wheel" cx="947" cy="537" r="11" fill="#C9C1AC"/>
+      <circle id="step-08-front-wheel" data-anchor="front-wheel" cx="1029" cy="492" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-09" data-step-zone="incline">
+      <path d="M1012 379H1156V421H1039L1012 402Z"/>
+      <path d="M1039 421V468H1156V421" fill="#C9C1AC"/>
+      <path d="M1032 393H1137" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M1039 468L1048 484M1134 421V439" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-09-rear-wheel" data-anchor="rear-wheel" cx="1052" cy="493" r="11" fill="#C9C1AC"/>
+      <circle id="step-09-front-wheel" data-anchor="front-wheel" cx="1134" cy="448" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-10" data-step-zone="upper-transition">
+      <path d="M1117 335H1261V377H1144L1117 358Z"/>
+      <path d="M1144 377V424H1261V377" fill="#C9C1AC"/>
+      <path d="M1137 349H1242" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M1144 424L1153 440M1239 377V395" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-10-rear-wheel" data-anchor="rear-wheel" cx="1157" cy="449" r="11" fill="#C9C1AC"/>
+      <circle id="step-10-front-wheel" data-anchor="front-wheel" cx="1239" cy="404" r="14" fill="#EEE5CF"/>
+    </g>
+    <g id="step-11" data-step-zone="upper-transition">
+      <path d="M1222 291H1366V333H1249L1222 314Z"/>
+      <path d="M1249 333V380H1366V333" fill="#C9C1AC"/>
+      <path d="M1242 305H1347" fill="none" stroke="#7C7566" stroke-width="4" stroke-dasharray="8 7"/>
+      <path d="M1249 380L1258 396M1344 333V351" fill="none" stroke="#242622" stroke-width="6"/>
+      <circle id="step-11-rear-wheel" data-anchor="rear-wheel" cx="1262" cy="405" r="11" fill="#C9C1AC"/>
+      <circle id="step-11-front-wheel" data-anchor="front-wheel" cx="1344" cy="360" r="14" fill="#EEE5CF"/>
+    </g>
+
+    <g id="return-steps" data-step-zone="return" fill="#C9C1AC" stroke="#242622" stroke-width="7">
+      <g id="return-step-01"><path d="M430 877L530 835L558 867L454 911Z"/><path d="M454 911L446 934M558 867L570 889" fill="none"/></g>
+      <g id="return-step-02"><path d="M589 810L689 768L717 800L613 844Z"/><path d="M613 844L605 867M717 800L729 822" fill="none"/></g>
+      <g id="return-step-03"><path d="M748 743L848 701L876 733L772 777Z"/><path d="M772 777L764 800M876 733L888 755" fill="none"/></g>
+      <g id="return-step-04"><path d="M907 676L1007 634L1035 666L931 710Z"/><path d="M931 710L923 733M1035 666L1047 688" fill="none"/></g>
+      <g id="return-step-05"><path d="M1066 609L1166 567L1194 599L1090 643Z"/><path d="M1090 643L1082 666M1194 599L1206 621" fill="none"/></g>
+      <g id="return-step-06"><path d="M1225 542L1325 500L1353 532L1249 576Z"/><path d="M1249 576L1241 599M1353 532L1365 554" fill="none"/></g>
+    </g>
+  </g>
+
+  <g id="return-sprocket" data-part-role="drive">
+    <circle cx="300" cy="860" r="91" fill="#EEE5CF" stroke="#242622" stroke-width="12"/>
+    <path d="M300 744V778M300 942V976M184 860H218M382 860H416M218 778L244 804M356 916L382 942M218 942L244 916M356 804L382 778" fill="none" stroke="#7C7566" stroke-width="18"/>
+    <circle cx="300" cy="860" r="49" fill="#C9C1AC" stroke="#242622" stroke-width="9"/>
+    <circle cx="300" cy="860" r="13" fill="#242622"/>
+  </g>
+
+  <g id="drive-sprocket" data-part-role="drive">
+    <circle cx="1437" cy="397" r="105" fill="#EEE5CF" stroke="#242622" stroke-width="13"/>
+    <path d="M1437 268V304M1437 490V526M1308 397H1344M1530 397H1566M1346 306L1372 332M1502 462L1528 488M1346 488L1372 462M1502 332L1528 306" fill="none" stroke="#7C7566" stroke-width="20"/>
+    <circle cx="1437" cy="397" r="58" fill="#C9C1AC" stroke="#242622" stroke-width="10"/>
+    <circle cx="1437" cy="397" r="16" fill="#242622"/>
+  </g>
+
+  <g id="motor" data-part-role="drive">
+    <rect x="1594" y="574" width="204" height="130" rx="22" fill="#E4DCC4" stroke="#242622" stroke-width="11"/>
+    <path d="M1632 574V535H1754V574M1622 704V735M1770 704V735" fill="none" stroke="#242622" stroke-width="11"/>
+    <circle cx="1628" cy="639" r="23" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+    <path d="M1682 606V672M1717 606V672M1752 606V672" fill="none" stroke="#7C7566" stroke-width="8"/>
+  </g>
+
+  <g id="main-drive-chain" data-part-role="drive">
+    <path d="M1470 444C1519 493 1564 551 1622 620" fill="none" stroke="#242622" stroke-width="23" stroke-linecap="round"/>
+    <path d="M1470 444C1519 493 1564 551 1622 620" fill="none" stroke="#C9C1AC" stroke-width="8" stroke-dasharray="9 12" stroke-linecap="round"/>
+    <circle cx="1470" cy="444" r="20" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+    <circle cx="1622" cy="620" r="20" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+  </g>
+
+  <!-- Safety category is encoded by the shared rounded housing and double-slot glyph, not by colour. -->
+  <g id="normal-brake" data-part-role="safety-device">
+    <rect x="1493" y="470" width="105" height="62" rx="14" fill="#C9C1AC" stroke="#242622" stroke-width="9"/>
+    <path d="M1518 501H1542M1552 501H1574" fill="none" stroke="#EEE5CF" stroke-width="8"/>
+    <path d="M1493 492L1466 468M1493 516L1454 493" fill="none" stroke="#242622" stroke-width="10"/>
+  </g>
+
+  <g id="auxiliary-brake" data-part-role="safety-device">
+    <rect x="1228" y="226" width="125" height="66" rx="14" fill="#C9C1AC" stroke="#242622" stroke-width="9"/>
+    <path d="M1254 259H1282M1293 259H1325" fill="none" stroke="#EEE5CF" stroke-width="8"/>
+    <path d="M1353 258C1388 280 1407 311 1411 338" fill="none" stroke="#242622" stroke-width="16" stroke-linecap="round"/>
+    <path d="M1368 272L1396 245M1394 301L1421 276" fill="none" stroke="#7C7566" stroke-width="10"/>
+  </g>
+
+  <g id="broken-chain-device" data-part-role="safety-device">
+    <rect x="1510" y="373" width="112" height="67" rx="14" fill="#C9C1AC" stroke="#242622" stroke-width="9"/>
+    <path d="M1536 406H1562M1573 406H1597" fill="none" stroke="#EEE5CF" stroke-width="8"/>
+    <path d="M1566 440V468L1580 480L1552 494L1580 508L1552 522" fill="none" stroke="#242622" stroke-width="8" stroke-linejoin="round"/>
+    <circle cx="1552" cy="534" r="15" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+    <path d="M1581 480H1617" fill="none" stroke="#242622" stroke-width="9"/>
+    <path d="M1617 464V496M1628 468V492" fill="none" stroke="#7C7566" stroke-width="9"/>
+  </g>
+
+  <g id="comb-plate" data-part-role="fixed-guide">
+    <path d="M1362 232H1615V304H1362Z" fill="#E4DCC4" stroke="#242622" stroke-width="10"/>
+    <path d="M1367 304L1381 332L1395 304L1409 332L1423 304L1437 332L1451 304L1465 332L1479 304L1493 332L1507 304L1521 332L1535 304L1549 332L1563 304L1577 332L1591 304L1605 332" fill="#C9C1AC" stroke="#242622" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M1388 264H1587" fill="none" stroke="#7C7566" stroke-width="7" stroke-dasharray="12 10"/>
+  </g>
+
+  <g id="brush" data-part-role="fixed-warning-form">
+    <path d="M403 751L1308 371" fill="none" stroke="#242622" stroke-width="15"/>
+    <path d="M411 766L1316 386" fill="none" stroke="#7C7566" stroke-width="5" stroke-dasharray="3 12" stroke-linecap="round"/>
+    <path d="M414 760L401 781M450 745L437 766M486 730L473 751M522 715L509 736M558 700L545 721M594 685L581 706M630 670L617 691M666 655L653 676M702 640L689 661M738 625L725 646M774 610L761 631M810 595L797 616M846 580L833 601M882 565L869 586M918 550L905 571M954 535L941 556M990 520L977 541M1026 505L1013 526M1062 490L1049 511M1098 475L1085 496M1134 460L1121 481M1170 445L1157 466M1206 430L1193 451M1242 415L1229 436M1278 400L1265 421M1314 385L1301 406" fill="none" stroke="#242622" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g id="step-sag-device" data-part-role="safety-device">
+    <rect x="806" y="681" width="108" height="68" rx="14" fill="#C9C1AC" stroke="#242622" stroke-width="9"/>
+    <path d="M832 715H858M869 715H892" fill="none" stroke="#EEE5CF" stroke-width="8"/>
+    <path d="M860 681V632L902 614" fill="none" stroke="#242622" stroke-width="9"/>
+    <circle cx="904" cy="613" r="15" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+  </g>
+
+  <g id="missing-step-device" data-part-role="safety-device">
+    <rect x="1037" y="585" width="116" height="70" rx="14" fill="#C9C1AC" stroke="#242622" stroke-width="9"/>
+    <path d="M1064 620H1090M1101 620H1128" fill="none" stroke="#EEE5CF" stroke-width="8"/>
+    <path d="M1095 585V545L1143 525" fill="none" stroke="#242622" stroke-width="9"/>
+    <circle cx="1145" cy="524" r="15" fill="#EEE5CF" stroke="#242622" stroke-width="8"/>
+  </g>
+
+  <g id="labels-components" font-family="Arial, Helvetica, sans-serif" fill="#242622" font-size="18" font-weight="800" letter-spacing="2">
+    <path d="M270 618L344 777" fill="none" stroke="#242622" stroke-width="3"/>
+    <rect x="58" y="552" width="354" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
+    <text x="82" y="592">TRACKS SEPARATE ON THE RISE</text>
+
+    <path d="M1454 171L1437 286" fill="none" stroke="#242622" stroke-width="3"/>
+    <rect x="1320" y="106" width="334" height="64" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
+    <text x="1343" y="146">TRACKS CONVERGE · COMB</text>
+
+    <path d="M1220 792L1100 647" fill="none" stroke="#242622" stroke-width="3"/>
+    <rect x="1009" y="792" width="405" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
+    <text x="1032" y="832">SHARED SAFETY-DEVICE FORM</text>
+
+    <path d="M686 912L746 761" fill="none" stroke="#242622" stroke-width="3"/>
+    <rect x="515" y="912" width="359" height="65" rx="10" fill="#EEE5CF" stroke="#242622" stroke-width="4"/>
+    <text x="539" y="952">FULL-STRENGTH RETURN RUN</text>
+  </g>
+
+  <g id="labels-review" font-family="Arial, Helvetica, sans-serif" fill="#242622">
+    <text x="72" y="67" font-size="34" font-weight="800" letter-spacing="6">THE MACHINE UNDER THE STAIRS</text>
+    <text x="1848" y="67" text-anchor="end" font-size="18" font-weight="700" letter-spacing="3">EPISODE 02 · REVIEW V2</text>
+    <rect x="72" y="105" width="784" height="43" rx="21" fill="#E4DCC4" stroke="#242622" stroke-width="3"/>
+    <text x="96" y="133" font-size="16" font-weight="800" letter-spacing="2.1">NEUTRAL BASE · CATEGORY BY FORM · COLOUR APPLIED BY SCENE STATE</text>
+    <text x="1848" y="956" text-anchor="end" font-size="16" font-weight="700" letter-spacing="2.3">GENERALIZED EXPLAINER ASSET · NOT A MANUFACTURER DRAWING</text>
+  </g>
+</svg>

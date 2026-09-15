@@ -11,3 +11,5 @@ date,phase,actor,category,minutes,measurement_status,retries,material_correction
 2026-09-15,timing-and-breakdown,local-waveform-analysis,machine,0.042,measured,1,0,"Decoded the locked VO and estimated speech onsets with 20 ms RMS windows at 5 ms hops; no API credits used"
 2026-09-15,asset-build,Codex,agent,,unavailable,0,1,"Built and source-documented the grouped escalator mechanism review candidate; corrected one legend collision after visual QA; per-task token and elapsed telemetry unavailable"
 2026-09-15,asset-build,local-headless-chrome,machine,,unavailable,1,0,"Rendered two 1920 x 1080 review stills; first exposed the legend collision and second passed visual inspection; complete machine time unavailable"
+2026-09-15,asset-revision,Codex,agent,,unavailable,0,5,"Rebuilt the V2 track and wheel relationship, neutral state contract, return run, safety-device form and label architecture; per-task token and elapsed telemetry unavailable"
+2026-09-15,asset-revision,local-headless-chrome,machine,,unavailable,0,0,"Rendered and visually inspected one 1920 x 1080 V2 review still; complete machine time unavailable"
