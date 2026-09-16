@@ -30,14 +30,21 @@ Runtime use is limited to the first 93 frames. Frame 92 is extracted as
 `public/episode-02/derived/g01-cue03-exit-f92-v2.png` so the deterministic stop
 and reversal begin on the exact final displayed frame.
 
+Cue 05 reuses those same 93 source frames as the local-only image sequence
+`public/episode-02/generated/g01-reverse-frames-v1/`. Remotion indexes frame 92
+back to frame 0 on an accelerating curve; no new generative content or inferred
+mechanism is introduced. The ordered frame-hash aggregate is
+`a1ceb603cf669de1e39a8a232fe58b98b96cb440007482dfaad5dd3d496fce6b`.
+
 ## Ownership boundary
 
 - Generated plates provide people, cloth, atmosphere and ordinary human motion.
 - Remotion provides mechanism, failure state and causal proof.
 - G-03 therefore ends before any step deforms; the single rigid step sag is a
   deterministic Remotion beat.
-- G-01's reversal, G-02's lace contact and G-04's hidden-device reveal likewise
-  remain outside the generative plate where the script requires causal proof.
+- G-01's reversal is deterministic Remotion frame indexing over the approved
+  crowd source. G-02's lace contact and G-04's hidden-device reveal likewise
+  remain outside generative inference where the script requires causal proof.
 
 ## Excluded files
 

@@ -169,7 +169,16 @@ const StaircaseStatement: React.FC = () => {
   const frame = useCurrentFrame();
   return (
     <PaperStage>
-      <StaircaseDrawing moving={false} />
+      <div
+        style={{
+          position: 'absolute',
+          inset: 0,
+          scale: interpolate(frame, [0, 127], [1.012, 1], {...clamp, output: 'perceptual-scale'}),
+          translate: interpolate(frame, [0, 127], ['7px -4px', '0px 0px'], clamp),
+        }}
+      >
+        <StaircaseDrawing moving={false} />
+      </div>
       <Interactive.Div
         name="Static staircase statement"
         style={{
@@ -193,8 +202,29 @@ const StaircaseStatement: React.FC = () => {
         <div style={{marginTop: 32, width: 560}}>
           <EvidenceRule />
         </div>
-        <div style={{marginTop: 18, fontSize: 28, fontWeight: 700, letterSpacing: 4, color: palette.reference}}>
-          NO DRIVE · NO CHAIN · NO SPEED
+        <div style={{marginTop: 18, display: 'flex', gap: 12}}>
+          {['NO DRIVE', 'NO CHAIN', 'NO SPEED'].map((label, index) => (
+            <div
+              key={label}
+              style={{
+                padding: '10px 13px 8px',
+                border: `3px solid ${palette.reference}`,
+                fontSize: 22,
+                fontWeight: 800,
+                letterSpacing: 2.4,
+                color: palette.reference,
+                opacity: interpolate(frame, [18 + index * 18, 25 + index * 18], [0, 1], clamp),
+                translate: interpolate(
+                  frame,
+                  [18 + index * 18, 27 + index * 18],
+                  ['0px 18px', '0px 0px'],
+                  {...clamp, easing: ease},
+                ),
+              }}
+            >
+              {label}
+            </div>
+          ))}
         </div>
       </Interactive.Div>
       <div
@@ -206,6 +236,11 @@ const StaircaseStatement: React.FC = () => {
           fontSize: 22,
           letterSpacing: 4,
           color: palette.reference,
+          opacity: interpolate(frame, [72, 82], [0, 1], clamp),
+          translate: interpolate(frame, [72, 84], ['-18px 0px', '0px 0px'], {
+            ...clamp,
+            easing: ease,
+          }),
         }}
       >
         OBJECT STUDY / 01 · STATIC BY DEFINITION
@@ -402,60 +437,32 @@ const StopBeat: React.FC = () => {
   );
 };
 
-const passengerMarkers = [
-  {x: 1444, y: 116, s: 0.74},
-  {x: 1378, y: 180, s: 0.79},
-  {x: 1312, y: 251, s: 0.84},
-  {x: 1244, y: 326, s: 0.88},
-  {x: 1174, y: 403, s: 0.92},
-  {x: 1102, y: 482, s: 0.96},
-  {x: 1028, y: 563, s: 1},
-  {x: 952, y: 646, s: 1.04},
-  {x: 874, y: 730, s: 1.08},
-  {x: 798, y: 815, s: 1.12},
-];
-
-const PersonMarker: React.FC<{x: number; y: number; scale: number; index: number}> = ({
-  x,
-  y,
-  scale,
-  index,
-}) => {
-  const frame = useCurrentFrame();
-  const local = frame;
-  const delayed = Math.max(0, local - index * 1.5);
-  const distance = delayed * delayed * 0.085;
-  return (
-    <g transform={`translate(${x - distance} ${y + distance * 0.58}) scale(${scale})`}>
-      <circle cx="0" cy="-24" r="15" fill={palette.paper} stroke={palette.coral} strokeWidth="7" />
-      <path d="M0 -7 L0 36 M-23 12 L23 12 M0 36 L-20 68 M0 36 L22 68" fill="none" stroke={palette.coral} strokeWidth="8" strokeLinecap="round" />
-      <circle cx="0" cy="0" r="46" fill="none" stroke={palette.coral} strokeWidth="4" opacity="0.46" />
-    </g>
-  );
-};
-
 const ReverseBeat: React.FC = () => {
   const frame = useCurrentFrame();
   const local = frame;
   const acceleration = interpolate(local, [0, 57], [0, 1], {...clamp, easing: Easing.in(Easing.quad)});
+  const sourceFrame = 92 - Math.round(Math.pow(Math.min(1, local / 57), 1.7) * 92);
+  const reverseFrame = String(sourceFrame).padStart(3, '0');
   return (
     <AbsoluteFill style={{backgroundColor: palette.paper, overflow: 'hidden'}}>
       <div
         style={{
           position: 'absolute',
-          inset: -40,
-          scale: interpolate(local, [0, 57], [1.03, 1.09], {...clamp, output: 'perceptual-scale'}),
-          translate: interpolate(local, [0, 57], ['0px 0px', '-34px 22px'], clamp),
+          inset: -24,
+          scale: interpolate(local, [0, 57], [1.024, 1.065], {...clamp, output: 'perceptual-scale'}),
+          translate: interpolate(local, [0, 57], ['0px 0px', '-24px 15px'], clamp),
         }}
       >
-        <HeldIncidentFrame muted />
+        <CanvasImage
+          src={
+            sourceFrame === 92
+              ? staticFile('episode-02/derived/g01-cue03-exit-f92-v2.png')
+              : staticFile(`episode-02/generated/g01-reverse-frames-v1/frame-${reverseFrame}.jpg`)
+          }
+          style={{width: '100%', height: '100%', objectFit: 'cover'}}
+        />
       </div>
       <DirectionTape state="reverse" />
-      <svg viewBox="0 0 1920 1080" style={{position: 'absolute', inset: 0}}>
-        {passengerMarkers.map((marker, index) => (
-          <PersonMarker key={index} x={marker.x} y={marker.y} scale={marker.s} index={index} />
-        ))}
-      </svg>
       <Interactive.Div
         name="Reverse headline"
         style={{
@@ -503,112 +510,121 @@ const ConsequenceBeat: React.FC = () => {
       <div
         style={{
           position: 'absolute',
-          top: 0,
-          left: 0,
-          width: 24,
-          height: '100%',
-          backgroundColor: palette.coral,
-        }}
-      />
-      <Interactive.Div
-        name="Consequence count"
-        style={{
-          position: 'absolute',
-          left: 100,
-          top: 112,
-          width: 750,
-          opacity: interpolate(local, [0, 5], [0, 1], clamp),
-          translate: interpolate(local, [0, 12], ['0px 34px', '0px 0px'], {
-            ...clamp,
-            easing: ease,
-          }),
+          inset: -18,
+          scale: interpolate(local, [0, 88], [1, 1.02], {...clamp, output: 'perceptual-scale'}),
+          translate: interpolate(local, [0, 88], ['0px 0px', '-12px 7px'], clamp),
         }}
       >
-        <div style={{fontSize: 27, fontWeight: 900, letterSpacing: 8, color: palette.coral}}>
-          DOCUMENTED CONSEQUENCE
-        </div>
-        <div style={{marginTop: 6, fontSize: 340, fontWeight: 950, lineHeight: 0.88, color: palette.coral}}>
-          18
-        </div>
-        <div style={{fontSize: 104, fontWeight: 950, lineHeight: 0.9, letterSpacing: 5}}>INJURED</div>
-        <div style={{marginTop: 27, width: 660}}>
-          <EvidenceRule color={palette.coral} />
-        </div>
-      </Interactive.Div>
-
-      <div
-        style={{
-          position: 'absolute',
-          left: 920,
-          top: 176,
-          width: 860,
-          display: 'grid',
-          gridTemplateColumns: 'repeat(6, 1fr)',
-          columnGap: 40,
-          rowGap: 44,
-        }}
-      >
-        {Array.from({length: 18}, (_, index) => (
-          <div
-            key={index}
-            style={{
-              position: 'relative',
-              height: 152,
-              opacity: interpolate(local, [index * 1.15, index * 1.15 + 7], [0, 1], clamp),
-              translate: interpolate(
-                local,
-                [index * 1.15, index * 1.15 + 10],
-                ['34px -24px', '0px 0px'],
-                {...clamp, easing: ease},
-              ),
-            }}
-          >
-            <div
-              style={{
-                position: 'absolute',
-                left: 42,
-                top: 2,
-                width: 42,
-                height: 42,
-                borderRadius: '50%',
-                backgroundColor: palette.ink,
-              }}
-            />
-            <div
-              style={{
-                position: 'absolute',
-                left: 26,
-                top: 48,
-                width: 74,
-                height: 84,
-                borderRadius: '34px 34px 12px 12px',
-                backgroundColor: palette.ink,
-              }}
-            />
+        <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: 24,
+            height: '100%',
+            backgroundColor: palette.coral,
+          }}
+        />
+        <Interactive.Div
+          name="Consequence count"
+          style={{
+            position: 'absolute',
+            left: 100,
+            top: 112,
+            width: 750,
+            opacity: interpolate(local, [0, 5], [0, 1], clamp),
+            translate: interpolate(local, [0, 12], ['0px 34px', '0px 0px'], {
+              ...clamp,
+              easing: ease,
+            }),
+          }}
+        >
+          <div style={{fontSize: 27, fontWeight: 900, letterSpacing: 8, color: palette.coral}}>
+            DOCUMENTED CONSEQUENCE
           </div>
-        ))}
-      </div>
+          <div style={{marginTop: 6, fontSize: 340, fontWeight: 950, lineHeight: 0.88, color: palette.coral}}>
+            18
+          </div>
+          <div style={{fontSize: 104, fontWeight: 950, lineHeight: 0.9, letterSpacing: 5}}>INJURED</div>
+          <div style={{marginTop: 27, width: 660}}>
+            <EvidenceRule color={palette.coral} />
+          </div>
+        </Interactive.Div>
 
-      <Interactive.Div
-        name="Final stop line"
-        style={{
-          position: 'absolute',
-          left: 920,
-          bottom: 90,
-          width: 860,
-          paddingTop: 22,
-          borderTop: `8px solid ${palette.ink}`,
-          opacity: interpolate(local, [42, 50], [0, 1], clamp),
-          fontSize: 42,
-          fontWeight: 900,
-          letterSpacing: 4,
-        }}
-      >
-        BEFORE THE MACHINE FINALLY STOPS.
-        <div style={{marginTop: 14, fontSize: 22, color: palette.reference, letterSpacing: 5}}>
-          LANGHAM PLACE · 25 MARCH 2017
+        <div
+          style={{
+            position: 'absolute',
+            left: 920,
+            top: 176,
+            width: 860,
+            display: 'grid',
+            gridTemplateColumns: 'repeat(6, 1fr)',
+            columnGap: 40,
+            rowGap: 44,
+          }}
+        >
+          {Array.from({length: 18}, (_, index) => (
+            <div
+              key={index}
+              style={{
+                position: 'relative',
+                height: 152,
+                opacity: interpolate(local, [index * 1.15, index * 1.15 + 7], [0, 1], clamp),
+                translate: interpolate(
+                  local,
+                  [index * 1.15, index * 1.15 + 10],
+                  ['34px -24px', '0px 0px'],
+                  {...clamp, easing: ease},
+                ),
+              }}
+            >
+              <div
+                style={{
+                  position: 'absolute',
+                  left: 42,
+                  top: 2,
+                  width: 42,
+                  height: 42,
+                  borderRadius: '50%',
+                  backgroundColor: palette.ink,
+                }}
+              />
+              <div
+                style={{
+                  position: 'absolute',
+                  left: 26,
+                  top: 48,
+                  width: 74,
+                  height: 84,
+                  borderRadius: '34px 34px 12px 12px',
+                  backgroundColor: palette.ink,
+                }}
+              />
+            </div>
+          ))}
         </div>
-      </Interactive.Div>
+
+        <Interactive.Div
+          name="Final stop line"
+          style={{
+            position: 'absolute',
+            left: 920,
+            bottom: 90,
+            width: 860,
+            paddingTop: 22,
+            borderTop: `8px solid ${palette.ink}`,
+            opacity: interpolate(local, [42, 50], [0, 1], clamp),
+            fontSize: 42,
+            fontWeight: 900,
+            letterSpacing: 4,
+          }}
+        >
+          BEFORE THE MACHINE FINALLY STOPS.
+          <div style={{marginTop: 14, fontSize: 22, color: palette.reference, letterSpacing: 5}}>
+            LANGHAM PLACE · 25 MARCH 2017
+          </div>
+        </Interactive.Div>
+      </div>
     </PaperStage>
   );
 };

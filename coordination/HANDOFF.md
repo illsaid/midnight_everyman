@@ -4,6 +4,22 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-16 — Codex — Episode 02 M01 audit corrections rendered
+
+- **Status:** M01 cues 01–06 remain a 459-frame draft; v3 addresses the owner-
+  accepted motion audit and is ready for review.
+- **Changed:** Cue 05 now keeps the real crowd full-strength and indexes the
+  approved plate backward on an accelerating curve. The opening adds three
+  sequential guarantee stamps; cue 06 adds continuous ambient stage drift.
+- **Verified:** Lint and TypeScript pass; manifest tests pass 12/12; eight frames
+  from the actual render were visually reviewed. The v3 MP4 is 1920 x 1080 at
+  24 fps with 459 video frames and AAC audio; SHA begins `31e958be`.
+- **Did not do:** Did not change cue timing, VO, M02, the full master, or stage
+  Claude's concurrent files. The 93-frame reverse sequence remains local-only.
+- **Next:** Owner reviews `assembly-review/m01-incident-reversal-v3.mp4`; after
+  approval, promote M01 and begin the M02 failure map.
+- **Blocked:** Owner review of M01 v3.
+
 ## 2026-09-16 — Codex — Episode 02 crowded G-01 replacement integrated
 
 - **Status:** M01 cues 01–06 remain a 459-frame draft; the replacement-plate
