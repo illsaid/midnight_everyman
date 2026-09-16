@@ -46,13 +46,28 @@
       "file": "generated/g01-clean-0-142.mp4",
       "runtimeFile": "public/episode-02/generated/g01-clean-0-142.mp4",
       "kind": "video",
-      "status": "approved",
+      "status": "superseded",
       "generatedMediaUnit": "G-01",
       "requiredMotion": "Crowded upward-moving escalator setup before the mechanism event",
       "fps": 24,
       "frames": 143,
       "dimensions": [1280, 720],
       "sha256": "77ae6de28d6abee2cc3485b8d003504bc818fe902181cc99f26a8039ed2cc0cf",
+      "mechanismBoundary": "The stop, reversal and acceleration are deterministic Remotion events",
+      "supersededBy": "incident-reversal-v2"
+    },
+    "incident-reversal-v2": {
+      "file": "generated/g01-crowded-cue03-v2.mp4",
+      "runtimeFile": "public/episode-02/generated/g01-crowded-cue03-v2.mp4",
+      "kind": "video",
+      "status": "approved",
+      "generatedMediaUnit": "G-01",
+      "requiredMotion": "A visibly crowded upward-moving escalator setup before the mechanism event",
+      "fps": 24,
+      "frames": 192,
+      "dimensions": [1280, 720],
+      "sha256": "8e153171bc6f3dbb44c0be4edac7596647d0def98ee810c28fffa069b160ac66",
+      "replaces": "incident-reversal-v1",
       "mechanismBoundary": "The stop, reversal and acceleration are deterministic Remotion events"
     },
     "incident-freeze-f92-v1": {
@@ -63,6 +78,16 @@
       "sourceFrame": 92,
       "sha256": "582e103f7a54469843ff3fb4d37391373757f2bc307c508ba12d10fc988bfadb",
       "purpose": "Exact cue-03 exit frame for the deterministic stop and reverse treatment"
+    },
+    "incident-freeze-f92-v2": {
+      "file": "public/episode-02/derived/g01-cue03-exit-f92-v2.png",
+      "kind": "image",
+      "status": "approved",
+      "sourceAsset": "incident-reversal-v2",
+      "sourceFrame": 92,
+      "sourceTimeSeconds": 3.833333,
+      "sha256": "08b71fcf8a7783be9a3ad0001b2c12430574840fe3fda04e41b1b03bc8a1c1c1",
+      "purpose": "Exact cue-03 exit frame from the crowded replacement for the deterministic stop and reverse treatment"
     },
     "lace-approach-anchor-v1": {
       "file": "reference-lock/anchors/lace-approach-anchor-v1.png",
@@ -172,14 +197,14 @@
       "component": "IncidentReversalScene",
       "status": "draft",
       "reviewComposition": "EscalatorM01IncidentReversalReview",
-      "reviewArtifact": "assembly-review/m01-incident-reversal-v1.mp4",
+      "reviewArtifact": "assembly-review/m01-incident-reversal-v2.mp4",
       "bespokeSystem": true,
       "reuse": ["Pilot 01 freeze-and-interrupt typography", "approved Observer escalation cels"],
       "layers": [
         {
           "id": "plate",
           "kind": "media",
-          "asset": "incident-reversal-v1",
+          "asset": "incident-reversal-v2",
           "cues": ["03"],
           "status": "approved",
           "placements": [
@@ -189,7 +214,7 @@
         {
           "id": "case-overlay",
           "kind": "component",
-          "asset": "incident-freeze-f92-v1",
+          "asset": "incident-freeze-f92-v2",
           "status": "draft",
           "cues": ["01", "02", "04", "05", "06"]
         }

@@ -31,3 +31,6 @@ date,phase,actor,category,minutes,measurement_status,retries,material_correction
 2026-09-16,assembly-review,Owner,owner,,unavailable,0,0,"Approved all four locked generated plates and the exact-cue v2 assembly review reel"
 2026-09-16,M01-build,Codex,agent,,unavailable,1,2,"Built the 459-frame incident-reversal scene and assembly placement; corrected sequence-local timing and then a moving-state label/text fit after keyframe review"
 2026-09-16,M01-review,local-remotion-render,machine,,unavailable,1,0,"Rendered twelve targeted QA stills across two passes and one 459-frame VO-synced review; initial still render was retried with approved filesystem access"
+2026-09-16,G01-replacement,Owner,owner,,unavailable,0,0,"Approved M01 in principle but replaced the Hong Kong plate with a more crowded source that better supports the narration"
+2026-09-16,G01-replacement,Codex,agent,,unavailable,1,0,"Promoted the crowded 192-frame source as G-01 v2; preserved the 93-frame cue timing; derived exact exit frame 92; realigned direction tape stop marker and passenger markers"
+2026-09-16,M01-review-v2,local-remotion-render,machine,,unavailable,1,1,"Rendered five targeted QA stills and one 459-frame VO-synced v2 review; the first still pass required approved filesystem access and the final cue-03 to cue-04 boundary was checked separately"

@@ -300,14 +300,14 @@ const DirectionTape: React.FC<{state: 'up' | 'stop' | 'reverse'}> = ({state}) =>
   return (
     <svg viewBox="0 0 1920 1080" style={{position: 'absolute', inset: 0}}>
       <path
-        d="M530 900 C770 790 1010 600 1210 430 C1390 278 1515 185 1665 132"
+        d="M770 990 C920 845 1080 670 1220 510 C1360 350 1460 185 1535 95"
         fill="none"
         stroke="rgba(238,229,207,0.92)"
         strokeWidth="34"
         strokeLinecap="round"
       />
       <path
-        d="M530 900 C770 790 1010 600 1210 430 C1390 278 1515 185 1665 132"
+        d="M770 990 C920 845 1080 670 1220 510 C1360 350 1460 185 1535 95"
         fill="none"
         stroke={color}
         strokeWidth="13"
@@ -317,8 +317,8 @@ const DirectionTape: React.FC<{state: 'up' | 'stop' | 'reverse'}> = ({state}) =>
       />
       {state === 'stop' ? (
         <g>
-          <rect x="1083" y="474" width="24" height="132" fill={palette.ink} transform="rotate(39 1095 540)" />
-          <circle cx="1096" cy="540" r="76" fill="none" stroke={palette.ink} strokeWidth="10" />
+          <rect x="1208" y="444" width="24" height="132" fill={palette.ink} transform="rotate(41 1220 510)" />
+          <circle cx="1220" cy="510" r="76" fill="none" stroke={palette.ink} strokeWidth="10" />
         </g>
       ) : null}
     </svg>
@@ -328,7 +328,7 @@ const DirectionTape: React.FC<{state: 'up' | 'stop' | 'reverse'}> = ({state}) =>
 const IncidentPlate: React.FC = () => (
   <AbsoluteFill style={{backgroundColor: palette.paper}}>
     <Video
-      src={staticFile('episode-02/generated/g01-clean-0-142.mp4')}
+      src={staticFile('episode-02/generated/g01-crowded-cue03-v2.mp4')}
       muted
       objectFit="cover"
       style={{width: '100%', height: '100%'}}
@@ -342,7 +342,7 @@ const IncidentPlate: React.FC = () => (
 const HeldIncidentFrame: React.FC<{muted?: boolean}> = ({muted = false}) => (
   <AbsoluteFill style={{backgroundColor: palette.paper}}>
     <CanvasImage
-      src={staticFile('episode-02/derived/g01-cue03-exit-f92.png')}
+      src={staticFile('episode-02/derived/g01-cue03-exit-f92-v2.png')}
       style={{width: '100%', height: '100%', objectFit: 'cover', opacity: muted ? 0.34 : 1}}
     />
     {muted ? <AbsoluteFill style={{backgroundColor: 'rgba(238,229,207,0.30)'}} /> : null}
@@ -403,13 +403,16 @@ const StopBeat: React.FC = () => {
 };
 
 const passengerMarkers = [
-  {x: 1590, y: 170, s: 0.82},
-  {x: 1455, y: 238, s: 0.92},
-  {x: 1338, y: 310, s: 0.9},
-  {x: 1220, y: 382, s: 1.02},
-  {x: 1105, y: 456, s: 0.92},
-  {x: 990, y: 530, s: 0.96},
-  {x: 875, y: 610, s: 0.92},
+  {x: 1444, y: 116, s: 0.74},
+  {x: 1378, y: 180, s: 0.79},
+  {x: 1312, y: 251, s: 0.84},
+  {x: 1244, y: 326, s: 0.88},
+  {x: 1174, y: 403, s: 0.92},
+  {x: 1102, y: 482, s: 0.96},
+  {x: 1028, y: 563, s: 1},
+  {x: 952, y: 646, s: 1.04},
+  {x: 874, y: 730, s: 1.08},
+  {x: 798, y: 815, s: 1.12},
 ];
 
 const PersonMarker: React.FC<{x: number; y: number; scale: number; index: number}> = ({

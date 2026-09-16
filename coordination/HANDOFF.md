@@ -4,6 +4,23 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-16 — Codex — Episode 02 crowded G-01 replacement integrated
+
+- **Status:** M01 cues 01–06 remain a 459-frame draft; the replacement-plate
+  review is ready for owner approval.
+- **Changed:** Replaced G-01 with the owner-supplied crowded escalator plate,
+  extracted its exact displayed exit frame, and realigned the direction tape,
+  stop marker and reverse passenger markers to the new perspective.
+- **Verified:** Lint and TypeScript pass; manifest tests pass 12/12; five targeted
+  frames and the cue-03/cue-04 seam were visually reviewed. The v2 MP4 is
+  1920 x 1080 at 24 fps with 459 video frames and AAC audio; SHA begins
+  `258653c1`.
+- **Did not do:** Did not change the locked cue timing, VO, M02, full master, or
+  stage Claude's concurrent files. The superseded G-01 remains local rollback.
+- **Next:** Owner reviews `assembly-review/m01-incident-reversal-v2.mp4`; after
+  approval, promote M01 and begin the M02 failure map.
+- **Blocked:** Owner review of the revised M01.
+
 ## 2026-09-16 — Codex — Episode 02 M01 incident review rendered
 
 - **Status:** M01 cues 01–06 are implemented as a 459-frame draft and the
