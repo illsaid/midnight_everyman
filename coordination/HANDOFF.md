@@ -4,6 +4,20 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-16 — Codex — Episode 02 M01 approved
+
+- **Status:** M01 cues 01–06 and all reviewed layers are owner-approved; the
+  scene gate is closed.
+- **Changed:** Promoted the M01 scene, case overlay, reverse crowd and graphic
+  structure to `approved` in the manifest and recorded the owner decision.
+- **Verified:** The approved artifact is the 459-frame, 1920 x 1080, 24 fps v3
+  review with AAC audio; SHA-256 begins `31e958be`. Prior lint, TypeScript and
+  manifest checks passed, and eight rendered frames were visually reviewed.
+- **Did not do:** Did not change code, cues, VO, M02, the full master, local
+  media, or Claude's concurrent files.
+- **Next:** Build and review the M02 failure map for cues 07–13.
+- **Blocked:** Nothing.
+
 ## 2026-09-16 — Codex — Episode 02 M01 audit corrections rendered
 
 - **Status:** M01 cues 01–06 remain a 459-frame draft; v3 addresses the owner-

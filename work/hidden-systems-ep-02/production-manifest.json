@@ -207,9 +207,15 @@
       "from": 0,
       "duration": 459,
       "component": "IncidentReversalScene",
-      "status": "draft",
+      "status": "approved",
       "reviewComposition": "EscalatorM01IncidentReversalReview",
       "reviewArtifact": "assembly-review/m01-incident-reversal-v3.mp4",
+      "approval": {
+        "date": "2026-09-16",
+        "by": "owner",
+        "artifact": "assembly-review/m01-incident-reversal-v3.mp4",
+        "scope": "Approved after the crowded G-01 replacement, full-strength accelerated cue-05 reversal, sequential opening stamps and continuous consequence drift"
+      },
       "bespokeSystem": true,
       "reuse": ["Pilot 01 freeze-and-interrupt typography", "approved Observer escalation cels"],
       "layers": [
@@ -227,20 +233,20 @@
           "id": "case-overlay",
           "kind": "component",
           "asset": "incident-freeze-f92-v2",
-          "status": "draft",
+          "status": "approved",
           "cues": ["04"]
         },
         {
           "id": "reverse-crowd",
           "kind": "media",
           "asset": "incident-reverse-sequence-v1",
-          "status": "draft",
+          "status": "approved",
           "cues": ["05"]
         },
         {
           "id": "graphic-structure",
           "kind": "component",
-          "status": "draft",
+          "status": "approved",
           "cues": ["01", "02", "06"]
         }
       ]
