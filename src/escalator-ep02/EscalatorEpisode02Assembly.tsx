@@ -15,6 +15,11 @@ import {
   lockedPlates,
   type LockedPlate,
 } from './lockedPlates';
+import {
+  INCIDENT_REVERSAL_DURATION,
+  IncidentReversalReview,
+  IncidentReversalScene,
+} from './IncidentReversalScene';
 
 const paper = '#eee6d5';
 const ink = '#152b2b';
@@ -104,7 +109,14 @@ export const EscalatorEpisode02Assembly: React.FC = () => {
     <AbsoluteFill style={{backgroundColor: paper}}>
       <Audio src={staticFile(EPISODE_02_VOICEOVER)} />
       <AssemblyPlaceholder />
-      {lockedPlates.map((plate) => (
+      <Sequence
+        name="M01 · incident reversal · cues 01–06"
+        durationInFrames={INCIDENT_REVERSAL_DURATION}
+        premountFor={EPISODE_02_FPS}
+      >
+        <IncidentReversalScene />
+      </Sequence>
+      {lockedPlates.filter((plate) => plate.id !== 'G-01').map((plate) => (
         <Sequence
           key={plate.id}
           name={`${plate.id} · cue ${plate.cue} · ${plate.label}`}
@@ -237,6 +249,14 @@ export const EscalatorEpisode02Registration: React.FC = () => {
         id="EscalatorGeneratedPlatesContactSheet"
         component={EscalatorGeneratedPlatesContactSheet}
         durationInFrames={1}
+        fps={EPISODE_02_FPS}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="EscalatorM01IncidentReversalReview"
+        component={IncidentReversalReview}
+        durationInFrames={INCIDENT_REVERSAL_DURATION}
         fps={EPISODE_02_FPS}
         width={1920}
         height={1080}

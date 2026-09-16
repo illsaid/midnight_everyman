@@ -55,6 +55,15 @@
       "sha256": "77ae6de28d6abee2cc3485b8d003504bc818fe902181cc99f26a8039ed2cc0cf",
       "mechanismBoundary": "The stop, reversal and acceleration are deterministic Remotion events"
     },
+    "incident-freeze-f92-v1": {
+      "file": "public/episode-02/derived/g01-cue03-exit-f92.png",
+      "kind": "image",
+      "status": "approved",
+      "sourceAsset": "incident-reversal-v1",
+      "sourceFrame": 92,
+      "sha256": "582e103f7a54469843ff3fb4d37391373757f2bc307c508ba12d10fc988bfadb",
+      "purpose": "Exact cue-03 exit frame for the deterministic stop and reverse treatment"
+    },
     "lace-approach-anchor-v1": {
       "file": "reference-lock/anchors/lace-approach-anchor-v1.png",
       "kind": "image",
@@ -161,7 +170,9 @@
       "from": 0,
       "duration": 459,
       "component": "IncidentReversalScene",
-      "status": "planned",
+      "status": "draft",
+      "reviewComposition": "EscalatorM01IncidentReversalReview",
+      "reviewArtifact": "assembly-review/m01-incident-reversal-v1.mp4",
       "bespokeSystem": true,
       "reuse": ["Pilot 01 freeze-and-interrupt typography", "approved Observer escalation cels"],
       "layers": [
@@ -175,7 +186,13 @@
             {"cues": ["03"], "sourceStart": 0, "sourceFrames": 93, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
           ]
         },
-        {"id": "case-overlay", "kind": "component", "status": "planned"}
+        {
+          "id": "case-overlay",
+          "kind": "component",
+          "asset": "incident-freeze-f92-v1",
+          "status": "draft",
+          "cues": ["01", "02", "04", "05", "06"]
+        }
       ]
     },
     {

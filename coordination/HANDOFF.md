@@ -4,6 +4,22 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-16 — Codex — Episode 02 M01 incident review rendered
+
+- **Status:** M01 cues 01–06 are implemented as a 459-frame draft and the
+  19.18-second VO-synced review is ready for owner approval.
+- **Changed:** Added `IncidentReversalScene`, registered its standalone review,
+  placed it into the Episode 02 assembly, and derived exact source frame 92 for
+  the deterministic stop/reverse handoff. The locked G-01 source is unchanged.
+- **Verified:** Lint and TypeScript pass; manifest tests pass 12/12; twelve
+  targeted stills were reviewed across two passes; the final MP4 is 1920 x 1080
+  at 24 fps with audio. The render SHA-256 begins `d4855da6`.
+- **Did not do:** Did not alter the locked generated plate, build M02, render the
+  full master, or stage Claude's concurrent files.
+- **Next:** Owner reviews `assembly-review/m01-incident-reversal-v1.mp4`; after
+  approval, promote M01 and begin the M02 failure map.
+- **Blocked:** Owner review of M01.
+
 ## 2026-09-16 — Owner — Episode 02 locked-plate review approved
 
 - **Status:** The four generated plates and their exact-cue assembly review are
