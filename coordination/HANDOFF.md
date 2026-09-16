@@ -4,6 +4,19 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-16 — Owner — Episode 02 locked-plate review approved
+
+- **Status:** The four generated plates and their exact-cue assembly review are
+  approved.
+- **Changed:** Closed the owner-review gate for G-01 through G-04.
+- **Verified:** Owner reviewed and approved the v2 reel after the source clips,
+  cue placements and review-label correction were presented.
+- **Did not do:** This approval does not approve unbuilt procedural mechanism
+  scenes or a future full master.
+- **Next:** Build and review the first procedural sequence around cues 01–06 and
+  G-01, preserving the locked generated plates.
+- **Blocked:** Nothing.
+
 ## 2026-09-16 — Codex — Episode 02 locked plates integrated
 
 - **Status:** The exact-cue assembly shell and 15.51-second review reel are
