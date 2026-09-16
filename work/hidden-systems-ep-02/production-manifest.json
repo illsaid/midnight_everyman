@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "project": "hidden-systems-ep-02",
-  "status": "planned",
+  "status": "assembly-review",
   "fps": 24,
   "width": 1920,
   "height": 1080,
@@ -43,15 +43,17 @@
       "purpose": "Approved first frame and visual identity for the Hong Kong reversal reconstruction"
     },
     "incident-reversal-v1": {
-      "file": "source-media/generated/incident-reversal-v1.mp4",
+      "file": "generated/g01-clean-0-142.mp4",
+      "runtimeFile": "public/episode-02/generated/g01-clean-0-142.mp4",
       "kind": "video",
-      "status": "missing",
+      "status": "approved",
       "generatedMediaUnit": "G-01",
-      "requiredMotion": "A crowded upward-moving escalator stops, then reverses and visibly accelerates downhill",
-      "targetSeconds": 8,
-      "requiredFps": 24,
-      "requiredDimensions": [1920, 1080],
-      "fallback": "Use the approved anchor as a held editorial plate and perform the stop/reversal as a deterministic schematic overlay"
+      "requiredMotion": "Crowded upward-moving escalator setup before the mechanism event",
+      "fps": 24,
+      "frames": 143,
+      "dimensions": [1280, 720],
+      "sha256": "77ae6de28d6abee2cc3485b8d003504bc818fe902181cc99f26a8039ed2cc0cf",
+      "mechanismBoundary": "The stop, reversal and acceleration are deterministic Remotion events"
     },
     "lace-approach-anchor-v1": {
       "file": "reference-lock/anchors/lace-approach-anchor-v1.png",
@@ -61,15 +63,17 @@
       "purpose": "Human-scale setup for the landing hazard before the comb-plate diagram"
     },
     "lace-approach-v1": {
-      "file": "source-media/generated/lace-approach-v1.mp4",
+      "file": "generated/g02-cue21-102f.mp4",
+      "runtimeFile": "public/episode-02/generated/g02-cue21-102f.mp4",
       "kind": "video",
-      "status": "missing",
+      "status": "approved",
       "generatedMediaUnit": "G-02",
-      "requiredMotion": "A loose shoelace rides toward the landing while the commuter remains unaware; cut before contact with the comb",
-      "targetSeconds": 8,
-      "requiredFps": 24,
-      "requiredDimensions": [1920, 1080],
-      "fallback": "Use the approved anchor with a slow camera move, then cut early to the deterministic comb diagram"
+      "requiredMotion": "A loose shoelace approaches the landing while the commuter remains unaware; no contact",
+      "fps": 24,
+      "frames": 102,
+      "dimensions": [1264, 720],
+      "sha256": "561487b8e6fd043030d9a32b337159dc0ff5dd25c371e2d775a11e2e32f9f6cd",
+      "mechanismBoundary": "Comb contact and protective action are deterministic Remotion events"
     },
     "step-sag-anchor-v1": {
       "file": "reference-lock/anchors/step-sag-anchor-v1.png",
@@ -79,15 +83,17 @@
       "purpose": "Human reaction setup for the damaged-step sequence"
     },
     "step-sag-v1": {
-      "file": "source-media/generated/step-sag-v1.mp4",
+      "file": "generated/g03-cue36-79f.mp4",
+      "runtimeFile": "public/episode-02/generated/g03-cue36-79f.mp4",
       "kind": "video",
-      "status": "missing",
+      "status": "approved",
       "generatedMediaUnit": "G-03",
-      "requiredMotion": "A step ahead drops slightly out of alignment and the rider recoils; no internal mechanism is shown",
-      "targetSeconds": 10,
-      "requiredFps": 24,
-      "requiredDimensions": [1920, 1080],
-      "fallback": "Stage observerCels.fearBrace over the deterministic step-sag diagram"
+      "requiredMotion": "A rider descends normally and looks toward the floor; no step deformation",
+      "fps": 24,
+      "frames": 79,
+      "dimensions": [1264, 720],
+      "sha256": "b01e87eac2a7d1f7fc634b98af971db513192615cb831cda0a4e623cfaadbaa3",
+      "mechanismBoundary": "The single rigid step sag is a deterministic Remotion event"
     },
     "ordinary-ride-anchor-v1": {
       "file": "reference-lock/anchors/ordinary-ride-anchor-v1.png",
@@ -97,15 +103,17 @@
       "purpose": "Calm human-scale bookend for the final ordinary ride"
     },
     "ordinary-ride-v1": {
-      "file": "source-media/generated/ordinary-ride-v1.mp4",
+      "file": "generated/g04-cue67-97f.mp4",
+      "runtimeFile": "public/episode-02/generated/g04-cue67-97f.mp4",
       "kind": "video",
-      "status": "missing",
+      "status": "approved",
       "generatedMediaUnit": "G-04",
       "requiredMotion": "An ordinary commuter steps onto and rides a calm escalator without looking down",
-      "targetSeconds": 10,
-      "requiredFps": 24,
-      "requiredDimensions": [1920, 1080],
-      "fallback": "Use observerCels.inspectForward and observerCels.reliefSigh over the deterministic escalator loop"
+      "fps": 24,
+      "frames": 97,
+      "dimensions": [1280, 720],
+      "sha256": "c772fcc2d42c62698efbbbe1ec4b3aee570a3f33f51a44970aea314041462567",
+      "mechanismBoundary": "The hidden-device reveal remains a deterministic Remotion event"
     },
     "escalator-mechanism-v1": {
       "file": "assets-canon/vertical-transport/escalator-mechanism-v1.svg",
@@ -157,7 +165,16 @@
       "bespokeSystem": true,
       "reuse": ["Pilot 01 freeze-and-interrupt typography", "approved Observer escalation cels"],
       "layers": [
-        {"id": "plate", "kind": "media", "asset": "incident-reversal-v1", "cues": ["03", "04", "05"], "status": "missing"},
+        {
+          "id": "plate",
+          "kind": "media",
+          "asset": "incident-reversal-v1",
+          "cues": ["03"],
+          "status": "approved",
+          "placements": [
+            {"cues": ["03"], "sourceStart": 0, "sourceFrames": 93, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
+          ]
+        },
         {"id": "case-overlay", "kind": "component", "status": "planned"}
       ]
     },
@@ -202,7 +219,16 @@
         {"movement": "M05", "from": 2635, "to": 3582}
       ],
       "layers": [
-        {"id": "lace-approach-plate", "kind": "media", "asset": "lace-approach-v1", "cues": ["21", "22"], "status": "missing"},
+        {
+          "id": "lace-approach-plate",
+          "kind": "media",
+          "asset": "lace-approach-v1",
+          "cues": ["21"],
+          "status": "approved",
+          "placements": [
+            {"cues": ["21"], "sourceStart": 0, "sourceFrames": 102, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
+          ]
+        },
         {"id": "landing-and-skirt", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
       ]
     },
@@ -218,7 +244,16 @@
       "sharedPrimitive": "EscalatorMechanism",
       "reuse": ["TwoHeadsScene local-versus-system comparison"],
       "layers": [
-        {"id": "reaction-plate", "kind": "media", "asset": "step-sag-v1", "cues": ["36", "37", "38"], "status": "missing"},
+        {
+          "id": "reaction-plate",
+          "kind": "media",
+          "asset": "step-sag-v1",
+          "cues": ["36"],
+          "status": "approved",
+          "placements": [
+            {"cues": ["36"], "sourceStart": 0, "sourceFrames": 79, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
+          ]
+        },
         {"id": "step-path", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
       ]
     },
@@ -255,7 +290,14 @@
         {"movement": "M10", "from": 6042, "to": 6615}
       ],
       "layers": [
-        {"id": "incident-reprise", "kind": "media", "asset": "incident-reversal-v1", "cues": ["54", "55", "56"], "status": "missing", "reuseOnly": true},
+        {
+          "id": "incident-reprise",
+          "kind": "component",
+          "cues": ["54", "55", "56"],
+          "status": "planned",
+          "reuseOnly": true,
+          "note": "Reconstruct with Remotion; the locked G-01 clip is not required to cover this range"
+        },
         {"id": "chain-and-detector", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
       ]
     },
@@ -275,7 +317,16 @@
         {"movement": "M12", "from": 7181, "to": 7322}
       ],
       "layers": [
-        {"id": "ordinary-ride-plate", "kind": "media", "asset": "ordinary-ride-v1", "cues": ["67", "68", "69"], "status": "missing"},
+        {
+          "id": "ordinary-ride-plate",
+          "kind": "media",
+          "asset": "ordinary-ride-v1",
+          "cues": ["67"],
+          "status": "approved",
+          "placements": [
+            {"cues": ["67"], "sourceStart": 0, "sourceFrames": 97, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
+          ]
+        },
         {"id": "ordinary-escalator", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"},
         {"id": "observer", "kind": "image", "assets": ["observer-inspect-forward", "observer-relief-sigh"], "status": "approved"}
       ]

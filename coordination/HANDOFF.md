@@ -4,6 +4,24 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-16 — Codex — Episode 02 locked plates integrated
+
+- **Status:** The exact-cue assembly shell and 15.51-second review reel are
+  rendered. All four locked plates are integrated; procedural scenes remain
+  planned.
+- **Changed:** Added the Episode 02 assembly and review compositions, registered
+  them in `Root.tsx`, recorded approved media metadata and exact placements in
+  the production manifest, and kept runtime video copies local and ignored.
+- **Verified:** Lint and TypeScript pass; manifest tests pass 12/12; composition
+  discovery succeeds; Mediabunny confirms the final 1920 x 1080 review render
+  has audio. The 4 x 3 v2 contact sheet passed visual inspection after the first
+  label layout was corrected.
+- **Did not do:** Did not regenerate or edit source clips, build the procedural
+  mechanism scenes, render a full master, or stage Claude's concurrent files.
+- **Next:** Owner reviews `assembly-review/generated-plates-review-v2.mp4`.
+  After approval, build the first procedural scene around cues 01–06 and G-01.
+- **Blocked:** Owner review of the short reel.
+
 ## 2026-09-16 — Codex — Episode 02 generated motion inventory locked
 
 - **Status:** Owner confirmed Claude's footage audit found sufficient generated
