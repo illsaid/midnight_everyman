@@ -4,6 +4,39 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-16 — Codex — Episode 02 generated motion inventory locked
+
+- **Status:** Owner confirmed Claude's footage audit found sufficient generated
+  coverage. G-01 through G-04 are locked; further video generation has stopped.
+- **Changed:** Added `generated-assets-lock-v1.md` with four local filenames,
+  cue ownership, byte counts and SHA-256 hashes. Added `work/**/generated/` to
+  `.gitignore` and retired the G-03/G-04 endpoint experiments in the anchor log.
+- **Verified:** Rehashed the four locked cue clips. G-03 covers cue 36 while
+  remaining mechanically neutral; its single-step sag belongs to Remotion. Its
+  endpoint v2 was also rejected because several step geometries deformed.
+- **Did not do:** Did not edit, move or regenerate any locked video, stage
+  Claude's audit files, integrate clips into the assembly, or change the manifest.
+- **Next:** Place the four locked clips at cues 03, 21, 36 and 67, then review
+  the combined assembly before authorizing any replacement media.
+- **Blocked:** Nothing.
+
+## 2026-09-15 — Codex — Episode 02 paired ending frames
+
+- **Status:** G-01 and G-02 are owner-approved. G-03 end-frame v2 and G-04
+  end-frame v1 are local review candidates; no motion has been generated.
+- **Changed:** Added matched 16:9 ending frames for the G-03 step-sag and G-04
+  ordinary-ride starts. Recorded prompts, suggested 8–10 second motion direction
+  and SHA-256 hashes in `work/hidden-systems-ep-02/anchor-review-v1.md`.
+- **Verified:** Inspected both outputs at full resolution. G-03 v1 was rejected
+  because its profile degraded and the pose appeared to float on the balustrade.
+  V2 restores the approved three-quarter face, upright stance, supported feet and
+  natural handrail contact. G-04 clearly groups shoe, comb, skirt and brush.
+- **Did not do:** Did not delete the rejected local rollback, generate motion,
+  promote canonical anchors, or change cues, narration or manifest status.
+- **Next:** Owner approves or revises the G-03 v2 and G-04 v1 pairs, then uses
+  the recorded prompts and endpoints for manual image-to-video generation.
+- **Blocked:** Motion generation remains gated on paired-frame approval.
+
 ## 2026-09-15 — Codex — Episode 02 anchor contact sheet v1
 
 - **Status:** Four first-frame candidates and one contact sheet generated;

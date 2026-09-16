@@ -1,6 +1,7 @@
 # Episode 02 first-frame anchor review v1
 
-**Status:** review candidate; no motion generation authorized.
+**Status:** Historical anchor record. The four production motion clips are now
+locked; no further anchor, endpoint or motion generation is authorized.
 
 ## Local-only files
 
@@ -14,6 +15,8 @@ Git. This document preserves prompts, provenance and hashes for other agents.
 | G-02 lace approach | `g-02-lace-approach-anchor-draft-v1.png` | `c8c11f48086212289eb7e84a9187c9a197e9b2a33ffa117a1a04003f057c287c` |
 | G-03 step sag | `g-03-step-sag-anchor-draft-v1.png` | `b96a5652876668efe70e502be0e8a19efbbb1351df6b0d847874e1174784570e` |
 | G-04 ordinary ride | `g-04-ordinary-ride-anchor-draft-v1.png` | `415d80910b99433604cfa59cd73b6d8c60e155f7e768b6cc6b823dbb75300bea` |
+| G-03 rejected geometry experiment | `g-03-step-sag-end-frame-draft-v2.png` | `0299ad92328f7bfd58cbc173f29c66453f08aeb1c7bb3ce8c51352fbf13157d2` |
+| G-04 unused endpoint experiment | `g-04-ordinary-ride-end-frame-draft-v1.png` | `9a26efbe00b3c6796ef650b5e556956f8909857facc855cab1296493cad37475` |
 | Four-panel sheet | `episode-02-anchor-contact-sheet-v1.png` | `4023b9ee49815e703c43470c54d3ea5bffae06e563f688f214a3754bd7579cf3` |
 
 ## Generation provenance
@@ -63,15 +66,28 @@ Side three-quarter view of the lower landing. The relaxed Observer approaches
 from stage left, one step before boarding. Keep the comb, skirt edge and safety
 brush readable and leave an uncluttered wall for the final hidden-systems reveal.
 
+## Rejected or unused endpoint experiments
+
+### G-03 — Do not use either ending frame
+
+The first attempt degraded the Observer's close profile and made him appear to
+rest or float on the balustrade. The second restored his pose but deformed
+several neighboring steps into bent and duplicated geometry. Both are rejected
+local rollbacks. The locked G-03 motion plate remains mechanically neutral; the
+single-step sag is a deterministic Remotion event.
+
+### G-04 — Endpoint experiment not needed
+
+The frame is visually usable, but the audited G-04 motion clip already covers
+the required cue. Retain this endpoint only as an ignored local experiment; it
+is not a required production input.
+
 ## First-pass review
 
-- **G-01:** strongest narrative and spatial read; crowd, direction and negative
-  space are clear.
-- **G-02:** lace and landing hazard read immediately; contact has not occurred.
-- **G-03:** composition and overlay reserve work, but the target step may need
-  stronger spatial isolation before approval.
-- **G-04:** calm bookend reads, but the ankle-height brush may need greater
-  visibility before approval.
+- **G-01:** locked motion clip covers cue 03.
+- **G-02:** locked motion clip covers cue 21.
+- **G-03:** locked motion clip covers cue 36; Remotion owns the sag.
+- **G-04:** locked motion clip covers cue 67.
 
-Approve or revise the four images as a set. Do not animate any unit until the
-contact sheet is approved.
+The locked inventory and hashes are in `generated-assets-lock-v1.md`. Do not
+generate replacements unless a later assembly review identifies a named gap.

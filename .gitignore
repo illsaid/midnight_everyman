@@ -13,6 +13,7 @@ work/**/rollback/
 work/**/source-media/
 work/**/audio/
 work/**/anchor-review/
+work/**/generated/
 public/sprinkler-assembly/**/*.mp4
 public/sprinkler-assembly/**/*.mp3
 public/sprinkler-assembly/**/*.wav
