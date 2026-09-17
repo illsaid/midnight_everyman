@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "status": "review-lock",
+  "sourceFile": "C:/Users/dicku/Downloads/916voescv2.mp3",
+  "publicFile": "public/voiceover/episode-02/brush-short-vo-v2.mp3",
+  "sha256": "a4455d5d9a00cae6206d054e52a84f8ecfe6a05ef55a639df6c195bff6cb286f",
+  "measuredDurationSeconds": 34.56,
+  "renderDurationFrames": 830,
+  "fps": 24,
+  "sampleRateHz": 44100,
+  "channels": 1,
+  "notes": "Owner supplied a tightened edit of the approved brush Short narration. Composition boundaries follow the spoken phrase onsets; publication lock remains an owner decision."
+}

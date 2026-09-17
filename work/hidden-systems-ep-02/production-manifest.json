@@ -13,7 +13,12 @@
     "script": "script-v3-vo-v3.txt"
   },
   "layoutContract": {
-    "safeMargins": {"left": 80, "right": 80, "top": 100, "bottom": 100},
+    "safeMargins": {
+      "left": 80,
+      "right": 80,
+      "top": 100,
+      "bottom": 100
+    },
     "minimumHeadlinePx": 84,
     "minimumSupportingTextPx": 44,
     "captionPolicy": "Cue-authored Remotion text; captions-asr.json is evidence only and is not displayed by default",
@@ -51,7 +56,10 @@
       "requiredMotion": "Crowded upward-moving escalator setup before the mechanism event",
       "fps": 24,
       "frames": 143,
-      "dimensions": [1280, 720],
+      "dimensions": [
+        1280,
+        720
+      ],
       "sha256": "77ae6de28d6abee2cc3485b8d003504bc818fe902181cc99f26a8039ed2cc0cf",
       "mechanismBoundary": "The stop, reversal and acceleration are deterministic Remotion events",
       "supersededBy": "incident-reversal-v2"
@@ -65,7 +73,10 @@
       "requiredMotion": "A visibly crowded upward-moving escalator setup before the mechanism event",
       "fps": 24,
       "frames": 192,
-      "dimensions": [1280, 720],
+      "dimensions": [
+        1280,
+        720
+      ],
       "sha256": "8e153171bc6f3dbb44c0be4edac7596647d0def98ee810c28fffa069b160ac66",
       "replaces": "incident-reversal-v1",
       "mechanismBoundary": "The stop, reversal and acceleration are deterministic Remotion events"
@@ -94,9 +105,15 @@
       "kind": "image-sequence",
       "status": "approved",
       "sourceAsset": "incident-reversal-v2",
-      "sourceFrames": [0, 92],
+      "sourceFrames": [
+        0,
+        92
+      ],
       "frames": 93,
-      "dimensions": [1280, 720],
+      "dimensions": [
+        1280,
+        720
+      ],
       "aggregateSha256": "a1ceb603cf669de1e39a8a232fe58b98b96cb440007482dfaad5dd3d496fce6b",
       "playback": "Cue 05 indexes the sequence from frame 92 to frame 0 with sourceFrame = 92 - round(pow(localFrame / 57, 1.7) * 92)",
       "mechanismBoundary": "The source images are the approved crowd plate; Remotion owns reverse order and acceleration"
@@ -117,7 +134,10 @@
       "requiredMotion": "A loose shoelace approaches the landing while the commuter remains unaware; no contact",
       "fps": 24,
       "frames": 102,
-      "dimensions": [1264, 720],
+      "dimensions": [
+        1264,
+        720
+      ],
       "sha256": "561487b8e6fd043030d9a32b337159dc0ff5dd25c371e2d775a11e2e32f9f6cd",
       "mechanismBoundary": "Comb contact and protective action are deterministic Remotion events"
     },
@@ -137,7 +157,10 @@
       "requiredMotion": "A rider descends normally and looks toward the floor; no step deformation",
       "fps": 24,
       "frames": 79,
-      "dimensions": [1264, 720],
+      "dimensions": [
+        1264,
+        720
+      ],
       "sha256": "b01e87eac2a7d1f7fc634b98af971db513192615cb831cda0a4e623cfaadbaa3",
       "mechanismBoundary": "The single rigid step sag is a deterministic Remotion event"
     },
@@ -157,7 +180,10 @@
       "requiredMotion": "An ordinary commuter steps onto and rides a calm escalator without looking down",
       "fps": 24,
       "frames": 97,
-      "dimensions": [1280, 720],
+      "dimensions": [
+        1280,
+        720
+      ],
       "sha256": "c772fcc2d42c62698efbbbe1ec4b3aee570a3f33f51a44970aea314041462567",
       "mechanismBoundary": "The hidden-device reveal remains a deterministic Remotion event"
     },
@@ -167,9 +193,21 @@
       "kind": "svg",
       "status": "approved",
       "requiredGroups": [
-        "step-loop", "steps", "drive-sprocket", "return-sprocket", "front-track",
-        "rear-track", "motor", "main-drive-chain", "normal-brake", "auxiliary-brake",
-        "broken-chain-device", "comb-plate", "skirt-panel", "brush", "step-sag-device",
+        "step-loop",
+        "steps",
+        "drive-sprocket",
+        "return-sprocket",
+        "front-track",
+        "rear-track",
+        "motor",
+        "main-drive-chain",
+        "normal-brake",
+        "auxiliary-brake",
+        "broken-chain-device",
+        "comb-plate",
+        "skirt-panel",
+        "brush",
+        "step-sag-device",
         "missing-step-device"
       ],
       "approvalEvidence": "Owner and independent review approved V2 on 2026-09-15; canonical SVG and metadata are paired"
@@ -202,8 +240,17 @@
   "scenes": [
     {
       "id": "incident-reversal",
-      "movements": ["M01"],
-      "cues": ["01", "02", "03", "04", "05", "06"],
+      "movements": [
+        "M01"
+      ],
+      "cues": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06"
+      ],
       "from": 0,
       "duration": 459,
       "component": "IncidentReversalScene",
@@ -217,16 +264,33 @@
         "scope": "Approved after the crowded G-01 replacement, full-strength accelerated cue-05 reversal, sequential opening stamps and continuous consequence drift"
       },
       "bespokeSystem": true,
-      "reuse": ["Pilot 01 freeze-and-interrupt typography", "approved Observer escalation cels"],
+      "reuse": [
+        "Pilot 01 freeze-and-interrupt typography",
+        "approved Observer escalation cels"
+      ],
       "layers": [
         {
           "id": "plate",
           "kind": "media",
           "asset": "incident-reversal-v2",
-          "cues": ["03"],
+          "cues": [
+            "03"
+          ],
           "status": "approved",
           "placements": [
-            {"cues": ["03"], "sourceStart": 0, "sourceFrames": 93, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
+            {
+              "cues": [
+                "03"
+              ],
+              "sourceStart": 0,
+              "sourceFrames": 93,
+              "retime": "trim",
+              "crop": "contain",
+              "focalPoint": [
+                50,
+                50
+              ]
+            }
           ]
         },
         {
@@ -234,189 +298,486 @@
           "kind": "component",
           "asset": "incident-freeze-f92-v2",
           "status": "approved",
-          "cues": ["04"]
+          "cues": [
+            "04"
+          ]
         },
         {
           "id": "reverse-crowd",
           "kind": "media",
           "asset": "incident-reverse-sequence-v1",
           "status": "approved",
-          "cues": ["05"]
+          "cues": [
+            "05"
+          ]
         },
         {
           "id": "graphic-structure",
           "kind": "component",
           "status": "approved",
-          "cues": ["01", "02", "06"]
+          "cues": [
+            "01",
+            "02",
+            "06"
+          ]
         }
       ]
     },
     {
       "id": "failure-map",
-      "movements": ["M02"],
-      "cues": ["07", "08", "09", "10", "11", "12", "13"],
+      "movements": [
+        "M02"
+      ],
+      "cues": [
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
       "from": 459,
       "duration": 636,
       "component": "FailureMapScene",
-      "status": "planned",
+      "status": "built",
       "bespokeSystem": false,
-      "reuse": ["MechanismRecapScene card grammar", "IndependenceScene strike-and-retract pattern"],
-      "layers": [{"id": "diagram", "kind": "component", "status": "planned"}]
+      "reuse": [
+        "MechanismRecapScene card grammar",
+        "IndependenceScene strike-and-retract pattern"
+      ],
+      "layers": [
+        {
+          "id": "diagram",
+          "kind": "component",
+          "status": "built"
+        }
+      ]
     },
     {
       "id": "mechanism-reveal",
-      "movements": ["M03"],
-      "cues": ["14", "15", "16", "17", "18", "19", "20"],
+      "movements": [
+        "M03"
+      ],
+      "cues": [
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
       "from": 1095,
       "duration": 750,
       "component": "MechanismRevealScene",
       "status": "planned",
       "bespokeSystem": true,
       "sharedPrimitive": "EscalatorMechanism",
-      "reuse": ["FourPartsScene persistent-cutaway staging", "PipeScene reveal grammar"],
-      "layers": [{"id": "mechanism", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}]
+      "reuse": [
+        "FourPartsScene persistent-cutaway staging",
+        "PipeScene reveal grammar"
+      ],
+      "layers": [
+        {
+          "id": "mechanism",
+          "kind": "component",
+          "asset": "escalator-mechanism-v1",
+          "status": "planned"
+        }
+      ]
     },
     {
       "id": "local-entrapment",
-      "movements": ["M04", "M05"],
-      "cues": ["21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35"],
+      "movements": [
+        "M04",
+        "M05"
+      ],
+      "cues": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35"
+      ],
       "from": 1845,
       "duration": 1737,
       "component": "LocalEntrapmentScene",
-      "status": "planned",
+      "status": "partial",
       "bespokeSystem": false,
       "sharedPrimitive": "EscalatorMechanism",
-      "reuse": ["ActivationScene travelling-camera states", "MechanismRecapScene strikeouts"],
+      "reuse": [
+        "ActivationScene travelling-camera states",
+        "MechanismRecapScene strikeouts"
+      ],
       "reviewSubranges": [
-        {"movement": "M04", "from": 1845, "to": 2635},
-        {"movement": "M05", "from": 2635, "to": 3582}
+        {
+          "movement": "M04",
+          "from": 1845,
+          "to": 2635
+        },
+        {
+          "movement": "M05",
+          "from": 2635,
+          "to": 3582
+        }
       ],
       "layers": [
         {
           "id": "lace-approach-plate",
           "kind": "media",
           "asset": "lace-approach-v1",
-          "cues": ["21"],
+          "cues": [
+            "21"
+          ],
           "status": "approved",
           "placements": [
-            {"cues": ["21"], "sourceStart": 0, "sourceFrames": 102, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
+            {
+              "cues": [
+                "21"
+              ],
+              "sourceStart": 0,
+              "sourceFrames": 102,
+              "retime": "trim",
+              "crop": "contain",
+              "focalPoint": [
+                50,
+                50
+              ]
+            }
           ]
         },
-        {"id": "landing-and-skirt", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
-      ]
+        {
+          "id": "landing-and-skirt",
+          "kind": "component",
+          "asset": "escalator-mechanism-v1",
+          "status": "planned"
+        }
+      ],
+      "notes": "M05 (cues 28-35, f2635-3582) built to motion-grammar-v2. M04 (cues 21-27, f1845-2635) still planned."
     },
     {
       "id": "step-integrity",
-      "movements": ["M06"],
-      "cues": ["36", "37", "38", "39", "40", "41", "42"],
+      "movements": [
+        "M06"
+      ],
+      "cues": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
       "from": 3582,
       "duration": 805,
       "component": "StepIntegrityScene",
       "status": "planned",
       "bespokeSystem": false,
       "sharedPrimitive": "EscalatorMechanism",
-      "reuse": ["TwoHeadsScene local-versus-system comparison"],
+      "reuse": [
+        "TwoHeadsScene local-versus-system comparison"
+      ],
       "layers": [
         {
           "id": "reaction-plate",
           "kind": "media",
           "asset": "step-sag-v1",
-          "cues": ["36"],
+          "cues": [
+            "36"
+          ],
           "status": "approved",
           "placements": [
-            {"cues": ["36"], "sourceStart": 0, "sourceFrames": 79, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
+            {
+              "cues": [
+                "36"
+              ],
+              "sourceStart": 0,
+              "sourceFrames": 79,
+              "retime": "trim",
+              "crop": "contain",
+              "focalPoint": [
+                50,
+                50
+              ]
+            }
           ]
         },
-        {"id": "step-path", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
+        {
+          "id": "step-path",
+          "kind": "component",
+          "asset": "escalator-mechanism-v1",
+          "status": "planned"
+        }
       ]
     },
     {
       "id": "runaway-protection",
-      "movements": ["M07", "M08"],
-      "cues": ["43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53"],
+      "movements": [
+        "M07",
+        "M08"
+      ],
+      "cues": [
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53"
+      ],
       "from": 4387,
       "duration": 1097,
       "component": "RunawayProtectionScene",
       "status": "planned",
       "bespokeSystem": false,
       "sharedPrimitive": "EscalatorMechanism",
-      "reuse": ["ReplacementScene comparative scale", "IndependenceScene disconnected-path grammar"],
-      "reviewSubranges": [
-        {"movement": "M07", "from": 4387, "to": 4989},
-        {"movement": "M08", "from": 4989, "to": 5484}
+      "reuse": [
+        "ReplacementScene comparative scale",
+        "IndependenceScene disconnected-path grammar"
       ],
-      "layers": [{"id": "drive-and-brakes", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}]
+      "reviewSubranges": [
+        {
+          "movement": "M07",
+          "from": 4387,
+          "to": 4989
+        },
+        {
+          "movement": "M08",
+          "from": 4989,
+          "to": 5484
+        }
+      ],
+      "layers": [
+        {
+          "id": "drive-and-brakes",
+          "kind": "component",
+          "asset": "escalator-mechanism-v1",
+          "status": "planned"
+        }
+      ]
     },
     {
       "id": "case-reconstruction",
-      "movements": ["M09", "M10"],
-      "cues": ["54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66"],
+      "movements": [
+        "M09",
+        "M10"
+      ],
+      "cues": [
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66"
+      ],
       "from": 5484,
       "duration": 1131,
       "component": "CaseReconstructionScene",
       "status": "planned",
       "bespokeSystem": false,
       "sharedPrimitive": "EscalatorMechanism",
-      "reuse": ["ActivationScene stress build", "MechanismRecapScene causal checklist"],
+      "reuse": [
+        "ActivationScene stress build",
+        "MechanismRecapScene causal checklist"
+      ],
       "reviewSubranges": [
-        {"movement": "M09", "from": 5484, "to": 6042},
-        {"movement": "M10", "from": 6042, "to": 6615}
+        {
+          "movement": "M09",
+          "from": 5484,
+          "to": 6042
+        },
+        {
+          "movement": "M10",
+          "from": 6042,
+          "to": 6615
+        }
       ],
       "layers": [
         {
           "id": "incident-reprise",
           "kind": "component",
-          "cues": ["54", "55", "56"],
+          "cues": [
+            "54",
+            "55",
+            "56"
+          ],
           "status": "planned",
           "reuseOnly": true,
           "note": "Reconstruct with Remotion; the locked G-01 clip is not required to cover this range"
         },
-        {"id": "chain-and-detector", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"}
+        {
+          "id": "chain-and-detector",
+          "kind": "component",
+          "asset": "escalator-mechanism-v1",
+          "status": "planned"
+        }
       ]
     },
     {
       "id": "ordinary-close",
-      "movements": ["M11", "M12"],
-      "cues": ["67", "68", "69", "70", "71", "72", "73", "74"],
+      "movements": [
+        "M11",
+        "M12"
+      ],
+      "cues": [
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74"
+      ],
       "from": 6615,
       "duration": 707,
       "component": "OrdinaryCloseScene",
       "status": "planned",
       "bespokeSystem": false,
       "sharedPrimitive": "EscalatorMechanism",
-      "reuse": ["ClosingScene quiet hold", "approved Observer inspect and relief cels", "incident anchor as calm bookend"],
+      "reuse": [
+        "ClosingScene quiet hold",
+        "approved Observer inspect and relief cels",
+        "incident anchor as calm bookend"
+      ],
       "reviewSubranges": [
-        {"movement": "M11", "from": 6615, "to": 7181},
-        {"movement": "M12", "from": 7181, "to": 7322}
+        {
+          "movement": "M11",
+          "from": 6615,
+          "to": 7181
+        },
+        {
+          "movement": "M12",
+          "from": 7181,
+          "to": 7322
+        }
       ],
       "layers": [
         {
           "id": "ordinary-ride-plate",
           "kind": "media",
           "asset": "ordinary-ride-v1",
-          "cues": ["67"],
+          "cues": [
+            "67"
+          ],
           "status": "approved",
           "placements": [
-            {"cues": ["67"], "sourceStart": 0, "sourceFrames": 97, "retime": "trim", "crop": "contain", "focalPoint": [50, 50]}
+            {
+              "cues": [
+                "67"
+              ],
+              "sourceStart": 0,
+              "sourceFrames": 97,
+              "retime": "trim",
+              "crop": "contain",
+              "focalPoint": [
+                50,
+                50
+              ]
+            }
           ]
         },
-        {"id": "ordinary-escalator", "kind": "component", "asset": "escalator-mechanism-v1", "status": "planned"},
-        {"id": "observer", "kind": "image", "assets": ["observer-inspect-forward", "observer-relief-sigh"], "status": "approved"}
+        {
+          "id": "ordinary-escalator",
+          "kind": "component",
+          "asset": "escalator-mechanism-v1",
+          "status": "planned"
+        },
+        {
+          "id": "observer",
+          "kind": "image",
+          "assets": [
+            "observer-inspect-forward",
+            "observer-relief-sigh"
+          ],
+          "status": "approved"
+        }
       ]
     }
   ],
   "reviewRanges": [
-    {"movement": "M01", "from": 0, "to": 459},
-    {"movement": "M02", "from": 459, "to": 1095},
-    {"movement": "M03", "from": 1095, "to": 1845},
-    {"movement": "M04", "from": 1845, "to": 2635},
-    {"movement": "M05", "from": 2635, "to": 3582},
-    {"movement": "M06", "from": 3582, "to": 4387},
-    {"movement": "M07", "from": 4387, "to": 4989},
-    {"movement": "M08", "from": 4989, "to": 5484},
-    {"movement": "M09", "from": 5484, "to": 6042},
-    {"movement": "M10", "from": 6042, "to": 6615},
-    {"movement": "M11", "from": 6615, "to": 7181},
-    {"movement": "M12", "from": 7181, "to": 7322}
+    {
+      "movement": "M01",
+      "from": 0,
+      "to": 459
+    },
+    {
+      "movement": "M02",
+      "from": 459,
+      "to": 1095
+    },
+    {
+      "movement": "M03",
+      "from": 1095,
+      "to": 1845
+    },
+    {
+      "movement": "M04",
+      "from": 1845,
+      "to": 2635
+    },
+    {
+      "movement": "M05",
+      "from": 2635,
+      "to": 3582
+    },
+    {
+      "movement": "M06",
+      "from": 3582,
+      "to": 4387
+    },
+    {
+      "movement": "M07",
+      "from": 4387,
+      "to": 4989
+    },
+    {
+      "movement": "M08",
+      "from": 4989,
+      "to": 5484
+    },
+    {
+      "movement": "M09",
+      "from": 5484,
+      "to": 6042
+    },
+    {
+      "movement": "M10",
+      "from": 6042,
+      "to": 6615
+    },
+    {
+      "movement": "M11",
+      "from": 6615,
+      "to": 7181
+    },
+    {
+      "movement": "M12",
+      "from": 7181,
+      "to": 7322
+    }
   ]
 }

@@ -20,6 +20,19 @@ import {
   IncidentReversalReview,
   IncidentReversalScene,
 } from './IncidentReversalScene';
+import {
+  FAILURE_MAP_DURATION,
+  FAILURE_MAP_FROM,
+  FailureMapReview,
+  FailureMapScene,
+} from './FailureMapScene';
+import {FailureMapV2Demo, FAILURE_MAP_V2_DEMO_DURATION} from './FailureMapV2Demo';
+import {
+  SkirtGapReview,
+  SkirtGapScene,
+  SKIRT_GAP_DURATION,
+  SKIRT_GAP_FROM,
+} from './SkirtGapScene';
 
 const paper = '#eee6d5';
 const ink = '#152b2b';
@@ -115,6 +128,22 @@ export const EscalatorEpisode02Assembly: React.FC = () => {
         premountFor={EPISODE_02_FPS}
       >
         <IncidentReversalScene />
+      </Sequence>
+      <Sequence
+        name="M02 · failure map · cues 07–13"
+        from={FAILURE_MAP_FROM}
+        durationInFrames={FAILURE_MAP_DURATION}
+        premountFor={EPISODE_02_FPS}
+      >
+        <FailureMapScene />
+      </Sequence>
+      <Sequence
+        name="M05 · skirt gap · cues 28–35"
+        from={SKIRT_GAP_FROM}
+        durationInFrames={SKIRT_GAP_DURATION}
+        premountFor={EPISODE_02_FPS}
+      >
+        <SkirtGapScene />
       </Sequence>
       {lockedPlates.filter((plate) => plate.id !== 'G-01').map((plate) => (
         <Sequence
@@ -257,6 +286,46 @@ export const EscalatorEpisode02Registration: React.FC = () => {
         id="EscalatorM01IncidentReversalReview"
         component={IncidentReversalReview}
         durationInFrames={INCIDENT_REVERSAL_DURATION}
+        fps={EPISODE_02_FPS}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="EscalatorM05SkirtGapReview"
+        component={SkirtGapReview}
+        durationInFrames={SKIRT_GAP_DURATION}
+        fps={EPISODE_02_FPS}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="M05Silent"
+        component={SkirtGapScene}
+        durationInFrames={SKIRT_GAP_DURATION}
+        fps={EPISODE_02_FPS}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="M02V2Demo"
+        component={FailureMapV2Demo}
+        durationInFrames={FAILURE_MAP_V2_DEMO_DURATION}
+        fps={EPISODE_02_FPS}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="M02Silent"
+        component={FailureMapScene}
+        durationInFrames={FAILURE_MAP_DURATION}
+        fps={EPISODE_02_FPS}
+        width={1920}
+        height={1080}
+      />
+      <Composition
+        id="EscalatorM02FailureMapReview"
+        component={FailureMapReview}
+        durationInFrames={FAILURE_MAP_DURATION}
         fps={EPISODE_02_FPS}
         width={1920}
         height={1080}

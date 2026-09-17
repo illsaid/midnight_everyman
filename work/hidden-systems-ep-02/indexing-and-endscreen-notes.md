@@ -77,25 +77,21 @@ things that are checkable make the labels worth building anyway:
    the viewer has no progress indicator against that promise; with them they can
    see which of the four they are on. That is the retention mechanism the hook
    sets up, left unfinished.
-2. **They map to YouTube chapters,** which are real and do appear in search
-   results. Verified requirements: at least three timestamps, the first must be
-   `00:00`, and each chapter must run at least 10 seconds. Our structure gives
-   seven chapters, all comfortably over 10 seconds.
+2. ~~**They map to YouTube chapters.**~~ **WITHDRAWN 15 Sep 2026 — this was my
+   error.** `docs/04-production/retention-structure.md` forbids chapters
+   outright: "Chapters suit tutorials, listicles and podcasts, where the viewer
+   is entitled to skip to the part they need. This format is narrative-shaped
+   and has a payoff at beat 4; chapters invite a skip straight to it and destroy
+   the delay the whole structure is built on." That reasoning is correct and I
+   contradicted a standing house rule without checking it. **Do not publish a
+   chapter list for Episode 02.** The on-screen labels do not depend on chapters
+   and stand on reasons 1 and 3 alone.
 3. They make the episode skimmable on a rewatch without adding a word of VO.
 
-### Proposed chapter list
+### ~~Proposed chapter list~~ — WITHDRAWN
 
-```
-00:00  A staircase cannot accelerate
-00:25  What you are actually standing on
-00:55  Failure 01 — the comb plate
-01:45  Failure 02 — the skirt gap
-02:25  Failure 03 — the step
-03:10  Failure 04 — the drive
-04:05  Hong Kong, 2017
-```
-
-Timings are from the beat sheet and must be re-derived from the recorded VO.
+Removed 15 Sep 2026. See the withdrawal above: `retention-structure.md` forbids
+chapters for this format. The labels remain; the chapter list does not.
 
 ## 3. The binge trigger — intent adopted, mechanics corrected
 

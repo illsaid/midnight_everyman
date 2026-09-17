@@ -730,3 +730,45 @@ Rejected claim: autonomous AI grading to an arbitrary 9.9/10 is not proof of qua
 **Verification:** `npm run lint` passed. Ten representative FX frames and the corrected starburst checkpoint were visually inspected. The final 1,518-frame master rendered without error and was verified as H.264, 1920 x 1080, 24 fps, with stereo 48 kHz AAC audio, a duration of 63.296 seconds and a file size of 39,610,848 bytes.
 
 **Decision:** Adopt the FX composition as the preferred viewing master. Keep continuous full-frame surfaces native; reserve WebGL effects for bounded transitions and impact moments. Preserve the clean v1 composition for A/B comparison and debugging.
+
+## Experiment 09 - Hybrid vertical brush Short
+
+**Question:** Can Episode 02's brush segment become a native 9:16 Short by
+combining generated human-scale motion with deterministic Remotion mechanism
+graphics?
+
+**Result:** Full-resolution review candidate completed. Audience performance and
+owner picture approval remain open.
+
+**Implementation:**
+
+- Locked the owner's tightened 34.56-second VO edit as the timing authority.
+- Assigned six generated plates one bounded physical job each: establish,
+  contact, loose fabric, reject cleaning, move inward and punch into the gap.
+- Used Remotion for the hidden obstruction switch, earned teal trip, stop state,
+  typography and stacked warning/apology payoff.
+- Cover-fitted the 720 x 1264 sources into 1080 x 1920 with a negligible side
+  crop; generated source audio is muted.
+- Kept all essential type inside the conservative Shorts safe region while
+  allowing decorative mechanism art to bleed.
+
+**Evidence:**
+
+- `src/escalator-ep02/BrushShort916.tsx`
+- `work/hidden-systems-ep-02/shorts/brush-short/README.md`
+- Local review render `brush-short-916-v2-review.mp4`
+
+**Corrections required:** The first generated anchors used the wrong brush
+geometry. A photographic guide established the correct diagonal skirt-deflector
+rail. The first assembly preview then exposed an accidental headline run-in and
+small phone-scale labels; both were corrected before the full-resolution render.
+
+**Verification:** `npm run lint` and `npm run build` passed. Safe-area stills at
+frames 12, 620 and 790 and a twelve-frame final contact sheet passed visual
+inspection. The review file is H.264, 1080 x 1920, 24 fps with stereo 48 kHz AAC,
+34.624 seconds.
+
+**Durable finding:** Generated animation is useful here for human-scale motion,
+but the hidden safety device still belongs in deterministic Remotion. This split
+also prevents the generated sequence from padding a shorter VO merely because
+six-second clips exist.

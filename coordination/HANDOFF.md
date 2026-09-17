@@ -21,6 +21,59 @@ movement ownership lives in `claims.json`, not here.
   pacing and use the accepted primitives for a purpose-built 1080 x 1920 Short.
 - **Blocked:** Full-motion pacing approval and vertical restaging remain open.
 
+## 2026-09-16 — Claude — M02 failure map built (integration owner, temporary)
+
+- **Status:** Took BUILD while Codex is out of credits, with the owner's
+  agreement. M02 (cues 07–13, frames 459–1095, 636 frames) is **built and ready
+  for owner review**. Claim opened and released inside this session;
+  `claims.json` is empty again.
+- **Changed:** Added `src/escalator-ep02/FailureMapScene.tsx`; registered M02 in
+  `EscalatorEpisode02Assembly.tsx` (sequence + `EscalatorM02FailureMapReview`
+  composition); set `failure-map` and its diagram layer to `built` in the
+  manifest. Review artifacts in `assembly-review/m02-contact-sheet.png` and
+  `m02-cue13-depth.png`.
+- **Verified:** `npm run lint` (eslint + tsc) passes clean on the owner's
+  machine; manifest tests 12/12. **Thirteen frames were rendered and visually
+  reviewed**, spanning every cue at entry, middle and exit.
+- **How the render was done, because it matters for whoever is next:**
+  `device_bash` cannot bundle or render — `node_modules` is a Windows install, so
+  `@rspack/binding` has no `rspack.linux-x64-gnu.node`. `npm run build` also
+  fails earlier than that: its `prebuild` sync step unlinks files in
+  `public/assets-canon/`, and that shell cannot delete. **Renders still have to
+  run on Windows.** I worked around it by cloning the repo into the cloud
+  container, installing Linux `node_modules` there, and rendering stills against
+  the preinstalled headless Chromium
+  (`--browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`;
+  Remotion's own download host is not on the egress allowlist). M02 uses no
+  `staticFile`, so it renders with no local media. **A full-motion render of M02
+  on Windows has not been done and should be the first check.**
+- **Did not do:** No VO, cue, timing or M01 change. No full master. Did not touch
+  the canonical SVG, the plates, or any file outside the two claimed paths plus
+  the manifest entry for this scene.
+- **Design notes for review:**
+  - Cue 09 follows the state rule literally — the warning travels to the detector
+    and **the guide shoe does not move**. Coral plus a slash and `DID NOT
+    ACTUATE` arrive only after the silence. It never animates into its tripped
+    pose.
+  - Cue 08 uses `drive-path` failure as written: coral at the broken locus,
+    downstream links dropping to ink-mute.
+  - Cue 11 files the nut away as a literal card into a dashed slot, so "we will
+    get to the nut in a bit" is an object set aside rather than a line of VO.
+  - Cue 12 is the Plan beat. Four cards deal in, then the protective devices lift
+    from beneath them — indicated, not revealed.
+  - Ambient drift and a two-frame boil are on every cue; nothing is ever
+    perfectly still, per the M01 v2 finding.
+- **Three defects I found in my own work and fixed before handing over:** cue 10
+  was scaling the diagram's own typography, so the 26px stall label became a slab
+  behind the nut; cue 13 dropped so far the frame emptied and the tread read as a
+  black bar; cue 12's concealed labels were clipped by the cards above them.
+- **Next:** Owner reviews `m02-contact-sheet.png`, then a Windows render of
+  `EscalatorM02FailureMapReview` (636 frames) with the VO to check timing against
+  cues 07–13. After approval, M03 `mechanism-reveal` (cues 14–20, frames
+  1095–1845) is the next scene and the first to consume the canonical
+  `escalator-mechanism-v1.svg`.
+- **Blocked:** Nothing.
+
 ## 2026-09-16 — Codex — Episode 02 M01 approved
 
 - **Status:** M01 cues 01–06 and all reviewed layers are owner-approved; the
@@ -50,6 +103,51 @@ movement ownership lives in `claims.json`, not here.
 - **Next:** Owner reviews `assembly-review/m01-incident-reversal-v3.mp4`; after
   approval, promote M01 and begin the M02 failure map.
 - **Blocked:** Owner review of M01 v3.
+
+## 2026-09-16 — Claude — review of M01 incident-reversal v2
+
+- **Status:** Adversarial review of the first plate-plus-Remotion scene.
+  **No file edited.** Findings in
+  `work/hidden-systems-ep-02/m01-review-claude-2026-09-16.md`.
+- **Changed:** Added the review document. Nothing else.
+- **Verified by measurement:** 459 frames, 19.12 s, 1920×1080 @ 24 fps, covering
+  cues 01–06. Motion audit: 49% of frames below the 0.35 static threshold against
+  Pilot 01's 70% — a real improvement. Coral use matches the state table
+  (`REVERSE`, `18 INJURED` are both consequence). Evidence cards and the
+  `LANGHAM PLACE · 25 MARCH 2017` source credit implement the proof-density
+  recommendation. **Nothing built, rendered or typechecked.**
+- **Did not do:** Did not edit the component or re-render.
+- **Next (for Codex), in order:**
+  1. **The plate fades out exactly as the consequence lands.** Measured plate
+     coverage: cue 03 **58.3%**, cue 04 **56.9%**, cue 05 **25.6%**, cue 06
+     **5.8%**. So the crowd is at full strength for "120 people are going up" and
+     "then the steps stop", then fades to a quarter for "then they come back down,
+     faster" and is gone for "eighteen people are injured". The dramatic arc is
+     people → stop → people go backwards → people hurt; the visual arc is people
+     → people → stick figures → pictograms. **Suggested:** cue 05 holds the plate
+     at full strength and plays it in reverse, accelerating, with
+     `REVERSE. DOWNHILL.` over it. 143 clean frames of that crowd exist; reversed
+     they descend. This is re-timing footage we own, not asking a model for a
+     mechanism, so the standing rule is unaffected. Let cue 06 carry the
+     abstraction — the pictogram is earned once we have watched it happen.
+  2. **The scene ends on 65 frames at delta 0.00** (f393–458, 2.7 s of absolute
+     stillness). Legal under the 720-frame maximum hold, but Pilot 01's broad pass
+     added ambient drift to every scene so no frame is ever perfectly frozen; that
+     lesson has not carried into Episode 02.
+  3. **The opening is 4.5 s below the static threshold** (f8–116). The intent is
+     right and should not change — a static diagram for a static object is the
+     joke. But it sits in the first 30 seconds, where APV caps everything
+     downstream. Add life that does not contradict the idea: step edges ticking in,
+     or `NO DRIVE · NO CHAIN · NO SPEED` arriving as three stamps. The frame should
+     be alive while the subject is motionless.
+- **Open question for the owner:** `REVERSE` and `18 INJURED` both run coral at
+  13–19 s. Both are correct by the state table. Worth deciding deliberately
+  whether the 4:05 nut reveal still has an escalation left.
+- **Correction to my own check:** my first safe-margin pass reported violations on
+  all four edges at f186. Wrong — f186 is where the full-bleed plate starts, and a
+  plate is supposed to reach the edges. The margin contract governs typography and
+  diagram content, not the plate. No margin finding stands.
+- **Blocked:** Nothing.
 
 ## 2026-09-16 — Codex — Episode 02 crowded G-01 replacement integrated
 
@@ -165,6 +263,45 @@ movement ownership lives in `claims.json`, not here.
   After sheet approval, promote the approved anchors and animate G-01 first.
 - **Blocked:** Motion generation is waiting on owner approval.
 
+## 2026-09-15 — Claude — two conflicts between the new state vocabulary and the generated-media plan
+
+- **Status:** Editorial review of `0112eda`. **No file edited.** Note in
+  `work/hidden-systems-ep-02/state-vocabulary-conflicts-2026-09-15.md`.
+  Both items are cheap now and expensive once four plates exist.
+- **Changed:** Added the note. Nothing else.
+- **Verified:** Read the new scene-state table in `diagram-layer.md` against
+  `generated-media-plan.md`. The vocabulary itself is sound — "a safety device
+  that fails to fire must not animate into its tripped pose" protects the Hong
+  Kong beat by rule, and the one-semantic-colour-at-a-time limit will matter once
+  four failure modes are on screen. **Nothing built, rendered or typechecked.**
+- **Did not do:** Did not amend the generated-media plan or `diagram-layer.md` —
+  both are outside my domain and conflict 2 needs an owner decision.
+- **Next (for Codex), before generating any anchor:**
+  1. **`generated-media-plan.md` tells the generator to use the state colours.**
+     Its shared visual contract says "House paper, ink, **teal, mustard and
+     coral** palette"; that file predates `0112eda`, where those three became the
+     exclusive state channel. A plate carrying coral asserts *failed protection* —
+     and G-01 is the incident reversal, where that meaning is doing the most work.
+     Amend the contract to the neutral base range only (paper, ink, reference,
+     ink-mute, cutaway) and let Remotion own every semantic colour. Costs the
+     plates nothing; the plan already gives them people, cloth and atmosphere
+     while Remotion supplies mechanism.
+  2. **Check the contact sheet against the state table, not only against itself.**
+     Four plates that agree with each other and sit outside the palette pass a
+     self-consistency review and fail in the cut.
+  3. Minor: add a line to `diagram-layer.md` noting the vocabulary begins at
+     Episode 02, so a future reader does not read Pilot 01's permanently-coral
+     sprinkler bulb as a canon violation.
+- **Blocked:** **The Observer wears coral, and coral now formally means breakage
+  or failed protection.** `generated-media-plan.md` calls for the approved
+  Observer wherever a principal commuter appears, so every plate would put the
+  failure colour on the protagonist in a film whose climax is a protection that
+  failed. This was recorded in Pilot 01 as a house-rule-1 problem and was
+  tolerable while colour was loose; the state vocabulary makes it load-bearing.
+  Options in the note; recommended is a neutral-range Observer variant for
+  Episode 02 plates — a cel job, not a redesign. Owner decision needed before
+  any plate containing the Observer is generated.
+
 ## 2026-09-15 — Codex — Episode 02 escalator mechanism promoted
 
 - **Status:** Owner and independent review approved V2; the production SVG and
@@ -179,6 +316,46 @@ movement ownership lives in `claims.json`, not here.
   changed. The review PNG remains local and is removed from Git tracking.
 - **Next:** Build the four generated first-frame anchors as one contact sheet,
   using this canonical mechanism as the reference source where appropriate.
+- **Blocked:** Nothing.
+
+## 2026-09-15 — Claude — review of escalator-mechanism-v2-candidate
+
+- **Status:** Adversarial review. **No file edited.** Findings in
+  `work/hidden-systems-ep-02/mechanism-asset-review/mechanism-asset-review-v2-claude-2026-09-15.md`.
+  **Recommend approval for promotion** once item 1 below is done.
+- **Changed:** Added the review document. Nothing else.
+- **Verified by re-derivation:** All six v1 findings are fixed. Track separation
+  measured from the path data: 0px at both landings, ~50px across the incline,
+  smooth transitions — correct escalator geometry, not a cosmetic fix. Base
+  palette is five house values with **zero state colour**. 16 groups present
+  exactly once; SHA matches; zero gradients, filters, partial opacity or raster;
+  all geometry inside the viewBox. `floor-datum` added; return steps legible;
+  `labels-components` / `labels-review` split.
+  **Two additions exceed what was asked:** `data-part-role` on every group (seven
+  roles, so scenes select by role rather than by id list) and per-step
+  `data-anchor` wheel anchors, which is what will make the Failure 3 sag cheap.
+  **Nothing was rendered or built; the PNG was inspected as supplied.**
+- **Did not do:** Did not edit the SVG, re-render, or promote to `assets-canon/`.
+- **Next (for Codex):**
+  1. **`labels-components` holds review annotations, not captions** — "TRACKS
+     SEPARATE", "TRACKS CONVERGE", "SHARED SAFETY-DEVICE FORM", "RETURN STEPS"
+     are notes about what changed in v2. The v1 component names (COMB PLATE +
+     TEETH, MOTOR + DRIVE CHAIN, STEP MONITORING DEVICES) were dropped and are
+     what belongs there. As built, switching the group on in a scene captions the
+     film with reviewer notes. Four strings; do it before anything imports the
+     asset.
+  2. **Define the state vocabulary before the first scene component.** The
+     architecture is right — neutral base, roles addressable, colour reserved for
+     state — but nothing says which colour a role takes in which state. Without
+     that table each scene decides for itself and the drift the design system
+     exists to prevent arrives anyway. A draft table is in the review document;
+     the `failed` column is the one the Hong Kong beat needs and the one with no
+     obvious answer.
+- **Correction to my own v1 review:** I flagged the v2 render as bleeding off
+  frame. It does not — all coordinates sit inside 0–1920; the tracks end at
+  x=185 and x=1775 and the review rules run to the margins. My earlier palette
+  "stray" (`#E4DCC4`) was also wrong; it is `cutaway`. Three suspected defects
+  from image-reading, all three false.
 - **Blocked:** Nothing.
 
 ## 2026-09-15 — Codex — Episode 02 boxed-label rule correction
@@ -224,6 +401,51 @@ movement ownership lives in `claims.json`, not here.
   canonical metadata to `assets-canon/vertical-transport/`, then create the
   four generated first-frame anchors as one contact sheet.
 - **Blocked:** Canonical promotion remains blocked on owner approval.
+
+## 2026-09-15 — Claude — review of escalator-mechanism-v1-candidate
+
+- **Status:** Adversarial review of the grouped SVG. **No file edited** — Codex
+  holds BUILD. Findings in
+  `work/hidden-systems-ep-02/mechanism-asset-review-claude-2026-09-15.md`.
+- **Changed:** Added the review document. Nothing else.
+- **Verified by re-derivation:** all 16 required groups present exactly once; XML
+  well-formed; `svgSha256` matches the file; zero gradients, filters, partial
+  opacity or raster images; all 11 text nodes inside `labels`; every colour is
+  house palette. **Every mechanical claim in `review.json` holds.** `step-01`
+  through `step-11` as addressable groups correctly carries the M03 lesson.
+  **Nothing was rendered or built; the PNG was inspected as supplied.**
+- **Did not do:** Did not edit the SVG, did not re-render, did not promote
+  anything to `assets-canon/`.
+- **Next (for Codex), in order:**
+  1. **`front-track` is `M302 746 L1384 290` and `rear-track` is
+     `M322 794 L1403 338` — two straight lines at constant offset.** The
+     narration says the tracks *change position* to turn a flat tread into a
+     stair. Parallel tracks cannot do that. The staircase is drawn per-step and
+     the tracks are decorative, so the asset depicts a mechanism that does
+     nothing. This also blocks Failure 3, where the sag must read as one wheel
+     leaving one track. Redraw the tracks as real geometry and let each step's
+     angle follow from its two wheel positions.
+  2. **Colour roles are inverted in three places.** `comb-plate` and
+     `front-track` are mustard (MOTION/DRIVE) but are fixed; `rear-track` is
+     olive (SAFETY DEVICE) but is fixed; `motor` is teal (fixedStructure) but is
+     the drive. Also `fixedStructure #356F70` is declared in `review.json` with
+     **no legend entry**, so the teal motor has no key — five roles, four legend
+     rows.
+  3. **`return-steps` has no fill, stroke or stroke-width at all** — six shapes
+     inheriting from the parent, which is why they read as background texture
+     rather than as the same steps inverted.
+  4. **`labels` is a flat group** mixing review furniture (title, episode stamp,
+     legend, disclaimer) with the four component labels. Split into
+     `labels-components` and `labels-review` so production can show one without
+     the other.
+  5. No floor datum exists, so "under the stairs" has nothing to be under.
+- **Blocked:** One owner decision sits behind finding 2. The legend makes colour a
+  permanent **category**, which collides with the house rule that colour is
+  **state**. As drawn, a safety device is green whether or not it has acted, so
+  when the broken-chain device fails to fire there is no colour change available
+  for the dramatic centre of the episode. Recommended: category by form (the
+  safety devices already share a shape), state by colour. Owner to confirm before
+  the SVG is redrawn, since it changes the legend.
 
 ## 2026-09-15 — Codex — Episode 02 grouped mechanism review candidate
 
@@ -505,3 +727,126 @@ changed after the owner supplied a beat sheet later the same day.
 - **Did not do:** Rewrite or purge pre-policy Git history
 - **Next:** Use manifests and local paths for media; do not force-add binaries
 - **Blocked:** Nothing
+
+---
+
+## 2026-09-16 · M02 dynamism pass (Claude, integration owner)
+
+Owner review of the M02 contact sheets: "does what it says on the tin... could use a little
+more style, dynamism... I just worry about this not be exciting enough for humans."
+
+Measured M02 as built with the Pilot 01 motion method. **77% static, four dead runs (51/53/98/67
+frames), 42% of the scene inside a dead run.** Pilot 01's failure baseline was 70%. The scene
+was worse than the thing the rule exists to prevent, and I approved it to contact sheet without
+measuring — stills cannot show a rate failure.
+
+Root cause: every ambient motion in the scene travelled less than 1px/frame. `Drift` moved 6px
+across a whole cue; `useBoil` was 0.7px on a 1920px frame; cue 10's push used an ease-out whose
+tail crawls for 66 frames. Cue 07 and cue 10 were additionally staging failures — 0.7% ink
+coverage, and a nut drawn at 16% of frame height under the line "one nut".
+
+After the pass: **48% static, zero dead runs, longest still stretch 36f (1.5s).**
+
+Changed in `src/escalator-ep02/FailureMapScene.tsx`:
+- `Drift` → `Camera`: linear, directional, per-cue, bounded (scale ≤5%, pan ≤52px).
+- Cue 07 docket stamps in; cue 09 camera rides the warning then parks dead at f46; cue 10 push
+  made linear and the nut grown to ~36% of frame height with 7.5° of turn; cue 12 vertical track
+  plus per-card emphasis as each device is named. Cue 13 untouched.
+- Cue joins are now `@remotion/transitions` dissolves. **Frame lock preserved** — each sequence
+  carries `OVERLAP` extra frames that the following transition consumes, so
+  `sequence duration = cue length + duration of the transition that follows it`. Cue starts
+  verified at 0/54/111/207/315/373/538, total 636.
+- `useBoil` 0.7px → 2.1px stepped at 12fps; paper grain reseats every second frame.
+
+Not done, needs an owner decision:
+- `@remotion/effects` is installed but WebGL2, requiring `Config.setChromiumOpenGlRenderer('angle')`
+  project-wide. I cannot render on the Windows box (device shell is a Linux VM against a Windows
+  `node_modules`), so I did not change the global renderer config on untestable ground.
+- Proposed amendment to `docs/02-creative/diagram-layer.md` adding a **motion rate floor**
+  (≥1px/frame for a move's whole span; linear timing for any move carrying a hold). Text is in
+  `work/hidden-systems-ep-02/m02-dynamism-pass-2026-09-16.md`. Not applied.
+- `clockWipe` on the LATER jump was tried and rejected — rendered as a hard white wedge, reads
+  as a glitch. Replaced with a 12-frame dissolve.
+
+Verified: tsc + eslint clean (cloud clone, Remotion 4.0.509), 636 frames rendered and measured,
+safe-margin sweep before and after (244 violating frames → 17 at ≤24px; cue 13's are the
+full-bleed tread and correct). NOT verified: a render on the owner's machine.
+
+Review artifacts: `work/hidden-systems-ep-02/assembly-review/m02-before-after.mp4` (split screen,
+with VO) and `m02-dynamism-v1.mp4`.
+
+---
+
+## 2026-09-17 · motion grammar v2 + M05 built (Claude)
+
+**M02 v1 dynamism pass rejected by owner** — "shaky cam quality... very little difference".
+Both complaints correct. The 2.1px boil was a whole-element translate, i.e. camera shake
+wearing the name of line quality; reverted to 0.6px and the animated paper grain removed.
+The larger error: the pass was validated with mean inter-frame delta, which rewards uniform
+slow drift — the exact thing that reads as nothing happening. **Do not use delta-per-frame as
+a proxy for whether a scene is alive.**
+
+**Owner approved a new direction**: explainer timing in house drawing, plus stronger staging.
+Written up as `docs/02-creative/motion-grammar-v2.md`. Three rules: a move lands inside 6-12
+frames then stops dead; 3-4 shots per cue with hard cuts; parts drawn as objects (cast shadow,
+varied stroke, hatched faces, visible fasteners, enough mechanism to show intent).
+Grammar test that earned the approval: `assembly-review/m02-v2-grammar-test.mp4`.
+
+**New shared module `src/escalator-ep02/grammar.tsx`** — `land()`, `move()`, `look()`, `Shot`,
+`PushIn`, `Arrow`, `Slam`, `Caption`, `Shadow`, `Stage`, palette. Use it for every new scene.
+`look(px, py, s)` computes the transform that puts a native drawing point at frame centre;
+framing by hand-guessed translate/scale left large dead space on the first pass and is the
+same defect as not moving at all.
+
+**M05 built** — `src/escalator-ep02/SkirtGapScene.tsx`, cues 28-35, f2635-3582, 947 frames.
+Part of `local-entrapment`, built out of manifest order because it is also the standalone
+Short. Manifest scene status set to `partial`; M04 (cues 21-27, f1845-2635) still planned.
+
+Colour discipline in M05: the brush is a passive warning and never goes teal. The
+skirt-obstruction switch is a protective trip that works, so cue 34 is the first earned teal
+in the episode. Coral marks the gap as a hazard only.
+
+Also added: `M05Silent` and `M02Silent` compositions (no VO) for frame-accurate review, and
+`M02V2Demo` (the grammar test). All three are review-only.
+
+### Open owner decisions
+1. **M01 is approved in the old grammar** and will not match. Rebuild, or ship with a visible
+   seam at 0:19.
+2. **D-034's budget** (~12 owner-hours, <=12 scene systems) was written for the old grammar and
+   probably does not survive it. Extend, or cut scope.
+3. **M02 cues 07/10/11/12 still need the v2 retrofit** before the episode ships.
+
+### Analytics context (see work/hidden-systems-pilot-01/ep01-baseline-2026-09-17.md)
+Ep 01: AVD 2:37, 55.6% APV — but search traffic alone watched 37.3%; the headline is inflated
+by insider views. Only traffic sources are YouTube search and the channel page: **no suggested,
+no browse.** Retention curve still gated at 100 views, and the Analytics API respects the same
+gate. Distribution, not retention, is the binding constraint — which is why M05 was built first.
+
+---
+
+## 2026-09-17 · Escalator brush Short v2 rough assembly (Codex)
+
+- **Status:** Full-resolution 9:16 review candidate rendered; owner picture and
+  pacing approval pending. Nothing published.
+- **Changed:** Added `BrushShort916.tsx`; registered clean and safe-area review
+  compositions; staged the six Grok candidates and owner-cut VO v2 as ignored
+  local media; added a compact timing/verification record under
+  `work/hidden-systems-ep-02/shorts/brush-short/`.
+- **Timing authority:** `brush-short-vo-v2.mp3`, 34.56 seconds, SHA-256
+  `a4455d5d9a00cae6206d054e52a84f8ecfe6a05ef55a639df6c195bff6cb286f`.
+- **Edit:** Generated plates carry frames 0-573; deterministic Remotion carries
+  the hidden switch and warning/apology close at frames 574-829. Generated audio
+  is muted.
+- **Verified:** `npm run lint` and `npm run build` pass. Safe frames 12/620/790
+  and the final twelve-frame contact sheet pass visual inspection. Review stream:
+  H.264 1080x1920/24 fps, stereo AAC 48 kHz, 34.624 seconds.
+- **Review file:**
+  `work/hidden-systems-ep-02/assembly-review/brush-short-916-v2-review.mp4`
+  (local only; SHA-256
+  `6c309dacd65cf7c01ff99d3239f5bb0da3b8c2ab8318c0556ce27ef1a0461589`).
+- **Correction history:** Rejected the first anchor geometry; rebuilt from the
+  real diagonal skirt-deflector reference. Preview v1 then exposed an accidental
+  headline run-in and undersized phone labels; both are fixed in v2.
+- **Next:** Owner watches v2 audio-first and then picture-only. If approved,
+  promote the six candidate plates in the local media record and proceed to
+  sound/publish packaging; otherwise revise only named bounded defects.
