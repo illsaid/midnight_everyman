@@ -4,6 +4,23 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-17 — Codex — M05 controlled-motion V2 review candidate
+
+- **Status:** Built an isolated M05 V2 candidate for cues 28–35. It is not yet
+  integrated into Episode 02 and does not replace Claude's V1.
+- **Changed:** Added `SkirtGapSceneV2.tsx` and a separate review registration.
+  V2 keeps one persistent machine geography, reduces gratuitous reframing, and
+  redraws the shoe, loose trouser cuff and small hand as recognizable objects.
+- **Verified:** `npm run lint` passes (ESLint and TypeScript). Eight half-scale
+  frames were rendered and visually inspected, including all three risk objects,
+  brush detail, the protective trip and the closing comparison.
+- **Did not do:** No locked timing, VO, manifest, V1, episode assembly or media
+  change. No full-motion V2 render. The 9:16 Short is intentionally deferred
+  until this shared geometry is accepted, avoiding a second drawing pass.
+- **Next:** Owner reviews the V2 stills; then render the 947-frame review to judge
+  pacing and use the accepted primitives for a purpose-built 1080 x 1920 Short.
+- **Blocked:** Full-motion pacing approval and vertical restaging remain open.
+
 ## 2026-09-16 — Codex — Episode 02 M01 approved
 
 - **Status:** M01 cues 01–06 and all reviewed layers are owner-approved; the
