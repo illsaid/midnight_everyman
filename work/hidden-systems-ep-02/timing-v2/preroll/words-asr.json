@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "model": "faster-whisper base.en int8",
+  "audio": "work/hidden-systems-ep-02/source-media/generated/trump-escalator-opening-approved-v2.mp4",
+  "audioSha256": "6a191666d237bca12f3f3e3c314bb4e514589b1de09ee3d1ea6c8c71028366b1",
+  "duration": 15.0186875,
+  "elapsedSeconds": 3.7606879000086337,
+  "words": [
+    {
+      "word": "This",
+      "start": 0.5,
+      "end": 1.02,
+      "probability": 0.7939261198043823
+    },
+    {
+      "word": "is",
+      "start": 1.02,
+      "end": 1.14,
+      "probability": 0.9966036081314087
+    },
+    {
+      "word": "the",
+      "start": 1.14,
+      "end": 1.3,
+      "probability": 0.9945942759513855
+    },
+    {
+      "word": "best",
+      "start": 1.3,
+      "end": 1.54,
+      "probability": 0.9746589660644531
+    },
+    {
+      "word": "escalator,",
+      "start": 1.54,
+      "end": 2.4,
+      "probability": 0.8960321247577667
+    },
+    {
+      "word": "believe",
+      "start": 2.52,
+      "end": 2.76,
+      "probability": 0.9847555756568909
+    },
+    {
+      "word": "me.",
+      "start": 2.76,
+      "end": 3.16,
+      "probability": 0.9984373450279236
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "fps": 24,
+  "sources": {
+    "voiceover": {"path": "work/hidden-systems-ep-02/audio/escvofinal.mp3", "sha256": "7ed85d0ff4a00600f39b9cf3ed62fc3948c1c40f17022a6fff921f6c5f5a4bde", "durationSeconds": 334.7731875},
+    "openingRedo": {"path": "work/hidden-systems-ep-02/source-media/generated/opening-redo-owner-v2.mp4", "sha256": "34ecc47d43c1c1557d1b8219effe8fb105201156f27bd9f0adc464a24e383603", "durationSeconds": 24.5435},
+    "openingRedoRenderFrames": {"path": "work/hidden-systems-ep-02/source-media/generated/opening-redo-frames", "fps": 24, "renderedFrames": 589, "audioPath": "work/hidden-systems-ep-02/source-media/generated/opening-redo-audio.wav", "audioSha256": "5d22e17848dfbb45fbf0e9e24bc66db283d01d7f9beddb81437513cb3eaddf65"}
+  },
+  "openingRedoFrames": 589,
+  "mainVoiceoverTrimBeforeFrames": 513,
+  "openingRedoEnd": {"phrase": "The machine read it as danger.", "wordEndSeconds": 23.82, "sourceEndFrameExclusive": 589},
+  "graphicLeadFrames": 3,
+  "openingOverlayCues": {
+    "cameraman": {"start": 10.68, "frame": 256},
+    "safetyMechanism": {"start": 13.48, "frame": 324},
+    "immediateHalt": {"start": 17.32, "frame": 416},
+    "sabotage": {"start": 20.16, "frame": 484},
+    "machineDanger": {"start": 22.3, "frame": 535}
+  },
+  "cues": {
+    "narrationStart": {"start": 0, "end": 0.12, "frame": 76},
+    "cameramanSafetySensor": {"start": 7.46, "end": 12.16, "frame": 255},
+    "trumpCalledItSabotage": {"start": 16.92, "end": 18.04, "frame": 482},
+    "stoppedAsDesigned": {"start": 21.4, "end": 23.2, "frame": 590},
+    "hereAreFour": {"start": 23.66, "end": 25.12, "frame": 644},
+    "hongKongSlot": {"start": 28.58, "end": 29.06, "frame": 762},
+    "romeSlot": {"start": 33.46, "end": 33.72, "frame": 879},
+    "moscowSlot": {"start": 37.26, "end": 37.54, "frame": 970},
+    "jingzhouSlot": {"start": 41.4, "end": 41.72, "frame": 1069},
+    "fourRealAccidents": {"start": 45.92, "end": 47.92, "frame": 1178},
+    "escalatorLooksLikeStaircase": {"start": 50.74, "end": 53.92, "frame": 1294},
+    "bicycleChain": {"start": 53.92, "end": 54.32, "frame": 1370},
+    "stripAway": {"start": 55.18, "end": 58.92, "frame": 1400},
+    "loopingSprockets": {"start": 59.48, "end": 61.06, "frame": 1504},
+    "returningBeneath": {"start": 61.26, "end": 62.3, "frame": 1546},
+    "upsideDown": {"start": 62.54, "end": 63.32, "frame": 1577},
+    "detectorsWatch": {"start": 63.64, "end": 65.04, "frame": 1603},
+    "switchesWatch": {"start": 65.54, "end": 66.82, "frame": 1649},
+    "brakesWait": {"start": 67.54, "end": 69.48, "frame": 1697},
+    "eachLayer": {"start": 70.08, "end": 73.2, "frame": 1758},
+    "hongKongMarch2017": {"start": 73.8, "end": 75.08, "frame": 1847}
+  },
+  "firstActEndFrame": 1895
+}

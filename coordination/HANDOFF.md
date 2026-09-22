@@ -4,6 +4,26 @@ Read the latest entry before starting work. Append a new entry; never rewrite or
 delete an earlier one. Keep each entry to the six fields below. Active file or
 movement ownership lives in `claims.json`, not here.
 
+## 2026-09-17 — Codex — Brush Short V3 timing and mechanism correction
+
+- **Status:** Full-resolution v3 review candidate rendered; owner review is
+  open. Nothing is published and v2 remains available as rollback.
+- **Changed:** Restored the missing spoken hook from the earlier ElevenLabs VO,
+  retained the owner's tightened v2 body, rebuilt all edit boundaries from
+  local word timestamps, and gave phrase-responsive type a three-frame visual
+  lead. Replaced the abstract closing cards with one persistent labelled
+  cutaway showing step, fixed panel, bristles, hidden switch, circuit and stop.
+- **Verified:** `npm run lint`, `npm run build` and the 12 manifest tests pass.
+  Phrase-onset frames and the rebuilt ending were visually inspected. The v3
+  review is H.264 1080 x 1920 at 24 fps with stereo 48 kHz AAC, 898 frames,
+  37.461 seconds and SHA-256 `5b182d6a...ddb7be3a`.
+- **Did not do:** No source footage was regenerated, no Episode 02 long-form
+  assembly was changed, and the Short was not approved, promoted or published.
+- **Next:** Owner reviews `brush-short-916-v3-review.mp4`, paying particular
+  attention to word sync at rubber / loose fabric / small fingers and to the
+  causal readability of the final 9.7-second cutaway.
+- **Blocked:** Publication and promotion remain blocked on owner approval.
+
 ## 2026-09-17 — Codex — M05 controlled-motion V2 review candidate
 
 - **Status:** Built an isolated M05 V2 candidate for cues 28–35. It is not yet
@@ -850,3 +870,247 @@ gate. Distribution, not retention, is the binding constraint — which is why M0
 - **Next:** Owner watches v2 audio-first and then picture-only. If approved,
   promote the six candidate plates in the local media record and proceed to
   sound/publish packaging; otherwise revise only named bounded defects.
+
+---
+
+## 2026-09-19 · READ FIRST · Episode 02 reframed to four incidents (owner approved)
+
+**Episode 02's thesis has changed and its locked VO is dead.** Do not build to `cues.csv` or to
+the frame placements in `production-manifest.json` until a new VO is recorded and aligned.
+
+Full brief: `work/hidden-systems-ep-02/ep02-disaster-reframe.md`.
+
+### What changed
+
+Was: *escalator safety mechanisms*, one incident (Hong Kong) as cold open, four failure modes.
+Now: **four real incidents, each paired with the device that should have stopped it.** Target
+runtime ~6:00, up from 5:05.
+
+The reason all four cohere: every one is a safety system defeated by an institution, not by bad
+luck or user error. Rome zip-tied the brake because the alarm was annoying. Moscow fitted new
+brakes using the old brake's manual. Hong Kong over-tightened one nut and locked the spring it
+was meant to leave free. That is `visual-language.md`'s editorial rule exactly — aim at
+machinery, systems and bureaucracy, never at the person who made the mistake.
+
+Order, escalating on **how completely the protection failed** (body count was explicitly
+rejected as the axis):
+
+1. **Hong Kong**, Langham Place 2017 — 18 injured. Device existed, did not fire. The nut.
+2. **Rome**, Repubblica 2018 — 24 injured. Device switched off deliberately with cable ties.
+3. **Moscow**, Aviamotornaya 1982 — 8 dead. Every device present, all misconfigured.
+4. **Jingzhou**, Hubei 2015 — 1 dead. No device. The landing plate was not there.
+
+Cold open teases Jingzhou and the film closes on it — the teased item must be the payoff.
+
+### Two new house rules, added today, both owner-approved
+
+- **The threshold rule** — `docs/02-creative/visual-language.md`, new "Depicting incidents"
+  section. Illustration runs to the last moment the person is safe; the cut lands there;
+  everything after is diagram or ghost. Three registers is the ceiling.
+- **The ghost register** — `docs/02-creative/diagram-layer.md`. An anonymous schematic figure.
+  Primary job is the counterfactual (same moment, device failing vs device working), not the
+  approach. Shows trajectory and position, never consequence. Never coral, never teal. Must not
+  read as the Everyman.
+
+### What dies, and what survives
+
+Dies: the episode VO lock (305.058s / 7322 frames), `cues.csv` (74 cues), manifest frame
+placements, the G-01…G-04 plate anchors, and the **timing** of M01, M02 and M05.
+
+Survives: `src/escalator-ep02/grammar.tsx`, every drawn component (`Step`, `SkirtPanel`,
+`Brush`, `Shoe`, `SkirtSwitch`, `Link`, `Detector`, `CaseDiagram`), the canonical mechanism SVG,
+the illustrated plates, the Everyman, all house docs. **Alignment is being thrown away, not art.**
+Re-script by insertion — the mechanism copy is still correct.
+
+**The brush-short is NOT affected.** It is published and its own `vo-v3-lock.json` stands. The
+brushes leave the episode (no incident backs that mode) and the Short owns them; the episode
+links out.
+
+### Short 01 result — the evidence this reframe rests on
+
+Published 2026-09-18, `xc658_ygGRE`, "Why Escalators Have Brushes 🧐", 38s.
+Zero views for the first ~2 hours, then **265 views and +1 subscriber in 24 hours.**
+
+Ep 01 never received a single suggested or browse impression in its life. The Short got feed
+distribution from a zero-subscriber channel. **The cold-start diagnosis was right and the Shorts
+premise held.** Field data says this topic rewards small channels — outlier scores run inversely
+to subscriber count, from 1,525× at 140K subs down to 0.97× at 4.18M.
+
+### Open decisions
+
+1. **Owner hours.** D-034 budgeted ~12 and motion grammar v2 already broke it. Re-script,
+   re-record, re-cue and re-time is materially larger.
+2. **Cold open: Moscow or Hong Kong.** Moscow is more dramatic; Hong Kong has the nut and M01
+   is built and approved.
+3. **Jingzhou's technical cause** needs firming up before scripting — no official
+   English-language report located.
+4. **Four illustrated lead-ins, four different escalators** — the 1982 Soviet one is a period
+   piece. Commit to the specificity or lose it.
+5. **Sound design is now a line item.** When the image is withheld, the jolt and the silence
+   after carry the cut.
+6. M01 is still in pre-v2 grammar; M02 cues 07/10/11/12 still need the v2 retrofit.
+
+### Housekeeping
+
+`docs/02-creative/_to_delete/` holds two `.bak` files from today's doc edits — the device shell
+cannot delete, so they need removing by hand. Also still at repo root from an older session:
+`ep02-commit-msg.txt`, `ep02-work.bundle`.
+
+---
+
+## 2026-09-19 · Codex · Episode 02 evidence correction and script v4
+
+- **Status:** The four-incident reframe is now reflected in both repository
+  indexes and decision D-037. Script v4 is an editorial draft, not a timing or
+  VO lock. No Remotion timing, manifest placement, cue file or media was changed.
+- **Critical correction:** Jingzhou's landing plate was not absent. A present
+  cover loosened and flipped. The technical investigation also found deficient
+  cover design, dimensions inconsistent with drawings, insufficient protection
+  beneath it, and failure to stop the escalator after staff saw the cover lift
+  five minutes before the accident.
+- **Changed:** Updated `README.md`, the Episode 02 `README.md`,
+  `ep02-disaster-reframe.md`, `docs/05-experiments/next-experiment.md` and
+  `docs/06-handoff/decision-record.md`; added
+  `incident-evidence-2026-09-19.md` and `script-v4-disaster-reframe-draft.md`.
+- **Evidence boundary:** Hong Kong and Rome rest on government technical
+  reports. Jingzhou rests on Chinese state-media accounts quoting the official
+  technical investigation; the original report was not located publicly.
+  Moscow remains the weakest source and the draft deliberately omits the earlier
+  unsupported "miswired speedometer" detail. The active brief also no longer
+  assigns a motive to Rome's cable ties; their placement and mechanical effect
+  are documented, while motive is unnecessary to the episode.
+- **Next:** Owner reviews script v4 for story and voice. After approval, record a
+  fresh VO, measure it, word-align it, and only then replace the obsolete cue and
+  manifest timing.
+
+---
+
+## 2026-09-19 · Codex · Episode 02 retention and three-register revision
+
+- **Status:** Script v5 and generated-media plan v2 are editorial planning
+  drafts. No VO, cue authority, manifest timing, source media or Remotion code
+  changed.
+- **Hook:** The first 25–30 seconds now previews Hong Kong, Rome, Moscow and the
+  counterintuitive China floor failure. China remains open with `We will get to
+  that one.` A shorter reminder after Moscow adds the five-minute warning fact
+  immediately before the payoff.
+- **Visual grammar:** Each incident uses generated UPA reality before the
+  threshold, neutral anonymous ghost motion at or just after failure, and a
+  deterministic Remotion autopsy showing the failed part and intended failsafe.
+  Jingzhou stays illustrated through the child reaching solid floor and may
+  omit the ghost to avoid a rote fourfold pattern.
+- **Hybrid overlays:** Remotion may remain over generated shots for cue-locked
+  text, arrows, tracked highlights, direction/speed indicators, evidence stamps
+  and semantic colour. The generated plates must therefore preserve text-safe
+  negative space and contain no embedded labels.
+- **Scope:** Plan for eight generated motion units, with approximately 55–60%
+  generated screen time. This deliberately exceeds D-034's four-unit rescope
+  gate and records the owner's choice rather than hiding the overrun.
+- **Efficiency boundary:** Approve two contact sheets first, then generate only
+  the Hong Kong pair and prove the UPA → ghost → Remotion handoff before buying
+  the remaining six units.
+- **Next:** Owner reviews script v5 and the visual ratio. If approved, build the
+  eight first-frame contact-sheet candidates before generating motion.
+
+---
+
+## 2026-09-21 · Codex · Episode 02 final VO and scene/register map
+
+- **VO lock:** `work/hidden-systems-ep-02/audio/escvofinal.mp3` is the local-only
+  final recording: 334.811 seconds / 8,036 frames at 24 fps, SHA-256
+  `7ed85d0ff4a00600f39b9cf3ed62fc3948c1c40f17022a6fff921f6c5f5a4bde`.
+  Metadata is tracked in `vo-final-lock.json`; word alignment is still pending.
+- **Scene authority:** `work/hidden-systems-ep-02/scene-map-v1.md` maps the
+  5:34.81 recording into 26 production scenes. Its timecodes are section-level
+  estimates until the new word timestamps replace them with cue-locked frames.
+- **Register decision:** Generated UPA animation owns ordinary reality and the
+  last safe human action. The ghost register will be a deterministic Remotion
+  SVG replacement-cel system, not generated video. Remotion also owns the exact
+  mechanism autopsies and may overlay sparse labels/arrows on generated shots.
+- **Generated scope:** Seven source clips: Trump, Hong Kong, Rome, Moscow and
+  three Jingzhou beats. Cold-open previews reuse those clips; no separate teaser
+  generations.
+- **Ghost style proposal:** Midcentury industrial-safety cutouts with circular
+  heads, tapered solid limbs, neutral reference fill and ink-mute outline. They
+  move on twos through fixed replacement poses, remain foot-anchored to the step,
+  and freeze at the harm boundary while the mechanism continues.
+- **Next:** Word-align the final VO, then build only the Hong Kong 8–10 second
+  illustrated → ghost → autopsy proof and a four-pose GhostFigure style card.
+
+### 2026-09-21 opening amendment
+
+- Owner approved the opening of
+  `source-media/generated/trump-escalator-opening-approved-v2.mp4` as a
+  pre-narration hook, retaining its generated line: `This is the best escalator,
+  believe me.` No disclosure label is wanted.
+- The approved file has SHA-256
+  `6a191666d237bca12f3f3e3c314bb4e514589b1de09ee3d1ea6c8c71028366b1`.
+  `opening-candidate-v1.mp4` is the wrong generation and is superseded.
+- Trim at the natural end of the line, allow no more than a two-frame breath,
+  then start `escvofinal.mp3` at its existing frame zero. Do not overlap voices.
+- Match the stopped video into `trump-escalator-freeze-v1.jpg`; hold it beneath
+  the opening narration with a restrained centred push from about 100% to 108%.
+- The 26 scene timecodes remain VO-relative. Add the approved pre-roll trim to
+  every master-timeline placement. Exact out-frame is still pending assembly.
+- Full source metadata and edit instructions are in `opening-preroll-note.md`.
+- The four-slot accident preview now cuts to recovered local media
+  `source-media/generated/everyman-escalator-bridge-v1.mp4` for “An escalator
+  looks like a staircase.” Its audio is muted. On “bicycle chain,” match the
+  visible step edges into the canonical Remotion side cutaway. The 10.042-second
+  source hash is recorded in `scene-map-v1.md`.
+
+### 2026-09-21 first-act Terra packet
+
+- `work/hidden-systems-ep-02/first-act-terra-execution-packet.md` is the bounded
+  implementation authority for the next task.
+- Route it to `gpt-5.6-terra` at medium reasoning in the saved project's **local**
+  environment. Do not use a worktree because the locked VO and generated source
+  media are intentionally local-only and ignored by Git.
+- Scope ends after word alignment, the isolated `EscalatorFirstActReview`
+  composition, six key stills, the H.264 review render and verification. It does
+  not include later incidents, the ghost system or the full master.
+- The packet includes exact source hashes, deterministic staging requirements,
+  the four-slot animation, Everyman bridge, mechanism-reveal brief, commands,
+  review criteria and stop conditions.
+
+### 2026-09-22 · Episode 02 first-act review render
+
+- **Runtime:** requested Terra / medium; actual runtime selection is not exposed
+  to the task. The bounded scope stopped here.
+- **Timing authority:** fresh ASR evidence is at
+  `work/hidden-systems-ep-02/timing-v2/vo/{words-asr,captions-asr}.json` and
+  `work/hidden-systems-ep-02/timing-v2/preroll/{words-asr,captions-asr}.json`.
+  `first-act-cues.json` records a 24-fps, 76-frame pre-roll: the approved source
+  says “This is the best escalator, believe me.” through 3.16 seconds.
+- **Sources/staging:** `sync-episode-02-first-act.ps1` verifies and stages the
+  approved pre-roll (`6a191...366b1`), bridge (`2b3fd...3ea`), and VO
+  (`7ed85...4bde`) under ignored `public/episode-02/first-act/`.
+- **Composition/output:** `EscalatorFirstActReview`, 1920×1080 at 24 fps,
+  duration 1,895 frames (78.96 s); H.264 review render:
+  `work/hidden-systems-ep-02/assembly-review/ep02-first-act-v1-review.mp4`.
+  Six full-resolution stills are in `assembly-review/first-act-v1-stills/`.
+- **Checks:** source hashes, fresh ASR and phrase trim passed; deterministic
+  staging passed; `npm run lint` and `npm run build` passed; H.264 render and
+  six still renders passed. Frame inspection found no black opening frame,
+  four fitting slot labels, the muted Everyman bridge, and a legible return run
+  and protection stack. Remaining review judgement: assess the intentional
+  frozen opening’s 100→108% push and the sparse mechanism labels at playback.
+
+### 2026-09-22 · First-act targeted verification corrections
+
+- The opening `CAMERAMAN → SAFETY SENSOR` callout now uses house ink on a
+  paper-light card with a teal rule; it remains at the same sparse placement.
+- The canonical mechanism asset is now rendered with Remotion `Img`, preserving
+  its SVG vectors instead of rasterizing through `CanvasImage`. The canonical
+  source asset was not modified.
+- Re-ran `npm run lint`, `npm run build`, the H.264 review render, and all six
+  full-resolution stills. All passed; the refreshed freeze and mechanism stills
+  were visually inspected for contrast and crisp vector linework.
+
+### 2026-09-22 · Owner opening redo and first-act v2 review
+
+- Current review file: `work/hidden-systems-ep-02/assembly-review/ep02-first-act-v2-final-review.mp4` (1,895 frames, 79.02 s, 1920×1080, 24 fps, H.264/AAC). This is a first-act review only, not the full episode. The earlier `ep02-first-act-v2-review.mp4` has a blank tail and is superseded.
+- Owner source: `source-media/generated/opening-redo-owner-v2.mp4`, SHA-256 `34ecc47d43c1c1557d1b8219effe8fb105201156f27bd9f0adc464a24e383603`. It includes the generated boast plus the factual VO through “The machine read it as danger.” Its 589 composition frames replace the former pre-roll/freeze assembly. The locked VO resumes at source frame 513 on “It stopped, as it was designed to.” Fresh opening ASR is in `timing-v2/opening-redo/`; frame cues are in `timing-v2/first-act-cues.json`.
+- The opening MP4 timed out in Remotion's video-frame extractor. Local FFmpeg extraction produced 24-fps JPEG frames and the original soundtrack as WAV; `sync-episode-02-first-act.ps1` verifies/stages 589 frames and the WAV under ignored `public/episode-02/first-act/`. No new generated media or paid model call was needed.
+- Creative revision: retimed opening graphic cards; four empty bright rounded incident slots are present from the first beat and fill upward with large city/year type; `4 ACCIDENTS | 4 PROTECTIONS` is the single dramatic title; the recovered Everyman bridge plays as video; the enlarged side cutaway traces the chain, return run and protection locations; the first act lands on `HONG KONG · MARCH 2017`.
+- Checks: hash-verified staging, `npm run lint`, `npm run build`, a 16-frame opening smoke render, visual inspection of 13 distributed review stills, targeted end-card still, and completed final H.264 render. Final file metadata and final frame were checked. Owner review is next; no later incident scenes were changed.

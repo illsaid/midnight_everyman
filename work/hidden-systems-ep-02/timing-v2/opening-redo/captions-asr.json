@@ -1,0 +1,408 @@
+[
+  {
+    "text": " This",
+    "startMs": 140,
+    "endMs": 620,
+    "timestampMs": 140,
+    "confidence": 0.3453952670097351
+  },
+  {
+    "text": " is",
+    "startMs": 620,
+    "endMs": 720,
+    "timestampMs": 620,
+    "confidence": 0.9926685094833374
+  },
+  {
+    "text": " the",
+    "startMs": 720,
+    "endMs": 840,
+    "timestampMs": 720,
+    "confidence": 0.986257791519165
+  },
+  {
+    "text": " best",
+    "startMs": 840,
+    "endMs": 1000,
+    "timestampMs": 840,
+    "confidence": 0.9450055360794067
+  },
+  {
+    "text": " escalator,",
+    "startMs": 1000,
+    "endMs": 1660,
+    "timestampMs": 1000,
+    "confidence": 0.9618833959102631
+  },
+  {
+    "text": " believe",
+    "startMs": 1920,
+    "endMs": 2000,
+    "timestampMs": 1920,
+    "confidence": 0.9861727356910706
+  },
+  {
+    "text": " me.",
+    "startMs": 2000,
+    "endMs": 2360,
+    "timestampMs": 2000,
+    "confidence": 0.9958816766738892
+  },
+  {
+    "text": " In",
+    "startMs": 2780,
+    "endMs": 2940,
+    "timestampMs": 2780,
+    "confidence": 0.9088553190231323
+  },
+  {
+    "text": " 2025,",
+    "startMs": 2940,
+    "endMs": 3500,
+    "timestampMs": 2940,
+    "confidence": 0.9941258430480957
+  },
+  {
+    "text": " an",
+    "startMs": 3540,
+    "endMs": 4520,
+    "timestampMs": 3540,
+    "confidence": 0.9951897859573364
+  },
+  {
+    "text": " escalator",
+    "startMs": 4520,
+    "endMs": 5220,
+    "timestampMs": 4520,
+    "confidence": 0.9735409319400787
+  },
+  {
+    "text": " carrying",
+    "startMs": 5220,
+    "endMs": 5700,
+    "timestampMs": 5220,
+    "confidence": 0.616333544254303
+  },
+  {
+    "text": " President",
+    "startMs": 5700,
+    "endMs": 6120,
+    "timestampMs": 5700,
+    "confidence": 0.9401313662528992
+  },
+  {
+    "text": " Donald",
+    "startMs": 6120,
+    "endMs": 6660,
+    "timestampMs": 6120,
+    "confidence": 0.9918243288993835
+  },
+  {
+    "text": " Trump",
+    "startMs": 6660,
+    "endMs": 7020,
+    "timestampMs": 6660,
+    "confidence": 0.9970877766609192
+  },
+  {
+    "text": " stopped",
+    "startMs": 7020,
+    "endMs": 7580,
+    "timestampMs": 7020,
+    "confidence": 0.9625083804130554
+  },
+  {
+    "text": " abruptly",
+    "startMs": 7580,
+    "endMs": 8600,
+    "timestampMs": 7580,
+    "confidence": 0.9355541467666626
+  },
+  {
+    "text": " at",
+    "startMs": 8600,
+    "endMs": 9180,
+    "timestampMs": 8600,
+    "confidence": 0.9842755198478699
+  },
+  {
+    "text": " the",
+    "startMs": 9180,
+    "endMs": 9300,
+    "timestampMs": 9180,
+    "confidence": 0.9776225090026855
+  },
+  {
+    "text": " United",
+    "startMs": 9300,
+    "endMs": 9440,
+    "timestampMs": 9300,
+    "confidence": 0.9795102477073669
+  },
+  {
+    "text": " Nations.",
+    "startMs": 9440,
+    "endMs": 10160,
+    "timestampMs": 9440,
+    "confidence": 0.9874808192253113
+  },
+  {
+    "text": " A",
+    "startMs": 10680,
+    "endMs": 10700,
+    "timestampMs": 10680,
+    "confidence": 0.9859075546264648
+  },
+  {
+    "text": " cameraman",
+    "startMs": 10700,
+    "endMs": 11180,
+    "timestampMs": 10700,
+    "confidence": 0.9588687717914581
+  },
+  {
+    "text": " travelling",
+    "startMs": 11180,
+    "endMs": 11580,
+    "timestampMs": 11180,
+    "confidence": 0.20922920107841492
+  },
+  {
+    "text": " ahead",
+    "startMs": 11580,
+    "endMs": 12120,
+    "timestampMs": 11580,
+    "confidence": 0.995112955570221
+  },
+  {
+    "text": " of",
+    "startMs": 12120,
+    "endMs": 12220,
+    "timestampMs": 12120,
+    "confidence": 0.9976039528846741
+  },
+  {
+    "text": " the",
+    "startMs": 12220,
+    "endMs": 12360,
+    "timestampMs": 12220,
+    "confidence": 0.9970375299453735
+  },
+  {
+    "text": " delegation",
+    "startMs": 12360,
+    "endMs": 12700,
+    "timestampMs": 12360,
+    "confidence": 0.9945483803749084
+  },
+  {
+    "text": " may",
+    "startMs": 12700,
+    "endMs": 13360,
+    "timestampMs": 12700,
+    "confidence": 0.9278575778007507
+  },
+  {
+    "text": " have",
+    "startMs": 13360,
+    "endMs": 13480,
+    "timestampMs": 13360,
+    "confidence": 0.9975271821022034
+  },
+  {
+    "text": " tripped",
+    "startMs": 13480,
+    "endMs": 13860,
+    "timestampMs": 13480,
+    "confidence": 0.9896444082260132
+  },
+  {
+    "text": " a",
+    "startMs": 13860,
+    "endMs": 13960,
+    "timestampMs": 13860,
+    "confidence": 0.9027445912361145
+  },
+  {
+    "text": " safety",
+    "startMs": 13960,
+    "endMs": 14160,
+    "timestampMs": 13960,
+    "confidence": 0.9971256852149963
+  },
+  {
+    "text": " mechanism",
+    "startMs": 14160,
+    "endMs": 14680,
+    "timestampMs": 14160,
+    "confidence": 0.9983774423599243
+  },
+  {
+    "text": " at",
+    "startMs": 14680,
+    "endMs": 15000,
+    "timestampMs": 14680,
+    "confidence": 0.9936742782592773
+  },
+  {
+    "text": " the",
+    "startMs": 15000,
+    "endMs": 15100,
+    "timestampMs": 15000,
+    "confidence": 0.9987924098968506
+  },
+  {
+    "text": " top,",
+    "startMs": 15100,
+    "endMs": 15420,
+    "timestampMs": 15100,
+    "confidence": 0.9977333545684814
+  },
+  {
+    "text": " bringing",
+    "startMs": 15980,
+    "endMs": 16200,
+    "timestampMs": 15980,
+    "confidence": 0.997098445892334
+  },
+  {
+    "text": " the",
+    "startMs": 16200,
+    "endMs": 16440,
+    "timestampMs": 16200,
+    "confidence": 0.9905325174331665
+  },
+  {
+    "text": " escalator",
+    "startMs": 16440,
+    "endMs": 17040,
+    "timestampMs": 16440,
+    "confidence": 0.9982067346572876
+  },
+  {
+    "text": " to",
+    "startMs": 17040,
+    "endMs": 17220,
+    "timestampMs": 17040,
+    "confidence": 0.9957107305526733
+  },
+  {
+    "text": " an",
+    "startMs": 17220,
+    "endMs": 17320,
+    "timestampMs": 17220,
+    "confidence": 0.9875434637069702
+  },
+  {
+    "text": " immediate",
+    "startMs": 17320,
+    "endMs": 17700,
+    "timestampMs": 17320,
+    "confidence": 0.998439610004425
+  },
+  {
+    "text": " halt",
+    "startMs": 17700,
+    "endMs": 18180,
+    "timestampMs": 17700,
+    "confidence": 0.995411217212677
+  },
+  {
+    "text": " and",
+    "startMs": 18180,
+    "endMs": 18620,
+    "timestampMs": 18180,
+    "confidence": 0.8832261562347412
+  },
+  {
+    "text": " alarming",
+    "startMs": 18620,
+    "endMs": 18900,
+    "timestampMs": 18620,
+    "confidence": 0.9284337759017944
+  },
+  {
+    "text": " the",
+    "startMs": 18900,
+    "endMs": 19300,
+    "timestampMs": 18900,
+    "confidence": 0.998007595539093
+  },
+  {
+    "text": " riders.",
+    "startMs": 19300,
+    "endMs": 19620,
+    "timestampMs": 19300,
+    "confidence": 0.9185330867767334
+  },
+  {
+    "text": " Trump",
+    "startMs": 20160,
+    "endMs": 20300,
+    "timestampMs": 20160,
+    "confidence": 0.9884313344955444
+  },
+  {
+    "text": " called",
+    "startMs": 20300,
+    "endMs": 20860,
+    "timestampMs": 20300,
+    "confidence": 0.9820044636726379
+  },
+  {
+    "text": " it",
+    "startMs": 20860,
+    "endMs": 21020,
+    "timestampMs": 20860,
+    "confidence": 0.7639527320861816
+  },
+  {
+    "text": " sabotage.",
+    "startMs": 21020,
+    "endMs": 21260,
+    "timestampMs": 21020,
+    "confidence": 0.7033703327178955
+  },
+  {
+    "text": " The",
+    "startMs": 22300,
+    "endMs": 22360,
+    "timestampMs": 22300,
+    "confidence": 0.988679826259613
+  },
+  {
+    "text": " machine",
+    "startMs": 22360,
+    "endMs": 22640,
+    "timestampMs": 22360,
+    "confidence": 0.954748809337616
+  },
+  {
+    "text": " read",
+    "startMs": 22640,
+    "endMs": 23260,
+    "timestampMs": 22640,
+    "confidence": 0.9469906687736511
+  },
+  {
+    "text": " it",
+    "startMs": 23260,
+    "endMs": 23400,
+    "timestampMs": 23260,
+    "confidence": 0.9716804027557373
+  },
+  {
+    "text": " as",
+    "startMs": 23400,
+    "endMs": 23560,
+    "timestampMs": 23400,
+    "confidence": 0.9959069490432739
+  },
+  {
+    "text": " danger.",
+    "startMs": 23560,
+    "endMs": 23820,
+    "timestampMs": 23560,
+    "confidence": 0.9261749982833862
+  }
+]

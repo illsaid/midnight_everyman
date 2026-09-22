@@ -1,0 +1,51 @@
+[
+  {
+    "text": " This",
+    "startMs": 500,
+    "endMs": 1020,
+    "timestampMs": 500,
+    "confidence": 0.7939261198043823
+  },
+  {
+    "text": " is",
+    "startMs": 1020,
+    "endMs": 1140,
+    "timestampMs": 1020,
+    "confidence": 0.9966036081314087
+  },
+  {
+    "text": " the",
+    "startMs": 1140,
+    "endMs": 1300,
+    "timestampMs": 1140,
+    "confidence": 0.9945942759513855
+  },
+  {
+    "text": " best",
+    "startMs": 1300,
+    "endMs": 1540,
+    "timestampMs": 1300,
+    "confidence": 0.9746589660644531
+  },
+  {
+    "text": " escalator,",
+    "startMs": 1540,
+    "endMs": 2400,
+    "timestampMs": 1540,
+    "confidence": 0.8960321247577667
+  },
+  {
+    "text": " believe",
+    "startMs": 2520,
+    "endMs": 2760,
+    "timestampMs": 2520,
+    "confidence": 0.9847555756568909
+  },
+  {
+    "text": " me.",
+    "startMs": 2760,
+    "endMs": 3160,
+    "timestampMs": 2760,
+    "confidence": 0.9984373450279236
+  }
+]

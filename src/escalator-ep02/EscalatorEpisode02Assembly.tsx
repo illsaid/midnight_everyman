@@ -33,6 +33,8 @@ import {
   SKIRT_GAP_DURATION,
   SKIRT_GAP_FROM,
 } from './SkirtGapScene';
+import {EscalatorFirstActReview} from './first-act/FirstActReview';
+import {FIRST_ACT_END_FRAME, FIRST_ACT_FPS} from './first-act/FirstActTiming';
 
 const paper = '#eee6d5';
 const ink = '#152b2b';
@@ -258,6 +260,14 @@ export const EscalatorGeneratedPlatesContactSheet: React.FC = () => {
 export const EscalatorEpisode02Registration: React.FC = () => {
   return (
     <>
+      <Composition
+        id="EscalatorFirstActReview"
+        component={EscalatorFirstActReview}
+        durationInFrames={FIRST_ACT_END_FRAME}
+        fps={FIRST_ACT_FPS}
+        width={1920}
+        height={1080}
+      />
       <Composition
         id="EscalatorEpisode02Assembly"
         component={EscalatorEpisode02Assembly}
